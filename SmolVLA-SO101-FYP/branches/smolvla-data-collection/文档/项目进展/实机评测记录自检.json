@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "created_at": "2026-10-07T20:42:54",
+  "tests_run": 14,
+  "failures": 0,
+  "errors": 0,
+  "scope": "result_recording_software_tests",
+  "hardware_tested": false,
+  "robot_commands_sent": 0,
+  "task_success_evaluated": false
+}

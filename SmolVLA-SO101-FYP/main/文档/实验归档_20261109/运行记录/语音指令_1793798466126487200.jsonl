@@ -1,0 +1,3 @@
+{"time": 1793798466.7501209, "status": "ready", "log": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\语音指令_1793798466126487200.jsonl", "backend": "dashscope", "semantic": true}
+{"time": 1793798466.7512739, "status": "processing", "id": null, "message": "正在处理语音，请稍候……"}
+{"time": 1793798466.753379, "status": "target", "target": "RC", "transcript": "抓紅方塊", "parser": "finite_target_command", "metrics": {}, "id": null}

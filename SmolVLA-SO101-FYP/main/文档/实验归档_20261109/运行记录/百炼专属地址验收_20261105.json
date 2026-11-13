@@ -1,0 +1,55 @@
+{
+  "date": "2026-11-05",
+  "base_url": "https://ws-ejql0c6ty86c2uu7.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+  "results": [
+    {
+      "stage": "asr",
+      "ok": true,
+      "result": "拿起红色的方块，放到目标区域。",
+      "metrics": {
+        "asr_latency_s": 1.0,
+        "backend": "dashscope",
+        "model": "qwen3-asr-flash",
+        "audio_s": 4.17,
+        "language": "zh",
+        "audio_rms": 0.07759003341197968,
+        "clipping_fraction": 0.0
+      },
+      "elapsed_s": 1.672
+    },
+    {
+      "stage": "semantic",
+      "ok": true,
+      "result": {
+        "intent": "switch_target",
+        "target": "RC",
+        "confidence": 0.95,
+        "reason": "用户明确提到‘红色方块’，并表达移动（即抓取后放置）意图，符合switch_target条件；目标为红色方块，对应RC。"
+      },
+      "metrics": {
+        "semantic_latency_s": 1.7660000000032596,
+        "semantic_model": "qwen-plus"
+      },
+      "elapsed_s": 2.157
+    }
+  ],
+  "synthetic_audio_only": true,
+  "robot_commands": 0,
+  "configuration_saved": true,
+  "semantic_pipeline": {
+    "status": "target",
+    "target": "RC",
+    "transcript": "请把红色方块移动到目标区",
+    "parser": "dashscope_semantic_json",
+    "semantic": {
+      "intent": "switch_target",
+      "target": "RC",
+      "confidence": 0.95,
+      "reason": "用户明确提到‘红色方块’，并表达移动（即抓取后放置）意图，符合switch_target条件；目标为红色方块，对应RC。"
+    },
+    "metrics": {
+      "semantic_latency_s": 1.6570000000065193,
+      "semantic_model": "qwen-plus"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "files_verified": 240,
+  "original_indices_retained": true,
+  "single_object_files_included": false,
+  "marker_frames_unchanged": true,
+  "parent_annotation_sha256": "fbfa4f589b6800df86fcc9b39b930c3a34946661b3935c5d486cc23c5c67ccf1"
+}

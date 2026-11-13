@@ -1,0 +1,14 @@
+{
+  "python": "3.10.22",
+  "torch": "2.7.1+cu126",
+  "torchvision": "0.22.1+cu126",
+  "cuda": "12.6",
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "compute_capability": [
+    7,
+    5
+  ],
+  "matrix_result": 256.0,
+  "tk_version": 8.6,
+  "status": "passed"
+}

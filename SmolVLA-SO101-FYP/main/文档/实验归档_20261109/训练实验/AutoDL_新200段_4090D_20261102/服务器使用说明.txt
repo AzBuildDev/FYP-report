@@ -1,0 +1,70 @@
+AutoDL新200段训练部署（2026-11-02更新：当前使用batch32持续训练）
+
+【10:32内存故障修复后，以本段为准】
+当前后台入口：后台内存稳定训练.py；screen：smolvla200memory。
+从完整8K检查点恢复。原8K以硬链接保留在故障备份/20261102_内存停滞/第8000步。
+模型、训练源码、数据、采样、batch32、优化器及学习率保持原配置。
+运行层设置原生内存分配阈值，每50步GC/释放空闲原生内存。
+内存超过32GiB时请求完整保存后自动续训重启；超过48GiB或15分钟无进度时从last恢复，异常恢复最多连续3次。
+额外日志：日志/内存维护.jsonl、日志/内存恢复调度.jsonl。
+继续训练使用：
+screen -dmS smolvla200memory .venv/bin/python -u 后台内存稳定训练.py
+用户停止：先删除输出/新200段_batch32_持续训练/MEMORY_RESTART.json（若有），再创建PAUSE；等保存并退出。
+手动恢复：确认旧进程已退出后，删除PAUSE，再运行上方后台入口。
+仅直接启动旧入口会没有父进程自动恢复保护。
+
+【以下为batch32初始部署操作及原始记录】
+当前入口：启动加速训练.py；后台screen：smolvla200fast。
+当前日志：日志/加速持续训练.log
+当前输出：输出/新200段_batch32_持续训练
+参数：batch32，每批红16蓝16；每1K验证/保存last，每5K另存独立检查点。
+保留本批数据的batch16第301步，恢复模型、优化器、学习率和随机状态后继续训练。
+视频单线程解码、8路并行供数、CPU预读，输入像素与原版一致。
+30K仅为学习率计划终点，之后保持2.5e-6继续；不设自动停止时间。
+
+登录并切换到下方项目目录、激活.venv后：
+查看：tail -n 10 -f 日志/加速持续训练.log
+暂停：touch 输出/新200段_batch32_持续训练/PAUSE
+等待验证、保存完成，出现checkpoint_saved且进程退出后再关机。
+暂停会保存完整last，不必等到下一个5K。
+恢复：确认旧进程退出后执行
+rm -f 输出/新200段_batch32_持续训练/PAUSE
+screen -dmS smolvla200fast bash -c 'source .venv/bin/activate; python -u 启动加速训练.py --resume >> 日志/加速持续训练.log 2>&1'
+不要重复启动；续训需保留路径、数据、代码、配置、加速训练迁移.json及last。
+SSH断开不影响screen训练；关闭AutoDL实例会中断。
+每个完整检查点约2GB，需预留保存临时副本空间。
+
+【以下为原batch16部署记录，仅供回退查阅】
+
+服务器：connect.westc.seetacloud.com，SSH端口37775，用户root。
+目录：/root/autodl-tmp/AutoDL_新200段_4090D_20261102
+显卡：RTX4090D 24GB。密码不保存在此文件。
+
+登录后：
+cd /root/autodl-tmp/AutoDL_新200段_4090D_20261102
+source .venv/bin/activate
+
+查看正式训练输出：
+tail -n 30 -f 日志/正式训练.log
+
+正式训练参数：200段中160训练/40验证，红蓝均衡，batch16，默认30K，BF16。
+模型从官方基础权重初始化，不继承旧100段模型。
+
+安全暂停：
+touch 输出/新200段_batch16_30K/PAUSE
+等待日志出现checkpoint_saved且进程退出后再关机。
+验证及保存需要时间，不能创建PAUSE后立刻关机。
+
+恢复：确认原训练进程已经退出后执行
+rm 输出/新200段_batch16_30K/PAUSE
+screen -dmS smolvla200 bash -c 'export OMP_NUM_THREADS=8 MKL_NUM_THREADS=8; source .venv/bin/activate; python -u 启动训练.py --resume >> 日志/正式训练.log 2>&1'
+
+输出目录：输出/新200段_batch16_30K
+best_val：留出动作误差最低的检查点，不代表实机选色成功率最高。
+last：最近完整检查点，包含优化器和随机状态，用于断点恢复。
+step_005000等：每5K步保留的阶段检查点。
+下载模型需取整个检查点目录。
+
+不要在训练进程仍运行时重复执行启动/恢复命令。
+SSH断开不影响screen内正在运行的训练。
+该说明不保存登录密码，也没有任何机械臂操作。

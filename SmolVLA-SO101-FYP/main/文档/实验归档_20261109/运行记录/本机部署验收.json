@@ -1,0 +1,134 @@
+{
+  "deployed_at": "2026-10-22T20:02:32+08:00",
+  "directory": "D:\\FYP\\SmolVLA-SO101-FYP",
+  "branch": "main",
+  "commit": "1de060d118b455e54a803e3d7f89377aae9ee79c",
+  "cuda_check": {
+    "python": "3.10.22",
+    "torch": "2.7.1+cu126",
+    "torchvision": "0.22.1+cu126",
+    "cuda": "12.6",
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "compute_capability": [
+      7,
+      5
+    ],
+    "matrix_result": 256.0,
+    "tk_version": 8.6,
+    "status": "passed"
+  },
+  "model_check": {
+    "status": "passed",
+    "scope": "synthetic_base_model_inference",
+    "action_shape": [
+      1,
+      50,
+      6
+    ],
+    "finite": true,
+    "inference_seconds": 1.0948045999975875,
+    "peak_gpu_memory_mib": 1212.04052734375,
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "robot_commands_sent": 0,
+    "camera_opened": false,
+    "task_success_evaluated": false
+  },
+  "dependency_check": "No broken requirements found.",
+  "console_check": {
+    "status": "passed",
+    "entry_count": 26,
+    "checks": 5,
+    "robot_commands_sent": 0
+  },
+  "simulated_recording": {
+    "status": "passed",
+    "frames": 60,
+    "video_readback": true,
+    "hardware_connected": false
+  },
+  "model_integrity": [
+    {
+      "file": "模型\\基础预训练模型\\README.md",
+      "verified": true,
+      "digest": "edc44893950944b330980d342325d74f4fe1ad65"
+    },
+    {
+      "file": "模型\\基础预训练模型\\config.json",
+      "verified": true,
+      "digest": "9508a8e1dced7e96acc8ba56c36d309c3e3e7299"
+    },
+    {
+      "file": "模型\\基础预训练模型\\model.safetensors",
+      "verified": true,
+      "digest": "8f8dc071d5b933e79edd2b73b8d6b5cca482ef0437c099ea3ec13ab978a38fc8"
+    },
+    {
+      "file": "模型\\视觉语言处理器\\added_tokens.json",
+      "verified": true,
+      "digest": "71dc811700b6aa9274d3697ee7d4fb2d5375e766"
+    },
+    {
+      "file": "模型\\视觉语言处理器\\chat_template.json",
+      "verified": true,
+      "digest": "1d342e4f070c962a14ba4ece4e06212bc70d8e36"
+    },
+    {
+      "file": "模型\\视觉语言处理器\\config.json",
+      "verified": true,
+      "digest": "2463e842695989a207176fdb249327a494b05cfb"
+    },
+    {
+      "file": "模型\\视觉语言处理器\\generation_config.json",
+      "verified": true,
+      "digest": "eace9aa6d392fd94dbe0c90825074c53fd7ecd4a"
+    },
+    {
+      "file": "模型\\视觉语言处理器\\merges.txt",
+      "verified": true,
+      "digest": "69503b13f727ba3812b6803e97442a6de05ef5eb"
+    },
+    {
+      "file": "模型\\视觉语言处理器\\preprocessor_config.json",
+      "verified": true,
+      "digest": "bf7669a38692ad141d333db3be18bd55cb6e2c59"
+    },
+    {
+      "file": "模型\\视觉语言处理器\\processor_config.json",
+      "verified": true,
+      "digest": "83df8c48da1f41e1a9129a4bc2aba000eb2b529f"
+    },
+    {
+      "file": "模型\\视觉语言处理器\\special_tokens_map.json",
+      "verified": true,
+      "digest": "2b5aee28d56c0e9d89ff6bc70818fba986a90ca9"
+    },
+    {
+      "file": "模型\\视觉语言处理器\\tokenizer.json",
+      "verified": true,
+      "digest": "a4005d1cf3170a31600a5c96f95768166cbc2b28"
+    },
+    {
+      "file": "模型\\视觉语言处理器\\tokenizer_config.json",
+      "verified": true,
+      "digest": "e4042a1126290fdb96ece2a4ad8dd7108c5de484"
+    },
+    {
+      "file": "模型\\视觉语言处理器\\vocab.json",
+      "verified": true,
+      "digest": "0ad5ecc2035b7031b88afb544ee95e2d49baa484"
+    }
+  ],
+  "hardware": {
+    "detected_serial_ports": [
+      "COM1"
+    ],
+    "calibration_files": 0,
+    "robot_tested": false
+  },
+  "trained_task_model_available": false,
+  "local_source_changes": [
+    "Windows 使用 GUI OpenCV，其他系统保留 headless 声明",
+    "启动器启用 PYTHONUTF8=1"
+  ],
+  "remote_changes_made": false
+}

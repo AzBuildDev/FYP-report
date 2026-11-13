@@ -1,0 +1,125 @@
+{
+  "scope": "failed_read_only_precheck_no_motion",
+  "checked_at": "2026-10-07T18:07:50+08:00",
+  "source_report": "机械臂只读检查_20261007_180750_431068.json",
+  "source_report_sha256": "926e2e9f2bbaccc630aedbec3707d8ba04acb373bc3e09045490ce7494a7df05",
+  "software_source_commit": "6e6793244a532b54603ad161bf92c2a00d498b05",
+  "robot_commands_sent": 0,
+  "model_test_started": false,
+  "follower_torque_disabled": false,
+  "both_arms_fault_free": false,
+  "motors": [
+    {
+      "role": "follower",
+      "id": 1,
+      "fault_status": 0,
+      "packet_error": 0,
+      "torque_enabled": 1,
+      "torque_read_packet_error": 0
+    },
+    {
+      "role": "follower",
+      "id": 2,
+      "fault_status": 0,
+      "packet_error": 0,
+      "torque_enabled": 0,
+      "torque_read_packet_error": 0
+    },
+    {
+      "role": "follower",
+      "id": 3,
+      "fault_status": 0,
+      "packet_error": 0,
+      "torque_enabled": 0,
+      "torque_read_packet_error": 0
+    },
+    {
+      "role": "follower",
+      "id": 4,
+      "fault_status": 0,
+      "packet_error": 0,
+      "torque_enabled": 0,
+      "torque_read_packet_error": 0
+    },
+    {
+      "role": "follower",
+      "id": 5,
+      "fault_status": 0,
+      "packet_error": 0,
+      "torque_enabled": 0,
+      "torque_read_packet_error": 0
+    },
+    {
+      "role": "follower",
+      "id": 6,
+      "fault_status": 32,
+      "packet_error": 32,
+      "torque_enabled": 0,
+      "torque_read_packet_error": 32
+    },
+    {
+      "role": "leader",
+      "id": 1,
+      "fault_status": 0,
+      "packet_error": 0,
+      "torque_enabled": 0,
+      "torque_read_packet_error": 0
+    },
+    {
+      "role": "leader",
+      "id": 2,
+      "fault_status": 0,
+      "packet_error": 0,
+      "torque_enabled": 0,
+      "torque_read_packet_error": 0
+    },
+    {
+      "role": "leader",
+      "id": 3,
+      "fault_status": 0,
+      "packet_error": 0,
+      "torque_enabled": 0,
+      "torque_read_packet_error": 0
+    },
+    {
+      "role": "leader",
+      "id": 4,
+      "fault_status": 0,
+      "packet_error": 0,
+      "torque_enabled": 0,
+      "torque_read_packet_error": 0
+    },
+    {
+      "role": "leader",
+      "id": 5,
+      "fault_status": 0,
+      "packet_error": 0,
+      "torque_enabled": 0,
+      "torque_read_packet_error": 0
+    },
+    {
+      "role": "leader",
+      "id": 6,
+      "fault_status": 0,
+      "packet_error": 0,
+      "torque_enabled": 0,
+      "torque_read_packet_error": 0
+    }
+  ],
+  "fault_decode_source": "本机 scservo_sdk/protocol_packet_handler.py: ERRBIT_OVERLOAD = 32",
+  "operator_power_off_requested": true,
+  "operator_power_off_confirmation_pending": false,
+  "further_motion_started": false,
+  "physical_cause_determined": false,
+  "task_success_evaluated": false,
+  "raw_data_published": false,
+  "operator_power_cycle_confirmed": true,
+  "operator_confirmation": "已断电检查然后已经重新上电",
+  "recovery_check": {
+    "source": "机械臂只读检查_20261007_181141_223993.json",
+    "sha256": "541f7ee19f05e96fcaa6f381b226c7c2870934bae1a4576354f4d97cbcc33e05",
+    "both_arms_fault_free": true,
+    "follower_torque_disabled": true
+  },
+  "note": "本文件最初检查失败状态保留；后续断电复查及新日志见项目运行记录统合摘要.json。"
+}

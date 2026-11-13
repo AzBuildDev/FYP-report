@@ -1,0 +1,32 @@
+[
+  {
+    "path": "checkpoint_summary.json",
+    "size": 69561,
+    "sha256": "58dc1e0bd8c360f47adc8dfe0b46f49f0581bd344637391348ee9c47c6310799"
+  },
+  {
+    "path": "config.json",
+    "size": 2245,
+    "sha256": "06d0a0db1cacc2dc5a2e7abde1ea66e08694cb3f568ba8fceb1c1ebaebdd8121"
+  },
+  {
+    "path": "dataset_stats.json",
+    "size": 747,
+    "sha256": "44a4f8fc46e64cd03e4046c20f6072d6ab57e8405ebd90ead9333af651eac596"
+  },
+  {
+    "path": "model.safetensors",
+    "size": 1391004856,
+    "sha256": "731444a455c456bd524da373b070e1238b4ba9f95e1ac0122db807309ec0c0bc"
+  },
+  {
+    "path": "training_provenance.json",
+    "size": 27072,
+    "sha256": "c7d6b14878a751d4e0dd5ce2108d7076c06011e778fd9305562d1da7296af747"
+  },
+  {
+    "path": "training_state.pt",
+    "size": 799240857,
+    "sha256": "8dd6b250d848b6a7e209166eba1bdd8af15488ea4ba9d967377159d311386aa2"
+  }
+]

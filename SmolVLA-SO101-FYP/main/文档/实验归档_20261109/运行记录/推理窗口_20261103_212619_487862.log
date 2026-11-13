@@ -1,0 +1,58 @@
+运行日志：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261103_212624_093240.jsonl
+【1/5】正在加载微调模型……
+模型：D:\FYP\SmolVLA-SO101-FYP\模型\新200段_阶段采样_20261103\step_007500
+演示：D:\FYP\AutoDL_新200段_阶段采样_20261103\训练数据
+处理器：D:\FYP\SmolVLA-SO101-FYP\模型\视觉语言处理器
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+任务指令：Pick up the red cube and place it in the target area.
+推理输入存档：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261103_212624_093240
+【2/5】正在计算安全活动范围……
+【3/5】正在连接从臂（只检测，不动）……
+      夹爪原始位置：2057；标定范围：2046～3492。
+      从臂 COM4 在线，当前关节：[-1.399999976158142, -100.0, 0.8999999761581421, 53.599998474121094, -0.10000000149011612, 0.800000011920929]
+      夹爪当前开度：0.76；本次演示允许：0.00～75.83。
+【4/5】正在开启桌面和夹爪相机……
+      逐路相机日志：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261103_212624_093240\相机日志
+      两路相机画面正常。
+      正在等待推理窗口显示双摄画面……
+      双摄画面已在推理窗口显示。
+      正在预热模型并检查推理时效（不发送动作）……
+【5/5】正在核对启动姿态与最终设备状态……
+============================================================
+控制设置：从当前位置开始，相邻发送指令每步最多变化 0.5 个归一化单位。
+任务推理：在演示活动范围与标定行程内运行。
+身体关节范围包含当前姿态；夹爪起点必须在演示范围内，超出时拒绝启用。
+运行时长：持续运行。运行期间从臂会自行运动，请全程看护。
+已收到窗口的“启动推理”请求，最终检查通过后开始；点击“停止推理”或关闭窗口可停止。
+异步模式每个控制节拍处理停止请求；串行模式需等当前推理结束。
+============================================================
+独立跟随误差上限：[5.610000133514404, 10.0, 6.170000076293945, 5.880000114440918, 3.5899999141693115, 3.0]；持续卡住 0.6 秒即停止。
+夹爪闭合受阻时先限制继续夹紧；疑似接触保持不限时，模型要求张开时释放。
+正在启用从臂扭矩……
+
+异常停止：Failed to write 'Torque_Enable' on id_=2 with '0' after 1 tries. Unmapped device error (device_error=16, 0x10)
+资源清理异常：shoulder_lift 停扭矩写入未确认：Failed to write 'Torque_Enable' on id_=2 with '0' after 2 tries. Unmapped device error (device_error=16, 0x10)；shoulder_lift 停扭矩读回未确认：Failed to read 'Torque_Enable' on id_=2 after 1 tries. Unmapped device error (device_error=16, 0x10)
+共发送 0 次动作、0 次推理。
+模型输入画面：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261103_212624_093240（共 2 组）
+运行日志：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261103_212624_093240.jsonl
+Traceback (most recent call last):
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 667, in <module>
+    main(args.mode, args.scene, selected, settings=trajectory_trial_settings() if args.trajectory_trial else task_inference_settings(args.seconds) if args.task_inference else None,
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 191, in main
+    run_test(resources, mode, scene.strip(), selection, settings, window_start, preview_directory, task=task)
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 507, in run_test
+    follower.configure()
+  File "D:\FYP\SmolVLA-SO101-FYP\上游框架\src\lerobot\robots\so101_follower\so101_follower.py", line 151, in configure
+    with self.bus.torque_disabled():
+  File "D:\FYP\SmolVLA-SO101-FYP\运行环境\解释器\cpython-3.10-windows-x86_64-none\lib\contextlib.py", line 135, in __enter__
+    return next(self.gen)
+  File "D:\FYP\SmolVLA-SO101-FYP\上游框架\src\lerobot\motors\motors_bus.py", line 603, in torque_disabled
+    self.disable_torque(motors)
+  File "D:\FYP\SmolVLA-SO101-FYP\上游框架\src\lerobot\motors\feetech\feetech.py", line 298, in disable_torque
+    self.write("Torque_Enable", motor, TorqueMode.DISABLED.value, num_retry=num_retry)
+  File "D:\FYP\SmolVLA-SO101-FYP\上游框架\src\lerobot\motors\motors_bus.py", line 1027, in write
+    self._write(addr, length, id_, value, num_retry=num_retry, raise_on_error=True, err_msg=err_msg)
+  File "D:\FYP\SmolVLA-SO101-FYP\上游框架\src\lerobot\motors\motors_bus.py", line 1053, in _write
+    raise RuntimeError(f"{err_msg} {self._format_device_error(error)}")
+RuntimeError: Failed to write 'Torque_Enable' on id_=2 with '0' after 1 tries. Unmapped device error (device_error=16, 0x10)

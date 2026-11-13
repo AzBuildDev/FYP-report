@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "protocol": "first_contact_stage_sampling_v1",
+  "episodes": 200,
+  "dataset_fingerprint": "68150bfbbc95b097db1942ee19da21e8dcbd882f15a983061300970bb8fff9e2",
+  "annotation_path": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\目标选择时间标注\\首次接触_68150bfbbc95.json",
+  "legacy_file_unchanged": true,
+  "sampled_episodes": [
+    0,
+    99,
+    199
+  ],
+  "dual_camera_frame_reads": 18,
+  "new_training_started": false,
+  "robot_commands_sent": 0
+}

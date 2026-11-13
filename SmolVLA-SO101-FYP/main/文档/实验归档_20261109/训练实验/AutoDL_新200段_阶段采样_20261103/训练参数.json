@@ -1,0 +1,15 @@
+{
+  "batch_size": 128,
+  "steps": 7500,
+  "warmup": 125,
+  "save_every": 1250,
+  "validate_every": 250,
+  "validation_samples": 10,
+  "seed": 42,
+  "continuous": false,
+  "output_relative": "输出/新200段_阶段采样",
+  "reference_batch_size": 32,
+  "reference_steps": 30000,
+  "reference_sample_budget": 960000,
+  "note": "RTX6000D实测batch128约66.8窗口/秒，batch256约65.6；采用128。960000总窗口=32x30000=128x7500；batch变大与原逐步优化不完全等价。"
+}

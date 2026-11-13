@@ -1,0 +1,3728 @@
+{
+  "package": "D:\\FYP\\SmolVLA-SO101-FYP\\运行环境\\临时文件\\红蓝训练代码审查_20261031\\纯100段_batch16_60K_训练代码参数标签_20261031",
+  "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+  "episodes": [
+    {
+      "episode": 0,
+      "ui_episode": 1,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 596,
+      "first_close_after_open": 218,
+      "grasp_pose": [
+        -70.68303680419922,
+        7.885906219482422,
+        -41.587303161621094,
+        70.1754379272461,
+        -49.73958206176758,
+        17.289073944091797
+      ],
+      "grasp_action": [
+        -70.54503631591797,
+        7.181403160095215,
+        -41.68498229980469,
+        70.27147674560547,
+        -49.462646484375,
+        23.484201431274414
+      ],
+      "start_state": [
+        -0.9209516644477844,
+        -99.41275024414062,
+        0.07326007634401321,
+        62.894737243652344,
+        2.96875,
+        0.0
+      ],
+      "expected_red_position": 1,
+      "expected_blue_position": 2,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 1,
+      "ui_episode": 2,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 498,
+      "first_close_after_open": 171,
+      "grasp_pose": [
+        -42.21028518676758,
+        -12.33221435546875,
+        -26.691085815429688,
+        63.859649658203125,
+        -29.375,
+        18.948823928833008
+      ],
+      "grasp_action": [
+        -42.63625717163086,
+        -12.743877410888672,
+        -27.081806182861328,
+        63.50689697265625,
+        -29.069461822509766,
+        24.338172912597656
+      ],
+      "start_state": [
+        4.451266288757324,
+        -98.82550048828125,
+        -0.02442002482712269,
+        60.96491241455078,
+        0.1041666641831398,
+        0.6224066615104675
+      ],
+      "expected_red_position": 1,
+      "expected_blue_position": 2,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 2,
+      "ui_episode": 3,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 503,
+      "first_close_after_open": 179,
+      "grasp_pose": [
+        -70.99002075195312,
+        4.3624162673950195,
+        -37.240535736083984,
+        67.89473724365234,
+        -51.35416793823242,
+        19.432918548583984
+      ],
+      "grasp_action": [
+        -71.08619689941406,
+        4.109589099884033,
+        -38.55921936035156,
+        67.60124969482422,
+        -50.98296356201172,
+        24.50896644592285
+      ],
+      "start_state": [
+        2.1488871574401855,
+        -98.90939331054688,
+        -0.07326007634401321,
+        62.8070182800293,
+        1.1979166269302368,
+        0.7607192397117615
+      ],
+      "expected_red_position": 1,
+      "expected_blue_position": 3,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 3,
+      "ui_episode": 4,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 517,
+      "first_close_after_open": 203,
+      "grasp_pose": [
+        -32.61703872680664,
+        33.64093780517578,
+        -63.760684967041016,
+        89.03508758544922,
+        -25.72916603088379,
+        18.049793243408203
+      ],
+      "grasp_action": [
+        -33.04986572265625,
+        33.001243591308594,
+        -65.37240600585938,
+        88.69603729248047,
+        -25.871559143066406,
+        24.081981658935547
+      ],
+      "start_state": [
+        4.604758262634277,
+        -98.90939331054688,
+        -0.07326007634401321,
+        61.31578826904297,
+        3.5416667461395264,
+        0.7607192397117615
+      ],
+      "expected_red_position": 1,
+      "expected_blue_position": 3,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 4,
+      "ui_episode": 5,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 516,
+      "first_close_after_open": 180,
+      "grasp_pose": [
+        -71.45050048828125,
+        22.231544494628906,
+        -52.91819381713867,
+        79.64912414550781,
+        -50.0,
+        18.533885955810547
+      ],
+      "grasp_action": [
+        -71.16351318359375,
+        21.046077728271484,
+        -53.846153259277344,
+        80.06230163574219,
+        -49.98689270019531,
+        23.740392684936523
+      ],
+      "start_state": [
+        4.911742210388184,
+        -99.328857421875,
+        -0.02442002482712269,
+        62.1929817199707,
+        2.6041667461395264,
+        0.7607192397117615
+      ],
+      "expected_red_position": 1,
+      "expected_blue_position": 4,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 5,
+      "ui_episode": 6,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 451,
+      "first_close_after_open": 171,
+      "grasp_pose": [
+        -10.821182250976562,
+        1.3422819375991821,
+        -35.92185592651367,
+        68.33333587646484,
+        -10.364583015441895,
+        21.645919799804688
+      ],
+      "grasp_action": [
+        -11.17124080657959,
+        0.9547529816627502,
+        -36.16605758666992,
+        68.0462875366211,
+        -10.249016761779785,
+        24.594364166259766
+      ],
+      "start_state": [
+        2.072141170501709,
+        -98.82550048828125,
+        -0.17094017565250397,
+        65.35087585449219,
+        3.4375,
+        0.6224066615104675
+      ],
+      "expected_red_position": 1,
+      "expected_blue_position": 4,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 6,
+      "ui_episode": 7,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 533,
+      "first_close_after_open": 210,
+      "grasp_pose": [
+        -67.30621337890625,
+        14.261744499206543,
+        -44.517704010009766,
+        74.64912414550781,
+        -46.71875,
+        19.6403865814209
+      ],
+      "grasp_action": [
+        -67.22071838378906,
+        13.158987045288086,
+        -45.05494689941406,
+        74.18780517578125,
+        -46.36959457397461,
+        24.76515769958496
+      ],
+      "start_state": [
+        4.144282341003418,
+        -98.82550048828125,
+        -0.17094017565250397,
+        62.543861389160156,
+        0.46875,
+        0.8990318179130554
+      ],
+      "expected_red_position": 1,
+      "expected_blue_position": 5,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 7,
+      "ui_episode": 8,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 486,
+      "first_close_after_open": 178,
+      "grasp_pose": [
+        15.349194526672363,
+        9.563758850097656,
+        -39.731380462646484,
+        68.59648895263672,
+        5.520833492279053,
+        18.948823928833008
+      ],
+      "grasp_action": [
+        14.959412574768066,
+        8.924864768981934,
+        -40.17094039916992,
+        69.64842224121094,
+        5.792922496795654,
+        24.594364166259766
+      ],
+      "start_state": [
+        5.065234184265137,
+        -98.9932861328125,
+        -0.02442002482712269,
+        59.385963439941406,
+        4.583333492279053,
+        0.7607192397117615
+      ],
+      "expected_red_position": 1,
+      "expected_blue_position": 5,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 8,
+      "ui_episode": 9,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 541,
+      "first_close_after_open": 202,
+      "grasp_pose": [
+        -64.46661376953125,
+        5.620805263519287,
+        -39.24298095703125,
+        71.31578826904297,
+        -46.35416793823242,
+        18.39557456970215
+      ],
+      "grasp_action": [
+        -63.819095611572266,
+        4.5246992111206055,
+        -39.24298095703125,
+        70.98353576660156,
+        -46.002620697021484,
+        24.594364166259766
+      ],
+      "start_state": [
+        2.225633144378662,
+        -98.90939331054688,
+        -0.12210012227296829,
+        71.31578826904297,
+        2.1354167461395264,
+        0.7607192397117615
+      ],
+      "expected_red_position": 1,
+      "expected_blue_position": 2,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 9,
+      "ui_episode": 10,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 501,
+      "first_close_after_open": 196,
+      "grasp_pose": [
+        -46.12432861328125,
+        -10.90604019165039,
+        -26.886445999145508,
+        61.49122619628906,
+        -32.76041793823242,
+        20.124481201171875
+      ],
+      "grasp_action": [
+        -46.65635681152344,
+        -11.166459083557129,
+        -27.47252655029297,
+        61.19270324707031,
+        -32.52948760986328,
+        24.935951232910156
+      ],
+      "start_state": [
+        3.1465847492218018,
+        -98.65771484375,
+        -0.07326007634401321,
+        56.31578826904297,
+        2.1354167461395264,
+        0.6224066615104675
+      ],
+      "expected_red_position": 1,
+      "expected_blue_position": 2,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 10,
+      "ui_episode": 11,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 546,
+      "first_close_after_open": 207,
+      "grasp_pose": [
+        -69.99232482910156,
+        12.33221435546875,
+        -44.126983642578125,
+        65.87718963623047,
+        -48.80208206176758,
+        19.08713722229004
+      ],
+      "grasp_action": [
+        -70.23579406738281,
+        11.996679306030273,
+        -44.56654357910156,
+        65.55406951904297,
+        -48.93840026855469,
+        24.76515769958496
+      ],
+      "start_state": [
+        4.144282341003418,
+        -99.07717895507812,
+        -0.07326007634401321,
+        60.438594818115234,
+        -0.8333333134651184,
+        0.6915629506111145
+      ],
+      "expected_red_position": 1,
+      "expected_blue_position": 3,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 11,
+      "ui_episode": 12,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 556,
+      "first_close_after_open": 166,
+      "grasp_pose": [
+        -35.76362228393555,
+        36.828857421875,
+        -66.4957275390625,
+        88.33333587646484,
+        -28.85416603088379,
+        20.539419174194336
+      ],
+      "grasp_action": [
+        -36.06494140625,
+        36.4881706237793,
+        -67.9120864868164,
+        88.16199493408203,
+        -28.597640991210938,
+        24.423568725585938
+      ],
+      "start_state": [
+        4.7582502365112305,
+        -99.24496459960938,
+        -0.02442002482712269,
+        60.877193450927734,
+        3.0208332538604736,
+        1.0373444557189941
+      ],
+      "expected_red_position": 1,
+      "expected_blue_position": 3,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 12,
+      "ui_episode": 13,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 588,
+      "first_close_after_open": 176,
+      "grasp_pose": [
+        -64.15962982177734,
+        8.557046890258789,
+        -42.22222137451172,
+        69.12281036376953,
+        -44.58333206176758,
+        19.017980575561523
+      ],
+      "grasp_action": [
+        -63.819095611572266,
+        7.845579147338867,
+        -42.41758346557617,
+        68.49132537841797,
+        -44.37745666503906,
+        23.569599151611328
+      ],
+      "start_state": [
+        5.832693576812744,
+        -98.82550048828125,
+        -0.17094017565250397,
+        61.31578826904297,
+        0.9895833134651184,
+        0.6915629506111145
+      ],
+      "expected_red_position": 1,
+      "expected_blue_position": 4,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 13,
+      "ui_episode": 14,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 479,
+      "first_close_after_open": 180,
+      "grasp_pose": [
+        -15.118956565856934,
+        3.020134210586548,
+        -35.92185592651367,
+        66.57894897460938,
+        -14.010416984558105,
+        18.81051254272461
+      ],
+      "grasp_action": [
+        -15.65519905090332,
+        2.6151931285858154,
+        -36.4590950012207,
+        66.44414520263672,
+        -13.709043502807617,
+        24.850555419921875
+      ],
+      "start_state": [
+        6.216423511505127,
+        -98.90939331054688,
+        -0.02442002482712269,
+        62.01754379272461,
+        3.0208332538604736,
+        0.8298755288124084
+      ],
+      "expected_red_position": 1,
+      "expected_blue_position": 4,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 14,
+      "ui_episode": 15,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 600,
+      "first_close_after_open": 250,
+      "grasp_pose": [
+        -68.99462890625,
+        3.6073825359344482,
+        -37.77777862548828,
+        62.3684196472168,
+        -48.17708206176758,
+        19.571231842041016
+      ],
+      "grasp_action": [
+        -68.38036346435547,
+        3.1133251190185547,
+        -37.82661819458008,
+        61.904762268066406,
+        -47.78506088256836,
+        24.081981658935547
+      ],
+      "start_state": [
+        5.679202079772949,
+        -98.9932861328125,
+        -0.17094017565250397,
+        62.543861389160156,
+        2.03125,
+        0.8298755288124084
+      ],
+      "expected_red_position": 1,
+      "expected_blue_position": 5,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 15,
+      "ui_episode": 16,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 470,
+      "first_close_after_open": 179,
+      "grasp_pose": [
+        11.128166198730469,
+        4.94966459274292,
+        -37.484737396240234,
+        67.54386138916016,
+        3.8020832538604736,
+        18.603042602539062
+      ],
+      "grasp_action": [
+        11.016621589660645,
+        4.5246992111206055,
+        -38.119659423828125,
+        67.60124969482422,
+        4.01048469543457,
+        24.338172912597656
+      ],
+      "start_state": [
+        2.9930927753448486,
+        -99.16107177734375,
+        -0.17094017565250397,
+        59.64912414550781,
+        1.40625,
+        0.8298755288124084
+      ],
+      "expected_red_position": 1,
+      "expected_blue_position": 5,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 16,
+      "ui_episode": 17,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 491,
+      "first_close_after_open": 182,
+      "grasp_pose": [
+        -46.431312561035156,
+        -10.067113876342773,
+        -29.181928634643555,
+        66.22807312011719,
+        -31.45833396911621,
+        19.225448608398438
+      ],
+      "grasp_action": [
+        -46.26980972290039,
+        -10.253216743469238,
+        -30.012210845947266,
+        65.91010284423828,
+        -31.16644859313965,
+        24.50896644592285
+      ],
+      "start_state": [
+        2.9930927753448486,
+        -99.07717895507812,
+        -0.07326007634401321,
+        60.96491241455078,
+        -2.1875,
+        1.175657033920288
+      ],
+      "expected_red_position": 2,
+      "expected_blue_position": 1,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 17,
+      "ui_episode": 18,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 534,
+      "first_close_after_open": 173,
+      "grasp_pose": [
+        -70.45280456542969,
+        -1.5939596891403198,
+        -31.135530471801758,
+        57.543861389160156,
+        -47.29166793823242,
+        18.533885955810547
+      ],
+      "grasp_action": [
+        -70.31310272216797,
+        -2.117061138153076,
+        -31.28205108642578,
+        57.00934600830078,
+        -47.57535934448242,
+        21.861656188964844
+      ],
+      "start_state": [
+        0.8442056775093079,
+        -98.90939331054688,
+        -0.21978022158145905,
+        74.21052551269531,
+        -1.7708333730697632,
+        0.8298755288124084
+      ],
+      "expected_red_position": 2,
+      "expected_blue_position": 1,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 18,
+      "ui_episode": 19,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 551,
+      "first_close_after_open": 241,
+      "grasp_pose": [
+        -43.74520492553711,
+        -15.855704307556152,
+        -23.27228355407715,
+        56.66666793823242,
+        -31.14583396911621,
+        21.369295120239258
+      ],
+      "grasp_action": [
+        -43.64128494262695,
+        -16.313823699951172,
+        -23.418804168701172,
+        56.20827865600586,
+        -30.956748962402344,
+        24.252775192260742
+      ],
+      "start_state": [
+        0.4604758322238922,
+        -97.65100860595703,
+        -0.41514042019844055,
+        66.49122619628906,
+        -2.4479167461395264,
+        0.7607192397117615
+      ],
+      "expected_red_position": 2,
+      "expected_blue_position": 3,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 19,
+      "ui_episode": 20,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 492,
+      "first_close_after_open": 153,
+      "grasp_pose": [
+        -31.235610961914062,
+        24.83221435546875,
+        -54.72527313232422,
+        77.36842346191406,
+        -22.96875,
+        19.709543228149414
+      ],
+      "grasp_action": [
+        -31.271743774414062,
+        23.951847076416016,
+        -55.70207595825195,
+        77.21406555175781,
+        -23.093053817749023,
+        24.081981658935547
+      ],
+      "start_state": [
+        -1.458173394203186,
+        -98.82550048828125,
+        -0.3174603283405304,
+        66.57894897460938,
+        -4.21875,
+        0.7607192397117615
+      ],
+      "expected_red_position": 2,
+      "expected_blue_position": 3,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 20,
+      "ui_episode": 21,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 507,
+      "first_close_after_open": 170,
+      "grasp_pose": [
+        -41.82655334472656,
+        -17.785234451293945,
+        -22.83272361755371,
+        60.26315689086914,
+        -31.35416603088379,
+        19.986167907714844
+      ],
+      "grasp_action": [
+        -41.70854187011719,
+        -17.974262237548828,
+        -23.02808380126953,
+        59.85758972167969,
+        -30.956748962402344,
+        24.50896644592285
+      ],
+      "start_state": [
+        2.9930927753448486,
+        -99.07717895507812,
+        -0.2686202824115753,
+        72.19298553466797,
+        0.3645833432674408,
+        0.6915629506111145
+      ],
+      "expected_red_position": 2,
+      "expected_blue_position": 4,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 21,
+      "ui_episode": 22,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 512,
+      "first_close_after_open": 143,
+      "grasp_pose": [
+        -9.593246459960938,
+        -0.33557048439979553,
+        -35.72649383544922,
+        68.42105102539062,
+        -10.885416984558105,
+        20.19363784790039
+      ],
+      "grasp_action": [
+        -9.393119812011719,
+        -1.0377750396728516,
+        -35.873016357421875,
+        68.0462875366211,
+        -10.563565254211426,
+        22.971818923950195
+      ],
+      "start_state": [
+        1.458173394203186,
+        -96.14093780517578,
+        -0.8058608174324036,
+        66.92982482910156,
+        -6.354166507720947,
+        1.0373444557189941
+      ],
+      "expected_red_position": 2,
+      "expected_blue_position": 4,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 22,
+      "ui_episode": 23,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 574,
+      "first_close_after_open": 124,
+      "grasp_pose": [
+        -37.145050048828125,
+        -17.114093780517578,
+        -23.22344398498535,
+        56.140350341796875,
+        -27.91666603088379,
+        19.36376190185547
+      ],
+      "grasp_action": [
+        -37.37920379638672,
+        -17.559152603149414,
+        -23.614164352416992,
+        55.85224914550781,
+        -28.17824363708496,
+        24.338172912597656
+      ],
+      "start_state": [
+        3.6838066577911377,
+        -98.57382202148438,
+        -0.17094017565250397,
+        68.24561309814453,
+        -3.0729167461395264,
+        0.8298755288124084
+      ],
+      "expected_red_position": 2,
+      "expected_blue_position": 5,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 23,
+      "ui_episode": 24,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 491,
+      "first_close_after_open": 200,
+      "grasp_pose": [
+        18.112049102783203,
+        7.634228229522705,
+        -38.21733856201172,
+        65.2631607055664,
+        9.583333015441895,
+        18.948823928833008
+      ],
+      "grasp_action": [
+        17.7425594329834,
+        6.35118293762207,
+        -38.901100158691406,
+        65.19804382324219,
+        9.20052433013916,
+        24.423568725585938
+      ],
+      "start_state": [
+        1.7651573419570923,
+        -98.32215118408203,
+        -0.9523809552192688,
+        71.31578826904297,
+        -4.010416507720947,
+        1.1065007448196411
+      ],
+      "expected_red_position": 2,
+      "expected_blue_position": 5,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 24,
+      "ui_episode": 25,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 535,
+      "first_close_after_open": 167,
+      "grasp_pose": [
+        -40.21488952636719,
+        -8.053690910339355,
+        -28.156288146972656,
+        57.01754379272461,
+        -27.70833396911621,
+        19.017980575561523
+      ],
+      "grasp_action": [
+        -40.00773239135742,
+        -8.924864768981934,
+        -28.644689559936523,
+        57.36537551879883,
+        -28.073394775390625,
+        24.850555419921875
+      ],
+      "start_state": [
+        5.141980171203613,
+        -97.5671157836914,
+        0.02442002482712269,
+        60.78947448730469,
+        -0.2083333283662796,
+        0.8298755288124084
+      ],
+      "expected_red_position": 2,
+      "expected_blue_position": 1,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 25,
+      "ui_episode": 26,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 507,
+      "first_close_after_open": 187,
+      "grasp_pose": [
+        -68.6876449584961,
+        1.5939596891403198,
+        -35.43345642089844,
+        59.03508758544922,
+        -49.79166793823242,
+        19.432918548583984
+      ],
+      "grasp_action": [
+        -68.07112121582031,
+        1.120797038078308,
+        -35.57997512817383,
+        58.52247619628906,
+        -50.19659423828125,
+        24.338172912597656
+      ],
+      "start_state": [
+        -1.227935552597046,
+        -98.82550048828125,
+        -0.07326007634401321,
+        59.385963439941406,
+        -2.1875,
+        0.8298755288124084
+      ],
+      "expected_red_position": 2,
+      "expected_blue_position": 1,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 26,
+      "ui_episode": 27,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 435,
+      "first_close_after_open": 147,
+      "grasp_pose": [
+        -34.84267044067383,
+        -11.07382583618164,
+        -26.886445999145508,
+        60.78947448730469,
+        -27.08333396911621,
+        19.017980575561523
+      ],
+      "grasp_action": [
+        -34.82798767089844,
+        -11.581568717956543,
+        -27.5213680267334,
+        60.30262756347656,
+        -27.339448928833008,
+        24.850555419921875
+      ],
+      "start_state": [
+        -2.225633144378662,
+        -99.24496459960938,
+        -0.17094017565250397,
+        65.35087585449219,
+        -0.7291666865348816,
+        0.6224066615104675
+      ],
+      "expected_red_position": 2,
+      "expected_blue_position": 3,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 27,
+      "ui_episode": 28,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 475,
+      "first_close_after_open": 159,
+      "grasp_pose": [
+        -31.005373001098633,
+        24.161073684692383,
+        -54.28571319580078,
+        71.0526351928711,
+        -21.09375,
+        18.741355895996094
+      ],
+      "grasp_action": [
+        -30.575956344604492,
+        23.37069320678711,
+        -54.67643356323242,
+        70.53849792480469,
+        -20.78636932373047,
+        24.76515769958496
+      ],
+      "start_state": [
+        3.2233307361602783,
+        -98.9932861328125,
+        -0.07326007634401321,
+        60.78947448730469,
+        -1.6666666269302368,
+        0.8298755288124084
+      ],
+      "expected_red_position": 2,
+      "expected_blue_position": 3,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 28,
+      "ui_episode": 29,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 496,
+      "first_close_after_open": 195,
+      "grasp_pose": [
+        -39.90790557861328,
+        -8.724832534790039,
+        -28.351648330688477,
+        59.47368240356445,
+        -28.4375,
+        19.156293869018555
+      ],
+      "grasp_action": [
+        -39.38925552368164,
+        -9.090909004211426,
+        -29.963369369506836,
+        59.14552688598633,
+        -28.17824363708496,
+        24.423568725585938
+      ],
+      "start_state": [
+        2.3023791313171387,
+        -99.07717895507812,
+        -0.02442002482712269,
+        62.01754379272461,
+        -3.59375,
+        0.8298755288124084
+      ],
+      "expected_red_position": 2,
+      "expected_blue_position": 4,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 29,
+      "ui_episode": 30,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 457,
+      "first_close_after_open": 159,
+      "grasp_pose": [
+        -12.049117088317871,
+        5.956376075744629,
+        -37.875457763671875,
+        64.29824829101562,
+        -11.09375,
+        17.980636596679688
+      ],
+      "grasp_action": [
+        -12.485504150390625,
+        5.188875198364258,
+        -38.510379791259766,
+        64.39697265625,
+        -10.72083854675293,
+        23.996583938598633
+      ],
+      "start_state": [
+        2.225633144378662,
+        -98.9932861328125,
+        -0.02442002482712269,
+        62.3684196472168,
+        -2.5,
+        0.8298755288124084
+      ],
+      "expected_red_position": 2,
+      "expected_blue_position": 4,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 30,
+      "ui_episode": 31,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 508,
+      "first_close_after_open": 200,
+      "grasp_pose": [
+        -45.04988479614258,
+        -2.6845638751983643,
+        -31.77045249938965,
+        59.385963439941406,
+        -30.15625,
+        18.1881046295166
+      ],
+      "grasp_action": [
+        -44.64630889892578,
+        -3.1963469982147217,
+        -33.18681335449219,
+        59.0565185546875,
+        -29.90825653076172,
+        23.825790405273438
+      ],
+      "start_state": [
+        6.446661472320557,
+        -98.40604400634766,
+        -0.02442002482712269,
+        60.96491241455078,
+        -1.3020833730697632,
+        0.8298755288124084
+      ],
+      "expected_red_position": 2,
+      "expected_blue_position": 5,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 31,
+      "ui_episode": 32,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 450,
+      "first_close_after_open": 192,
+      "grasp_pose": [
+        10.053722381591797,
+        6.96308708190918,
+        -38.85226058959961,
+        64.12281036376953,
+        5.416666507720947,
+        17.565698623657227
+      ],
+      "grasp_action": [
+        10.243525505065918,
+        6.35118293762207,
+        -39.19413757324219,
+        64.4859848022461,
+        5.425950050354004,
+        24.679759979248047
+      ],
+      "start_state": [
+        4.604758262634277,
+        -98.65771484375,
+        -0.21978022158145905,
+        65.70175170898438,
+        0.9895833134651184,
+        0.6915629506111145
+      ],
+      "expected_red_position": 2,
+      "expected_blue_position": 5,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 32,
+      "ui_episode": 33,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 475,
+      "first_close_after_open": 180,
+      "grasp_pose": [
+        -33.6147346496582,
+        25.16778564453125,
+        -55.89743423461914,
+        75.6140365600586,
+        -25.52083396911621,
+        18.1881046295166
+      ],
+      "grasp_action": [
+        -33.127174377441406,
+        24.865089416503906,
+        -57.31379699707031,
+        75.43391418457031,
+        -25.190038681030273,
+        24.338172912597656
+      ],
+      "start_state": [
+        8.058326721191406,
+        -98.40604400634766,
+        -0.02442002482712269,
+        61.31578826904297,
+        -1.6145833730697632,
+        0.8298755288124084
+      ],
+      "expected_red_position": 3,
+      "expected_blue_position": 1,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 33,
+      "ui_episode": 34,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 516,
+      "first_close_after_open": 192,
+      "grasp_pose": [
+        -65.31082153320312,
+        1.7617449760437012,
+        -35.28693389892578,
+        59.29824447631836,
+        -45.3125,
+        18.533885955810547
+      ],
+      "grasp_action": [
+        -65.0560531616211,
+        1.4528850317001343,
+        -36.654457092285156,
+        58.78949737548828,
+        -45.635650634765625,
+        24.594364166259766
+      ],
+      "start_state": [
+        3.6838066577911377,
+        -98.40604400634766,
+        -0.02442002482712269,
+        60.96491241455078,
+        -2.2395832538604736,
+        0.8298755288124084
+      ],
+      "expected_red_position": 3,
+      "expected_blue_position": 1,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 34,
+      "ui_episode": 35,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 500,
+      "first_close_after_open": 185,
+      "grasp_pose": [
+        -30.698389053344727,
+        25.503355026245117,
+        -54.67643356323242,
+        77.63157653808594,
+        -23.59375,
+        19.36376190185547
+      ],
+      "grasp_action": [
+        -30.885194778442383,
+        24.865089416503906,
+        -54.82295608520508,
+        77.48108673095703,
+        -23.879423141479492,
+        24.76515769958496
+      ],
+      "start_state": [
+        4.7582502365112305,
+        -98.57382202148438,
+        -0.02442002482712269,
+        61.66666793823242,
+        -1.1979166269302368,
+        0.8990318179130554
+      ],
+      "expected_red_position": 3,
+      "expected_blue_position": 2,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 35,
+      "ui_episode": 36,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 472,
+      "first_close_after_open": 161,
+      "grasp_pose": [
+        -36.99155807495117,
+        0.5033556818962097,
+        -34.79853439331055,
+        67.71929931640625,
+        -29.94791603088379,
+        17.565698623657227
+      ],
+      "grasp_action": [
+        -37.456512451171875,
+        -0.04151099920272827,
+        -34.79853439331055,
+        67.60124969482422,
+        -30.06553077697754,
+        23.3988037109375
+      ],
+      "start_state": [
+        4.681504249572754,
+        -98.57382202148438,
+        -0.07326007634401321,
+        63.157894134521484,
+        2.5520832538604736,
+        0.8298755288124084
+      ],
+      "expected_red_position": 3,
+      "expected_blue_position": 2,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 36,
+      "ui_episode": 37,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 431,
+      "first_close_after_open": 168,
+      "grasp_pose": [
+        -31.54259490966797,
+        24.496644973754883,
+        -55.11599349975586,
+        74.7368392944336,
+        -22.39583396911621,
+        17.21991729736328
+      ],
+      "grasp_action": [
+        -31.426362991333008,
+        22.955583572387695,
+        -56.727718353271484,
+        75.16688537597656,
+        -21.939712524414062,
+        24.594364166259766
+      ],
+      "start_state": [
+        1.1511895656585693,
+        -98.82550048828125,
+        -0.02442002482712269,
+        60.96491241455078,
+        1.3020833730697632,
+        0.8298755288124084
+      ],
+      "expected_red_position": 3,
+      "expected_blue_position": 4,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 37,
+      "ui_episode": 38,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 444,
+      "first_close_after_open": 150,
+      "grasp_pose": [
+        -11.281658172607422,
+        11.409396171569824,
+        -42.9548225402832,
+        68.68421173095703,
+        -11.40625,
+        18.049793243408203
+      ],
+      "grasp_action": [
+        -11.557788848876953,
+        10.751349449157715,
+        -43.24786376953125,
+        68.40231323242188,
+        -11.03538703918457,
+        23.569599151611328
+      ],
+      "start_state": [
+        7.597851276397705,
+        -98.74160766601562,
+        -0.17094017565250397,
+        65.35087585449219,
+        3.75,
+        0.6224066615104675
+      ],
+      "expected_red_position": 3,
+      "expected_blue_position": 4,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 38,
+      "ui_episode": 39,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 455,
+      "first_close_after_open": 190,
+      "grasp_pose": [
+        -30.314659118652344,
+        30.956375122070312,
+        -60.732601165771484,
+        79.12281036376953,
+        -20.36458396911621,
+        18.1881046295166
+      ],
+      "grasp_action": [
+        -30.112098693847656,
+        30.012453079223633,
+        -61.269840240478516,
+        79.3502426147461,
+        -20.262123107910156,
+        24.594364166259766
+      ],
+      "start_state": [
+        3.3768227100372314,
+        -98.74160766601562,
+        -0.02442002482712269,
+        60.175437927246094,
+        0.8854166865348816,
+        2.5587828159332275
+      ],
+      "expected_red_position": 3,
+      "expected_blue_position": 5,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 39,
+      "ui_episode": 40,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 462,
+      "first_close_after_open": 183,
+      "grasp_pose": [
+        13.123560905456543,
+        21.476511001586914,
+        -50.72039031982422,
+        75.4385986328125,
+        3.8020832538604736,
+        20.816043853759766
+      ],
+      "grasp_action": [
+        12.485504150390625,
+        19.71772575378418,
+        -51.74603271484375,
+        75.43391418457031,
+        3.800786256790161,
+        24.679759979248047
+      ],
+      "start_state": [
+        3.6838066577911377,
+        -98.82550048828125,
+        0.07326007634401321,
+        62.1929817199707,
+        0.3125,
+        0.8990318179130554
+      ],
+      "expected_red_position": 3,
+      "expected_blue_position": 5,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 40,
+      "ui_episode": 41,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 457,
+      "first_close_after_open": 149,
+      "grasp_pose": [
+        -27.782041549682617,
+        34.731544494628906,
+        -64.29792785644531,
+        82.45613861083984,
+        -22.39583396911621,
+        19.225448608398438
+      ],
+      "grasp_action": [
+        -28.256668090820312,
+        33.748443603515625,
+        -65.17704772949219,
+        81.93146514892578,
+        -22.673656463623047,
+        24.850555419921875
+      ],
+      "start_state": [
+        2.609363079071045,
+        -98.9932861328125,
+        -0.17094017565250397,
+        65.35087585449219,
+        -1.3020833730697632,
+        0.7607192397117615
+      ],
+      "expected_red_position": 3,
+      "expected_blue_position": 1,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 41,
+      "ui_episode": 42,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 461,
+      "first_close_after_open": 158,
+      "grasp_pose": [
+        -66.00153350830078,
+        -8.557046890258789,
+        -27.374847412109375,
+        52.894737243652344,
+        -46.66666793823242,
+        22.337482452392578
+      ],
+      "grasp_action": [
+        -65.44259643554688,
+        -8.841842651367188,
+        -27.570207595825195,
+        52.29194641113281,
+        -46.631717681884766,
+        24.594364166259766
+      ],
+      "start_state": [
+        4.144282341003418,
+        -98.90939331054688,
+        -0.02442002482712269,
+        62.28070068359375,
+        2.2395832538604736,
+        0.7607192397117615
+      ],
+      "expected_red_position": 3,
+      "expected_blue_position": 1,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 42,
+      "ui_episode": 43,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 485,
+      "first_close_after_open": 178,
+      "grasp_pose": [
+        -31.696086883544922,
+        36.912750244140625,
+        -65.51892852783203,
+        79.5614013671875,
+        -23.28125,
+        18.879667282104492
+      ],
+      "grasp_action": [
+        -31.580982208251953,
+        35.40888214111328,
+        -67.13064575195312,
+        79.3502426147461,
+        -23.617300033569336,
+        24.935951232910156
+      ],
+      "start_state": [
+        4.144282341003418,
+        -98.90939331054688,
+        -0.12210012227296829,
+        65.52631378173828,
+        2.2395832538604736,
+        0.8298755288124084
+      ],
+      "expected_red_position": 3,
+      "expected_blue_position": 2,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 43,
+      "ui_episode": 44,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 442,
+      "first_close_after_open": 169,
+      "grasp_pose": [
+        -32.92402267456055,
+        -6.795301914215088,
+        -29.08424949645996,
+        61.75438690185547,
+        -25.20833396911621,
+        19.156293869018555
+      ],
+      "grasp_action": [
+        -32.43138885498047,
+        -7.596513271331787,
+        -30.402931213378906,
+        61.81575393676758,
+        -25.661861419677734,
+        24.850555419921875
+      ],
+      "start_state": [
+        7.597851276397705,
+        -99.07717895507812,
+        -0.02442002482712269,
+        62.543861389160156,
+        1.5104166269302368,
+        0.8298755288124084
+      ],
+      "expected_red_position": 3,
+      "expected_blue_position": 2,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 44,
+      "ui_episode": 45,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 518,
+      "first_close_after_open": 170,
+      "grasp_pose": [
+        -29.93092918395996,
+        34.395973205566406,
+        -63.907203674316406,
+        78.85964965820312,
+        -23.17708396911621,
+        23.85892105102539
+      ],
+      "grasp_action": [
+        -30.0347900390625,
+        32.9182243347168,
+        -65.61660766601562,
+        78.28215026855469,
+        -22.935779571533203,
+        24.850555419921875
+      ],
+      "start_state": [
+        4.604758262634277,
+        -98.57382202148438,
+        -0.02442002482712269,
+        61.49122619628906,
+        0.9895833134651184,
+        0.8990318179130554
+      ],
+      "expected_red_position": 3,
+      "expected_blue_position": 4,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 45,
+      "ui_episode": 46,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 474,
+      "first_close_after_open": 160,
+      "grasp_pose": [
+        -8.749040603637695,
+        7.718120574951172,
+        -39.92673873901367,
+        64.47368621826172,
+        -8.697916984558105,
+        18.672199249267578
+      ],
+      "grasp_action": [
+        -9.238500595092773,
+        6.932337284088135,
+        -40.122100830078125,
+        63.8629264831543,
+        -8.46657943725586,
+        23.65499496459961
+      ],
+      "start_state": [
+        2.225633144378662,
+        -99.07717895507812,
+        -0.02442002482712269,
+        62.1929817199707,
+        -0.625,
+        0.7607192397117615
+      ],
+      "expected_red_position": 3,
+      "expected_blue_position": 4,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 46,
+      "ui_episode": 47,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 502,
+      "first_close_after_open": 208,
+      "grasp_pose": [
+        -33.92171859741211,
+        28.691274642944336,
+        -59.07204055786133,
+        72.19298553466797,
+        -24.6875,
+        18.81051254272461
+      ],
+      "grasp_action": [
+        -33.28179168701172,
+        27.687837600708008,
+        -60.732601165771484,
+        71.78459930419922,
+        -24.351245880126953,
+        24.935951232910156
+      ],
+      "start_state": [
+        2.5326170921325684,
+        -98.74160766601562,
+        0.02442002482712269,
+        61.92982482910156,
+        1.8229166269302368,
+        0.6915629506111145
+      ],
+      "expected_red_position": 3,
+      "expected_blue_position": 5,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 47,
+      "ui_episode": 48,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 482,
+      "first_close_after_open": 175,
+      "grasp_pose": [
+        16.039907455444336,
+        18.20469856262207,
+        -48.18070983886719,
+        73.33333587646484,
+        7.03125,
+        18.81051254272461
+      ],
+      "grasp_action": [
+        15.577889442443848,
+        17.642175674438477,
+        -48.229549407958984,
+        73.03070831298828,
+        6.893840312957764,
+        24.423568725585938
+      ],
+      "start_state": [
+        3.6838066577911377,
+        -99.07717895507812,
+        -0.12210012227296829,
+        62.1929817199707,
+        -0.2083333283662796,
+        0.6915629506111145
+      ],
+      "expected_red_position": 3,
+      "expected_blue_position": 5,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 48,
+      "ui_episode": 49,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 450,
+      "first_close_after_open": 171,
+      "grasp_pose": [
+        -12.356101036071777,
+        1.2583892345428467,
+        -33.67521286010742,
+        60.0,
+        -10.989583015441895,
+        18.464731216430664
+      ],
+      "grasp_action": [
+        -12.098956108093262,
+        0.6226649880409241,
+        -33.870574951171875,
+        59.41255187988281,
+        -10.72083854675293,
+        24.679759979248047
+      ],
+      "start_state": [
+        5.679202079772949,
+        -98.74160766601562,
+        -0.02442002482712269,
+        61.66666793823242,
+        2.7083332538604736,
+        0.7607192397117615
+      ],
+      "expected_red_position": 4,
+      "expected_blue_position": 1,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 49,
+      "ui_episode": 50,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 482,
+      "first_close_after_open": 188,
+      "grasp_pose": [
+        -65.46430969238281,
+        8.389262199401855,
+        -41.001220703125,
+        63.421051025390625,
+        -46.40625,
+        20.47026252746582
+      ],
+      "grasp_action": [
+        -64.90142822265625,
+        7.928601264953613,
+        -41.19658279418945,
+        63.59590530395508,
+        -46.68414306640625,
+        24.850555419921875
+      ],
+      "start_state": [
+        4.2210283279418945,
+        -99.16107177734375,
+        -0.02442002482712269,
+        62.01754379272461,
+        2.65625,
+        0.6224066615104675
+      ],
+      "expected_red_position": 4,
+      "expected_blue_position": 1,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 50,
+      "ui_episode": 51,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 433,
+      "first_close_after_open": 156,
+      "grasp_pose": [
+        -16.8073673248291,
+        0.25167784094810486,
+        -33.82173538208008,
+        61.66666793823242,
+        -12.395833015441895,
+        19.017980575561523
+      ],
+      "grasp_action": [
+        -16.892152786254883,
+        -0.37359899282455444,
+        -34.4566535949707,
+        61.014686584472656,
+        -12.031455039978027,
+        24.935951232910156
+      ],
+      "start_state": [
+        5.832693576812744,
+        -98.9932861328125,
+        -0.02442002482712269,
+        62.3684196472168,
+        3.4375,
+        0.6915629506111145
+      ],
+      "expected_red_position": 4,
+      "expected_blue_position": 2,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 51,
+      "ui_episode": 52,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 416,
+      "first_close_after_open": 156,
+      "grasp_pose": [
+        -37.989253997802734,
+        -2.76845645904541,
+        -32.89377212524414,
+        62.8070182800293,
+        -29.0625,
+        18.948823928833008
+      ],
+      "grasp_action": [
+        -37.37920379638672,
+        -3.94354510307312,
+        -33.33333206176758,
+        62.26079177856445,
+        -28.80733871459961,
+        23.740392684936523
+      ],
+      "start_state": [
+        5.065234184265137,
+        -99.24496459960938,
+        -0.02442002482712269,
+        62.6315803527832,
+        3.0208332538604736,
+        0.8298755288124084
+      ],
+      "expected_red_position": 4,
+      "expected_blue_position": 2,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 52,
+      "ui_episode": 53,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 425,
+      "first_close_after_open": 145,
+      "grasp_pose": [
+        -9.363008499145508,
+        -3.1879193782806396,
+        -33.18681335449219,
+        62.8070182800293,
+        -10.260416984558105,
+        18.257261276245117
+      ],
+      "grasp_action": [
+        -9.315810203552246,
+        -4.026566982269287,
+        -33.96825408935547,
+        62.34980010986328,
+        -9.986893653869629,
+        24.935951232910156
+      ],
+      "start_state": [
+        3.2233307361602783,
+        -97.9026870727539,
+        0.3174603283405304,
+        61.578948974609375,
+        -0.2083333283662796,
+        0.8298755288124084
+      ],
+      "expected_red_position": 4,
+      "expected_blue_position": 3,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 53,
+      "ui_episode": 54,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 479,
+      "first_close_after_open": 164,
+      "grasp_pose": [
+        -27.24481964111328,
+        28.18791961669922,
+        -58.241756439208984,
+        76.49122619628906,
+        -22.1875,
+        18.118947982788086
+      ],
+      "grasp_action": [
+        -27.870119094848633,
+        26.94063949584961,
+        -59.511600494384766,
+        75.96795654296875,
+        -21.730012893676758,
+        24.167377471923828
+      ],
+      "start_state": [
+        5.065234184265137,
+        -98.74160766601562,
+        -0.02442002482712269,
+        62.01754379272461,
+        -1.875,
+        0.8298755288124084
+      ],
+      "expected_red_position": 4,
+      "expected_blue_position": 3,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 54,
+      "ui_episode": 55,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 378,
+      "first_close_after_open": 146,
+      "grasp_pose": [
+        -11.358404159545898,
+        3.020134210586548,
+        -36.117218017578125,
+        62.28070068359375,
+        -8.385416984558105,
+        19.91701316833496
+      ],
+      "grasp_action": [
+        -11.403169631958008,
+        2.5321710109710693,
+        -36.75213623046875,
+        63.23987579345703,
+        -8.09960651397705,
+        24.50896644592285
+      ],
+      "start_state": [
+        -0.8442056775093079,
+        -99.24496459960938,
+        -0.8058608174324036,
+        70.1754379272461,
+        -1.5625,
+        0.6224066615104675
+      ],
+      "expected_red_position": 4,
+      "expected_blue_position": 5,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 55,
+      "ui_episode": 56,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 437,
+      "first_close_after_open": 162,
+      "grasp_pose": [
+        11.281658172607422,
+        17.449665069580078,
+        -47.5457878112793,
+        71.66666412353516,
+        4.21875,
+        19.847856521606445
+      ],
+      "grasp_action": [
+        10.630073547363281,
+        16.313823699951172,
+        -49.20634841918945,
+        71.42857360839844,
+        4.220183372497559,
+        24.76515769958496
+      ],
+      "start_state": [
+        3.300076723098755,
+        -98.57382202148438,
+        -0.02442002482712269,
+        61.140350341796875,
+        0.0,
+        1.0373444557189941
+      ],
+      "expected_red_position": 4,
+      "expected_blue_position": 5,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 56,
+      "ui_episode": 57,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 407,
+      "first_close_after_open": 142,
+      "grasp_pose": [
+        -11.128166198730469,
+        14.261744499206543,
+        -44.02930450439453,
+        67.71929931640625,
+        -11.197916984558105,
+        18.603042602539062
+      ],
+      "grasp_action": [
+        -10.475454330444336,
+        13.325031280517578,
+        -44.126983642578125,
+        67.2452163696289,
+        -10.87811279296875,
+        24.167377471923828
+      ],
+      "start_state": [
+        5.372218132019043,
+        -98.74160766601562,
+        -0.17094017565250397,
+        70.1754379272461,
+        0.9375,
+        0.6915629506111145
+      ],
+      "expected_red_position": 4,
+      "expected_blue_position": 1,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 57,
+      "ui_episode": 58,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 456,
+      "first_close_after_open": 177,
+      "grasp_pose": [
+        -67.99693298339844,
+        -7.55033540725708,
+        -28.058609008789062,
+        55.70175552368164,
+        -47.13541793823242,
+        19.91701316833496
+      ],
+      "grasp_action": [
+        -67.76188659667969,
+        -8.260688781738281,
+        -28.595848083496094,
+        54.96217346191406,
+        -47.20838928222656,
+        24.594364166259766
+      ],
+      "start_state": [
+        5.065234184265137,
+        -98.40604400634766,
+        -0.02442002482712269,
+        61.92982482910156,
+        -2.8125,
+        0.6915629506111145
+      ],
+      "expected_red_position": 4,
+      "expected_blue_position": 1,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 58,
+      "ui_episode": 59,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 425,
+      "first_close_after_open": 130,
+      "grasp_pose": [
+        -13.046814918518066,
+        12.416107177734375,
+        -42.61294174194336,
+        67.54386138916016,
+        -13.020833015441895,
+        18.326417922973633
+      ],
+      "grasp_action": [
+        -13.567839622497559,
+        11.249481201171875,
+        -42.905982971191406,
+        67.15621185302734,
+        -12.660550117492676,
+        24.935951232910156
+      ],
+      "start_state": [
+        7.444359302520752,
+        -98.48992919921875,
+        -1.0012210607528687,
+        72.98245239257812,
+        1.71875,
+        0.7607192397117615
+      ],
+      "expected_red_position": 4,
+      "expected_blue_position": 2,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 59,
+      "ui_episode": 60,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 402,
+      "first_close_after_open": 136,
+      "grasp_pose": [
+        -37.91250991821289,
+        -17.449665069580078,
+        -24.346763610839844,
+        59.73684310913086,
+        -27.5,
+        19.432918548583984
+      ],
+      "grasp_action": [
+        -37.61113357543945,
+        -17.476131439208984,
+        -24.786325454711914,
+        59.14552688598633,
+        -27.81127166748047,
+        23.825790405273438
+      ],
+      "start_state": [
+        1.3046815395355225,
+        -98.74160766601562,
+        -0.3174603283405304,
+        68.07017517089844,
+        0.0,
+        0.8990318179130554
+      ],
+      "expected_red_position": 4,
+      "expected_blue_position": 2,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 60,
+      "ui_episode": 61,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 440,
+      "first_close_after_open": 136,
+      "grasp_pose": [
+        -15.96316146850586,
+        11.912752151489258,
+        -43.980464935302734,
+        70.1754379272461,
+        -15.833333015441895,
+        18.257261276245117
+      ],
+      "grasp_action": [
+        -15.500579833984375,
+        11.415525436401367,
+        -44.17582321166992,
+        70.62750244140625,
+        -16.173002243041992,
+        24.76515769958496
+      ],
+      "start_state": [
+        4.297774314880371,
+        -98.74160766601562,
+        -0.3174603283405304,
+        68.07017517089844,
+        0.9375,
+        0.8298755288124084
+      ],
+      "expected_red_position": 4,
+      "expected_blue_position": 3,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 61,
+      "ui_episode": 62,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 468,
+      "first_close_after_open": 172,
+      "grasp_pose": [
+        -28.242517471313477,
+        25.503355026245117,
+        -55.018314361572266,
+        73.9473648071289,
+        -22.70833396911621,
+        17.77316665649414
+      ],
+      "grasp_action": [
+        -28.411287307739258,
+        24.117891311645508,
+        -56.630035400390625,
+        73.83177947998047,
+        -22.516382217407227,
+        24.252775192260742
+      ],
+      "start_state": [
+        3.607060670852661,
+        -98.9932861328125,
+        -0.07326007634401321,
+        73.07017517089844,
+        -0.3125,
+        0.8298755288124084
+      ],
+      "expected_red_position": 4,
+      "expected_blue_position": 3,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 62,
+      "ui_episode": 63,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 394,
+      "first_close_after_open": 140,
+      "grasp_pose": [
+        -8.902532577514648,
+        5.620805263519287,
+        -39.14529800415039,
+        66.92982482910156,
+        -10.0,
+        18.326417922973633
+      ],
+      "grasp_action": [
+        -9.238500595092773,
+        4.856787204742432,
+        -40.07326126098633,
+        67.15621185302734,
+        -9.724770545959473,
+        24.423568725585938
+      ],
+      "start_state": [
+        2.225633144378662,
+        -98.82550048828125,
+        -0.12210012227296829,
+        68.59648895263672,
+        0.3125,
+        0.8298755288124084
+      ],
+      "expected_red_position": 4,
+      "expected_blue_position": 5,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 63,
+      "ui_episode": 64,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 485,
+      "first_close_after_open": 216,
+      "grasp_pose": [
+        16.19339942932129,
+        12.66778564453125,
+        -43.93162536621094,
+        69.91227722167969,
+        8.854166984558105,
+        21.369295120239258
+      ],
+      "grasp_action": [
+        16.2736759185791,
+        10.91739273071289,
+        -45.20146560668945,
+        69.38140106201172,
+        8.728702545166016,
+        24.76515769958496
+      ],
+      "start_state": [
+        2.455871105194092,
+        -99.16107177734375,
+        -0.41514042019844055,
+        68.9473648071289,
+        -1.6666666269302368,
+        0.8298755288124084
+      ],
+      "expected_red_position": 4,
+      "expected_blue_position": 5,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 64,
+      "ui_episode": 65,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 384,
+      "first_close_after_open": 143,
+      "grasp_pose": [
+        11.281658172607422,
+        5.788590431213379,
+        -38.510379791259766,
+        66.92982482910156,
+        2.5,
+        18.81051254272461
+      ],
+      "grasp_action": [
+        10.630073547363281,
+        4.856787204742432,
+        -39.14529800415039,
+        66.53315734863281,
+        2.5425949096679688,
+        23.825790405273438
+      ],
+      "start_state": [
+        -3.1465847492218018,
+        -99.328857421875,
+        -0.07326007634401321,
+        62.3684196472168,
+        -2.1875,
+        0.8298755288124084
+      ],
+      "expected_red_position": 5,
+      "expected_blue_position": 1,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 65,
+      "ui_episode": 66,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 474,
+      "first_close_after_open": 181,
+      "grasp_pose": [
+        -67.84343719482422,
+        7.1308722496032715,
+        -39.24298095703125,
+        60.175437927246094,
+        -47.23958206176758,
+        18.464731216430664
+      ],
+      "grasp_action": [
+        -67.76188659667969,
+        5.936072826385498,
+        -39.38949966430664,
+        59.5905647277832,
+        -47.52293395996094,
+        24.76515769958496
+      ],
+      "start_state": [
+        8.442056655883789,
+        -98.32215118408203,
+        -0.3663003742694855,
+        68.07017517089844,
+        1.8229166269302368,
+        0.8990318179130554
+      ],
+      "expected_red_position": 5,
+      "expected_blue_position": 1,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 66,
+      "ui_episode": 67,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 403,
+      "first_close_after_open": 130,
+      "grasp_pose": [
+        9.74673843383789,
+        2.852349042892456,
+        -36.263736724853516,
+        65.4385986328125,
+        2.7604167461395264,
+        18.39557456970215
+      ],
+      "grasp_action": [
+        9.547739028930664,
+        1.701951026916504,
+        -37.094017028808594,
+        65.55406951904297,
+        3.0144166946411133,
+        24.423568725585938
+      ],
+      "start_state": [
+        2.1488871574401855,
+        -98.07047271728516,
+        -0.12210012227296829,
+        66.40351104736328,
+        -2.9166667461395264,
+        0.8298755288124084
+      ],
+      "expected_red_position": 5,
+      "expected_blue_position": 2,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 67,
+      "ui_episode": 68,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 475,
+      "first_close_after_open": 166,
+      "grasp_pose": [
+        -41.90330123901367,
+        -14.010066986083984,
+        -25.177045822143555,
+        57.6315803527832,
+        -30.05208396911621,
+        19.08713722229004
+      ],
+      "grasp_action": [
+        -42.32701873779297,
+        -14.570361137390137,
+        -25.714284896850586,
+        57.8104133605957,
+        -29.90825653076172,
+        23.740392684936523
+      ],
+      "start_state": [
+        6.446661472320557,
+        -98.48992919921875,
+        -0.3663003742694855,
+        68.9473648071289,
+        1.0416666269302368,
+        0.7607192397117615
+      ],
+      "expected_red_position": 5,
+      "expected_blue_position": 2,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 68,
+      "ui_episode": 69,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 477,
+      "first_close_after_open": 160,
+      "grasp_pose": [
+        16.8073673248291,
+        3.859060287475586,
+        -35.77533721923828,
+        61.140350341796875,
+        5.3125,
+        18.672199249267578
+      ],
+      "grasp_action": [
+        16.35098648071289,
+        2.2831051349639893,
+        -36.410255432128906,
+        60.65865707397461,
+        5.32110071182251,
+        24.594364166259766
+      ],
+      "start_state": [
+        3.5303146839141846,
+        -98.48992919921875,
+        -0.07326007634401321,
+        61.92982482910156,
+        0.5729166865348816,
+        0.7607192397117615
+      ],
+      "expected_red_position": 5,
+      "expected_blue_position": 3,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 69,
+      "ui_episode": 70,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 486,
+      "first_close_after_open": 182,
+      "grasp_pose": [
+        -32.84727478027344,
+        31.627517700195312,
+        -61.660560607910156,
+        80.08772277832031,
+        -26.19791603088379,
+        18.39557456970215
+      ],
+      "grasp_action": [
+        -32.89524459838867,
+        29.929431915283203,
+        -63.369964599609375,
+        80.59635162353516,
+        -26.186107635498047,
+        24.423568725585938
+      ],
+      "start_state": [
+        6.753645420074463,
+        -98.57382202148438,
+        -0.07326007634401321,
+        72.28070068359375,
+        6.041666507720947,
+        0.8298755288124084
+      ],
+      "expected_red_position": 5,
+      "expected_blue_position": 3,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 70,
+      "ui_episode": 71,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 412,
+      "first_close_after_open": 138,
+      "grasp_pose": [
+        12.73983097076416,
+        8.053690910339355,
+        -39.096458435058594,
+        63.94736862182617,
+        3.9583332538604736,
+        19.08713722229004
+      ],
+      "grasp_action": [
+        12.485504150390625,
+        6.600249290466309,
+        -40.17094039916992,
+        63.50689697265625,
+        4.0629096031188965,
+        24.338172912597656
+      ],
+      "start_state": [
+        2.916346788406372,
+        -98.90939331054688,
+        -0.2686202824115753,
+        68.07017517089844,
+        2.7604167461395264,
+        0.8298755288124084
+      ],
+      "expected_red_position": 5,
+      "expected_blue_position": 4,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 71,
+      "ui_episode": 72,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 441,
+      "first_close_after_open": 150,
+      "grasp_pose": [
+        -15.42594051361084,
+        10.402684211730957,
+        -42.17338180541992,
+        68.85964965820312,
+        -15.520833015441895,
+        17.911479949951172
+      ],
+      "grasp_action": [
+        -15.423270225524902,
+        9.92112922668457,
+        -42.41758346557617,
+        68.49132537841797,
+        -15.072083473205566,
+        24.935951232910156
+      ],
+      "start_state": [
+        1.6884113550186157,
+        -99.16107177734375,
+        -1.0989011526107788,
+        74.03508758544922,
+        0.8854166865348816,
+        0.7607192397117615
+      ],
+      "expected_red_position": 5,
+      "expected_blue_position": 4,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 72,
+      "ui_episode": 73,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 435,
+      "first_close_after_open": 153,
+      "grasp_pose": [
+        13.353798866271973,
+        15.016778945922852,
+        -45.5433464050293,
+        68.42105102539062,
+        3.6979167461395264,
+        17.49654197692871
+      ],
+      "grasp_action": [
+        13.567839622497559,
+        14.736405372619629,
+        -45.68986511230469,
+        68.13529205322266,
+        3.9580602645874023,
+        23.91118621826172
+      ],
+      "start_state": [
+        3.300076723098755,
+        -98.82550048828125,
+        -0.02442002482712269,
+        61.92982482910156,
+        0.8333333134651184,
+        1.0373444557189941
+      ],
+      "expected_red_position": 5,
+      "expected_blue_position": 1,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 73,
+      "ui_episode": 74,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 494,
+      "first_close_after_open": 196,
+      "grasp_pose": [
+        -69.83883666992188,
+        -17.449665069580078,
+        -22.78388214111328,
+        54.47368240356445,
+        -50.15625,
+        18.603042602539062
+      ],
+      "grasp_action": [
+        -70.46772003173828,
+        -17.642175674438477,
+        -23.760683059692383,
+        53.80507278442383,
+        -49.829620361328125,
+        24.594364166259766
+      ],
+      "start_state": [
+        5.21872615814209,
+        -98.48992919921875,
+        -0.02442002482712269,
+        61.49122619628906,
+        2.2395832538604736,
+        0.8298755288124084
+      ],
+      "expected_red_position": 5,
+      "expected_blue_position": 1,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 74,
+      "ui_episode": 75,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 491,
+      "first_close_after_open": 161,
+      "grasp_pose": [
+        11.358404159545898,
+        13.92617416381836,
+        -43.63858413696289,
+        65.78947448730469,
+        5.46875,
+        17.289073944091797
+      ],
+      "grasp_action": [
+        10.707383155822754,
+        12.992942810058594,
+        -43.882781982421875,
+        65.91010284423828,
+        5.373525619506836,
+        24.081981658935547
+      ],
+      "start_state": [
+        6.8303914070129395,
+        -98.48992919921875,
+        -0.02442002482712269,
+        61.49122619628906,
+        -0.2083333283662796,
+        0.7607192397117615
+      ],
+      "expected_red_position": 5,
+      "expected_blue_position": 2,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 75,
+      "ui_episode": 76,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 491,
+      "first_close_after_open": 159,
+      "grasp_pose": [
+        -48.96392822265625,
+        0.33557048439979553,
+        -33.870574951171875,
+        65.78947448730469,
+        -33.48958206176758,
+        18.81051254272461
+      ],
+      "grasp_action": [
+        -48.434478759765625,
+        -1.2038190364837646,
+        -33.91941452026367,
+        66.1771240234375,
+        -33.94495391845703,
+        24.594364166259766
+      ],
+      "start_state": [
+        5.372218132019043,
+        -98.90939331054688,
+        -0.02442002482712269,
+        61.66666793823242,
+        -0.9375,
+        0.8298755288124084
+      ],
+      "expected_red_position": 5,
+      "expected_blue_position": 2,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 76,
+      "ui_episode": 77,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 532,
+      "first_close_after_open": 198,
+      "grasp_pose": [
+        17.421335220336914,
+        14.09395980834961,
+        -43.83394241333008,
+        67.54386138916016,
+        7.135416507720947,
+        17.427385330200195
+      ],
+      "grasp_action": [
+        16.737533569335938,
+        12.992942810058594,
+        -44.42002487182617,
+        68.22429656982422,
+        7.365662097930908,
+        24.935951232910156
+      ],
+      "start_state": [
+        0.3069838881492615,
+        -99.07717895507812,
+        -0.5128205418586731,
+        70.08772277832031,
+        1.1979166269302368,
+        1.175657033920288
+      ],
+      "expected_red_position": 5,
+      "expected_blue_position": 3,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 77,
+      "ui_episode": 78,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 441,
+      "first_close_after_open": 144,
+      "grasp_pose": [
+        -29.240215301513672,
+        20.637584686279297,
+        -49.010990142822266,
+        71.14035034179688,
+        -23.125,
+        18.049793243408203
+      ],
+      "grasp_action": [
+        -29.02976417541504,
+        19.136571884155273,
+        -49.987789154052734,
+        71.33956146240234,
+        -22.778505325317383,
+        23.996583938598633
+      ],
+      "start_state": [
+        2.3791251182556152,
+        -98.74160766601562,
+        -0.17094017565250397,
+        59.561405181884766,
+        -0.1041666641831398,
+        0.8298755288124084
+      ],
+      "expected_red_position": 5,
+      "expected_blue_position": 3,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 78,
+      "ui_episode": 79,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 446,
+      "first_close_after_open": 140,
+      "grasp_pose": [
+        8.365310668945312,
+        1.0067113637924194,
+        -35.82417678833008,
+        62.28070068359375,
+        2.2916667461395264,
+        18.39557456970215
+      ],
+      "grasp_action": [
+        7.92423677444458,
+        0.37359899282455444,
+        -36.55677795410156,
+        61.993770599365234,
+        2.647444248199463,
+        24.679759979248047
+      ],
+      "start_state": [
+        1.3046815395355225,
+        -98.48992919921875,
+        -1.2942613363265991,
+        75.1754379272461,
+        2.5,
+        0.8990318179130554
+      ],
+      "expected_red_position": 5,
+      "expected_blue_position": 4,
+      "expected_task_index": 0,
+      "matches_described_alternation": true,
+      "target_is_lower_position": false
+    },
+    {
+      "episode": 79,
+      "ui_episode": 80,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 504,
+      "first_close_after_open": 188,
+      "grasp_pose": [
+        -19.26323890686035,
+        0.4194630980491638,
+        -34.21245574951172,
+        61.578948974609375,
+        -17.13541603088379,
+        19.91701316833496
+      ],
+      "grasp_action": [
+        -19.829917907714844,
+        -0.7056869864463806,
+        -34.70085525512695,
+        62.70582962036133,
+        -16.80209732055664,
+        24.850555419921875
+      ],
+      "start_state": [
+        5.679202079772949,
+        -98.74160766601562,
+        -0.12210012227296829,
+        74.3859634399414,
+        1.9270833730697632,
+        0.7607192397117615
+      ],
+      "expected_red_position": 5,
+      "expected_blue_position": 4,
+      "expected_task_index": 1,
+      "matches_described_alternation": true,
+      "target_is_lower_position": true
+    },
+    {
+      "episode": 80,
+      "ui_episode": 81,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 511,
+      "first_close_after_open": 172,
+      "grasp_pose": [
+        -68.99462890625,
+        -3.2718119621276855,
+        -31.08669090270996,
+        57.71929931640625,
+        -49.53125,
+        20.262794494628906
+      ],
+      "grasp_action": [
+        -68.76691436767578,
+        -4.192611217498779,
+        -31.623931884765625,
+        57.63240051269531,
+        -49.14809799194336,
+        24.423568725585938
+      ],
+      "start_state": [
+        3.2233307361602783,
+        -96.30872344970703,
+        0.12210012227296829,
+        73.24561309814453,
+        4.895833492279053,
+        0.0
+      ]
+    },
+    {
+      "episode": 81,
+      "ui_episode": 82,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 458,
+      "first_close_after_open": 166,
+      "grasp_pose": [
+        -66.69224548339844,
+        7.046979904174805,
+        -40.512821197509766,
+        65.2631607055664,
+        -46.82291793823242,
+        16.66666603088379
+      ],
+      "grasp_action": [
+        -66.9887924194336,
+        6.849315166473389,
+        -41.19658279418945,
+        64.39697265625,
+        -47.26081085205078,
+        23.3988037109375
+      ],
+      "start_state": [
+        4.067536354064941,
+        -98.40604400634766,
+        -0.12210012227296829,
+        63.33333206176758,
+        -0.2604166567325592,
+        0.8990318179130554
+      ]
+    },
+    {
+      "episode": 82,
+      "ui_episode": 83,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 449,
+      "first_close_after_open": 148,
+      "grasp_pose": [
+        -36.83806610107422,
+        -15.687919616699219,
+        -24.542123794555664,
+        59.29824447631836,
+        -28.22916603088379,
+        18.81051254272461
+      ],
+      "grasp_action": [
+        -37.30189514160156,
+        -16.23080062866211,
+        -24.981685638427734,
+        58.96751403808594,
+        -27.916120529174805,
+        24.081981658935547
+      ],
+      "start_state": [
+        4.911742210388184,
+        -98.48992919921875,
+        -0.21978022158145905,
+        65.35087585449219,
+        2.5520832538604736,
+        0.8298755288124084
+      ]
+    },
+    {
+      "episode": 83,
+      "ui_episode": 84,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 457,
+      "first_close_after_open": 164,
+      "grasp_pose": [
+        -47.50575637817383,
+        -12.080536842346191,
+        -26.44688606262207,
+        60.614036560058594,
+        -34.42708206176758,
+        19.156293869018555
+      ],
+      "grasp_action": [
+        -47.274837493896484,
+        -12.743877410888672,
+        -27.619047164916992,
+        59.85758972167969,
+        -34.1546516418457,
+        24.167377471923828
+      ],
+      "start_state": [
+        3.607060670852661,
+        -98.48992919921875,
+        -0.21978022158145905,
+        65.0,
+        1.9270833730697632,
+        0.8990318179130554
+      ]
+    },
+    {
+      "episode": 84,
+      "ui_episode": 85,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 493,
+      "first_close_after_open": 225,
+      "grasp_pose": [
+        -33.154258728027344,
+        19.46308708190918,
+        -49.597068786621094,
+        70.87718963623047,
+        -25.0,
+        17.21991729736328
+      ],
+      "grasp_action": [
+        -33.4364128112793,
+        18.223329544067383,
+        -49.79243087768555,
+        71.07254028320312,
+        -24.718217849731445,
+        23.31340789794922
+      ],
+      "start_state": [
+        3.453568696975708,
+        -98.48992919921875,
+        -0.12210012227296829,
+        62.6315803527832,
+        1.8229166269302368,
+        0.8298755288124084
+      ]
+    },
+    {
+      "episode": 85,
+      "ui_episode": 86,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 488,
+      "first_close_after_open": 147,
+      "grasp_pose": [
+        -33.46124267578125,
+        39.010066986083984,
+        -68.88888549804688,
+        82.19298553466797,
+        -24.58333396911621,
+        17.77316665649414
+      ],
+      "grasp_action": [
+        -33.51372146606445,
+        37.318389892578125,
+        -70.84249114990234,
+        82.46550750732422,
+        -24.193971633911133,
+        24.50896644592285
+      ],
+      "start_state": [
+        3.1465847492218018,
+        -98.48992919921875,
+        -0.12210012227296829,
+        60.614036560058594,
+        -0.46875,
+        0.8298755288124084
+      ]
+    },
+    {
+      "episode": 86,
+      "ui_episode": 87,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 444,
+      "first_close_after_open": 165,
+      "grasp_pose": [
+        -18.265541076660156,
+        -7.1308722496032715,
+        -29.4749698638916,
+        59.64912414550781,
+        -14.6875,
+        20.05532455444336
+      ],
+      "grasp_action": [
+        -18.59296417236328,
+        -7.679534912109375,
+        -31.428571701049805,
+        59.85758972167969,
+        -14.285714149475098,
+        24.50896644592285
+      ],
+      "start_state": [
+        3.9140446186065674,
+        -98.57382202148438,
+        -0.12210012227296829,
+        60.438594818115234,
+        0.8333333134651184,
+        0.8298755288124084
+      ]
+    },
+    {
+      "episode": 87,
+      "ui_episode": 88,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 408,
+      "first_close_after_open": 137,
+      "grasp_pose": [
+        -14.351496696472168,
+        16.27516746520996,
+        -46.373626708984375,
+        72.36842346191406,
+        -14.0625,
+        17.49654197692871
+      ],
+      "grasp_action": [
+        -15.114031791687012,
+        15.400581359863281,
+        -46.86202621459961,
+        72.94170379638672,
+        -14.023591041564941,
+        23.825790405273438
+      ],
+      "start_state": [
+        3.990790367126465,
+        -98.82550048828125,
+        -0.12210012227296829,
+        62.01754379272461,
+        0.9375,
+        0.8298755288124084
+      ]
+    },
+    {
+      "episode": 88,
+      "ui_episode": 89,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 448,
+      "first_close_after_open": 142,
+      "grasp_pose": [
+        2.9930927753448486,
+        3.1879193782806396,
+        -36.80097579956055,
+        64.03508758544922,
+        -1.40625,
+        19.294605255126953
+      ],
+      "grasp_action": [
+        2.589872360229492,
+        2.6151931285858154,
+        -37.484737396240234,
+        63.50689697265625,
+        -1.0747051239013672,
+        23.91118621826172
+      ],
+      "start_state": [
+        3.607060670852661,
+        -98.82550048828125,
+        -0.02442002482712269,
+        62.71929931640625,
+        0.7291666865348816,
+        0.8990318179130554
+      ]
+    },
+    {
+      "episode": 89,
+      "ui_episode": 90,
+      "task_index": 0,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 447,
+      "first_close_after_open": 144,
+      "grasp_pose": [
+        15.8864164352417,
+        13.590603828430176,
+        -43.345542907714844,
+        64.91227722167969,
+        8.229166984558105,
+        17.911479949951172
+      ],
+      "grasp_action": [
+        15.732508659362793,
+        12.992942810058594,
+        -43.44322204589844,
+        64.4859848022461,
+        8.414155006408691,
+        24.935951232910156
+      ],
+      "start_state": [
+        5.909439563751221,
+        -98.74160766601562,
+        -0.07326007634401321,
+        62.01754379272461,
+        2.4479167461395264,
+        0.8990318179130554
+      ]
+    },
+    {
+      "episode": 90,
+      "ui_episode": 91,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 424,
+      "first_close_after_open": 157,
+      "grasp_pose": [
+        -70.7597885131836,
+        6.795301914215088,
+        -39.43833923339844,
+        65.96491241455078,
+        -50.20833206176758,
+        18.118947982788086
+      ],
+      "grasp_action": [
+        -70.62234497070312,
+        5.687006950378418,
+        -39.68254089355469,
+        65.4650650024414,
+        -50.30144119262695,
+        23.825790405273438
+      ],
+      "start_state": [
+        4.604758262634277,
+        -98.82550048828125,
+        -0.12210012227296829,
+        62.01754379272461,
+        4.0625,
+        0.8298755288124084
+      ]
+    },
+    {
+      "episode": 91,
+      "ui_episode": 92,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 484,
+      "first_close_after_open": 162,
+      "grasp_pose": [
+        -70.60629272460938,
+        8.892617225646973,
+        -41.001220703125,
+        64.03508758544922,
+        -49.89583206176758,
+        20.954357147216797
+      ],
+      "grasp_action": [
+        -70.39041137695312,
+        8.01162338256836,
+        -40.9523811340332,
+        63.50689697265625,
+        -49.410221099853516,
+        24.935951232910156
+      ],
+      "start_state": [
+        1.5349193811416626,
+        -98.57382202148438,
+        -0.5128205418586731,
+        70.4385986328125,
+        -0.2083333283662796,
+        0.9681881070137024
+      ]
+    },
+    {
+      "episode": 92,
+      "ui_episode": 93,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 446,
+      "first_close_after_open": 149,
+      "grasp_pose": [
+        -39.063697814941406,
+        -22.48322105407715,
+        -20.58608055114746,
+        59.47368240356445,
+        -26.19791603088379,
+        17.565698623657227
+      ],
+      "grasp_action": [
+        -38.61615753173828,
+        -22.62349510192871,
+        -21.0256404876709,
+        58.70048904418945,
+        -26.23853302001953,
+        24.167377471923828
+      ],
+      "start_state": [
+        1.3046815395355225,
+        -98.82550048828125,
+        -0.3663003742694855,
+        68.77192687988281,
+        3.3333332538604736,
+        0.8990318179130554
+      ]
+    },
+    {
+      "episode": 93,
+      "ui_episode": 94,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 496,
+      "first_close_after_open": 171,
+      "grasp_pose": [
+        -40.521873474121094,
+        -16.61073875427246,
+        -23.076923370361328,
+        55.35087585449219,
+        -29.32291603088379,
+        18.879667282104492
+      ],
+      "grasp_action": [
+        -40.85813522338867,
+        -16.894977569580078,
+        -23.711843490600586,
+        54.69514846801758,
+        -29.12188720703125,
+        24.423568725585938
+      ],
+      "start_state": [
+        5.372218132019043,
+        -98.74160766601562,
+        -0.12210012227296829,
+        62.01754379272461,
+        2.1875,
+        0.8298755288124084
+      ]
+    },
+    {
+      "episode": 94,
+      "ui_episode": 95,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 438,
+      "first_close_after_open": 157,
+      "grasp_pose": [
+        -29.854183197021484,
+        33.05369186401367,
+        -62.588523864746094,
+        78.33333587646484,
+        -22.76041603088379,
+        17.150760650634766
+      ],
+      "grasp_action": [
+        -30.34402847290039,
+        31.672893524169922,
+        -64.44444274902344,
+        77.9261245727539,
+        -22.41153335571289,
+        23.65499496459961
+      ],
+      "start_state": [
+        -0.07674597203731537,
+        -98.82550048828125,
+        -0.12210012227296829,
+        74.03508758544922,
+        0.7291666865348816,
+        1.0373444557189941
+      ]
+    },
+    {
+      "episode": 95,
+      "ui_episode": 96,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 421,
+      "first_close_after_open": 126,
+      "grasp_pose": [
+        -27.168073654174805,
+        32.96979904174805,
+        -62.19780349731445,
+        81.14035034179688,
+        -21.71875,
+        17.012447357177734
+      ],
+      "grasp_action": [
+        -26.71047592163086,
+        31.58987045288086,
+        -63.907203674316406,
+        80.86337280273438,
+        -21.415464401245117,
+        23.05721664428711
+      ],
+      "start_state": [
+        3.1465847492218018,
+        -98.82550048828125,
+        -0.21978022158145905,
+        65.87718963623047,
+        4.0625,
+        0.8298755288124084
+      ]
+    },
+    {
+      "episode": 96,
+      "ui_episode": 97,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 406,
+      "first_close_after_open": 141,
+      "grasp_pose": [
+        -8.135072708129883,
+        16.359060287475586,
+        -45.25030517578125,
+        70.08772277832031,
+        -8.541666984558105,
+        18.879667282104492
+      ],
+      "grasp_action": [
+        -8.310784339904785,
+        14.48733901977539,
+        -46.03174591064453,
+        70.18246459960938,
+        -8.62385368347168,
+        23.825790405273438
+      ],
+      "start_state": [
+        4.451266288757324,
+        -98.90939331054688,
+        -0.17094017565250397,
+        65.0,
+        3.3854167461395264,
+        0.8298755288124084
+      ]
+    },
+    {
+      "episode": 97,
+      "ui_episode": 98,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 504,
+      "first_close_after_open": 160,
+      "grasp_pose": [
+        -8.902532577514648,
+        2.3489933013916016,
+        -35.18925476074219,
+        61.66666793823242,
+        -8.541666984558105,
+        18.879667282104492
+      ],
+      "grasp_action": [
+        -9.315810203552246,
+        1.701951026916504,
+        -35.77533721923828,
+        61.103694915771484,
+        -8.204456329345703,
+        23.05721664428711
+      ],
+      "start_state": [
+        2.6861090660095215,
+        -98.65771484375,
+        -0.17094017565250397,
+        71.49122619628906,
+        2.96875,
+        0.8990318179130554
+      ]
+    },
+    {
+      "episode": 98,
+      "ui_episode": 99,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 509,
+      "first_close_after_open": 219,
+      "grasp_pose": [
+        17.72831916809082,
+        15.26845645904541,
+        -44.517704010009766,
+        68.50877380371094,
+        9.427083015441895,
+        18.464731216430664
+      ],
+      "grasp_action": [
+        17.201391220092773,
+        13.657118797302246,
+        -45.10378646850586,
+        68.0462875366211,
+        9.619921684265137,
+        24.850555419921875
+      ],
+      "start_state": [
+        4.604758262634277,
+        -98.48992919921875,
+        -1.0989011526107788,
+        72.45613861083984,
+        2.1354167461395264,
+        0.8990318179130554
+      ]
+    },
+    {
+      "episode": 99,
+      "ui_episode": 100,
+      "task_index": 1,
+      "label_constant": true,
+      "package_label_matches": true,
+      "frames": 421,
+      "first_close_after_open": 153,
+      "grasp_pose": [
+        10.43745231628418,
+        6.2919464111328125,
+        -38.656898498535156,
+        61.92982482910156,
+        4.270833492279053,
+        17.565698623657227
+      ],
+      "grasp_action": [
+        9.934287071228027,
+        5.687006950378418,
+        -39.487178802490234,
+        62.26079177856445,
+        4.534731388092041,
+        24.594364166259766
+      ],
+      "start_state": [
+        4.604758262634277,
+        -98.65771484375,
+        -0.17094017565250397,
+        58.50877380371094,
+        -0.8854166865348816,
+        0.8298755288124084
+      ]
+    }
+  ],
+  "source_checksums": {
+    "分阶段训练模型.py": true,
+    "微调预训练模型.py": true,
+    "管理训练数据来源.py": true,
+    "修正微调训练工具.py": true,
+    "准备纯100段微调.py": true,
+    "准备修正微调数据.py": true,
+    "纯100段按历史16参数训练.py": true
+  },
+  "upstream_train_runtime_comparison": {
+    "configuration_smolvla.py": true,
+    "modeling_smolvla.py": true,
+    "smolvlm_with_expert.py": true
+  },
+  "package_tasks_match_local": true,
+  "counts": {
+    "0": 50,
+    "1": 50
+  },
+  "all_package_labels_match": true,
+  "all_first80_alternate_as_described": true,
+  "dual_target_lower_position_count": 40
+}

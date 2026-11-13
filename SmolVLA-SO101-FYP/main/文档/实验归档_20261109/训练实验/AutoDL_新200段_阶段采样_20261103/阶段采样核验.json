@@ -1,0 +1,63 @@
+{
+  "sampling_version": "stage_balanced_v1",
+  "dataset_fingerprint": "68150bfbbc95b097db1942ee19da21e8dcbd882f15a983061300970bb8fff9e2",
+  "episodes": 200,
+  "train_episodes": 160,
+  "validation_episodes": 40,
+  "train_target_counts": {
+    "RC": 80,
+    "BC": 80
+  },
+  "validation_target_counts": {
+    "RC": 20,
+    "BC": 20
+  },
+  "stage_fraction": {
+    "pre_marker": 0.5,
+    "full_trajectory": 0.5
+  },
+  "chunk_size": 50,
+  "action_window_truncated": false,
+  "negative_instruction_supervision": false,
+  "rgb_color_preserved": true,
+  "status": "passed",
+  "tested_batches": [
+    16,
+    32,
+    64,
+    128,
+    256,
+    384
+  ],
+  "tested_steps_per_batch": 100,
+  "train_episodes_observed": 160,
+  "pre_marker_windows_crossing_marker": 14514,
+  "exact_resume_sampling": true,
+  "counts": {
+    "batch16_pre_marker_0": 400,
+    "batch16_full_trajectory_1": 400,
+    "batch16_pre_marker_1": 400,
+    "batch16_full_trajectory_0": 400,
+    "batch32_full_trajectory_1": 800,
+    "batch32_pre_marker_1": 800,
+    "batch32_full_trajectory_0": 800,
+    "batch32_pre_marker_0": 800,
+    "batch64_pre_marker_1": 1600,
+    "batch64_full_trajectory_1": 1600,
+    "batch64_pre_marker_0": 1600,
+    "batch64_full_trajectory_0": 1600,
+    "batch128_pre_marker_1": 3200,
+    "batch128_pre_marker_0": 3200,
+    "batch128_full_trajectory_0": 3200,
+    "batch128_full_trajectory_1": 3200,
+    "batch256_pre_marker_1": 6400,
+    "batch256_pre_marker_0": 6400,
+    "batch256_full_trajectory_1": 6400,
+    "batch256_full_trajectory_0": 6400,
+    "batch384_pre_marker_1": 9600,
+    "batch384_pre_marker_0": 9600,
+    "batch384_full_trajectory_1": 9600,
+    "batch384_full_trajectory_0": 9600
+  },
+  "robot_commands_sent": 0
+}

@@ -1,0 +1,37 @@
+运行日志：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261102_151516_779184.jsonl
+【1/5】正在加载微调模型……
+模型：D:\FYP\SmolVLA-SO101-FYP\模型\新200段_batch32_20261102\step_020000
+演示：D:\FYP\AutoDL_新200段_4090D_20261102\训练数据
+处理器：D:\FYP\SmolVLA-SO101-FYP\模型\视觉语言处理器
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+任务指令：Pick up the red cube and place it in the target area.
+推理输入存档：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261102_151516_779184
+【2/5】正在计算安全活动范围……
+【3/5】正在连接从臂（只检测，不动）……
+资源清理异常：gripper 停扭矩写入未确认：Failed to write 'Torque_Enable' on id_=6 with '0' after 2 tries. [RxPacketError] Overload error! (device_error=32, 0x20)；gripper 停扭矩读回未确认：Failed to read 'Torque_Enable' on id_=6 after 1 tries. [RxPacketError] Overload error! (device_error=32, 0x20)
+Traceback (most recent call last):
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 638, in <module>
+    main(args.mode, args.scene, selected, settings=trajectory_trial_settings() if args.trajectory_trial else task_inference_settings(args.seconds) if args.task_inference else None,
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 186, in main
+    run_test(resources, mode, scene.strip(), selection, settings, window_start, preview_directory, task=task)
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 285, in run_test
+    follower.bus.connect()
+  File "D:\FYP\SmolVLA-SO101-FYP\上游框架\src\lerobot\motors\motors_bus.py", line 440, in connect
+    self._connect(handshake)
+  File "D:\FYP\SmolVLA-SO101-FYP\上游框架\src\lerobot\motors\motors_bus.py", line 449, in _connect
+    self._handshake()
+  File "D:\FYP\SmolVLA-SO101-FYP\上游框架\src\lerobot\motors\feetech\feetech.py", line 167, in _handshake
+    self._assert_motors_exist()
+  File "D:\FYP\SmolVLA-SO101-FYP\上游框架\src\lerobot\motors\motors_bus.py", line 413, in _assert_motors_exist
+    raise RuntimeError("\n".join(error_lines))
+RuntimeError: FeetechMotorsBus motor check failed on port 'COM4':
+
+Missing motor IDs:
+  - 6 (expected model: 777)
+
+Full expected motor list (id: model_number):
+{1: 777, 2: 777, 3: 777, 4: 777, 5: 777, 6: 777}
+
+Full found motor list (id: model_number):
+{1: 777, 2: 777, 3: 777, 4: 777, 5: 777}

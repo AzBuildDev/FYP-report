@@ -1,0 +1,382 @@
+{
+  "source_archive": "D:\\BaiduNetdiskDownload\\纯100段_历史batch16参数_30k_20261031.zip",
+  "destination": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_历史batch16参数_30k_20261031",
+  "file_count": 51,
+  "bytes": 17522898779,
+  "checkpoints": [
+    {
+      "checkpoint": "best_val",
+      "step": 30000,
+      "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+      "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+      "weights_sha256": "07e2d992135993b1abe8417fbf0cbe78411d8e9d9cb29f2451fd5ffb3a27294d",
+      "tensor_count": 506
+    },
+    {
+      "checkpoint": "last",
+      "step": 30000,
+      "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+      "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+      "weights_sha256": "07e2d992135993b1abe8417fbf0cbe78411d8e9d9cb29f2451fd5ffb3a27294d",
+      "tensor_count": 506
+    },
+    {
+      "checkpoint": "step_005000",
+      "step": 5000,
+      "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+      "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+      "weights_sha256": "a763d61758ffdcdc451799f371eb51232bde1bdc0272c522c72ef15bc9d3b822",
+      "tensor_count": 506
+    },
+    {
+      "checkpoint": "step_010000",
+      "step": 10000,
+      "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+      "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+      "weights_sha256": "5868e134892972b8717da745c20698e3f56099cdba0bbc4a56b3e229cf291380",
+      "tensor_count": 506
+    },
+    {
+      "checkpoint": "step_015000",
+      "step": 15000,
+      "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+      "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+      "weights_sha256": "711735f191c45aa0225b5e89caaed52a447596fa8119a077d88f8b81c90e020f",
+      "tensor_count": 506
+    },
+    {
+      "checkpoint": "step_020000",
+      "step": 20000,
+      "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+      "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+      "weights_sha256": "45177407d822c4965ea065bae92057c44f37f754f0fadd8ac493bba2060082e3",
+      "tensor_count": 506
+    },
+    {
+      "checkpoint": "step_025000",
+      "step": 25000,
+      "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+      "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+      "weights_sha256": "838dd08a9960178922c95af88b64d2fd809104ebd6b1d5fd5f73143292961e53",
+      "tensor_count": 506
+    },
+    {
+      "checkpoint": "step_030000",
+      "step": 30000,
+      "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+      "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+      "weights_sha256": "07e2d992135993b1abe8417fbf0cbe78411d8e9d9cb29f2451fd5ffb3a27294d",
+      "tensor_count": 506
+    }
+  ],
+  "files": [
+    {
+      "path": "best_val/checkpoint_summary.json",
+      "bytes": 55446,
+      "sha256": "153ece7e19e4a3c9616c61a21fad868fad01977b55916405ba4e88a4d3d868f0",
+      "crc32": 3888290173
+    },
+    {
+      "path": "best_val/config.json",
+      "bytes": 2289,
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947",
+      "crc32": 4164869323
+    },
+    {
+      "path": "best_val/dataset_stats.json",
+      "bytes": 781,
+      "sha256": "c1b00ee03718282a5f8eaf1050b4e314df9a0d8698fe8d1d9e3fe75074ef95f1",
+      "crc32": 1880461631
+    },
+    {
+      "path": "best_val/model.safetensors",
+      "bytes": 1391004856,
+      "sha256": "07e2d992135993b1abe8417fbf0cbe78411d8e9d9cb29f2451fd5ffb3a27294d",
+      "crc32": 2517523965
+    },
+    {
+      "path": "best_val/training_provenance.json",
+      "bytes": 34267,
+      "sha256": "310e146f1d84fc38e813e118f728108223d5a0ac58bea397f89348f0d633697d",
+      "crc32": 3552259577
+    },
+    {
+      "path": "best_val/training_state.pt",
+      "bytes": 799218457,
+      "sha256": "0aa2162a12b3f2f7d479e6f1f1959f917870157efd9b10303748c9562c7f7e0e",
+      "crc32": 458846475
+    },
+    {
+      "path": "last/checkpoint_summary.json",
+      "bytes": 55446,
+      "sha256": "153ece7e19e4a3c9616c61a21fad868fad01977b55916405ba4e88a4d3d868f0",
+      "crc32": 3888290173
+    },
+    {
+      "path": "last/config.json",
+      "bytes": 2289,
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947",
+      "crc32": 4164869323
+    },
+    {
+      "path": "last/dataset_stats.json",
+      "bytes": 781,
+      "sha256": "c1b00ee03718282a5f8eaf1050b4e314df9a0d8698fe8d1d9e3fe75074ef95f1",
+      "crc32": 1880461631
+    },
+    {
+      "path": "last/model.safetensors",
+      "bytes": 1391004856,
+      "sha256": "07e2d992135993b1abe8417fbf0cbe78411d8e9d9cb29f2451fd5ffb3a27294d",
+      "crc32": 2517523965
+    },
+    {
+      "path": "last/training_provenance.json",
+      "bytes": 34267,
+      "sha256": "ac21008c66c79fe9462f61ea2129cce4eb44356862dbe4aa19cc397a964852ba",
+      "crc32": 3131970010
+    },
+    {
+      "path": "last/training_state.pt",
+      "bytes": 799218457,
+      "sha256": "0aa2162a12b3f2f7d479e6f1f1959f917870157efd9b10303748c9562c7f7e0e",
+      "crc32": 458846475
+    },
+    {
+      "path": "metrics.jsonl",
+      "bytes": 323592,
+      "sha256": "bd64456d6b51129a69c7fde2aec9e0f12b89173cdb5bb3c4ee88f3f84b71e8f7",
+      "crc32": 1537093999
+    },
+    {
+      "path": "run_config.json",
+      "bytes": 46276,
+      "sha256": "9e74e47101589daf761deb8f08c2a2c95c7bc8e41bb76dcffcaabb68dc86888a",
+      "crc32": 2532284203
+    },
+    {
+      "path": "status.json",
+      "bytes": 194,
+      "sha256": "84034c16cccfa401005878835319376b8ec8acb63c4378b8b14044177a2a05e8",
+      "crc32": 4294449615
+    },
+    {
+      "path": "step_005000/checkpoint_summary.json",
+      "bytes": 55430,
+      "sha256": "9715e8385a43aa4b0d95a43d6e488ca53b528106490a321095b2a6541e3a1537",
+      "crc32": 1863854223
+    },
+    {
+      "path": "step_005000/config.json",
+      "bytes": 2289,
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947",
+      "crc32": 4164869323
+    },
+    {
+      "path": "step_005000/dataset_stats.json",
+      "bytes": 781,
+      "sha256": "c1b00ee03718282a5f8eaf1050b4e314df9a0d8698fe8d1d9e3fe75074ef95f1",
+      "crc32": 1880461631
+    },
+    {
+      "path": "step_005000/model.safetensors",
+      "bytes": 1391004856,
+      "sha256": "a763d61758ffdcdc451799f371eb51232bde1bdc0272c522c72ef15bc9d3b822",
+      "crc32": 2184694049
+    },
+    {
+      "path": "step_005000/training_provenance.json",
+      "bytes": 34266,
+      "sha256": "f4e67dcc058e8c69dbefe65f562a3c0d70a8452ccfeb5395792969c8321f0ecd",
+      "crc32": 1682645348
+    },
+    {
+      "path": "step_005000/training_state.pt",
+      "bytes": 799218457,
+      "sha256": "24346834e06601a1f66cfcc9164e657de64270e2ddd56ee39d00ac9a6c1bcc47",
+      "crc32": 162443329
+    },
+    {
+      "path": "step_010000/checkpoint_summary.json",
+      "bytes": 55428,
+      "sha256": "4f115d96524f35df36eceb48dea2de2ebc0a5e78067f00a8e9900094ffe81f17",
+      "crc32": 3638995183
+    },
+    {
+      "path": "step_010000/config.json",
+      "bytes": 2289,
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947",
+      "crc32": 4164869323
+    },
+    {
+      "path": "step_010000/dataset_stats.json",
+      "bytes": 781,
+      "sha256": "c1b00ee03718282a5f8eaf1050b4e314df9a0d8698fe8d1d9e3fe75074ef95f1",
+      "crc32": 1880461631
+    },
+    {
+      "path": "step_010000/model.safetensors",
+      "bytes": 1391004856,
+      "sha256": "5868e134892972b8717da745c20698e3f56099cdba0bbc4a56b3e229cf291380",
+      "crc32": 2670868614
+    },
+    {
+      "path": "step_010000/training_provenance.json",
+      "bytes": 34267,
+      "sha256": "8a1ddec16b4414d1173727a9a6cd80262dcb4594a22b942a04928b2f80383e07",
+      "crc32": 4079886161
+    },
+    {
+      "path": "step_010000/training_state.pt",
+      "bytes": 799218457,
+      "sha256": "2f9c07a4b8e4447c61460467d37c154b5bc538942a09343de1a6772b2a69625e",
+      "crc32": 2434924871
+    },
+    {
+      "path": "step_015000/checkpoint_summary.json",
+      "bytes": 55435,
+      "sha256": "78fd81a3dc9a56744f5c1effe10cb1f99610fe65742eaab37f0219f2383ff1dc",
+      "crc32": 3722983309
+    },
+    {
+      "path": "step_015000/config.json",
+      "bytes": 2289,
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947",
+      "crc32": 4164869323
+    },
+    {
+      "path": "step_015000/dataset_stats.json",
+      "bytes": 781,
+      "sha256": "c1b00ee03718282a5f8eaf1050b4e314df9a0d8698fe8d1d9e3fe75074ef95f1",
+      "crc32": 1880461631
+    },
+    {
+      "path": "step_015000/model.safetensors",
+      "bytes": 1391004856,
+      "sha256": "711735f191c45aa0225b5e89caaed52a447596fa8119a077d88f8b81c90e020f",
+      "crc32": 1006246301
+    },
+    {
+      "path": "step_015000/training_provenance.json",
+      "bytes": 34267,
+      "sha256": "0b96a511006f2d21ed28daf736fd7d1f71b781224043faea19b1958354a336ab",
+      "crc32": 1528986082
+    },
+    {
+      "path": "step_015000/training_state.pt",
+      "bytes": 799218457,
+      "sha256": "91f15c7edff6c60a4eacdb9bd6d62e06f1f08e31cf2b4ed050ac8535b7c90c9f",
+      "crc32": 2903766394
+    },
+    {
+      "path": "step_020000/checkpoint_summary.json",
+      "bytes": 55440,
+      "sha256": "dd51a1205bdea268c75df8cb2d91307721556ad0983c657d6c42cf87cf8a687b",
+      "crc32": 1018249631
+    },
+    {
+      "path": "step_020000/config.json",
+      "bytes": 2289,
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947",
+      "crc32": 4164869323
+    },
+    {
+      "path": "step_020000/dataset_stats.json",
+      "bytes": 781,
+      "sha256": "c1b00ee03718282a5f8eaf1050b4e314df9a0d8698fe8d1d9e3fe75074ef95f1",
+      "crc32": 1880461631
+    },
+    {
+      "path": "step_020000/model.safetensors",
+      "bytes": 1391004856,
+      "sha256": "45177407d822c4965ea065bae92057c44f37f754f0fadd8ac493bba2060082e3",
+      "crc32": 1410902442
+    },
+    {
+      "path": "step_020000/training_provenance.json",
+      "bytes": 34267,
+      "sha256": "1a9661105683279bdfb400b7d8ea9da97e51a2abf80a2de38ee5a5605c75dc3d",
+      "crc32": 937684191
+    },
+    {
+      "path": "step_020000/training_state.pt",
+      "bytes": 799218457,
+      "sha256": "8090143280f0107f3da6508c95d68a954191d7879e6f37f3d319580a4fe73951",
+      "crc32": 595776667
+    },
+    {
+      "path": "step_025000/checkpoint_summary.json",
+      "bytes": 55447,
+      "sha256": "86559c9d2d313976e3bc449e56afe7434acdf9dea8fb15302607de563620f415",
+      "crc32": 1391966691
+    },
+    {
+      "path": "step_025000/config.json",
+      "bytes": 2289,
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947",
+      "crc32": 4164869323
+    },
+    {
+      "path": "step_025000/dataset_stats.json",
+      "bytes": 781,
+      "sha256": "c1b00ee03718282a5f8eaf1050b4e314df9a0d8698fe8d1d9e3fe75074ef95f1",
+      "crc32": 1880461631
+    },
+    {
+      "path": "step_025000/model.safetensors",
+      "bytes": 1391004856,
+      "sha256": "838dd08a9960178922c95af88b64d2fd809104ebd6b1d5fd5f73143292961e53",
+      "crc32": 3440574573
+    },
+    {
+      "path": "step_025000/training_provenance.json",
+      "bytes": 34267,
+      "sha256": "362804a74a2d1c4a57f1cc3ff10f456394b147d73cd4d81f87edc7c28d28c07d",
+      "crc32": 2120724628
+    },
+    {
+      "path": "step_025000/training_state.pt",
+      "bytes": 799218457,
+      "sha256": "37c83f1ffb3809b2d55f90997cb1b1c522c597b94f4c83cc7a163e7931c8bf6d",
+      "crc32": 2606015256
+    },
+    {
+      "path": "step_030000/checkpoint_summary.json",
+      "bytes": 55446,
+      "sha256": "153ece7e19e4a3c9616c61a21fad868fad01977b55916405ba4e88a4d3d868f0",
+      "crc32": 3888290173
+    },
+    {
+      "path": "step_030000/config.json",
+      "bytes": 2289,
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947",
+      "crc32": 4164869323
+    },
+    {
+      "path": "step_030000/dataset_stats.json",
+      "bytes": 781,
+      "sha256": "c1b00ee03718282a5f8eaf1050b4e314df9a0d8698fe8d1d9e3fe75074ef95f1",
+      "crc32": 1880461631
+    },
+    {
+      "path": "step_030000/model.safetensors",
+      "bytes": 1391004856,
+      "sha256": "07e2d992135993b1abe8417fbf0cbe78411d8e9d9cb29f2451fd5ffb3a27294d",
+      "crc32": 2517523965
+    },
+    {
+      "path": "step_030000/training_provenance.json",
+      "bytes": 34267,
+      "sha256": "3b8ca8de709c0f7000b5bbbd6e06361f9694d5a89bdb5ed2e8db34957180f2ab",
+      "crc32": 3935398535
+    },
+    {
+      "path": "step_030000/training_state.pt",
+      "bytes": 799218457,
+      "sha256": "0aa2162a12b3f2f7d479e6f1f1959f917870157efd9b10303748c9562c7f7e0e",
+      "crc32": 458846475
+    }
+  ],
+  "robot_commands_sent": 0,
+  "status": "passed"
+}

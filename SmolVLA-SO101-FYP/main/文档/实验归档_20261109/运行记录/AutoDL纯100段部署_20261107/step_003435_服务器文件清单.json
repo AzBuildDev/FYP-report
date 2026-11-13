@@ -1,0 +1,39 @@
+{
+  "status": "ready",
+  "path": "/root/autodl-tmp/AutoDL_纯100段_阶段采样_20261107/输出/B_纯100段_stage/step_003435",
+  "files": [
+    {
+      "path": "checkpoint_summary.json",
+      "size": 77122,
+      "sha256": "bd53e37d7b96ee8e7ca70e083948700ca7bb87d4e970aaa8870015da469e7c2f"
+    },
+    {
+      "path": "config.json",
+      "size": 2246,
+      "sha256": "68291bc9bf3323e80efd6bf0868770fd2b6e4150f57bd2c69f7a45f43c370821"
+    },
+    {
+      "path": "dataset_stats.json",
+      "size": 753,
+      "sha256": "ac968296c122ba5961b786d01693dbf38895da2861920e5b163a71385b990f93"
+    },
+    {
+      "path": "model.safetensors",
+      "size": 1391004856,
+      "sha256": "56af69281442f05017994f78d8d2af13cb1834c3a5acd2a9ab73ceb4f2c45efc"
+    },
+    {
+      "path": "training_provenance.json",
+      "size": 33617,
+      "sha256": "0cf42253b623f95502ba1ddec2b45fc6be0950ed417e2a0da09be0b7f38490ae"
+    },
+    {
+      "path": "training_state.pt",
+      "size": 799245721,
+      "sha256": "d49510568243abd3988ce9b505271ea70e7c43442b39351b678ebedba19c22b3"
+    }
+  ],
+  "step": 3435,
+  "batch_size": 140,
+  "annotation_sha256": "fbfa4f589b6800df86fcc9b39b930c3a34946661b3935c5d486cc23c5c67ccf1"
+}

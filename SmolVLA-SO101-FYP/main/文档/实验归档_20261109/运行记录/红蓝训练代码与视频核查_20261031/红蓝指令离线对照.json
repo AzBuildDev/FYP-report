@@ -1,0 +1,894 @@
+{
+  "model": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_历史batch16参数_30k_20261031\\best_val",
+  "summary": {
+    "predicted_delta_normalized_mae": 0.07240973932891488,
+    "correct_task_normalized_mae": 0.08747547303930446,
+    "swapped_task_normalized_mae": 0.12801818931220837,
+    "same_input_different_task_prediction_count": 40,
+    "correct_task_has_smaller_error_count": 31
+  },
+  "records": [
+    {
+      "episode": 0,
+      "frame": 0,
+      "seed": 42,
+      "label": "RC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        2.8073651790618896,
+        5.657906532287598,
+        3.051388740539551,
+        3.6273725032806396,
+        1.889487862586975,
+        0.11146800965070724
+      ],
+      "predicted_delta_normalized_mae": 0.12061377959390895,
+      "correct_task_normalized_mae": 0.05815417746642082,
+      "swapped_task_normalized_mae": 0.15298781574953457,
+      "inference_seconds": {
+        "RC": 1.0165014000085648,
+        "BC": 0.4984124999900814
+      }
+    },
+    {
+      "episode": 0,
+      "frame": 0,
+      "seed": 43,
+      "label": "RC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        2.809586524963379,
+        5.867945671081543,
+        3.2550909519195557,
+        4.082900047302246,
+        1.9844387769699097,
+        0.09370029717683792
+      ],
+      "predicted_delta_normalized_mae": 0.12942178252386835,
+      "correct_task_normalized_mae": 0.05124961143056223,
+      "swapped_task_normalized_mae": 0.1452459638919379,
+      "inference_seconds": {
+        "RC": 0.5108239999972284,
+        "BC": 0.4607168000075035
+      }
+    },
+    {
+      "episode": 0,
+      "frame": 168,
+      "seed": 42,
+      "label": "RC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        0.23052658140659332,
+        0.5147310495376587,
+        0.5522363185882568,
+        0.49744996428489685,
+        0.1510089933872223,
+        0.480372816324234
+      ],
+      "predicted_delta_normalized_mae": 0.019546906762427423,
+      "correct_task_normalized_mae": 0.02906381335531648,
+      "swapped_task_normalized_mae": 0.03724103248011815,
+      "inference_seconds": {
+        "RC": 0.4937640999996802,
+        "BC": 0.5749610000057146
+      }
+    },
+    {
+      "episode": 0,
+      "frame": 168,
+      "seed": 43,
+      "label": "RC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        0.22994980216026306,
+        0.5145448446273804,
+        0.564818799495697,
+        0.521613597869873,
+        0.15383781492710114,
+        0.35959747433662415
+      ],
+      "predicted_delta_normalized_mae": 0.018789620278754644,
+      "correct_task_normalized_mae": 0.028570970292778563,
+      "swapped_task_normalized_mae": 0.039359407145894774,
+      "inference_seconds": {
+        "RC": 0.4830586000025505,
+        "BC": 0.49322039999242406
+      }
+    },
+    {
+      "episode": 1,
+      "frame": 0,
+      "seed": 42,
+      "label": "BC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        1.2207131385803223,
+        2.168304443359375,
+        0.9892035126686096,
+        1.2777206897735596,
+        1.1097007989883423,
+        0.10093501955270767
+      ],
+      "predicted_delta_normalized_mae": 0.04756489597284596,
+      "correct_task_normalized_mae": 0.04670371644049722,
+      "swapped_task_normalized_mae": 0.07339458159680207,
+      "inference_seconds": {
+        "RC": 0.4967145000118762,
+        "BC": 0.5387276999972528
+      }
+    },
+    {
+      "episode": 1,
+      "frame": 0,
+      "seed": 43,
+      "label": "BC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        1.1810622215270996,
+        2.2038304805755615,
+        1.0259698629379272,
+        1.351466417312622,
+        1.0733718872070312,
+        0.08379383385181427
+      ],
+      "predicted_delta_normalized_mae": 0.04829988449691225,
+      "correct_task_normalized_mae": 0.04916957882136252,
+      "swapped_task_normalized_mae": 0.06618623264841952,
+      "inference_seconds": {
+        "RC": 0.5337951000110479,
+        "BC": 0.4903935999900568
+      }
+    },
+    {
+      "episode": 1,
+      "frame": 121,
+      "seed": 42,
+      "label": "BC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        0.916720449924469,
+        0.14323881268501282,
+        0.41114920377731323,
+        0.3355703055858612,
+        0.67767333984375,
+        0.930947482585907
+      ],
+      "predicted_delta_normalized_mae": 0.026777360412980775,
+      "correct_task_normalized_mae": 0.028051464865578274,
+      "swapped_task_normalized_mae": 0.03527931681484337,
+      "inference_seconds": {
+        "RC": 0.5103668999945512,
+        "BC": 0.5972036000021035
+      }
+    },
+    {
+      "episode": 1,
+      "frame": 121,
+      "seed": 43,
+      "label": "BC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        0.934842050075531,
+        0.1393076479434967,
+        0.4191678762435913,
+        0.34800955653190613,
+        0.6963752508163452,
+        1.335715651512146
+      ],
+      "predicted_delta_normalized_mae": 0.03118668384575827,
+      "correct_task_normalized_mae": 0.03506282392731035,
+      "swapped_task_normalized_mae": 0.03900941081927552,
+      "inference_seconds": {
+        "RC": 0.5520131999946898,
+        "BC": 0.4874885000026552
+      }
+    },
+    {
+      "episode": 16,
+      "frame": 0,
+      "seed": 42,
+      "label": "RC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        2.3849587440490723,
+        2.9447999000549316,
+        0.9750009179115295,
+        0.424276739358902,
+        1.1379809379577637,
+        0.12055906653404236
+      ],
+      "predicted_delta_normalized_mae": 0.04545854048406556,
+      "correct_task_normalized_mae": 0.06153556527346017,
+      "swapped_task_normalized_mae": 0.08414504497778891,
+      "inference_seconds": {
+        "RC": 0.4884971000137739,
+        "BC": 0.4840355000051204
+      }
+    },
+    {
+      "episode": 16,
+      "frame": 0,
+      "seed": 43,
+      "label": "RC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        2.4304230213165283,
+        2.7450575828552246,
+        0.8077477812767029,
+        0.45756736397743225,
+        1.2143902778625488,
+        0.1319637894630432
+      ],
+      "predicted_delta_normalized_mae": 0.044810705798852546,
+      "correct_task_normalized_mae": 0.05297271699644073,
+      "swapped_task_normalized_mae": 0.07970767568719134,
+      "inference_seconds": {
+        "RC": 0.5527876999985892,
+        "BC": 0.49631510001199786
+      }
+    },
+    {
+      "episode": 16,
+      "frame": 132,
+      "seed": 42,
+      "label": "RC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        0.17930832505226135,
+        0.13067257404327393,
+        0.28253424167633057,
+        0.26654326915740967,
+        0.12048827856779099,
+        0.15276817977428436
+      ],
+      "predicted_delta_normalized_mae": 0.009381577112634334,
+      "correct_task_normalized_mae": 0.021525454377626842,
+      "swapped_task_normalized_mae": 0.019085124084314772,
+      "inference_seconds": {
+        "RC": 0.43376770000031684,
+        "BC": 0.45587130000058096
+      }
+    },
+    {
+      "episode": 16,
+      "frame": 132,
+      "seed": 43,
+      "label": "RC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        0.18659286201000214,
+        0.12336982786655426,
+        0.28241363167762756,
+        0.26821717619895935,
+        0.13361236453056335,
+        0.22893020510673523
+      ],
+      "predicted_delta_normalized_mae": 0.010256592347601491,
+      "correct_task_normalized_mae": 0.022517946363154368,
+      "swapped_task_normalized_mae": 0.023120728438883312,
+      "inference_seconds": {
+        "RC": 0.5071912999992492,
+        "BC": 0.4922472999896854
+      }
+    },
+    {
+      "episode": 17,
+      "frame": 0,
+      "seed": 42,
+      "label": "BC",
+      "split": "validation",
+      "predicted_delta_mae_per_joint": [
+        7.509764194488525,
+        1.7002971172332764,
+        1.504597783088684,
+        2.0184502601623535,
+        3.328376531600952,
+        0.20435553789138794
+      ],
+      "predicted_delta_normalized_mae": 0.1085863684120578,
+      "correct_task_normalized_mae": 0.5104178060723595,
+      "swapped_task_normalized_mae": 0.4182834458453,
+      "inference_seconds": {
+        "RC": 0.46816930000204593,
+        "BC": 0.43208070000400767
+      }
+    },
+    {
+      "episode": 17,
+      "frame": 0,
+      "seed": 43,
+      "label": "BC",
+      "split": "validation",
+      "predicted_delta_mae_per_joint": [
+        7.55244255065918,
+        1.6802767515182495,
+        1.34492826461792,
+        2.1312553882598877,
+        3.4303297996520996,
+        0.21396587789058685
+      ],
+      "predicted_delta_normalized_mae": 0.10986372472137224,
+      "correct_task_normalized_mae": 0.5152050290168291,
+      "swapped_task_normalized_mae": 0.4211451806943298,
+      "inference_seconds": {
+        "RC": 0.47539429999596905,
+        "BC": 0.4293531000002986
+      }
+    },
+    {
+      "episode": 17,
+      "frame": 123,
+      "seed": 42,
+      "label": "BC",
+      "split": "validation",
+      "predicted_delta_mae_per_joint": [
+        0.1336662322282791,
+        1.0665297508239746,
+        0.9385406970977783,
+        1.366796851158142,
+        0.10920517146587372,
+        0.5261884331703186
+      ],
+      "predicted_delta_normalized_mae": 0.03552110550391714,
+      "correct_task_normalized_mae": 0.2227816643685946,
+      "swapped_task_normalized_mae": 0.25021397150491476,
+      "inference_seconds": {
+        "RC": 0.4689938999945298,
+        "BC": 0.48747849999926984
+      }
+    },
+    {
+      "episode": 17,
+      "frame": 123,
+      "seed": 43,
+      "label": "BC",
+      "split": "validation",
+      "predicted_delta_mae_per_joint": [
+        0.1303500384092331,
+        1.073691725730896,
+        0.9627623558044434,
+        1.3847829103469849,
+        0.12130630761384964,
+        0.5830736756324768
+      ],
+      "predicted_delta_normalized_mae": 0.03659489658640269,
+      "correct_task_normalized_mae": 0.21060976388955374,
+      "swapped_task_normalized_mae": 0.23692929775798527,
+      "inference_seconds": {
+        "RC": 0.43682330001320224,
+        "BC": 0.47774679999565706
+      }
+    },
+    {
+      "episode": 32,
+      "frame": 0,
+      "seed": 42,
+      "label": "RC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        6.483051300048828,
+        5.200231552124023,
+        2.262901544570923,
+        2.8574469089508057,
+        3.0141921043395996,
+        0.11092489212751389
+      ],
+      "predicted_delta_normalized_mae": 0.12984025820862483,
+      "correct_task_normalized_mae": 0.05012404635279152,
+      "swapped_task_normalized_mae": 0.13916976997127403,
+      "inference_seconds": {
+        "RC": 0.49151579999306705,
+        "BC": 0.433889599997201
+      }
+    },
+    {
+      "episode": 32,
+      "frame": 0,
+      "seed": 43,
+      "label": "RC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        6.223423957824707,
+        5.344799041748047,
+        2.2146317958831787,
+        2.7677876949310303,
+        2.9969799518585205,
+        0.1025887131690979
+      ],
+      "predicted_delta_normalized_mae": 0.12732342854725195,
+      "correct_task_normalized_mae": 0.06427862741040953,
+      "swapped_task_normalized_mae": 0.1356922045158935,
+      "inference_seconds": {
+        "RC": 0.43237799999769777,
+        "BC": 0.43445809998956975
+      }
+    },
+    {
+      "episode": 32,
+      "frame": 130,
+      "seed": 42,
+      "label": "RC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        0.44760024547576904,
+        0.2949559688568115,
+        0.0493815615773201,
+        0.4330815076828003,
+        0.42724668979644775,
+        1.0173051357269287
+      ],
+      "predicted_delta_normalized_mae": 0.022545729437890245,
+      "correct_task_normalized_mae": 0.0233955355554606,
+      "swapped_task_normalized_mae": 0.038332362389487,
+      "inference_seconds": {
+        "RC": 0.4543074999965029,
+        "BC": 0.47060629999032244
+      }
+    },
+    {
+      "episode": 32,
+      "frame": 130,
+      "seed": 43,
+      "label": "RC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        0.440277636051178,
+        0.2566908895969391,
+        0.05222366377711296,
+        0.43287643790245056,
+        0.42974379658699036,
+        1.2180982828140259
+      ],
+      "predicted_delta_normalized_mae": 0.024373133851278556,
+      "correct_task_normalized_mae": 0.021875630667500937,
+      "swapped_task_normalized_mae": 0.038466441991446595,
+      "inference_seconds": {
+        "RC": 0.46226679999381304,
+        "BC": 0.4976450999965891
+      }
+    },
+    {
+      "episode": 33,
+      "frame": 0,
+      "seed": 42,
+      "label": "BC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        7.707549571990967,
+        6.226059436798096,
+        2.19808292388916,
+        4.387060165405273,
+        3.978059768676758,
+        0.5829941034317017
+      ],
+      "predicted_delta_normalized_mae": 0.17117049564863485,
+      "correct_task_normalized_mae": 0.07918481796950869,
+      "swapped_task_normalized_mae": 0.1554219623010672,
+      "inference_seconds": {
+        "RC": 0.44930229999590665,
+        "BC": 0.4407277999998769
+      }
+    },
+    {
+      "episode": 33,
+      "frame": 0,
+      "seed": 43,
+      "label": "BC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        7.44537353515625,
+        6.965877056121826,
+        2.297332525253296,
+        4.304671764373779,
+        3.979097604751587,
+        0.4202633798122406
+      ],
+      "predicted_delta_normalized_mae": 0.17067415497478253,
+      "correct_task_normalized_mae": 0.06085936880040019,
+      "swapped_task_normalized_mae": 0.15932414503961106,
+      "inference_seconds": {
+        "RC": 0.49225169999408536,
+        "BC": 0.5438759999960894
+      }
+    },
+    {
+      "episode": 33,
+      "frame": 142,
+      "seed": 42,
+      "label": "BC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        0.047996826469898224,
+        0.054062116891145706,
+        0.11674141138792038,
+        0.161030113697052,
+        0.030866241082549095,
+        0.2334275096654892
+      ],
+      "predicted_delta_normalized_mae": 0.005942328400592774,
+      "correct_task_normalized_mae": 0.03261943973799625,
+      "swapped_task_normalized_mae": 0.030789664483545507,
+      "inference_seconds": {
+        "RC": 0.5058571999979904,
+        "BC": 0.43723409999802243
+      }
+    },
+    {
+      "episode": 33,
+      "frame": 142,
+      "seed": 43,
+      "label": "BC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        0.051796723157167435,
+        0.055685270577669144,
+        0.12184616178274155,
+        0.1664752960205078,
+        0.03471725434064865,
+        0.1720237284898758
+      ],
+      "predicted_delta_normalized_mae": 0.0055030297193666075,
+      "correct_task_normalized_mae": 0.03282313604712726,
+      "swapped_task_normalized_mae": 0.030461669230443467,
+      "inference_seconds": {
+        "RC": 0.4520557999931043,
+        "BC": 0.5731079999968642
+      }
+    },
+    {
+      "episode": 48,
+      "frame": 0,
+      "seed": 42,
+      "label": "RC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        5.704262733459473,
+        4.0486297607421875,
+        2.803178071975708,
+        1.7396563291549683,
+        3.1488287448883057,
+        0.4147273302078247
+      ],
+      "predicted_delta_normalized_mae": 0.11497677165000213,
+      "correct_task_normalized_mae": 0.04289993405309921,
+      "swapped_task_normalized_mae": 0.119688907134056,
+      "inference_seconds": {
+        "RC": 0.5009892000089167,
+        "BC": 0.5339456000074279
+      }
+    },
+    {
+      "episode": 48,
+      "frame": 0,
+      "seed": 43,
+      "label": "RC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        5.663142204284668,
+        3.891342878341675,
+        2.7246363162994385,
+        1.836867332458496,
+        3.200198173522949,
+        0.3892965018749237
+      ],
+      "predicted_delta_normalized_mae": 0.11500146969762229,
+      "correct_task_normalized_mae": 0.04400193430775656,
+      "swapped_task_normalized_mae": 0.1238964988490671,
+      "inference_seconds": {
+        "RC": 0.4327253999945242,
+        "BC": 0.43536190000304487
+      }
+    },
+    {
+      "episode": 48,
+      "frame": 121,
+      "seed": 42,
+      "label": "RC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        0.08654869347810745,
+        0.1271165907382965,
+        0.03346267715096474,
+        0.05279838666319847,
+        0.05195467174053192,
+        0.1779528111219406
+      ],
+      "predicted_delta_normalized_mae": 0.00398262815133441,
+      "correct_task_normalized_mae": 0.037800597356721914,
+      "swapped_task_normalized_mae": 0.03592922582575145,
+      "inference_seconds": {
+        "RC": 0.46955090000119526,
+        "BC": 0.557519100009813
+      }
+    },
+    {
+      "episode": 48,
+      "frame": 121,
+      "seed": 43,
+      "label": "RC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        0.07992969453334808,
+        0.1177089661359787,
+        0.03862548992037773,
+        0.05785781890153885,
+        0.05256841704249382,
+        0.1424381285905838
+      ],
+      "predicted_delta_normalized_mae": 0.003674991546381956,
+      "correct_task_normalized_mae": 0.03997556352991599,
+      "swapped_task_normalized_mae": 0.03864123363283842,
+      "inference_seconds": {
+        "RC": 0.45065310000791214,
+        "BC": 0.45101960000465624
+      }
+    },
+    {
+      "episode": 49,
+      "frame": 0,
+      "seed": 42,
+      "label": "BC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        3.910327434539795,
+        3.1566824913024902,
+        2.070112943649292,
+        0.9160880446434021,
+        1.9279170036315918,
+        0.3672183156013489
+      ],
+      "predicted_delta_normalized_mae": 0.07683050614418334,
+      "correct_task_normalized_mae": 0.051617789576199016,
+      "swapped_task_normalized_mae": 0.11220285854911505,
+      "inference_seconds": {
+        "RC": 0.4952998000080697,
+        "BC": 0.45678909998969175
+      }
+    },
+    {
+      "episode": 49,
+      "frame": 0,
+      "seed": 43,
+      "label": "BC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        4.039402008056641,
+        2.8452320098876953,
+        1.974526047706604,
+        1.3496487140655518,
+        2.079848051071167,
+        0.37736091017723083
+      ],
+      "predicted_delta_normalized_mae": 0.08251302342807311,
+      "correct_task_normalized_mae": 0.0507172566406681,
+      "swapped_task_normalized_mae": 0.11183673015761637,
+      "inference_seconds": {
+        "RC": 0.4620240000076592,
+        "BC": 0.454520399987814
+      }
+    },
+    {
+      "episode": 49,
+      "frame": 138,
+      "seed": 42,
+      "label": "BC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        0.07746169716119766,
+        0.08655738830566406,
+        0.08461295813322067,
+        0.08644897490739822,
+        0.0712352767586708,
+        0.061607476323843
+      ],
+      "predicted_delta_normalized_mae": 0.0036089434187490197,
+      "correct_task_normalized_mae": 0.02914671199592875,
+      "swapped_task_normalized_mae": 0.030998130840786592,
+      "inference_seconds": {
+        "RC": 0.54200889999629,
+        "BC": 0.4650173999980325
+      }
+    },
+    {
+      "episode": 49,
+      "frame": 138,
+      "seed": 43,
+      "label": "BC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        0.09942200034856796,
+        0.080011747777462,
+        0.08074882626533508,
+        0.07873565703630447,
+        0.08809715509414673,
+        0.07566913962364197
+      ],
+      "predicted_delta_normalized_mae": 0.003828467125323356,
+      "correct_task_normalized_mae": 0.02504602990830137,
+      "swapped_task_normalized_mae": 0.02683719405903342,
+      "inference_seconds": {
+        "RC": 0.4831179000029806,
+        "BC": 0.43445680000877474
+      }
+    },
+    {
+      "episode": 64,
+      "frame": 0,
+      "seed": 42,
+      "label": "RC",
+      "split": "validation",
+      "predicted_delta_mae_per_joint": [
+        13.417607307434082,
+        4.5310821533203125,
+        2.3059773445129395,
+        0.9891290068626404,
+        7.1601338386535645,
+        0.5559235215187073
+      ],
+      "predicted_delta_normalized_mae": 0.17329529183450995,
+      "correct_task_normalized_mae": 0.2846902875147599,
+      "swapped_task_normalized_mae": 0.43286611038709094,
+      "inference_seconds": {
+        "RC": 0.5065685999870766,
+        "BC": 0.4465138000086881
+      }
+    },
+    {
+      "episode": 64,
+      "frame": 0,
+      "seed": 43,
+      "label": "RC",
+      "split": "validation",
+      "predicted_delta_mae_per_joint": [
+        14.019135475158691,
+        5.118936061859131,
+        2.38761568069458,
+        1.1256957054138184,
+        7.603287220001221,
+        0.5703117251396179
+      ],
+      "predicted_delta_normalized_mae": 0.18434475008231266,
+      "correct_task_normalized_mae": 0.2841013151928262,
+      "swapped_task_normalized_mae": 0.4406936040394307,
+      "inference_seconds": {
+        "RC": 0.5973211999953492,
+        "BC": 0.43854339999961667
+      }
+    },
+    {
+      "episode": 64,
+      "frame": 93,
+      "seed": 42,
+      "label": "RC",
+      "split": "validation",
+      "predicted_delta_mae_per_joint": [
+        0.13246220350265503,
+        0.265298992395401,
+        0.06044159084558487,
+        0.36064255237579346,
+        0.051482103765010834,
+        0.5874679684638977
+      ],
+      "predicted_delta_normalized_mae": 0.01297743032641155,
+      "correct_task_normalized_mae": 0.08228423673411847,
+      "swapped_task_normalized_mae": 0.07201589659498973,
+      "inference_seconds": {
+        "RC": 0.4601078999985475,
+        "BC": 0.4846815000055358
+      }
+    },
+    {
+      "episode": 64,
+      "frame": 93,
+      "seed": 43,
+      "label": "RC",
+      "split": "validation",
+      "predicted_delta_mae_per_joint": [
+        0.13184696435928345,
+        0.23704856634140015,
+        0.06782646477222443,
+        0.3542039394378662,
+        0.05191999301314354,
+        0.5473779439926147
+      ],
+      "predicted_delta_normalized_mae": 0.012449683190012101,
+      "correct_task_normalized_mae": 0.08562539134843228,
+      "swapped_task_normalized_mae": 0.07658112310299767,
+      "inference_seconds": {
+        "RC": 0.5726904000039212,
+        "BC": 0.4453036999912001
+      }
+    },
+    {
+      "episode": 65,
+      "frame": 0,
+      "seed": 42,
+      "label": "BC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        18.67339324951172,
+        12.320123672485352,
+        5.673104286193848,
+        1.1854826211929321,
+        9.63040542602539,
+        2.1614623069763184
+      ],
+      "predicted_delta_normalized_mae": 0.2905920647927862,
+      "correct_task_normalized_mae": 0.04096293061545572,
+      "swapped_task_normalized_mae": 0.2997131581060583,
+      "inference_seconds": {
+        "RC": 0.5203585999988718,
+        "BC": 0.5013853999989806
+      }
+    },
+    {
+      "episode": 65,
+      "frame": 0,
+      "seed": 43,
+      "label": "BC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        18.908649444580078,
+        13.467694282531738,
+        5.925920486450195,
+        1.1416327953338623,
+        9.8045072555542,
+        2.35417103767395
+      ],
+      "predicted_delta_normalized_mae": 0.30054693460884463,
+      "correct_task_normalized_mae": 0.044984449792648956,
+      "swapped_task_normalized_mae": 0.2963559050640487,
+      "inference_seconds": {
+        "RC": 0.4908165000088047,
+        "BC": 0.5127496000059182
+      }
+    },
+    {
+      "episode": 65,
+      "frame": 131,
+      "seed": 42,
+      "label": "BC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        0.08904311805963516,
+        0.08567352592945099,
+        0.20022377371788025,
+        0.2478431761264801,
+        0.0466434471309185,
+        0.29351532459259033
+      ],
+      "predicted_delta_normalized_mae": 0.008733402163624589,
+      "correct_task_normalized_mae": 0.02407826763653285,
+      "swapped_task_normalized_mae": 0.02824463179223967,
+      "inference_seconds": {
+        "RC": 0.4966692000016337,
+        "BC": 0.5049695000052452
+      }
+    },
+    {
+      "episode": 65,
+      "frame": 131,
+      "seed": 43,
+      "label": "BC",
+      "split": "train",
+      "predicted_delta_mae_per_joint": [
+        0.10163147002458572,
+        0.08170784264802933,
+        0.20753921568393707,
+        0.25918808579444885,
+        0.053221359848976135,
+        0.28863853216171265
+      ],
+      "predicted_delta_normalized_mae": 0.00898623135364136,
+      "correct_task_normalized_mae": 0.022333519869772528,
+      "swapped_task_normalized_mae": 0.025233914292912028,
+      "inference_seconds": {
+        "RC": 0.43780090000655036,
+        "BC": 0.4330253999942215
+      }
+    }
+  ],
+  "hardware_commands_sent": 0,
+  "note": "切换任务时图像、状态和噪声完全相同；含训练样本，不是独立成功率评估。"
+}

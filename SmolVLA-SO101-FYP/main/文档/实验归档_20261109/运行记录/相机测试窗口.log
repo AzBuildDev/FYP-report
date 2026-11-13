@@ -1,0 +1,396 @@
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000029693aeee40] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000028a6e2bf000] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001673cf6d000] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 00000226747eed40] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002ab47950000] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001dafde0ff80] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 00000286a995cfc0] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 0000026ccc083c80] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000025827e3f140] deprecated pixel[in#0/dshow @ 0000020d1b7f3c80] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001d725bf0000] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001ddd1477e40] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000023369e8c980] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000027023c12fc0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002198884fec0] deprecated pixel[in#0/dshow @ 000001b2fb985080] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 00000255eb9bcfc0] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 000001e4dcd45080] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001bb7eae6480] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 0000022a0acd5080] Error during demuxing: I/O error
+[vf#0:0 @ 0000022a0acdfb80] No filtered frames for output stream, trying to initialize anyway.
+[out#0/rawvideo @ 0000022a0acdc680] Output file is empty, nothing was encoded(check -ss / -t / -frames parameters if used)
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002168c00cf40] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 000001a990775080] Error during demuxing: I/O error
+[vf#0:0 @ 000001a99077fb80] No filtered frames for output stream, trying to initialize anyway.
+[out#0/rawvideo @ 000001a99077c680] Output file is empty, nothing was encoded(check -ss / -t / -frames parameters if used)
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000022ed7a76fc0] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002321bb26fc0] deprecated pixel[in#0/dshow @ 000001881fc95080] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001d09ee92ec0] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 00000164c9725300] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001e4922fff40] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 000001649e3f5300] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 00000217146c9f80] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000023a274a5fc0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002a63f946fc0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001dc01ccde00] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000020ffef42f40] deprecated pixel[in#0/dshow @ 000002c660b04d80] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 00000267b2882dc0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000026354dafec0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000029d9e889e80] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001f65c73ffc0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000021642e95180] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001996ec30000] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001d12084e2c0] deprecated pixel[in#0/dshow @ 000001907cc24240] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001e1ec7f5180] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001c8eb69ed40] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001675b690000] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 00000218de9cbfc0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002806142b6c0] deprecated pixel[in#0/dshow @ 0000029122534280] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 00000277e3002fc0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000024fce43cf00] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001d8cf3150c0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000011c62befe40] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000027e34a45180] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000018ea3c87f40] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000024757177f00] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 00000277ea40ef40] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000012877256fc0] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000026efb744fc0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001c2b982e480] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000020b9101fec0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002202546fec0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002306d2cce00] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000020c62e52340] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000015fc40bfe40] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002821d5feec0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001be7e72cac0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000025da8f4a000] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002453324f000] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000026a1ee3e540] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001bd2491cfc0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002788d46ff80] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001eed2c0cfc0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000029561859fc0] deprecated pixel[in#0/dshow @ 000002666a0d3f00] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002425c4b2f80] deprecated pixel[in#0/dshow @ 0000024981d041c0] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000015a404a0000] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 00000245f14141c0] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000020b419b2f80] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 00000198daa341c0] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001de3686ffc0] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 000001c6c8c941c0] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001ff84cdfe40] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 00000292a68641c0] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001b554796f40] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 00000210600c41c0] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001a4ebe97f80] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 000001c2a21c41c0] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002b6f9f1ee00] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 000001c4ac0b41c0] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000022069b4cfc0] deprecated pixel[in#0/dshow @ 00000288624941c0] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 00000150bc3e2f00] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 000002ec2cf841c0] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001dcaa316fc0] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 000002b8827d41c0] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 00000160a082cd00] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 000001241c4741c0] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002944050cfc0] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 0000027b671541c0] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000022463269fc0] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 00000215f69841c0] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000017eb92aff00] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 000002a8223c41c0] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000015a6c685e00] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000024c7219cfc0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000020840a16c40] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001ecf7c76fc0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001e06fc96fc0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000022cd5486fc0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000025e478d6fc0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002083a259f80] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001a067d7fb80] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 00000245fdfffa40] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000020013d9ef80] deprecated pixel[dshow @ 00000156fec7f200] Could not RenderStream to connect pins
+[in#0 @ 00000156fec84bc0] Error opening input: I/O error
+Error opening input file video=icspring camera.
+Error opening input files: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000011f69a9a000] deprecated pixel[in#0/dshow @ 00000236a4c54bc0] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 00000179e843fc40] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000026012ea7000] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000022f3bcd2fc0] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 00000284f43f6f80] deprecated pixel[in#0/dshow @ 000002aabe0c4d80] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000001f6acfffb80] deprecated pixel[in#0/dshow @ 0000018df1b74d80] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002e3bc6db140] deprecated pixel[in#0/dshow @ 000001bbc8d44280] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000016c97182fc0] deprecated pixel[in#0/dshow @ 0000010d6ff84280] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000029a7645ff40] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 00000213edaae200] deprecated pixel format used, make sure you did set range correctly
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 000002421721efc0] deprecated pixel[in#0/dshow @ 000001c88a794240] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000020f7e645340] deprecated pixel format used, make sure you did set range correctly
+
+START icspring camera: YUY2, 640x480, 20 FPS
+[in#0/dshow @ 000001bebd1e4240] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000021cf32a2dc0] deprecated pixel[in#0/dshow @ 000001c2c2fc4280] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000018d932b2fc0] deprecated pixel[in#0/dshow @ 000001d3b3f63e00] Error during demuxing: I/O error
+
+START 1080P USB Camera: MJPG, 640x480, 25 FPS
+[swscaler @ 0000022f57b37e00] deprecated pixel format used, make sure you did set range correctly

@@ -1,0 +1,14 @@
+# 较早的 Python 3.12 / CUDA 12.8 独立安装方案；不是当前 Conda 环境锁文件。
+# 当前 Python 3.10 / CUDA 12.6 实测版本及使用方式见 本地部署说明.md。
+-e ./上游框架[feetech,smolvla]
+ultralytics==8.4.166
+numpy==1.26.4
+opencv-python==4.11.0.86
+diffusers==0.34.0
+huggingface-hub==0.34.4
+wandb==0.21.1
+av==15.0.0
+pandas==2.3.1
+transformers==4.51.3
+accelerate==1.15.0
+num2words==0.5.14

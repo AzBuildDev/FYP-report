@@ -1,0 +1,62 @@
+{
+  "sampling_version": "stage_balanced_v2_no_review",
+  "dataset_fingerprint": "50515e56d61e72b8c9d1e22d4fcbf1231d29385a005ea72eaeb9b56173e8e876",
+  "episodes": 100,
+  "train_episodes": 80,
+  "validation_episodes": 20,
+  "train_target_counts": {
+    "RC": 40,
+    "BC": 40
+  },
+  "validation_target_counts": {
+    "RC": 10,
+    "BC": 10
+  },
+  "stage_fraction": {
+    "pre_marker": 0.5,
+    "full_trajectory": 0.5
+  },
+  "actual_pre_marker_fraction_may_exceed_half": true,
+  "chunk_size": 50,
+  "action_window_truncated": false,
+  "negative_instruction_supervision": false,
+  "confirmation_required": false,
+  "status": "passed",
+  "tested_modes": [
+    "stage",
+    "full"
+  ],
+  "tested_batches": [
+    16,
+    32,
+    64
+  ],
+  "tested_steps_per_mode_batch": 100,
+  "train_episodes_observed": 80,
+  "pre_marker_windows_crossing_marker": 1671,
+  "exact_resume_sampling": true,
+  "decoded_cpu_images": 0,
+  "counts": {
+    "stage_batch16_pre_marker_0": 400,
+    "stage_batch16_full_trajectory_1": 400,
+    "stage_batch16_pre_marker_1": 400,
+    "stage_batch16_full_trajectory_0": 400,
+    "stage_batch32_full_trajectory_1": 800,
+    "stage_batch32_pre_marker_1": 800,
+    "stage_batch32_full_trajectory_0": 800,
+    "stage_batch32_pre_marker_0": 800,
+    "stage_batch64_pre_marker_1": 1600,
+    "stage_batch64_full_trajectory_1": 1600,
+    "stage_batch64_pre_marker_0": 1600,
+    "stage_batch64_full_trajectory_0": 1600,
+    "full_batch16_full_trajectory_0": 800,
+    "full_batch16_full_trajectory_1": 800,
+    "full_batch32_full_trajectory_1": 1600,
+    "full_batch32_full_trajectory_0": 1600,
+    "full_batch64_full_trajectory_0": 3200,
+    "full_batch64_full_trajectory_1": 3200
+  },
+  "gpu_model_loaded": false,
+  "optimizer_updates": 0,
+  "robot_commands_sent": 0
+}

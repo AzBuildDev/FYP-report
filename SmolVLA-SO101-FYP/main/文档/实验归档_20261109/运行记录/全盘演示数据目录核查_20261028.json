@@ -1,0 +1,146 @@
+{
+  "datasets": [
+    {
+      "path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261019_100106_674366",
+      "files": [
+        "采集配置.json"
+      ]
+    },
+    {
+      "path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261019_100106_674366\\meta",
+      "files": [
+        "episodes.jsonl",
+        "info.json",
+        "scene_annotations.json",
+        "tasks.jsonl"
+      ],
+      "episodes": 50,
+      "frames": 20487
+    },
+    {
+      "path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261024_140729_272733",
+      "files": [
+        "采集配置.json"
+      ]
+    },
+    {
+      "path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261024_140729_272733\\meta",
+      "files": [
+        "episodes.jsonl",
+        "info.json",
+        "scene_annotations.json",
+        "tasks.jsonl"
+      ],
+      "episodes": 18,
+      "frames": 8484
+    }
+  ],
+  "data_folders": [
+    {
+      "path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261019_100106_674366\\data\\chunk-000",
+      "parquet_count": 50,
+      "video_count": 0,
+      "examples": [
+        "episode_000000.parquet",
+        "episode_000001.parquet",
+        "episode_000002.parquet"
+      ]
+    },
+    {
+      "path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261019_100106_674366\\videos\\chunk-000\\observation.images.front",
+      "parquet_count": 0,
+      "video_count": 50,
+      "examples": [
+        "episode_000000.mp4",
+        "episode_000001.mp4",
+        "episode_000002.mp4"
+      ]
+    },
+    {
+      "path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261019_100106_674366\\videos\\chunk-000\\observation.images.wrist",
+      "parquet_count": 0,
+      "video_count": 50,
+      "examples": [
+        "episode_000000.mp4",
+        "episode_000001.mp4",
+        "episode_000002.mp4"
+      ]
+    },
+    {
+      "path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261024_140729_272733\\data\\chunk-000",
+      "parquet_count": 18,
+      "video_count": 0,
+      "examples": [
+        "episode_000000.parquet",
+        "episode_000001.parquet",
+        "episode_000002.parquet"
+      ]
+    },
+    {
+      "path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261024_140729_272733\\videos\\chunk-000\\observation.images.front",
+      "parquet_count": 0,
+      "video_count": 18,
+      "examples": [
+        "episode_000000.mp4",
+        "episode_000001.mp4",
+        "episode_000002.mp4"
+      ]
+    },
+    {
+      "path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261024_140729_272733\\videos\\chunk-000\\observation.images.wrist",
+      "parquet_count": 0,
+      "video_count": 18,
+      "examples": [
+        "episode_000000.mp4",
+        "episode_000001.mp4",
+        "episode_000002.mp4"
+      ]
+    }
+  ],
+  "archives": [
+    {
+      "path": "D:\\BaiduNetdiskDownload\\SmolVLA_五位置50段_bs64_30k_20261020.zip",
+      "bytes": 9951865309
+    },
+    {
+      "path": "D:\\BaiduNetdiskDownload\\SmolVLA_五位置50段_bs64_30k_20261020\\SmolVLA_五位置50段_bs64_30k_20261020\\数据\\双相机演示_20261019_100106_674366.zip",
+      "bytes": 230578422
+    },
+    {
+      "path": "D:\\FYP\\tools\\gh.zip",
+      "bytes": 15194618
+    },
+    {
+      "path": "D:\\FYP\\tools\\mingit.zip",
+      "bytes": 39806486
+    },
+    {
+      "path": "D:\\FYP\\tools\\uv-wheel.zip",
+      "bytes": 15358650
+    },
+    {
+      "path": "C:\\Users\\so101\\Downloads\\install.2.0.10.zip",
+      "bytes": 0
+    },
+    {
+      "path": "C:\\Users\\so101\\Downloads\\NAS额度查询_朋友重新配置交接包_2026-10-20.zip",
+      "bytes": 5225
+    }
+  ],
+  "candidate_folders": [
+    "D:\\BaiduNetdiskDownload\\SmolVLA_五位置50段_bs64_30k_20261020",
+    "D:\\BaiduNetdiskDownload\\SmolVLA_五位置50段_bs64_30k_20261020\\SmolVLA_五位置50段_bs64_30k_20261020",
+    "D:\\BaiduNetdiskDownload\\SmolVLA_五位置50段_bs64_30k_20261020\\SmolVLA_五位置50段_bs64_30k_20261020\\模型\\五位置稳定训练_20261019",
+    "D:\\BaiduNetdiskDownload\\SmolVLA_五位置50段_bs64_30k_20261020\\SmolVLA_五位置50段_bs64_30k_20261020\\模型\\双摄五位置_20261019_bs16_30000",
+    "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\五位置稳定训练_20261019",
+    "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\红蓝演示浏览_20261028_140000",
+    "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示",
+    "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261019_100106_674366",
+    "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261024_140729_272733"
+  ],
+  "errors": [
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\so101\\\\Documents\\\\My Music'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\so101\\\\Documents\\\\My Pictures'",
+    "[WinError 5] 拒绝访问。: 'C:\\\\Users\\\\so101\\\\Documents\\\\My Videos'"
+  ]
+}

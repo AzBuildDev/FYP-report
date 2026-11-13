@@ -1,0 +1,25 @@
+启动请求：{"source": "button", "transcript": null, "target": "RC", "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_阶段采样_20261107\\step_003435"}
+运行日志：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261108_144523_396001.jsonl
+【1/5】正在加载微调模型……
+模型：D:\FYP\SmolVLA-SO101-FYP\模型\纯100段_阶段采样_20261107\step_003435
+演示：D:\FYP\AutoDL_纯100段_阶段采样_20261107\训练数据
+处理器：D:\FYP\SmolVLA-SO101-FYP\模型\视觉语言处理器
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+任务指令：Pick up the red cube and place it in the target area.
+推理输入存档：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261108_144523_396001
+【2/5】正在计算安全活动范围……
+【3/5】正在连接从臂（只检测，不动）……
+      夹爪原始位置：-1984；标定范围：2046～3492。
+Traceback (most recent call last):
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 667, in <module>
+    main(args.mode, args.scene, selected, settings=trajectory_trial_settings() if args.trajectory_trial else task_inference_settings(args.seconds) if args.task_inference else None,
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 191, in main
+    run_test(resources, mode, scene.strip(), selection, settings, window_start, preview_directory, task=task)
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 311, in run_test
+    gripper_coordinates = attach_gripper_coordinates(follower.bus, ROOT, FOLLOWER_SERIAL,
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\夹爪坐标映射.py", line 85, in attach_gripper_coordinates
+    validate_gripper_raw_position(native, lower, upper)
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\检查控制输入.py", line 187, in validate_gripper_raw_position
+    raise RuntimeError(f"夹爪原始位置异常：有符号位置 {position}，标定范围 {range_min}～{range_max}。"
+RuntimeError: 夹爪原始位置异常：有符号位置 -1984，标定范围 2046～3492。已拒绝启用；这不是可靠的开度读数。请先完全断电并按录制时的开度摆放，重新上电后只读复查；若仍超出范围，先核对位置坐标与标定，不要自动取模、改标定或强行回位。

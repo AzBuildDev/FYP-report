@@ -1,0 +1,13 @@
+{
+  "batch_size": 140,
+  "steps": 6858,
+  "warmup": 115,
+  "save_every": 1145,
+  "validate_every": 229,
+  "seed": 42,
+  "validation_samples": 10,
+  "sampling_mode": "stage",
+  "output_relative": "输出/B_纯80段双物体_stage",
+  "initialization": "official_base_fresh_optimizer",
+  "continuous": false
+}

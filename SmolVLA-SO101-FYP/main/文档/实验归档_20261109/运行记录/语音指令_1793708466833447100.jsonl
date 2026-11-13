@@ -1,0 +1,4 @@
+{"time": 1793708469.697213, "status": "loading", "message": "正在CPU加载Whisper和Qwen，不占用动作推理显存"}
+{"time": 1793708478.9025784, "status": "ready", "log": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\语音指令_1793708466833447100.jsonl"}
+{"time": 1793708478.9035883, "status": "processing", "id": null}
+{"time": 1793708490.4878497, "status": "target", "target": "RC", "transcript": "拿起紅色的方塊放到目標區域", "raw_model_output": "{\"status\":\"parsed\",\"task_id\":\"red_cube_to_zone_A\"}", "metrics": {"asr_latency_s": 0.5581123000010848, "audio_s": 4.17, "language": "zh", "device": "cpu", "audio_path": "运行记录\\语音桥接合成中文红方块测试.wav", "latency_s": 10.955498099996476, "peak_allocated_mib": 0}, "id": null}

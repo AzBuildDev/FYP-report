@@ -1,0 +1,14 @@
+{
+  "experiment": "新200段_阶段采样_20261103",
+  "initialization": "官方SmolVLA基础预训练模型；新优化器和学习率计划，不继承旧53001步",
+  "annotation_source": "用户逐段标记并确认的200段导出",
+  "marker_definition": "按另一会话最终约定，为本次抓取开始连续合爪前一帧；导出沿用first_contact字段名，保留原帧号不改写",
+  "marker_interpretation": "只使用该帧之前的观察帧增加采样，不把标记当作物理接触检测、物体坐标或负例监督",
+  "sampling": "每批一半标记前、一半完整轨迹；每部分RC/BC各半；整段均匀选取后在合法起点内均匀采样，再打乱批次",
+  "action_supervision": "输入时刻起完整50帧真实动作，允许跨标记，不裁掉搬运放置归位",
+  "loss": "原SmolVLA流匹配损失，没有新增反指令惩罚或颜色检测器",
+  "validation": "沿用原160训练/40验证划分，训练统计只用160段；固定验证800次预测，仅评估动作误差，不能当作抓取/选色成功率",
+  "reference_training": {"batch_size":32,"steps":30000,"sampled_windows":960000,"warmup":500,"save_every":5000,"validate_every":1000},
+  "large_batch_policy": "实测吞吐与峰值显存后选择batch；按960000总窗口数换算更新步数、warmup及保存/验证间隔，峰值学习率仍为1e-4；大batch并非与batch32逐步训练完全等价",
+  "robot_commands_sent_by_packaging": 0
+}

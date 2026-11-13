@@ -1,0 +1,10 @@
+{
+  "python": "3.10.22 (main, Oct  9 2026, 15:18:58) [MSC v.1944 64 bit (AMD64)]",
+  "torch": "2.7.1+cu126",
+  "transformers": "4.51.3",
+  "sounddevice": "0.5.3",
+  "speech_device": "cpu",
+  "threads": 2,
+  "microphone_recorded_for_test": false,
+  "robot_connected_for_test": false
+}

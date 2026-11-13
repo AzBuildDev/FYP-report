@@ -1,0 +1,87 @@
+{
+  "scope": "consolidated_runtime_history_without_new_motion",
+  "created_at": "2026-10-07T20:47:12",
+  "operator_reset_confirmation": "已断电检查然后已经重新上电",
+  "recovery_check": {
+    "source": "机械臂只读检查_20261007_181141_223993.json",
+    "sha256": "541f7ee19f05e96fcaa6f381b226c7c2870934bae1a4576354f4d97cbcc33e05",
+    "both_arms_fault_free": true,
+    "follower_torque_disabled": true
+  },
+  "subsequent_runs": [
+    {
+      "filename": "实机抓取测试_20261007_181235_825879.jsonl",
+      "log_sha256": "bde116ce9165ff62c1efd7083715b2c4ead03504e03b964c9902fc76533b0065",
+      "checkpoint_sha256": "1eb57f1652336c4e84d8da5772dabb51356817a3d6e1b31add084423c4059cb2",
+      "scene": "用户断电检查并重上电后_授权直接开始录像复测",
+      "mode": "async",
+      "run_kind": "real_hardware",
+      "sent_commands": 258,
+      "inferences": 13,
+      "active_control_hz": 18.357142857142858,
+      "missed_ticks": 0,
+      "seconds": 15.7,
+      "stop_reason": "time_limit",
+      "errors": [],
+      "configured_test_seconds": 15
+    },
+    {
+      "filename": "实机抓取测试_20261007_182008_938057.jsonl",
+      "log_sha256": "033dc3f7c431792448e446bbd4894a69c5cd7b2034f145ff88f6e888a3a7fad9",
+      "checkpoint_sha256": "1eb57f1652336c4e84d8da5772dabb51356817a3d6e1b31add084423c4059cb2",
+      "scene": "演示起始位置",
+      "mode": "async",
+      "run_kind": "real_hardware",
+      "sent_commands": 1168,
+      "inferences": 65,
+      "active_control_hz": 19.87973357409348,
+      "missed_ticks": 0,
+      "seconds": 60.5,
+      "stop_reason": "time_limit",
+      "errors": [],
+      "configured_test_seconds": 60
+    },
+    {
+      "filename": "实机抓取测试_20261007_182329_105923.jsonl",
+      "log_sha256": "ce78a7c2d04ff1e05d9edf4f5842fa7c59a1641a9186d0fa39b405bce4ef1c96",
+      "checkpoint_sha256": "1eb57f1652336c4e84d8da5772dabb51356817a3d6e1b31add084423c4059cb2",
+      "scene": "演示起始位置",
+      "mode": "async",
+      "run_kind": "real_hardware",
+      "sent_commands": 1137,
+      "inferences": 63,
+      "active_control_hz": 19.336170212765957,
+      "missed_ticks": 0,
+      "seconds": 60.8,
+      "stop_reason": "time_limit",
+      "errors": [],
+      "configured_test_seconds": 60
+    },
+    {
+      "filename": "实机抓取测试_20261007_182637_236203.jsonl",
+      "log_sha256": "16fb2f43a16c8df812eef2c2c740abac7975dd1f2747a90c4167e25cda35169c",
+      "checkpoint_sha256": "1eb57f1652336c4e84d8da5772dabb51356817a3d6e1b31add084423c4059cb2",
+      "scene": "演示起始位置",
+      "mode": "async",
+      "run_kind": "real_hardware",
+      "sent_commands": 1160,
+      "inferences": 64,
+      "active_control_hz": 19.743118015808214,
+      "missed_ticks": 1,
+      "seconds": 60.8,
+      "stop_reason": "time_limit",
+      "errors": [],
+      "configured_test_seconds": 60
+    }
+  ],
+  "current_connection_check": {
+    "source": "机械臂只读检查_20261007_202955_835486.json",
+    "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f",
+    "devices_detected": 0,
+    "motors_torque_off_confirmed_now": null
+  },
+  "robot_commands_sent_by_consolidator": 0,
+  "task_success_evaluated": false,
+  "success_rate_evaluated": false,
+  "notes": "后续运行指标来自完整日志声明，未单独证明物体结果；当前未检出设备不等于故障或电机扭矩已关闭。"
+}

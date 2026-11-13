@@ -1,0 +1,50 @@
+﻿{
+    "checked_at":  "2026-10-24T12:58:22.0200018+08:00",
+    "scope":  "offline checkpoint and image comparison",
+    "motor_commands_sent":  0,
+    "user_original_checkpoint":  "unknown",
+    "seeds":  [
+                  42,
+                  43,
+                  44
+              ],
+    "results":  [
+                    {
+                        "model":  "best_val（25k）",
+                        "case":  "saved_live",
+                        "gripper_at_17_mean":  46.389194488525391,
+                        "gripper_at_49_mean":  12.261858304341635
+                    },
+                    {
+                        "model":  "best_val（25k）",
+                        "case":  "nearest_demo",
+                        "gripper_at_17_mean":  9.7008899052937831,
+                        "gripper_at_49_mean":  4.339736620585124
+                    },
+                    {
+                        "model":  "best_val（25k）",
+                        "case":  "same_live_state_demo_images",
+                        "gripper_at_17_mean":  8.5655638376871739,
+                        "gripper_at_49_mean":  4.9704484939575195
+                    },
+                    {
+                        "model":  "step_030000（30k，与 last 同权重）",
+                        "case":  "saved_live",
+                        "gripper_at_17_mean":  46.555978139241539,
+                        "gripper_at_49_mean":  12.308022816975912
+                    },
+                    {
+                        "model":  "step_030000（30k，与 last 同权重）",
+                        "case":  "nearest_demo",
+                        "gripper_at_17_mean":  9.9106566111246739,
+                        "gripper_at_49_mean":  4.4451424280802412
+                    },
+                    {
+                        "model":  "step_030000（30k，与 last 同权重）",
+                        "case":  "same_live_state_demo_images",
+                        "gripper_at_17_mean":  8.820770263671875,
+                        "gripper_at_49_mean":  5.0557870864868164
+                    }
+                ],
+    "conclusion":  "25k and 30k show similar responses on these inputs; checkpoint identity alone does not explain observed delayed closing. Identical-state image substitution changes early closing predictions for both checkpoints. Not a hardware success evaluation."
+}

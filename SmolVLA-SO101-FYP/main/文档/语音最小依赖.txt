@@ -1,0 +1,8 @@
+# Python 3.10. Install the appropriate PyTorch 2.7.1 wheel separately (see speech guide).
+transformers==4.51.3
+tokenizers==0.21.4
+numpy==2.2.6
+huggingface_hub==0.36.2
+safetensors==0.8.0
+# 本机窗口的显式麦克风录音（不需要替换现有PyTorch）
+sounddevice==0.5.3

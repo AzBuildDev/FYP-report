@@ -1,0 +1,20 @@
+{
+  "status": "completed",
+  "finished_at": "2026-11-09T00:34:20.407382+08:00",
+  "host": "connect.westd.seetacloud.com",
+  "port": 27362,
+  "remote": "/root/autodl-tmp/AutoDL_纯80段_指令对比_20261108/输出/contrast_纯80段/last",
+  "local": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯80段_指令对比_20261108\\step_001715",
+  "step": 1715,
+  "batch_size": 384,
+  "sampled_windows": 658560,
+  "batch16_equivalent_steps": 41160,
+  "files": 6,
+  "bytes": 2190345338,
+  "all_sha256_verified": true,
+  "remote_unchanged_during_transfer": true,
+  "robot_started": false,
+  "server_training_modified": true,
+  "training_paused_at_user_request": true,
+  "model_selection_modified": false
+}

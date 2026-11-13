@@ -1,0 +1,53 @@
+{
+  "model": "新200段_batch32_20261102/step_020000",
+  "checkpoint_sha256": "91d853e67e2f1117548d54a4963642f172ecfae1b482589a28accfe5c0233391",
+  "status": "target_selection_comparison_completed_robot_stopped",
+  "trials": [
+    {
+      "run_id": "20261102_182845_175482",
+      "requested_target": "RC",
+      "layout_front_camera": "蓝左红右；对应P编号未确认",
+      "result": "wrong_target",
+      "observed_picked_object": "BC",
+      "observed_placed_object": "BC",
+      "red_remained_at_start": true,
+      "evidence": "人工检查实时双摄和存档画面；0039_front.jpg显示蓝块位于目标框、红块仍在原位",
+      "initial_image": "实机抓取测试_20261102_182845_175482/0001_front.jpg",
+      "final_image": "实机抓取测试_20261102_182845_175482/0039_front.jpg",
+      "log": "实机抓取测试_20261102_182845_175482.jsonl",
+      "actual_control_seconds": 49.1,
+      "sent_commands": 948,
+      "inferences": 73,
+      "stop_reason": "camera_frame_interruption_after_transfer",
+      "cleanup_errors": [],
+      "limits": "单轮错误目标结果，不能代替多摆放重复测试或据此断定模型不识别颜色",
+      "layout_user_view": "右侧蓝、左侧红；对应P编号未确认",
+      "observed_picked_side_user_view": "右侧"
+    },
+    {
+      "run_id": "20261102_183226_079153",
+      "requested_target": "BC",
+      "layout_front_camera": "蓝左红右；对应P编号未确认",
+      "layout_user_view": "右侧蓝、左侧红；对应P编号未确认",
+      "result": "correct_target_picked_placement_not_evaluated",
+      "observed_picked_object": "BC",
+      "observed_picked_side_user_view": "右侧",
+      "placement_completed": false,
+      "red_remained_at_start": true,
+      "evidence": "0020_front.jpg显示蓝块已被夹起离开原位，红块仍在原位；0020_wrist.jpg确认夹持蓝块；用户亦确认第二轮夹蓝，不需继续完整流程。",
+      "initial_image": "实机抓取测试_20261102_183226_079153/0001_front.jpg",
+      "final_image": "实机抓取测试_20261102_183226_079153/0020_front.jpg",
+      "wrist_image": "实机抓取测试_20261102_183226_079153/0020_wrist.jpg",
+      "log": "实机抓取测试_20261102_183226_079153.jsonl",
+      "actual_control_seconds": 24.3,
+      "sent_commands": 451,
+      "inferences": 35,
+      "stop_reason_logged": "相机画面中断，停止控制。",
+      "user_reported_interruption": "机械臂断开了；用户要求无需完成完整流程，不再继续。",
+      "cleanup_errors": []
+    }
+  ],
+  "user_coordinate_convention": "用户按相对机械臂的左右描述；与front相机画面左右相反。后续优先使用用户视角并明确注明。",
+  "conclusion": "相近人工复位摆放下，RC和BC两轮均实际夹起用户右侧蓝块；RC轮选错，BC轮选对。BC轮未完成放置。该结果复现单组摆放下目标切换未改变所选物体，不能单独证明颜色不可见或确定训练根因。",
+  "reset_limitation": "人工复位只近似相同；第一轮与第二轮连接时关节状态有小幅差异，非严格同一输入；左右定义已按用户说明更正。"
+}

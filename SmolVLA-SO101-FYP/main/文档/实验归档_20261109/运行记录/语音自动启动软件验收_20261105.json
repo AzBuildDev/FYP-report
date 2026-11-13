@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-05",
+  "restored_model": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\新200段_阶段采样_20261103\\step_007500",
+  "restored_dataset": "D:\\FYP\\AutoDL_新200段_阶段采样_20261103\\训练数据",
+  "restored_processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+  "inference_started": false,
+  "voice_started": false,
+  "tests_passed": 70,
+  "hardware_commands": 0
+}

@@ -1,0 +1,14 @@
+WARNING:root:Device 'None' is not available. Switching to 'cuda'.
+WARNING:root:Device 'None' is not available. Switching to 'cuda'.
+Reducing the number of VLM layers to 16 ...
+[standardise_state_dict] 'normalize_inputs.buffer_observation_state.mean'  ←  ['normalize_inputs.so100-red_buffer_observation_state.mean', 'normalize_inputs.so100_buffer_observation_state.mean']
+[standardise_state_dict] 'normalize_inputs.buffer_observation_state.std'  ←  ['normalize_inputs.so100-red_buffer_observation_state.std', 'normalize_inputs.so100_buffer_observation_state.std']
+[standardise_state_dict] 'normalize_targets.buffer_action.mean'  ←  ['normalize_targets.so100-red_buffer_action.mean', 'normalize_targets.so100_buffer_action.mean']
+[standardise_state_dict] 'normalize_targets.buffer_action.std'  ←  ['normalize_targets.so100-red_buffer_action.std', 'normalize_targets.so100_buffer_action.std']
+[standardise_state_dict] 'unnormalize_outputs.buffer_action.mean'  ←  ['unnormalize_outputs.so100-red_buffer_action.mean', 'unnormalize_outputs.so100_buffer_action.mean']
+[standardise_state_dict] 'unnormalize_outputs.buffer_action.std'  ←  ['unnormalize_outputs.so100-red_buffer_action.std', 'unnormalize_outputs.so100_buffer_action.std']
+CPU_BASE_LOADED 155
+CPU_FORWARD_LOSS 0.148199200630188
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+SAVE_RELOAD_OK

@@ -1,0 +1,29 @@
+﻿{
+    "scope":  "动作衔接离线专项排查",
+    "hardware_connected":  false,
+    "real_motor_commands_sent":  0,
+    "runtime_scheduler_changed":  false,
+    "archive_full_predictions_added":  true,
+    "checks":  [
+                   {
+                       "name":  "异步控制自检",
+                       "tests":  13,
+                       "status":  "passed"
+                   },
+                   {
+                       "name":  "推理过程记录自检",
+                       "tests":  4,
+                       "status":  "passed"
+                   },
+                   {
+                       "name":  "实机入口模拟自检",
+                       "tests":  28,
+                       "status":  "passed"
+                   }
+               ],
+    "total_tests":  45,
+    "grasp_success_verified":  false,
+    "simulation_report":  "运行记录/动作衔接专项排查_20261024/动作衔接复现.json",
+    "starting_pose_report":  "运行记录/动作衔接专项排查_20261024/起始姿态核对.json",
+    "diagnostic_note":  "文档/项目进展/本机动作衔接专项排查_20261024.md"
+}

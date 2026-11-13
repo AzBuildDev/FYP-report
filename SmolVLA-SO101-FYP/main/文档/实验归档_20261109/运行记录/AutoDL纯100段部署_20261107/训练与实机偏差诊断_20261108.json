@@ -1,0 +1,849 @@
+{
+  "checked_at": "2026-11-08T01:35:19.804457+08:00",
+  "hardware_connected": false,
+  "gpu_used": false,
+  "checkpoint": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_阶段采样_20261107\\step_003435",
+  "checkpoint_step": 3435,
+  "server_status": {
+    "state": "completed",
+    "step": 6858,
+    "total_steps": 6858,
+    "continuous": false,
+    "best_score": 0.13091586054768412,
+    "last_checkpoint": "/root/autodl-tmp/AutoDL_纯100段_阶段采样_20261107/输出/B_纯100段_stage/last",
+    "updated_at": "2026-11-08T00:17:00"
+  },
+  "server_scheduler": {
+    "phase": "completed",
+    "exit_code": 0,
+    "time": "2026-11-08T00:17:01.620900"
+  },
+  "weights": {
+    "projections": {
+      "tensors": 10,
+      "changed_tensors": 10,
+      "nonfinite_tensors": 0,
+      "shape_mismatch": [],
+      "missing_in_base": [],
+      "max_abs_difference": 0.04581791162490845
+    },
+    "expert": {
+      "tensors": 145,
+      "changed_tensors": 145,
+      "nonfinite_tensors": 0,
+      "shape_mismatch": [],
+      "missing_in_base": [],
+      "max_abs_difference": 0.0449310839176178
+    },
+    "vlm_frozen": {
+      "tensors": 345,
+      "changed_tensors": 0,
+      "nonfinite_tensors": 0,
+      "shape_mismatch": [],
+      "missing_in_base": [],
+      "max_abs_difference": 0.0
+    }
+  },
+  "task_texts_match_inference": true,
+  "task_episode_counts": {
+    "Pick up the red cube and place it in the target area.": 50,
+    "Pick up the blue cube and place it in the target area.": 50
+  },
+  "episode_task_errors": [],
+  "action_step_abs_p95_per_joint": [
+    1.6235017776489258,
+    2.9057693481445312,
+    1.6605606079101562,
+    1.7801513671875,
+    1.100916862487793,
+    2.476515769958496
+  ],
+  "action_step_fraction_exceeding_current_limit_0_5": [
+    0.2198915314326714,
+    0.3034587545107308,
+    0.2426403866039209,
+    0.2376179120855931,
+    0.1773060121974381,
+    0.18587376284635027
+  ],
+  "local_summary_validation": {
+    "task_balanced_mae": 0.1395859898161143,
+    "task_metrics": {
+      "0": 0.13936632756143807,
+      "1": 0.13980565207079054
+    },
+    "normalized_mae": 0.13958598673343658,
+    "pre_marker_action_mae": {
+      "0": 0.16772848735444057,
+      "1": 0.16167555457434138
+    },
+    "color_selection_success_evaluated": false,
+    "first_action_normalized_mae": 0.04812982305884361,
+    "first20_normalized_mae": 0.10315348207950592,
+    "mae_per_joint": [
+      2.356079339981079,
+      4.539668560028076,
+      3.20805025100708,
+      3.4036450386047363,
+      1.8224732875823975,
+      4.106772422790527
+    ],
+    "predictions": 400,
+    "seeds": [
+      42,
+      43
+    ],
+    "task_success_evaluated": false
+  },
+  "server_validation_curve": [
+    {
+      "step": 16,
+      "time": "2026-11-07T19:02:49",
+      "task_balanced_mae": 0.5028359079733491,
+      "task_metrics": {
+        "0": 0.5145272022485733,
+        "1": 0.4911446136981249
+      },
+      "pre_marker_action_mae": {
+        "0": 0.3992355832686791,
+        "1": 0.36826129177132166
+      },
+      "first20_normalized_mae": 0.30443888902664185,
+      "best_score": 0.5028359079733491,
+      "improved": true
+    },
+    {
+      "step": 229,
+      "time": "2026-11-07T19:13:10",
+      "task_balanced_mae": 0.19016731033101678,
+      "task_metrics": {
+        "0": 0.1960596666485071,
+        "1": 0.18427495401352645
+      },
+      "pre_marker_action_mae": {
+        "0": 0.2129361520592983,
+        "1": 0.20880137650749167
+      },
+      "first20_normalized_mae": 0.14848504960536957,
+      "best_score": 0.19016731033101678,
+      "improved": true
+    },
+    {
+      "step": 458,
+      "time": "2026-11-07T19:23:35",
+      "task_balanced_mae": 0.18228126507252454,
+      "task_metrics": {
+        "0": 0.17733294248580933,
+        "1": 0.18722958765923975
+      },
+      "pre_marker_action_mae": {
+        "0": 0.20059054201612106,
+        "1": 0.19659426194187757
+      },
+      "first20_normalized_mae": 0.14257371425628662,
+      "best_score": 0.18228126507252454,
+      "improved": true
+    },
+    {
+      "step": 687,
+      "time": "2026-11-07T19:33:59",
+      "task_balanced_mae": 0.165547041837126,
+      "task_metrics": {
+        "0": 0.1677701627090573,
+        "1": 0.1633239209651947
+      },
+      "pre_marker_action_mae": {
+        "0": 0.1874407704633016,
+        "1": 0.1756426628074936
+      },
+      "first20_normalized_mae": 0.12728631496429443,
+      "best_score": 0.165547041837126,
+      "improved": true
+    },
+    {
+      "step": 916,
+      "time": "2026-11-07T19:44:22",
+      "task_balanced_mae": 0.16266109761781988,
+      "task_metrics": {
+        "0": 0.1626533100567758,
+        "1": 0.16266888517886396
+      },
+      "pre_marker_action_mae": {
+        "0": 0.18605144828175887,
+        "1": 0.18258126100172867
+      },
+      "first20_normalized_mae": 0.12534767389297485,
+      "best_score": 0.16266109761781988,
+      "improved": true
+    },
+    {
+      "step": 1145,
+      "time": "2026-11-07T19:54:49",
+      "task_balanced_mae": 0.1520079425163567,
+      "task_metrics": {
+        "0": 0.15223284929990769,
+        "1": 0.15178303573280572
+      },
+      "pre_marker_action_mae": {
+        "0": 0.17765592535336813,
+        "1": 0.17617235614641294
+      },
+      "first20_normalized_mae": 0.1187421903014183,
+      "best_score": 0.1520079425163567,
+      "improved": true
+    },
+    {
+      "step": 1374,
+      "time": "2026-11-07T20:05:24",
+      "task_balanced_mae": 0.15787068551406266,
+      "task_metrics": {
+        "0": 0.1594045712798834,
+        "1": 0.15633679974824194
+      },
+      "pre_marker_action_mae": {
+        "0": 0.17731275032155025,
+        "1": 0.1742716110437303
+      },
+      "first20_normalized_mae": 0.12172053754329681,
+      "best_score": 0.1520079425163567,
+      "improved": false
+    },
+    {
+      "step": 1603,
+      "time": "2026-11-07T20:15:45",
+      "task_balanced_mae": 0.1463793921470642,
+      "task_metrics": {
+        "0": 0.14480251017957926,
+        "1": 0.14795627411454915
+      },
+      "pre_marker_action_mae": {
+        "0": 0.16785192150527087,
+        "1": 0.1622273440195902
+      },
+      "first20_normalized_mae": 0.11238705366849899,
+      "best_score": 0.1463793921470642,
+      "improved": true
+    },
+    {
+      "step": 1832,
+      "time": "2026-11-07T20:26:09",
+      "task_balanced_mae": 0.14884100096300246,
+      "task_metrics": {
+        "0": 0.15011088483035565,
+        "1": 0.14757111709564924
+      },
+      "pre_marker_action_mae": {
+        "0": 0.17361751542641565,
+        "1": 0.16156281017371127
+      },
+      "first20_normalized_mae": 0.11352694034576416,
+      "best_score": 0.1463793921470642,
+      "improved": false
+    },
+    {
+      "step": 2061,
+      "time": "2026-11-07T20:36:29",
+      "task_balanced_mae": 0.1465521031152457,
+      "task_metrics": {
+        "0": 0.14507265836000444,
+        "1": 0.14803154787048697
+      },
+      "pre_marker_action_mae": {
+        "0": 0.1711016905326874,
+        "1": 0.1613381279481424
+      },
+      "first20_normalized_mae": 0.10988461971282959,
+      "best_score": 0.1463793921470642,
+      "improved": false
+    },
+    {
+      "step": 2290,
+      "time": "2026-11-07T20:46:46",
+      "task_balanced_mae": 0.14578644350171088,
+      "task_metrics": {
+        "0": 0.14555777102708817,
+        "1": 0.1460151159763336
+      },
+      "pre_marker_action_mae": {
+        "0": 0.16523377200922904,
+        "1": 0.16692583912329093
+      },
+      "first20_normalized_mae": 0.11090826243162155,
+      "best_score": 0.14578644350171088,
+      "improved": true
+    },
+    {
+      "step": 2519,
+      "time": "2026-11-07T20:57:17",
+      "task_balanced_mae": 0.14751673096790913,
+      "task_metrics": {
+        "0": 0.15185141425579787,
+        "1": 0.14318204768002035
+      },
+      "pre_marker_action_mae": {
+        "0": 0.1750819840683387,
+        "1": 0.16127247630140265
+      },
+      "first20_normalized_mae": 0.10912905633449554,
+      "best_score": 0.14578644350171088,
+      "improved": false
+    },
+    {
+      "step": 2748,
+      "time": "2026-11-07T21:07:35",
+      "task_balanced_mae": 0.14739850367419421,
+      "task_metrics": {
+        "0": 0.15217689471319318,
+        "1": 0.14262011263519528
+      },
+      "pre_marker_action_mae": {
+        "0": 0.1805979129500114,
+        "1": 0.16339099769656723
+      },
+      "first20_normalized_mae": 0.10918690264225006,
+      "best_score": 0.14578644350171088,
+      "improved": false
+    },
+    {
+      "step": 2977,
+      "time": "2026-11-07T21:17:50",
+      "task_balanced_mae": 0.1430024709366262,
+      "task_metrics": {
+        "0": 0.14808618735522033,
+        "1": 0.1379187545180321
+      },
+      "pre_marker_action_mae": {
+        "0": 0.17185254318591875,
+        "1": 0.1568379488748473
+      },
+      "first20_normalized_mae": 0.1051395982503891,
+      "best_score": 0.1430024709366262,
+      "improved": true
+    },
+    {
+      "step": 3206,
+      "time": "2026-11-07T21:28:07",
+      "task_balanced_mae": 0.14408251334913075,
+      "task_metrics": {
+        "0": 0.14405024454928933,
+        "1": 0.14411478214897216
+      },
+      "pre_marker_action_mae": {
+        "0": 0.16931494779120654,
+        "1": 0.16688764830296104
+      },
+      "first20_normalized_mae": 0.10922796279191971,
+      "best_score": 0.1430024709366262,
+      "improved": false
+    },
+    {
+      "step": 3435,
+      "time": "2026-11-07T21:38:27",
+      "task_balanced_mae": 0.1395859898161143,
+      "task_metrics": {
+        "0": 0.13936632756143807,
+        "1": 0.13980565207079054
+      },
+      "pre_marker_action_mae": {
+        "0": 0.16772848735444057,
+        "1": 0.16167555457434138
+      },
+      "first20_normalized_mae": 0.10315348207950592,
+      "best_score": 0.1395859898161143,
+      "improved": true
+    },
+    {
+      "step": 3664,
+      "time": "2026-11-07T21:48:55",
+      "task_balanced_mae": 0.13801310142502188,
+      "task_metrics": {
+        "0": 0.13706851085647936,
+        "1": 0.13895769199356436
+      },
+      "pre_marker_action_mae": {
+        "0": 0.15974708980856797,
+        "1": 0.15942448286994085
+      },
+      "first20_normalized_mae": 0.1017090380191803,
+      "best_score": 0.13801310142502188,
+      "improved": true
+    },
+    {
+      "step": 3893,
+      "time": "2026-11-07T21:59:29",
+      "task_balanced_mae": 0.13894436690956358,
+      "task_metrics": {
+        "0": 0.1391213330253959,
+        "1": 0.13876740079373123
+      },
+      "pre_marker_action_mae": {
+        "0": 0.1646190009151514,
+        "1": 0.15993126768719507
+      },
+      "first20_normalized_mae": 0.10393265634775162,
+      "best_score": 0.13801310142502188,
+      "improved": false
+    },
+    {
+      "step": 4122,
+      "time": "2026-11-07T22:09:57",
+      "task_balanced_mae": 0.1386808981047943,
+      "task_metrics": {
+        "0": 0.14012580318376422,
+        "1": 0.1372359930258244
+      },
+      "pre_marker_action_mae": {
+        "0": 0.16448474021103138,
+        "1": 0.15725762185615463
+      },
+      "first20_normalized_mae": 0.10218653082847595,
+      "best_score": 0.13801310142502188,
+      "improved": false
+    },
+    {
+      "step": 4351,
+      "time": "2026-11-07T22:20:21",
+      "task_balanced_mae": 0.13489364102482795,
+      "task_metrics": {
+        "0": 0.13569024557247758,
+        "1": 0.13409703647717833
+      },
+      "pre_marker_action_mae": {
+        "0": 0.16334046576267633,
+        "1": 0.1572018667954851
+      },
+      "first20_normalized_mae": 0.0985611081123352,
+      "best_score": 0.13489364102482795,
+      "improved": true
+    },
+    {
+      "step": 4580,
+      "time": "2026-11-07T22:30:47",
+      "task_balanced_mae": 0.13606944060418757,
+      "task_metrics": {
+        "0": 0.1384961995482445,
+        "1": 0.13364268166013063
+      },
+      "pre_marker_action_mae": {
+        "0": 0.16916564828119215,
+        "1": 0.15809172784557213
+      },
+      "first20_normalized_mae": 0.09837010502815247,
+      "best_score": 0.13489364102482795,
+      "improved": false
+    },
+    {
+      "step": 4809,
+      "time": "2026-11-07T22:41:15",
+      "task_balanced_mae": 0.13537336174864323,
+      "task_metrics": {
+        "0": 0.13451391719281672,
+        "1": 0.1362328063044697
+      },
+      "pre_marker_action_mae": {
+        "0": 0.1634442321000955,
+        "1": 0.15746072045451887
+      },
+      "first20_normalized_mae": 0.09828664362430573,
+      "best_score": 0.13489364102482795,
+      "improved": false
+    },
+    {
+      "step": 5038,
+      "time": "2026-11-07T22:51:44",
+      "task_balanced_mae": 0.13500435227062552,
+      "task_metrics": {
+        "0": 0.136990736592561,
+        "1": 0.13301796794869006
+      },
+      "pre_marker_action_mae": {
+        "0": 0.16592733232447734,
+        "1": 0.15813532184708762
+      },
+      "first20_normalized_mae": 0.09694059193134308,
+      "best_score": 0.13489364102482795,
+      "improved": false
+    },
+    {
+      "step": 5267,
+      "time": "2026-11-07T23:02:08",
+      "task_balanced_mae": 0.1358762298664078,
+      "task_metrics": {
+        "0": 0.13697298477403821,
+        "1": 0.1347794749587774
+      },
+      "pre_marker_action_mae": {
+        "0": 0.16445619020706567,
+        "1": 0.15705160590241085
+      },
+      "first20_normalized_mae": 0.09691870212554932,
+      "best_score": 0.13489364102482795,
+      "improved": false
+    },
+    {
+      "step": 5496,
+      "time": "2026-11-07T23:12:34",
+      "task_balanced_mae": 0.13237997846677899,
+      "task_metrics": {
+        "0": 0.13179472539573905,
+        "1": 0.13296523153781892
+      },
+      "pre_marker_action_mae": {
+        "0": 0.16162854719620484,
+        "1": 0.15702246955117663
+      },
+      "first20_normalized_mae": 0.09557267278432846,
+      "best_score": 0.13237997846677899,
+      "improved": true
+    },
+    {
+      "step": 5725,
+      "time": "2026-11-07T23:23:16",
+      "task_balanced_mae": 0.13167686159722505,
+      "task_metrics": {
+        "0": 0.13282323928549883,
+        "1": 0.13053048390895128
+      },
+      "pre_marker_action_mae": {
+        "0": 0.16164701470197776,
+        "1": 0.15583486875166763
+      },
+      "first20_normalized_mae": 0.09459452331066132,
+      "best_score": 0.13167686159722505,
+      "improved": true
+    },
+    {
+      "step": 5954,
+      "time": "2026-11-07T23:33:49",
+      "task_balanced_mae": 0.13167786102276297,
+      "task_metrics": {
+        "0": 0.13253780364058912,
+        "1": 0.13081791840493678
+      },
+      "pre_marker_action_mae": {
+        "0": 0.15952577609091234,
+        "1": 0.1560449945060788
+      },
+      "first20_normalized_mae": 0.09369942545890808,
+      "best_score": 0.13167686159722505,
+      "improved": false
+    },
+    {
+      "step": 6183,
+      "time": "2026-11-07T23:44:12",
+      "task_balanced_mae": 0.13295990641694516,
+      "task_metrics": {
+        "0": 0.13525904648005965,
+        "1": 0.13066076635383067
+      },
+      "pre_marker_action_mae": {
+        "0": 0.1646896494218172,
+        "1": 0.15590608109896248
+      },
+      "first20_normalized_mae": 0.09490198642015457,
+      "best_score": 0.13167686159722505,
+      "improved": false
+    },
+    {
+      "step": 6412,
+      "time": "2026-11-07T23:55:18",
+      "task_balanced_mae": 0.13178874301724136,
+      "task_metrics": {
+        "0": 0.13279047563672067,
+        "1": 0.13078701039776203
+      },
+      "pre_marker_action_mae": {
+        "0": 0.16067562032586488,
+        "1": 0.1565059685727229
+      },
+      "first20_normalized_mae": 0.09346089512109756,
+      "best_score": 0.13167686159722505,
+      "improved": false
+    },
+    {
+      "step": 6641,
+      "time": "2026-11-08T00:06:22",
+      "task_balanced_mae": 0.13091586054768412,
+      "task_metrics": {
+        "0": 0.13184387058019637,
+        "1": 0.12998785051517187
+      },
+      "pre_marker_action_mae": {
+        "0": 0.16088641931613287,
+        "1": 0.15617080017722942
+      },
+      "first20_normalized_mae": 0.0930972620844841,
+      "best_score": 0.13091586054768412,
+      "improved": true
+    },
+    {
+      "step": 6858,
+      "time": "2026-11-08T00:16:52",
+      "task_balanced_mae": 0.13122251559048892,
+      "task_metrics": {
+        "0": 0.13195534255355595,
+        "1": 0.13048968862742186
+      },
+      "pre_marker_action_mae": {
+        "0": 0.16036424112434572,
+        "1": 0.15669855123033394
+      },
+      "first20_normalized_mae": 0.09354021400213242,
+      "best_score": 0.13091586054768412,
+      "improved": false
+    }
+  ],
+  "runs": [
+    {
+      "log": "实机抓取测试_20261107_222744_185147.jsonl",
+      "task": "Pick up the red cube and place it in the target area.",
+      "model_identity": {
+        "type": "model_identity",
+        "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_阶段采样_20261107\\step_003435",
+        "dataset_path": "D:\\FYP\\AutoDL_纯100段_阶段采样_20261107\\训练数据",
+        "processor_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+        "checkpoint_sha256": "56af69281442f05017994f78d8d2af13cb1834c3a5acd2a9ab73ceb4f2c45efc"
+      },
+      "actions": 43,
+      "end": {
+        "type": "end",
+        "sent_commands": 43,
+        "inferences": 3,
+        "seconds": 3.1,
+        "stop_reason": "error",
+        "cleanup_errors": []
+      },
+      "errors": [
+        "相机输入异常，停止控制。夹爪相机（observation.images.wrist）：画面过期 0.531 秒，允许上限 0.500 秒"
+      ],
+      "inference_seconds_median": 0.75,
+      "skipped_prefix_mean": 15.666666666666666,
+      "model_minus_sent_abs_mean_per_joint": [
+        0.38323499712833137,
+        29.110549926757812,
+        15.429500141809154,
+        4.4707219323446585,
+        0.39352146137592403,
+        0.010210308917733125
+      ],
+      "model_minus_sent_abs_max_per_joint": [
+        2.7991201281547546,
+        49.15949249267578,
+        29.807138442993164,
+        13.017311096191406,
+        2.846388816833496,
+        0.19015121459960938
+      ],
+      "fraction_model_minus_sent_gt1_per_joint": [
+        0.13953488372093023,
+        1.0,
+        1.0,
+        0.7906976744186046,
+        0.13953488372093023,
+        0.0
+      ]
+    },
+    {
+      "log": "实机抓取测试_20261107_223041_615907.jsonl",
+      "task": "Pick up the red cube and place it in the target area.",
+      "model_identity": {
+        "type": "model_identity",
+        "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_阶段采样_20261107\\step_003435",
+        "dataset_path": "D:\\FYP\\AutoDL_纯100段_阶段采样_20261107\\训练数据",
+        "processor_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+        "checkpoint_sha256": "56af69281442f05017994f78d8d2af13cb1834c3a5acd2a9ab73ceb4f2c45efc"
+      },
+      "actions": 462,
+      "end": {
+        "type": "end",
+        "sent_commands": 462,
+        "inferences": 31,
+        "seconds": 25.0,
+        "stop_reason": "error",
+        "cleanup_errors": []
+      },
+      "errors": [
+        "相机输入异常，停止控制。夹爪相机（observation.images.wrist）：画面过期 0.531 秒，允许上限 0.500 秒"
+      ],
+      "inference_seconds_median": 0.75,
+      "skipped_prefix_mean": 15.96774193548387,
+      "model_minus_sent_abs_mean_per_joint": [
+        0.4137441146941412,
+        10.317229217265075,
+        2.472976448086949,
+        2.1078797460118412,
+        0.1981443367995225,
+        3.903214014969863
+      ],
+      "model_minus_sent_abs_max_per_joint": [
+        7.6891937255859375,
+        50.585174560546875,
+        24.668519020080566,
+        22.77417755126953,
+        4.748273849487305,
+        28.311311721801758
+      ],
+      "fraction_model_minus_sent_gt1_per_joint": [
+        0.10606060606060606,
+        0.44155844155844154,
+        0.2878787878787879,
+        0.3333333333333333,
+        0.07142857142857142,
+        0.43506493506493504
+      ]
+    },
+    {
+      "log": "实机抓取测试_20261108_012831_514410.jsonl",
+      "task": "Pick up the red cube and place it in the target area.",
+      "model_identity": {
+        "type": "model_identity",
+        "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_阶段采样_20261107\\step_003435",
+        "dataset_path": "D:\\FYP\\AutoDL_纯100段_阶段采样_20261107\\训练数据",
+        "processor_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+        "checkpoint_sha256": "56af69281442f05017994f78d8d2af13cb1834c3a5acd2a9ab73ceb4f2c45efc"
+      },
+      "actions": 70,
+      "end": {
+        "type": "end",
+        "sent_commands": 70,
+        "inferences": 5,
+        "seconds": 4.7,
+        "stop_reason": "error",
+        "cleanup_errors": []
+      },
+      "errors": [
+        "相机输入异常，停止控制。夹爪相机（observation.images.wrist）：画面过期 0.531 秒，允许上限 0.500 秒"
+      ],
+      "inference_seconds_median": 0.75,
+      "skipped_prefix_mean": 15.8,
+      "model_minus_sent_abs_mean_per_joint": [
+        0.46548279353550504,
+        30.467863110133578,
+        13.151589195217404,
+        4.248652866908482,
+        0.0727198532649449,
+        1.7203328132629394
+      ],
+      "model_minus_sent_abs_max_per_joint": [
+        2.6112842559814453,
+        53.530927658081055,
+        25.373343467712402,
+        11.572433471679688,
+        0.969233512878418,
+        8.56309986114502
+      ],
+      "fraction_model_minus_sent_gt1_per_joint": [
+        0.17142857142857143,
+        0.9714285714285714,
+        0.9142857142857143,
+        0.7428571428571429,
+        0.0,
+        0.34285714285714286
+      ]
+    },
+    {
+      "log": "实机抓取测试_20261108_013019_299758.jsonl",
+      "task": "Pick up the red cube and place it in the target area.",
+      "model_identity": {
+        "type": "model_identity",
+        "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_阶段采样_20261107\\step_003435",
+        "dataset_path": "D:\\FYP\\AutoDL_纯100段_阶段采样_20261107\\训练数据",
+        "processor_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+        "checkpoint_sha256": "56af69281442f05017994f78d8d2af13cb1834c3a5acd2a9ab73ceb4f2c45efc"
+      },
+      "actions": 804,
+      "end": {
+        "type": "end",
+        "sent_commands": 804,
+        "inferences": 51,
+        "seconds": 41.8,
+        "stop_reason": "error",
+        "cleanup_errors": []
+      },
+      "errors": [
+        "相机输入异常，停止控制。夹爪相机（observation.images.wrist）：画面过期 0.515 秒，允许上限 0.500 秒"
+      ],
+      "inference_seconds_median": 0.7809999999590218,
+      "skipped_prefix_mean": 16.274509803921568,
+      "model_minus_sent_abs_mean_per_joint": [
+        1.7543077351738565,
+        6.700580641997988,
+        1.7698806479795655,
+        1.4141824636886369,
+        0.9687461529798176,
+        3.8038445551003983
+      ],
+      "model_minus_sent_abs_max_per_joint": [
+        26.68450689315796,
+        54.16829967498779,
+        22.867279052734375,
+        15.165237426757812,
+        15.97159457206726,
+        22.840288162231445
+      ],
+      "fraction_model_minus_sent_gt1_per_joint": [
+        0.3793532338308458,
+        0.32960199004975127,
+        0.24253731343283583,
+        0.31840796019900497,
+        0.2512437810945274,
+        0.5186567164179104
+      ]
+    },
+    {
+      "log": "实机抓取测试_20261108_013242_396162.jsonl",
+      "task": "Pick up the blue cube and place it in the target area.",
+      "model_identity": {
+        "type": "model_identity",
+        "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_阶段采样_20261107\\step_003435",
+        "dataset_path": "D:\\FYP\\AutoDL_纯100段_阶段采样_20261107\\训练数据",
+        "processor_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+        "checkpoint_sha256": "56af69281442f05017994f78d8d2af13cb1834c3a5acd2a9ab73ceb4f2c45efc"
+      },
+      "actions": 498,
+      "end": {
+        "type": "end",
+        "sent_commands": 498,
+        "inferences": 33,
+        "seconds": 26.3,
+        "stop_reason": "error",
+        "cleanup_errors": []
+      },
+      "errors": [
+        "相机输入异常，停止控制。夹爪相机（observation.images.wrist）：画面过期 0.546 秒，允许上限 0.500 秒"
+      ],
+      "inference_seconds_median": 0.75,
+      "skipped_prefix_mean": 15.878787878787879,
+      "model_minus_sent_abs_mean_per_joint": [
+        2.3980903746373206,
+        11.435789106361359,
+        2.473507695887462,
+        1.7998246495503498,
+        1.0396743285129348,
+        5.949501085472873
+      ],
+      "model_minus_sent_abs_max_per_joint": [
+        34.52653121948242,
+        56.412476539611816,
+        19.782278060913086,
+        15.09747314453125,
+        16.339619636535645,
+        27.810574531555176
+      ],
+      "fraction_model_minus_sent_gt1_per_joint": [
+        0.3373493975903614,
+        0.4779116465863454,
+        0.3353413654618474,
+        0.38755020080321284,
+        0.1686746987951807,
+        0.6767068273092369
+      ]
+    }
+  ],
+  "limitations": [
+    "相同窗口总量不代表相同优化步数或效果。",
+    "动作误差指标不是选色成功率。",
+    "实际下发与模型输出差异包括限速、活动范围、跟随保护和夹爪保护，不能全部归因于单一保护。",
+    "未用此检查证明数据视觉标签全部正确，也未测量闭环选色成功率。"
+  ]
+}

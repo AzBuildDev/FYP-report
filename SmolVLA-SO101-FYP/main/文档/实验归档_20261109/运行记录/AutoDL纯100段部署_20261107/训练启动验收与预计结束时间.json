@@ -1,0 +1,125 @@
+{
+  "checked_at": "2026-11-07T19:08:40.741992+08:00",
+  "scheduler": {
+    "phase": "training",
+    "pid": 3525,
+    "resume": true,
+    "stop_after": null,
+    "time": "2026-11-07T19:03:02.115227"
+  },
+  "gpu": "NVIDIA GeForce RTX 5090, 31020 MiB, 32607 MiB, 7 %, 52",
+  "config": {
+    "batch_size": 140,
+    "steps": 6858,
+    "warmup": 115,
+    "save_every": 1145,
+    "validate_every": 229,
+    "validation_samples": 10,
+    "seed": 42,
+    "sampling_mode": "stage",
+    "output_relative": "输出/B_纯100段_stage",
+    "initialization": "official_base_fresh_optimizer",
+    "continuous": false,
+    "reference_batch_size": 32,
+    "reference_steps": 30000,
+    "reference_sample_budget": 960000,
+    "budget_mode": "equal_sample_budget",
+    "actual_sample_windows": 960120,
+    "note": "按样本窗口数等比例换算训练/预热/验证/保存间隔；不同batch优化过程不完全等价；不自动提高学习率"
+  },
+  "last_start": {
+    "event": "start",
+    "step": 16,
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "trainable_parameters": 99880992,
+    "time": "2026-11-07T19:03:33"
+  },
+  "latest_train": {
+    "event": "train",
+    "step": 100,
+    "loss_avg50": 0.032736653871834276,
+    "lr": 8.695652173913044e-05,
+    "grad_norm": 0.5425930619239807,
+    "elapsed_s": 201.0541140921414,
+    "sampling": {
+      "draw_counts": {
+        "full_trajectory_0": 35,
+        "pre_marker_1": 35,
+        "pre_marker_0": 35,
+        "full_trajectory_1": 35
+      },
+      "actual_inputs_before_marker": 97,
+      "windows_crossing_marker": 35
+    },
+    "batch_size": 140,
+    "data_wait_s_avg50": 0.054814438335597515,
+    "eta_s": 16175.282178984422,
+    "peak_gpu_allocated_mib": 29544.5244140625,
+    "time": "2026-11-07T19:06:54"
+  },
+  "last_events": [
+    {
+      "event": "checkpoint_saved",
+      "step": 16,
+      "time": "2026-11-07T19:03:00"
+    },
+    {
+      "event": "stopped_for_resume_test",
+      "step": 16,
+      "time": "2026-11-07T19:03:00"
+    },
+    {
+      "event": "start",
+      "step": 16,
+      "time": "2026-11-07T19:03:33"
+    },
+    {
+      "event": "train",
+      "step": 17,
+      "time": "2026-11-07T19:03:37"
+    },
+    {
+      "event": "train",
+      "step": 50,
+      "time": "2026-11-07T19:04:55"
+    },
+    {
+      "event": "train",
+      "step": 100,
+      "time": "2026-11-07T19:06:54"
+    }
+  ],
+  "disk_free_gib": 40.37917709350586,
+  "checkpoint": {
+    "step": 16,
+    "best_score": 0.5028359079733491,
+    "predictions": 400
+  },
+  "estimate": {
+    "step_s": 2.3723259359059563,
+    "validation_and_save_s": 84.0427850255047,
+    "remaining_validation_runs_approx": 30,
+    "remaining_s": 18553.462225617594,
+    "finish_beijing": "2026-11-08T00:17:54.204218+08:00",
+    "includes_validation_and_checkpoint_estimate": true,
+    "derived_from_recent_logged_steps": 83
+  },
+  "acceptance": {
+    "status": "passed",
+    "checkpoint_resume": {
+      "status": "passed",
+      "step": 16,
+      "batch_size": 140,
+      "validation_predictions": 400,
+      "checkpoint": "/root/autodl-tmp/AutoDL_纯100段_阶段采样_20261107/输出/B_纯100段_stage/last",
+      "resume_observation_pending": false,
+      "resumed_from_step": 16,
+      "observed_step": 100,
+      "observed_updates_after_resume": 84,
+      "resume_verified": true,
+      "errors_detected": false
+    },
+    "sha256_data_annotations_and_sampling_passed": true,
+    "formal_log_has_no_traceback_or_oom": true
+  }
+}

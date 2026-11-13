@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-11-09T00:30:45.710007+08:00",
+  "ready": true,
+  "latest_train": {
+    "event": "train",
+    "step": 1700,
+    "loss_avg50": 0.008883003946393728,
+    "lr": 2.585663319859324e-05,
+    "grad_norm": 0.3181481659412384,
+    "elapsed_s": 10565.017740793992,
+    "sampling": {
+      "draw_counts": {
+        "full_trajectory_0": 96,
+        "full_trajectory_1": 96,
+        "pre_marker_1": 96,
+        "pre_marker_0": 96
+      },
+      "actual_inputs_before_marker": 264,
+      "windows_crossing_marker": 74
+    },
+    "instruction": {
+      "correct_flow_error": 0.020810486283153296,
+      "wrong_flow_error": 0.0920556802302599,
+      "bounded_gap": 0.06386507069692016,
+      "correct_instruction_lower_error_fraction": 1.0,
+      "margin_satisfied_fraction": 0.875,
+      "ranking_loss": 0.0009841159917414188,
+      "positive_anchor_loss": 0.020810486283153296,
+      "effective_weight": 0.1,
+      "pair_count": 8,
+      "selection_success_measured": false
+    },
+    "batch_size": 384,
+    "data_wait_s_avg50": 6.182873621582985e-06,
+    "eta_s": 5019.010803227549,
+    "peak_gpu_allocated_mib": 76895.2763671875,
+    "time": "2026-11-09T00:27:35"
+  },
+  "latest_saved": {
+    "event": "checkpoint_saved",
+    "step": 1715,
+    "time": "2026-11-09T00:29:48"
+  }
+}

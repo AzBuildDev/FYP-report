@@ -1,0 +1,19 @@
+{
+  "batch_size": 140,
+  "steps": 6858,
+  "warmup": 115,
+  "save_every": 1145,
+  "validate_every": 229,
+  "validation_samples": 10,
+  "seed": 42,
+  "sampling_mode": "stage",
+  "output_relative": "输出/B_纯100段_stage",
+  "initialization": "official_base_fresh_optimizer",
+  "continuous": false,
+  "reference_batch_size": 32,
+  "reference_steps": 30000,
+  "reference_sample_budget": 960000,
+  "budget_mode": "equal_sample_budget",
+  "actual_sample_windows": 960120,
+  "note": "按样本窗口数等比例换算训练/预热/验证/保存间隔；不同batch优化过程不完全等价；不自动提高学习率"
+}

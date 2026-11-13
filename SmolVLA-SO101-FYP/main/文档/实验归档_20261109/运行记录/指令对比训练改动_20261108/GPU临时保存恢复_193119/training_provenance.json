@@ -1,0 +1,610 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "training_data": {
+    "dataset_root": "D:\\FYP\\AutoDL_纯80段_指令对比_20261108\\训练数据",
+    "fps": 20,
+    "joint_names": [
+      "shoulder_pan.pos",
+      "shoulder_lift.pos",
+      "elbow_flex.pos",
+      "wrist_flex.pos",
+      "wrist_roll.pos",
+      "gripper.pos"
+    ],
+    "state_names": [
+      "shoulder_pan.pos",
+      "shoulder_lift.pos",
+      "elbow_flex.pos",
+      "wrist_flex.pos",
+      "wrist_roll.pos",
+      "gripper.pos"
+    ],
+    "episodes": [
+      {
+        "episode": 1,
+        "frames": 498,
+        "action_state_sha256": "d0b220efa3c595bb645fdb693aefd5a3bc376f9a44224894700e957036f9d16c",
+        "video_sha256": {
+          "observation.images.front": "5bf8146bccf9600b0f826dd6d403746335401ce5ae7c858ccbff0e2955a42339",
+          "observation.images.wrist": "c678a0b780e356740a93e3b9903cd77596bcbf8451b77782fdc2fce82629ac52"
+        }
+      },
+      {
+        "episode": 2,
+        "frames": 503,
+        "action_state_sha256": "bbe36faf8f1566bf9bf8e33b6ac6bf182793298b345d4aefb2eb54bbb1a087d5",
+        "video_sha256": {
+          "observation.images.front": "b71e1caa9d039f01857e8ccc164bfeb48245501d0dd258324b45162c60b45fdf",
+          "observation.images.wrist": "03130d37284cf49f835ebcfff1815fd17831f704bf35eb8e1b9066df58f49751"
+        }
+      },
+      {
+        "episode": 3,
+        "frames": 517,
+        "action_state_sha256": "6c641e13afae0043c632ac9423b2d286a5bb6ab168158185990e22d4544f5f0d",
+        "video_sha256": {
+          "observation.images.front": "01c7219654c71c4b8f611bf42115c5639692e3050d419e6d4eb561e0e8e1d5b9",
+          "observation.images.wrist": "ef847978502878d5e64a2241c77c2b1b1e28b365bdda8435d59ca9cc372dc550"
+        }
+      },
+      {
+        "episode": 4,
+        "frames": 516,
+        "action_state_sha256": "2d2ab64f972a062052bd921e2eac65ebe8c109aa04de685c54a15f293c60c6ba",
+        "video_sha256": {
+          "observation.images.front": "36cb9b157e3952c6222fa668616131202969795e2879bb2fcaf5d205285ef2b2",
+          "observation.images.wrist": "83d7896da68a7f0560bc5ca0d8b5d5cebe8a7662e4c4622049a9e5ab8cfad8ef"
+        }
+      },
+      {
+        "episode": 5,
+        "frames": 451,
+        "action_state_sha256": "5c373de315f0a312f713dffbac5d51fe5447c4668d83335c9f79a4f2699e1d15",
+        "video_sha256": {
+          "observation.images.front": "346f3961ef2dfc76612d7543b88ad6ecafd901e25407e3ed9409c2f6597d095e",
+          "observation.images.wrist": "5e75d6156a9659d77fc72e999705034e1cae36a5f3ec08286f59ba2bc9bafc5e"
+        }
+      },
+      {
+        "episode": 6,
+        "frames": 533,
+        "action_state_sha256": "1e930aa5fc1767ce5b0ba951f6cdbf3489e4151bdc974b11a3833c76de82f5d1",
+        "video_sha256": {
+          "observation.images.front": "08ce45750500fc7daa067ed6528b143a716b48d3092c25af32adab11356730d3",
+          "observation.images.wrist": "3fcac5d268cd62801e0385f0b746a381dd9c60eb485f1bdac588026adc9fac8e"
+        }
+      },
+      {
+        "episode": 7,
+        "frames": 486,
+        "action_state_sha256": "656d3083041fe5d55fa33c124b600a4dc8ab9f4c849fd5769a62cd68f27f8396",
+        "video_sha256": {
+          "observation.images.front": "ad419841ecf9b2b674a0d728475925f680f9fc61dbc3a8b18c72ce5bbc9da412",
+          "observation.images.wrist": "fdac22f3c0c7065fa5e3756c4f052e2b5397daecfc76c57d953c6d6c8dc6389f"
+        }
+      },
+      {
+        "episode": 8,
+        "frames": 541,
+        "action_state_sha256": "10896fa0b869abc36a7ddcabf5df21a5abd56a01dbe8582789ecfc1e2cdcb88e",
+        "video_sha256": {
+          "observation.images.front": "6003d26001ca929f3fce4a554e494566870c67448067592c1e38ad0823a03dff",
+          "observation.images.wrist": "6214dc0fc06627762cd20744e603db80a6c3ace329ad985eb73257d274d7c24c"
+        }
+      },
+      {
+        "episode": 9,
+        "frames": 501,
+        "action_state_sha256": "5ab661799a1d957b956b5f97006ee7d37c17eb5466b9d6d3e6f64cc041b1453e",
+        "video_sha256": {
+          "observation.images.front": "3c3dc847a81e88c689e53132413775febc5f544610aead5558c90bebb34e59c2",
+          "observation.images.wrist": "e8a868d64198aa23a85bfbe77463ca3741ca4a4bc08860904b93868d50de1502"
+        }
+      },
+      {
+        "episode": 10,
+        "frames": 546,
+        "action_state_sha256": "6b4de3284e31ffd98819b6ec6d2725640b429ad39670a516b4b06b05700517a0",
+        "video_sha256": {
+          "observation.images.front": "b3f8ac8da198b78ec3fe4536090715c1c24920b43433ce85e24783587a43c0f5",
+          "observation.images.wrist": "7da4598984a378c5307994ee9b813e791cffca915a5a077604b9e662fa39d326"
+        }
+      },
+      {
+        "episode": 12,
+        "frames": 588,
+        "action_state_sha256": "122bc5c567d33de7bc26fd043fdc6a94bfa875bb1fdf75b482725906a7490a4a",
+        "video_sha256": {
+          "observation.images.front": "2597882b699550eb004ad7fe9b929546c5dc325422c914bd15fe1d780b8d6ee2",
+          "observation.images.wrist": "e7449addef6655b3749e3e767c175ca207e3299cefe253140c1cd616e00de3e6"
+        }
+      },
+      {
+        "episode": 13,
+        "frames": 479,
+        "action_state_sha256": "30a1cb7a0810aae26d2279acbe46f86ba56e2b4d17210848bf4c3bb0ac8cc4ff",
+        "video_sha256": {
+          "observation.images.front": "707dce6393871405e5852b68b075312796d32719f57fded567fa354ea5866ced",
+          "observation.images.wrist": "5a1e27655f9cdd0b53e99f72ca9ca5c395789c369b118961709d4cf2ad8d365f"
+        }
+      },
+      {
+        "episode": 16,
+        "frames": 491,
+        "action_state_sha256": "70a2eb6de6c155be70d475da61c8942c1b87cb9b5c499014f8728da039e2a22e",
+        "video_sha256": {
+          "observation.images.front": "a6d709f0526956322b1e5b12a3d4aff2905bdf425041968adb08146935093f31",
+          "observation.images.wrist": "9cb926de836c872695edc8a5ea2c705f3cdd335cde04bf923cf103529be24c51"
+        }
+      },
+      {
+        "episode": 17,
+        "frames": 534,
+        "action_state_sha256": "bb75b01e7ff1f1b722a41b5739a7fe00c2380d5709b511d278ee69f629b915b7",
+        "video_sha256": {
+          "observation.images.front": "9c76b4307e4c8d94b62104b1ee7e8b6195bda3f18b3165b981de6a5a1498a235",
+          "observation.images.wrist": "e2ff882e05a6e8df7892e88d37a21dd691d4c00fa3466129f6255e027f4ffa6c"
+        }
+      },
+      {
+        "episode": 18,
+        "frames": 551,
+        "action_state_sha256": "9675d39bb55113911b51cac1474f6a2106aa69b47b6a4191fd989429e4c78452",
+        "video_sha256": {
+          "observation.images.front": "0ed32b10f8e7e271599471275ba7c848c5f7e6b9660e125b2989fdf2a4e8b776",
+          "observation.images.wrist": "06277be9a50ec9f1f2f0914fcbd57fe6bcce3612dc3d9b55a79042ba5d3e473f"
+        }
+      },
+      {
+        "episode": 19,
+        "frames": 492,
+        "action_state_sha256": "484bb2656bcec569a97a88eaf688c5b4eb3893b90475eaed1642a7212a55e83e",
+        "video_sha256": {
+          "observation.images.front": "a3df4ec81d277ffb87f1309dc797b1b5d526b123d107ad2ad9bd8b5415493c7d",
+          "observation.images.wrist": "f334c8ab3fb41529f16dfa6ddc47985155c99cbebae6531b4fe444a04c911251"
+        }
+      },
+      {
+        "episode": 20,
+        "frames": 507,
+        "action_state_sha256": "5ac2fc74f215a046fb71e2725a1b4513de049e0a9ca2e4f314e74ce24bd1059d",
+        "video_sha256": {
+          "observation.images.front": "4702e4396eb5ed9ffb7f170f7096e3fb3063618012e1a21820f4f16e70005b2d",
+          "observation.images.wrist": "9ab1ce587c91105ecb60d21fae9e8343f0be3949e52f0bdf4b18f91e21c50578"
+        }
+      },
+      {
+        "episode": 21,
+        "frames": 512,
+        "action_state_sha256": "496f9e0c109569ca5117cc94ec6832a22e3744aeafef9b3a344e19fd3213db74",
+        "video_sha256": {
+          "observation.images.front": "56d57ff15e7dccebd27c6f90cf754474c2a40348b3487700b9999cb089519521",
+          "observation.images.wrist": "40d297a6b4730bddef48bd5a7da7119e3df21769656738608d0b03066c016770"
+        }
+      },
+      {
+        "episode": 22,
+        "frames": 574,
+        "action_state_sha256": "40309dd4700bab010e9985a6e9bf30a965fadb19554ab93cebbbfae979f9fa7b",
+        "video_sha256": {
+          "observation.images.front": "8c3364abea4f402e797b5e1c438dace3916c1cb0b61f4d0949dd11c46ec5227a",
+          "observation.images.wrist": "a64e383ac4921eaa30334774b0b0cc4aa1a417af7471b75b849303ff0d4a040a"
+        }
+      },
+      {
+        "episode": 23,
+        "frames": 491,
+        "action_state_sha256": "058d96d17c40873f838fe0d4d89542c77f9c7111ca509845405d81c6890888b7",
+        "video_sha256": {
+          "observation.images.front": "c77e27780db4cd8c3a76f5d28dbe6b10752e9818e3318bc257a8298a8a06c846",
+          "observation.images.wrist": "d43b8f560d8c78c5f2371b6ee58fc58052d0ae232f7cd1c45be2a005b28298a1"
+        }
+      },
+      {
+        "episode": 24,
+        "frames": 535,
+        "action_state_sha256": "c3ef805df8d05114caf454be8e298ece2b46f4eb72d2f201fcf240b22099c96a",
+        "video_sha256": {
+          "observation.images.front": "800942afd83802a02bb52c4841f31df9d11e93e1912c83227d863d33ad1d3d7b",
+          "observation.images.wrist": "a754b05afcd9adae504783ec189d4d9b98acb4579377ee5bf75962045ead5ae1"
+        }
+      },
+      {
+        "episode": 25,
+        "frames": 507,
+        "action_state_sha256": "70282b9131a2c0e842237374edd34a33def83cd351c8806807cbf6af60134b1f",
+        "video_sha256": {
+          "observation.images.front": "5e84f6200a37b425d73af77d99aa20e1d5c7b45a5aa6f679099a75d76f1ec87b",
+          "observation.images.wrist": "f9e379526a306bad67eb1118a8425957b6b198653e589a0a784c6430216493ad"
+        }
+      },
+      {
+        "episode": 27,
+        "frames": 475,
+        "action_state_sha256": "3eca847614adaad6a2de7f76ef135aa9b6f3c3ded205c84db83dedca64592293",
+        "video_sha256": {
+          "observation.images.front": "b90b5ce74cb9dfa7b5ec43f535099515d0e4fd119e012705fb0dfee68c41583b",
+          "observation.images.wrist": "77b241d7e4761a134cdc0f20fb5caeb385a9f65897c35baa5911fe19f086c961"
+        }
+      },
+      {
+        "episode": 30,
+        "frames": 508,
+        "action_state_sha256": "a01615a374e3d19f9298bcfee2b991e475604b9d70102db7fd5fa370f615e61d",
+        "video_sha256": {
+          "observation.images.front": "69ae6011e0382fe35652b338dda2df096f45d66396984ee27dbd75c3951b8120",
+          "observation.images.wrist": "f688f628b2b3ae07e91efb7bb2b411970f306ffeb4817789adc0472c175cb85d"
+        }
+      },
+      {
+        "episode": 31,
+        "frames": 450,
+        "action_state_sha256": "d973727d29417a3d872db12af91671e818586b7e60053894d02cebef3f52dce5",
+        "video_sha256": {
+          "observation.images.front": "08aac04465324644cf27a0715ea890e58b9d2564efbd542e47a887529d8fdecf",
+          "observation.images.wrist": "dba6c12854e3fc2b3137921b38c1f487f261d8569a53b0085d29150fcd424fca"
+        }
+      },
+      {
+        "episode": 32,
+        "frames": 475,
+        "action_state_sha256": "804a6b166c25e80139b2f5e7d8938111cfd3ca2de5627a4f0f7f1e583a1ec3d9",
+        "video_sha256": {
+          "observation.images.front": "d83cdf4eb40e74a899f96cd5973ff194cd9ff219054af0147cd79ddf2c3392bf",
+          "observation.images.wrist": "6f2ff99d4355447b372dfc9e4488410c027d9556eb4223b24ea34f4b4a82946e"
+        }
+      },
+      {
+        "episode": 33,
+        "frames": 516,
+        "action_state_sha256": "4e8c9ed89dff369d46d7c6becde6ddbe642fe850ef1b6560369d19404e8beb9b",
+        "video_sha256": {
+          "observation.images.front": "22d0b15a0f6ee2f99c9ce1e1aefaacad666530b362225244bb8daec337674862",
+          "observation.images.wrist": "26496ddf20441197ed76e45fd65a92abe6512ac2a29f52eb8374334eb810e24b"
+        }
+      },
+      {
+        "episode": 34,
+        "frames": 500,
+        "action_state_sha256": "de80d338795e0b17c098361700c93b3255648c7a2a07a5b116873d7f7028d79d",
+        "video_sha256": {
+          "observation.images.front": "7fdf828dc25dcb73d64bb8fe73fab38a7f1289ccffcf543b7a03a3e7c617a3f5",
+          "observation.images.wrist": "60dfd0a0eed2826b5239547c06dbede0130d86ff5b19f6653c889980a28a164c"
+        }
+      },
+      {
+        "episode": 36,
+        "frames": 431,
+        "action_state_sha256": "b427e1e91dc8ca9ace274b31716f73625b43ff87859f40e5ff5a9353000546dc",
+        "video_sha256": {
+          "observation.images.front": "df3cf7256f7aed521fb6d0e5df35de1942cbd16a2c683f6b070f30c393554a01",
+          "observation.images.wrist": "c3c29e2c5de52a91d90ad6c3d71f5cc77d25c33640ce14b6488a60204138c4c9"
+        }
+      },
+      {
+        "episode": 37,
+        "frames": 444,
+        "action_state_sha256": "208ee5ecedc1be0805540aa5b8cfbe58812f8f41c226de376d59f8396156bab7",
+        "video_sha256": {
+          "observation.images.front": "8c664dc2fb8812cf21825d8bbf5b56792946a2f2fbd9f041a1660186a7834ceb",
+          "observation.images.wrist": "649987c0a4ff2924cc5435212235f891961223862363fa0717b183adcd23a7fa"
+        }
+      },
+      {
+        "episode": 38,
+        "frames": 455,
+        "action_state_sha256": "74b13a70a1b3f1fddfaa599a6089d4b159098e55a959c8a06f454e11a53f28ef",
+        "video_sha256": {
+          "observation.images.front": "f18d3aaade3acc3a72da50272e47850f207428805677839730a8e6a06329a11f",
+          "observation.images.wrist": "91d0f7454cd6de36f571dcd591fec42a0ef6eb065355e293cfd9a22fbebe0b5c"
+        }
+      },
+      {
+        "episode": 39,
+        "frames": 462,
+        "action_state_sha256": "31c7d5b379a18e2423ec31e7fa937b91440b32b88711992a65acf2733a262ee8",
+        "video_sha256": {
+          "observation.images.front": "15420be9b6634ec6bd9e0376b3efa3d03e9bfa13ad917de93c7fdc829608a4e4",
+          "observation.images.wrist": "3d800cd4046d801833d3abcdba877a402e6a81dc5ecba00f8c933715863c97c8"
+        }
+      },
+      {
+        "episode": 41,
+        "frames": 461,
+        "action_state_sha256": "f18c519d8e9cbcd769b2ebfb4aefc9d6dcbd8a990e766979fa417f4d1a38c665",
+        "video_sha256": {
+          "observation.images.front": "d05735a7e797df85f3019de707e74ef526df7d5683b877acc6dd4a679902c47d",
+          "observation.images.wrist": "3d6b2efafbb4ce053c18f8c6fd77e638b1b1b084d96d2bd29086c2c99130d9f1"
+        }
+      },
+      {
+        "episode": 42,
+        "frames": 485,
+        "action_state_sha256": "76949bbbb567b3f045df450797bc79cd51f7ee1b44eb90ba57ec77a914d228ab",
+        "video_sha256": {
+          "observation.images.front": "b5671fef7345b3834041fb3777366f853489a2e47818f062cecc88c241a96c79",
+          "observation.images.wrist": "b9e88803436bcea7d67be9556ce4ebe8166115c52c892b8c49ff85d95f2cba4e"
+        }
+      },
+      {
+        "episode": 44,
+        "frames": 518,
+        "action_state_sha256": "3addff9754ae81362725ecb8e1412cc0c5e3c9a99b15b3fbc6518a73a83c6eb5",
+        "video_sha256": {
+          "observation.images.front": "d6b1c64557fe0c241fadd6990398a959a00c3672c1335543a3101c9de21d18d0",
+          "observation.images.wrist": "b4da82560348ed5f1a4eac743a07885ef1dfffeaee9a396fdae170ed3a94d330"
+        }
+      },
+      {
+        "episode": 45,
+        "frames": 474,
+        "action_state_sha256": "e5a611380a2fd1abb5ca9dbe768ac770595ff957c2a8593c3415334c58e0bb6e",
+        "video_sha256": {
+          "observation.images.front": "43021e47688af9188564cc75a38c011167ad0d9578441f95570a25712bfccce9",
+          "observation.images.wrist": "952849711bd69806338a93455f447aa0cb1a37c2b3409b9d08a4d3ca5e36ee87"
+        }
+      },
+      {
+        "episode": 46,
+        "frames": 502,
+        "action_state_sha256": "3cada1c072e02d3756caea06d57fe4d80498a3129e17096fd07b08776066bae4",
+        "video_sha256": {
+          "observation.images.front": "3cebe6511d52306a6d5c3f7b2fa8f4cab458a40e1023a9121b89a864135cdd35",
+          "observation.images.wrist": "c67b5847ed57a4f6bfe97dc630b536c0565bda4be5b2a7197905e3f5e94c3087"
+        }
+      },
+      {
+        "episode": 48,
+        "frames": 450,
+        "action_state_sha256": "7d8c5980b6793a8dbaaf410e03b8f733896baa23bb56097b86b26c285f699e35",
+        "video_sha256": {
+          "observation.images.front": "fde8d4392481de373dee823e253a600e21a58d5302f3a69c6e30e4ad855190dc",
+          "observation.images.wrist": "4ba224ae1adbcd0e9c34af6e86ea8225ff283c6c4ef863fad48dc5b20798aefb"
+        }
+      },
+      {
+        "episode": 49,
+        "frames": 482,
+        "action_state_sha256": "b6b2173233be8aee9e3e15b9627f5562d8012dfff06dfd501452504479ce7e17",
+        "video_sha256": {
+          "observation.images.front": "fa5e2c6fda2cc8a58bc743686050ea1563ab5d35ab00530d7de8d97c51fc424d",
+          "observation.images.wrist": "7f5e8f0383ad2e8cc65d3faa93a6e62648b29a378940e4031a8604d48d908221"
+        }
+      },
+      {
+        "episode": 50,
+        "frames": 433,
+        "action_state_sha256": "4690aa1fafe547d1ca487570cf18063e5e1fa44d6a8397c94d0be8d2905b1a36",
+        "video_sha256": {
+          "observation.images.front": "47fbd313b5a4e86410b87da9b9ce75d1fa7da530d38f761179fbcc5d2dd4e37d",
+          "observation.images.wrist": "0a5b240d8cd81eb37ef585814f3dbea608c9fd480cf53eaf2186fb9824f3a522"
+        }
+      },
+      {
+        "episode": 51,
+        "frames": 416,
+        "action_state_sha256": "4216c61855aa97b5fd8cbb3545fd28557d9fb64c8e8e6c2d0d1e1c004b018587",
+        "video_sha256": {
+          "observation.images.front": "7ee389d18207ffdf4109a3c1e265377e34ad7f8888c2e603725e61916aeba4f7",
+          "observation.images.wrist": "38884377192860eb7b19cd9c15c3e419962c8cca21955a7faea9c89c3aebfcae"
+        }
+      },
+      {
+        "episode": 53,
+        "frames": 479,
+        "action_state_sha256": "547f430e7eb625ee864a4a663801c3f68240e2e22dff93b647757fbe200a0959",
+        "video_sha256": {
+          "observation.images.front": "e0f725ef6ecec72f244a25e6ac9a1c469ff1b9ec412aa337135f6d54abf4fc63",
+          "observation.images.wrist": "feda8607b614621c38b7a9d81c8dc5a3c5337f27a13084746012c52fee5ab8ca"
+        }
+      },
+      {
+        "episode": 54,
+        "frames": 378,
+        "action_state_sha256": "d6b4f712dfa800154ef344475e65c068cab41b4724c89a2bb7f97f1b3c0cdb0a",
+        "video_sha256": {
+          "observation.images.front": "842c38b4cdbd96250dcfe727214ff504b564cec6714e3d6e96def928acf3897e",
+          "observation.images.wrist": "f496e7c0e89398d2dbdc36972fa58a508b829ccdca87a4f72e644a6dfa0a5a0f"
+        }
+      },
+      {
+        "episode": 55,
+        "frames": 437,
+        "action_state_sha256": "43f5d7a1101f26b1e49b8ee6734d09fc00488aabc61841bfef19f628641503bb",
+        "video_sha256": {
+          "observation.images.front": "4210d1941ec501edfadfacf1cad6263b40d7a60eb8622e22836038e60038bbcf",
+          "observation.images.wrist": "bf4bc95e39d38ff206c995aa1958a286ec18136a465e53ffb70160720d3118e5"
+        }
+      },
+      {
+        "episode": 56,
+        "frames": 407,
+        "action_state_sha256": "a7830ce42fd43cdac4456d4c0d6e6b6df22e95e6a3e9d468f4e82b906dea8048",
+        "video_sha256": {
+          "observation.images.front": "595fc2a85ef54d77b8e56f6cec35f7282702ec9ca9a8e1881c706fe98859bb49",
+          "observation.images.wrist": "d468f52ddaac6e3783d9faac180521302cd5c82afbf57894d1ad51253086f8f5"
+        }
+      },
+      {
+        "episode": 57,
+        "frames": 456,
+        "action_state_sha256": "9f86d17ccb47dc1e7b06a09dc4506df0c0f99e5f3f9ab8803fd6e7282665a71a",
+        "video_sha256": {
+          "observation.images.front": "55c448f4c70d2134201ef4c597a6cb2020e875ab6c07e0720c3dc98394b441c8",
+          "observation.images.wrist": "26120947bc743fe118e127697502f5a6cbe2c204ecfe7c69f58480aa51c426ef"
+        }
+      },
+      {
+        "episode": 58,
+        "frames": 425,
+        "action_state_sha256": "8512e77128652a488a95e27132e4cbbd97d38ed564dd2eebfc11fb892d9b0994",
+        "video_sha256": {
+          "observation.images.front": "ecbd4bc4599265eb2dff5a71f5e6074acb716ea12727c0eb5d972a4abc721de1",
+          "observation.images.wrist": "8e2257d0a4dcf8e91ceebb6187663f1c3eef21816ac062f39e6abc53f1906bae"
+        }
+      },
+      {
+        "episode": 59,
+        "frames": 402,
+        "action_state_sha256": "93186ed8e537dd31405cb337112e4db1167fccce3104cc4c3470a5188bafa99d",
+        "video_sha256": {
+          "observation.images.front": "8f33d97426e5036051520b9c9da8191b045e511aa42a6057debeba735ad9a11b",
+          "observation.images.wrist": "c8ee778e3c427d3214c3bafd1ad1a3bf8a464eb9fafd598a9536b5a26c2f5c59"
+        }
+      },
+      {
+        "episode": 61,
+        "frames": 468,
+        "action_state_sha256": "e2711b255c9f2b9ff9b5a4eaab829c78a470add326d6db14f60436693771fae9",
+        "video_sha256": {
+          "observation.images.front": "4e19b9b75c90cc3763be2bf3d5f123beba55411ebe35ef7f1ca0b3887f2abb04",
+          "observation.images.wrist": "0dc3a5890692cb5d5712375a8efd503e9600aa147454aa36094e01a94656a6e0"
+        }
+      },
+      {
+        "episode": 62,
+        "frames": 394,
+        "action_state_sha256": "9b4ab0fc603287ac50c2b3550e0c6e145c78c1a79ce390c3ac0cafa648ee6835",
+        "video_sha256": {
+          "observation.images.front": "43d4d5668e88d4af22c8e6d4795cdf0979d01437bcba0a7716429c13ec2c3045",
+          "observation.images.wrist": "cac15fb1df8d55576dd0b32ee9a1a7750149be28b381095adddc2947827041b2"
+        }
+      },
+      {
+        "episode": 63,
+        "frames": 485,
+        "action_state_sha256": "b052c42838c703a8fce46fc98f3fdfd9287b38a2100f7897484d274d05fdb0e7",
+        "video_sha256": {
+          "observation.images.front": "7fd68c80c7ce09b7868840bd738dce5889731b3502207795ae82b9a8f8b4335d",
+          "observation.images.wrist": "93f2e20ca974529d49407c97af327e23807241ea7d6bd5c22d15fc6ae5592e9c"
+        }
+      },
+      {
+        "episode": 64,
+        "frames": 384,
+        "action_state_sha256": "324d7b3def5abd88088427d6f5a9048f4565049b5f1f62ce15c0431fc8a487c7",
+        "video_sha256": {
+          "observation.images.front": "b294386bb708d2b1764af51df246fae87d38aaad3d061a76d37116275454b96b",
+          "observation.images.wrist": "7605c66578891a4e5897f97259fe5940c98234ac1c0933b0e851fb163ab3f94f"
+        }
+      },
+      {
+        "episode": 65,
+        "frames": 474,
+        "action_state_sha256": "7ce9a59b58e58f61d0520e57281ccb08a12a55bbc5041527c456d2f566e76a86",
+        "video_sha256": {
+          "observation.images.front": "f3956c1c9e3fe2bec57b9f1aa8ef299ba793a64e84eb29771db2894d9949f9c0",
+          "observation.images.wrist": "92f7e6e0d4d1f9fcd5cfa8e9de9b5f8d720c20eb1c9051cd8799fc6a51705560"
+        }
+      },
+      {
+        "episode": 66,
+        "frames": 403,
+        "action_state_sha256": "52dcf7d35f1f85b12682a91faa7f67c166d524adf395269a0aeb09cd0130a8fe",
+        "video_sha256": {
+          "observation.images.front": "c07180f9b9bf662b2a48594235ab623e9206dc4b87e76e80d8b4e698d143c2ff",
+          "observation.images.wrist": "73256282059c43d233ca8294dc91cfe70f6b3d3e48262544b71154fd6e051c99"
+        }
+      },
+      {
+        "episode": 67,
+        "frames": 475,
+        "action_state_sha256": "aa41718e7ceb7720f5d9f851537d6a4095e94ba65eb46d02e2823696a2a79a71",
+        "video_sha256": {
+          "observation.images.front": "fb508842adf298ccd2f95585f171e97f4d12f79de7c812bd8af04040dfe687f8",
+          "observation.images.wrist": "23aeb86ea5a639a064f024832930107366abdea4a2425262b661cd76938e60c4"
+        }
+      },
+      {
+        "episode": 68,
+        "frames": 477,
+        "action_state_sha256": "e5aa1a47b38bf0173e61860e103e80b42087599773d54b9ad008cfebb45c8816",
+        "video_sha256": {
+          "observation.images.front": "93a4612c0fd88db7b58dd202603c559a266907f08e37d301c93836a33dd1b541",
+          "observation.images.wrist": "a3b720df00e0da02320304612921b75da152108d37c1fd8dffdd6ee904433bee"
+        }
+      },
+      {
+        "episode": 69,
+        "frames": 486,
+        "action_state_sha256": "c56ac79fb17e81f03ae343b95c583b16f73a60a5272ef358945edf7d416df049",
+        "video_sha256": {
+          "observation.images.front": "1a07516a643ebb96caf9bf67925b3cba8282d9b5f6c8b6ca4bb70a54b6a31018",
+          "observation.images.wrist": "272efdad948876a1374ea4cf4d7733bb99ef9c87c0148cd34059924d6d4c52cd"
+        }
+      },
+      {
+        "episode": 71,
+        "frames": 441,
+        "action_state_sha256": "aa941d9e538551954e743a09536f7c70de8d3189027fdf4dc3b45c2889dd9a95",
+        "video_sha256": {
+          "observation.images.front": "067e156c47dce85882efe273d2723dfcc346ab166e3abc6733d024d0e91634fa",
+          "observation.images.wrist": "3c1174760c59f105db24d379e8224b41088a60e320bb85225ba8fceaaebcbc50"
+        }
+      },
+      {
+        "episode": 72,
+        "frames": 435,
+        "action_state_sha256": "5985b5985aecd8caf13ab77dec4878b8e36f634d6c29b263ed411365fe9bd799",
+        "video_sha256": {
+          "observation.images.front": "8e8a5d36eef7d51353aabb1bba96e25ff0d3de8592de9b9391809a991986f892",
+          "observation.images.wrist": "abd90e164d7caa89c89db0e5f1ce11167d2b2e734bf67b3fadba0bc2dc0872c1"
+        }
+      },
+      {
+        "episode": 74,
+        "frames": 491,
+        "action_state_sha256": "78a21cdd052fd8da9a8b475b3f310f08e9d2b2902651dd7e89a88f50286b1b78",
+        "video_sha256": {
+          "observation.images.front": "17cc6848a648f39cc834f3c59fa788609be6e9924f9aa4a751b4c912e18de53b",
+          "observation.images.wrist": "97675715b83d668b582e2fde25b87aaa9e88f7e3062f5e7c0cc65e2611c5ee23"
+        }
+      },
+      {
+        "episode": 76,
+        "frames": 532,
+        "action_state_sha256": "c0bb526438e3b41a5916fe6f0ba3fe663ee5b15953f9175cfecb20e9d30bfa37",
+        "video_sha256": {
+          "observation.images.front": "f0167af522c44c24c4a874f6af61b5104623ee708230f425394b898b293f6934",
+          "observation.images.wrist": "d9fce9c8240cf582c69046c58e856079b0ff8a0444f19ff5073fea5e9266fc38"
+        }
+      },
+      {
+        "episode": 77,
+        "frames": 441,
+        "action_state_sha256": "9ab0ee2d64b421547419bf1788c0380cb3654532aa5147b85977a06d06c5b0e4",
+        "video_sha256": {
+          "observation.images.front": "be23e2b46389bea807aa6617e01449741f813ba83f086de1cb489b12d458ef57",
+          "observation.images.wrist": "07ab79e9e5ee9e600cc6ef7cc197fb7d941a360353c255e58eeb89fdc58474f6"
+        }
+      },
+      {
+        "episode": 78,
+        "frames": 446,
+        "action_state_sha256": "29779dc2fabea66a3cfa5a9b9ed4104e78099508e1a6d6ca2c28dcef99c57370",
+        "video_sha256": {
+          "observation.images.front": "44692814e53220fff3b9ad80d371ef0120f46f4828d1b15200d77d3dbdacfb10",
+          "observation.images.wrist": "d4815c7f6dee8b369952e4b0bf027a01e24a3d48f628a3bc4133d1371c60ac38"
+        }
+      },
+      {
+        "episode": 79,
+        "frames": 504,
+        "action_state_sha256": "1db10b75b6df49a5f9d61031a18a4d8cdb4700fea541e39c9dc1e108d822bf44",
+        "video_sha256": {
+          "observation.images.front": "ba96ec35b47c4dc501a0016d319b22e95b9c6662e3aa747951035fce27bdfcb6",
+          "observation.images.wrist": "970c6152a9c401c1fe2827604f6f8881caee228c19801add96192a561a8dfa4b"
+        }
+      }
+    ],
+    "total_frames": 30610
+  },
+  "annotation_sha256": "87b03225b182350eb009a177ac8fdb246327d76a8c7f58ce5fe2d44927b49662",
+  "sampling_version": "stage_balanced_v2_no_review",
+  "checkpoint_sha256": "7e49ff7e3aa971de3f1d2d8b13b8ef42899f7f5d1029633b38b7097f1b905038",
+  "steps": 1,
+  "batch_size": 1,
+  "seed": 42,
+  "created_at": "2026-11-08T19:32:36"
+}

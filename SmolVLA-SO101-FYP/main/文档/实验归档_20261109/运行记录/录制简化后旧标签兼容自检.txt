@@ -1,0 +1,10 @@
+test_budget_and_per_position_balance (__main__.CollectionTests) ... ok
+test_canonical_tasks_and_explicit_destination (__main__.CollectionTests) ... ok
+test_dev_is_excluded_and_cross_stage_layout_leakage_detected (__main__.CollectionTests) ... ok
+test_layout_groups_across_stages (__main__.CollectionTests) ... ok
+test_saved_labels_match_actual_text_and_cannot_be_silently_lost (__main__.CollectionTests) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.080s
+
+OK

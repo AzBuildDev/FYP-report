@@ -1,0 +1,55 @@
+运行日志：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261031_151333_918009.jsonl
+【1/5】正在加载微调模型……
+模型：D:\FYP\SmolVLA-SO101-FYP\模型\纯100段_历史batch16参数_30k_20261031\best_val
+演示：D:\FYP\训练数据采集\机械臂控制项目\任务演示\双相机演示_20261030_200119_173830
+处理器：D:\FYP\SmolVLA-SO101-FYP\模型\视觉语言处理器
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+任务指令：Pick up the red cube and place it in the target area.
+推理输入存档：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261031_151333_918009
+【2/5】正在计算安全活动范围……
+【3/5】正在连接从臂（只检测，不动）……
+      夹爪原始位置：2058；标定范围：2046～3492。
+      从臂 COM4 在线，当前关节：[3.0999999046325684, -98.69999694824219, -0.20000000298023224, 64.5999984741211, 4.099999904632568, 0.800000011920929]
+      夹爪当前开度：0.83；本次演示允许：0.00～71.14。
+【4/5】正在开启桌面和夹爪相机……
+      两路相机画面正常。
+      正在等待推理窗口显示双摄画面……
+      双摄画面已在推理窗口显示。
+      正在预热模型并检查推理时效（不发送动作）……
+【5/5】正在核对启动姿态与最终设备状态……
+============================================================
+控制设置：从当前位置开始，相邻发送指令每步最多变化 0.5 个归一化单位。
+任务推理：在演示活动范围与标定行程内运行。
+身体关节范围包含当前姿态；夹爪起点必须在演示范围内，超出时拒绝启用。
+运行时长：持续运行。运行期间从臂会自行运动，请全程看护。
+已收到窗口的“启动推理”请求，最终检查通过后开始；点击“停止推理”或关闭窗口可停止。
+异步模式每个控制节拍处理停止请求；串行模式需等当前推理结束。
+============================================================
+独立跟随误差上限：[5.309999942779541, 10.0, 6.039999961853027, 5.449999809265137, 3.2899999618530273, 3.0]；持续卡住 0.6 秒即停止。
+夹爪闭合受阻时先限制继续夹紧；疑似接触保持不限时，模型要求张开时释放。
+正在启用从臂扭矩……
+开始闭环控制，持续运行，直到点击停止或发生故障。
+实时状态JSON：{"type": "telemetry", "t": 0.75, "observed_state": [3.1465847492218018, -98.65771484375, -0.17094017565250397, 64.64912414550781, 4.0625, 0.8298755288124084], "model_target": [2.047299861907959, -98.66607666015625, -7.787036895751953, 67.77901458740234, 2.3523011207580566, 0.7447576522827148], "target": [2.6465847492218018, -98.66607666015625, -0.6709401607513428, 65.14912414550781, 3.5625, 0.7447576522827148], "chunk_index": 15, "source_age_s": 0.75, "sent_target": [2.6465847492218018, -98.66607666015625, -0.6709401607513428, 65.14912414550781, 3.5625, 0.7447576522827148], "gripper_control": {"mode": "position", "contact_position": null, "hold_floor": null, "held_seconds": 0.0, "max_hold_seconds": null, "force_measured": false}, "joint_names": ["shoulder_pan.pos", "shoulder_lift.pos", "elbow_flex.pos", "wrist_flex.pos", "wrist_roll.pos", "gripper.pos"], "limited": [true, false, true, true, true, false], "command_error": [-0.5, -0.00836181640625, -0.4999999850988388, 0.5, -0.5, -0.0851178765296936], "sent_commands": 1, "inferences": 1, "inference_s": 0.7029999999940628, "limited_joints": 4, "fault_status": {"shoulder_pan": 0, "shoulder_lift": 0, "elbow_flex": 0, "wrist_flex": 0, "wrist_roll": 0, "gripper": 0}, "units": "归一化开度/位置，非角度"}
+实时状态JSON：{"type": "telemetry", "t": 1.2810000000026776, "observed_state": [1.1511895656585693, -97.9026870727539, -2.4664225578308105, 69.21052551269531, 1.8229166269302368, 0.8298755288124084], "model_target": [-0.946662187576294, -73.32064819335938, -20.756793975830078, 71.6422348022461, 1.2919650077819824, 0.6705093383789062], "target": [-0.5672755241394043, -93.57304382324219, -6.170940399169922, 70.64912414550781, 1.2919650077819824, 0.6705093383789062], "chunk_index": 26, "source_age_s": 1.2960000000020955, "sent_target": [-0.5672755241394043, -93.57304382324219, -6.170940399169922, 70.64912414550781, 1.2919650077819824, 0.6705093383789062], "gripper_control": {"mode": "position", "contact_position": null, "hold_floor": null, "held_seconds": 0.0, "max_hold_seconds": null, "force_measured": false}, "joint_names": ["shoulder_pan.pos", "shoulder_lift.pos", "elbow_flex.pos", "wrist_flex.pos", "wrist_roll.pos", "gripper.pos"], "limited": [true, true, true, true, false, false], "command_error": [-1.7184650897979736, 4.329643249511719, -3.7045178413391113, 1.4385986328125, -0.5309516191482544, -0.1593661904335022], "sent_commands": 12, "inferences": 1, "inference_s": 0.7029999999940628, "limited_joints": 4, "fault_status": {"shoulder_pan": 0, "shoulder_lift": 0, "elbow_flex": 0, "wrist_flex": 0, "wrist_roll": 0, "gripper": 0}, "units": "归一化开度/位置，非角度"}
+实时状态JSON：{"type": "telemetry", "t": 1.8439999999973224, "observed_state": [-0.7674596905708313, -94.88255310058594, -7.545787334442139, 72.01754760742188, 1.5625, 0.8298755288124084], "model_target": [0.6055550575256348, -86.3538818359375, -14.422595977783203, 72.02456665039062, 1.8052778244018555, 0.4204893112182617], "target": [0.6055550575256348, -92.07304382324219, -10.802005767822266, 71.63182067871094, 1.8052778244018555, 0.4204893112182617], "chunk_index": 24, "source_age_s": 1.2029999999940628, "sent_target": [0.6055550575256348, -92.07304382324219, -10.802005767822266, 71.63182067871094, 1.8052778244018555, 0.4204893112182617], "gripper_control": {"mode": "position", "contact_position": null, "hold_floor": null, "held_seconds": 0.0, "max_hold_seconds": null, "force_measured": false}, "joint_names": ["shoulder_pan.pos", "shoulder_lift.pos", "elbow_flex.pos", "wrist_flex.pos", "wrist_roll.pos", "gripper.pos"], "limited": [false, true, true, true, false, false], "command_error": [1.373014748096466, 2.80950927734375, -3.256218433380127, -0.3857269287109375, 0.24277782440185547, -0.40938621759414673], "sent_commands": 23, "inferences": 2, "inference_s": 0.7810000000026776, "limited_joints": 3, "fault_status": {"shoulder_pan": 0, "shoulder_lift": 0, "elbow_flex": 0, "wrist_flex": 0, "wrist_roll": 0, "gripper": 0}, "units": "归一化开度/位置，非角度"}
+实时状态JSON：{"type": "telemetry", "t": 2.3589999999967404, "observed_state": [-2.9930927753448486, -90.9395980834961, -12.820512771606445, 75.78947448730469, -0.625, 0.8298755288124084], "model_target": [-11.21833610534668, -47.53746032714844, -32.38019561767578, 83.98551940917969, -6.07647180557251, 0.5502252578735352], "target": [-4.894444942474365, -86.57304382324219, -16.302005767822266, 77.13182067871094, -2.2809977531433105, 0.5502252578735352], "chunk_index": 17, "source_age_s": 0.8899999999994179, "sent_target": [-4.894444942474365, -86.57304382324219, -16.302005767822266, 77.13182067871094, -2.2809977531433105, 0.5502252578735352], "gripper_control": {"mode": "position", "contact_position": null, "hold_floor": null, "held_seconds": 0.0, "max_hold_seconds": null, "force_measured": false}, "joint_names": ["shoulder_pan.pos", "shoulder_lift.pos", "elbow_flex.pos", "wrist_flex.pos", "wrist_roll.pos", "gripper.pos"], "limited": [true, true, true, true, true, false], "command_error": [-1.9013521671295166, 4.366554260253906, -3.4814929962158203, 1.34234619140625, -1.6559977531433105, -0.2796502709388733], "sent_commands": 34, "inferences": 3, "inference_s": 0.7660000000032596, "limited_joints": 5, "fault_status": {"shoulder_pan": 0, "shoulder_lift": 0, "elbow_flex": 0, "wrist_flex": 0, "wrist_roll": 0, "gripper": 0}, "units": "归一化开度/位置，非角度"}
+实时状态JSON：{"type": "telemetry", "t": 2.889999999999418, "observed_state": [-8.135072708129883, -85.48657989501953, -18.095237731933594, 80.87718963623047, -5.78125, 0.8298755288124084], "model_target": [-22.19304847717285, -28.049715042114258, -41.04520797729492, 89.42731475830078, -14.086494445800781, 0.8725967407226562], "target": [-9.894445419311523, -81.57304382324219, -21.302005767822266, 82.13182067871094, -7.2809977531433105, 0.8725967407226562], "chunk_index": 28, "source_age_s": 1.4060000000026776, "sent_target": [-9.894445419311523, -81.57304382324219, -21.302005767822266, 82.13182067871094, -7.2809977531433105, 0.8725967407226562], "gripper_control": {"mode": "position", "contact_position": null, "hold_floor": null, "held_seconds": 0.0, "max_hold_seconds": null, "force_measured": false}, "joint_names": ["shoulder_pan.pos", "shoulder_lift.pos", "elbow_flex.pos", "wrist_flex.pos", "wrist_roll.pos", "gripper.pos"], "limited": [true, true, true, true, true, false], "command_error": [-1.7593727111816406, 3.9135360717773438, -3.206768035888672, 1.2546310424804688, -1.4997477531433105, 0.0427212119102478], "sent_commands": 44, "inferences": 3, "inference_s": 0.7660000000032596, "limited_joints": 5, "fault_status": {"shoulder_pan": 0, "shoulder_lift": 0, "elbow_flex": 0, "wrist_flex": 0, "wrist_roll": 0, "gripper": 0}, "units": "归一化开度/位置，非角度"}
+
+异常停止：相机画面中断，停止控制。
+已释放扭矩并断开连接。
+共发送 54 次动作、4 次推理。
+模型输入画面：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261031_151333_918009（共 4 组）
+运行日志：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261031_151333_918009.jsonl
+Traceback (most recent call last):
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 638, in <module>
+    main(args.mode, args.scene, selected, settings=trajectory_trial_settings() if args.trajectory_trial else task_inference_settings(args.seconds) if args.task_inference else None,
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 186, in main
+    run_test(resources, mode, scene.strip(), selection, settings, window_start, preview_directory, task=task)
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 527, in run_test
+    run_async_control(predict, read_state, get_frame, send_target,
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\异步动作控制.py", line 101, in run_async_control
+    validate_frame(stamp, image, now)
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\检查控制输入.py", line 86, in validate_frame
+    raise RuntimeError("相机画面中断，停止控制。")
+RuntimeError: 相机画面中断，停止控制。

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "step": 16,
+  "batch_size": 452,
+  "predictions": 320,
+  "checkpoint": "/root/autodl-tmp/AutoDL_纯80段双物体_阶段采样_20261108/输出/B_纯80段双物体_stage/last"
+}

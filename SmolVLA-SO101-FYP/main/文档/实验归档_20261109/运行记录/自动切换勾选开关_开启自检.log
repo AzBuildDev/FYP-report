@@ -1,0 +1,140 @@
+
+Map:   0%|          | 0/60 [00:00<?, ? examples/s]
+Map: 100%|██████████| 60/60 [00:00<00:00, 827.03 examples/s]
+
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]
+Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 60.07ba/s]
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [version]:	SVT-AV1 Encoder Lib v4.1.0
+Svt[info]: SVT [build]  :	GCC 15.2.0	 64 bit
+Svt[info]: LIB Build date: Jan  1 1970 00:00:00
+Svt[info]: -------------------------------------------
+Svt[info]: Level of Parallelism: 5
+Svt[info]: Number of PPCS 140
+Svt[info]: [asm level on system : up to avx512]
+Svt[info]: [asm level selected : up to avx512]
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [config]: main profile	tier (auto)	level (auto)
+Svt[info]: SVT [config]: width / height / fps numerator / fps denominator 		: 640 / 480 / 20 / 1
+Svt[info]: SVT [config]: bit-depth / color format 					: 8 / YUV420
+Svt[info]: SVT [config]: preset / tune / pred struct 					: 8 / PSNR / random access
+Svt[info]: SVT [config]: gop size / mini-gop size / key-frame type 			: 2 / 32 / key frame
+Svt[info]: SVT [config]: BRC mode / rate factor 					: CRF / 30.00 
+Svt[info]: SVT [config]: AQ mode / Variance Boost 					: 2 / 0
+Svt[info]: SVT [config]: sharpness / luminance-based QP bias 				: 0 / 0
+Svt[info]: SVT [config]: QP scale compress strength 					: 0
+Svt[info]: -------------------------------------------
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [version]:	SVT-AV1 Encoder Lib v4.1.0
+Svt[info]: SVT [build]  :	GCC 15.2.0	 64 bit
+Svt[info]: LIB Build date: Jan  1 1970 00:00:00
+Svt[info]: -------------------------------------------
+Svt[info]: Level of Parallelism: 5
+Svt[info]: Number of PPCS 140
+Svt[info]: [asm level on system : up to avx512]
+Svt[info]: [asm level selected : up to avx512]
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [config]: main profile	tier (auto)	level (auto)
+Svt[info]: SVT [config]: width / height / fps numerator / fps denominator 		: 640 / 480 / 20 / 1
+Svt[info]: SVT [config]: bit-depth / color format 					: 8 / YUV420
+Svt[info]: SVT [config]: preset / tune / pred struct 					: 8 / PSNR / random access
+Svt[info]: SVT [config]: gop size / mini-gop size / key-frame type 			: 2 / 32 / key frame
+Svt[info]: SVT [config]: BRC mode / rate factor 					: CRF / 30.00 
+Svt[info]: SVT [config]: AQ mode / Variance Boost 					: 2 / 0
+Svt[info]: SVT [config]: sharpness / luminance-based QP bias 				: 0 / 0
+Svt[info]: SVT [config]: QP scale compress strength 					: 0
+Svt[info]: -------------------------------------------
+
+Map:   0%|          | 0/61 [00:00<?, ? examples/s]
+Map: 100%|██████████| 61/61 [00:00<00:00, 935.26 examples/s]
+
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]
+Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 990.39ba/s]
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [version]:	SVT-AV1 Encoder Lib v4.1.0
+Svt[info]: SVT [build]  :	GCC 15.2.0	 64 bit
+Svt[info]: LIB Build date: Jan  1 1970 00:00:00
+Svt[info]: -------------------------------------------
+Svt[info]: Level of Parallelism: 5
+Svt[info]: Number of PPCS 140
+Svt[info]: [asm level on system : up to avx512]
+Svt[info]: [asm level selected : up to avx512]
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [config]: main profile	tier (auto)	level (auto)
+Svt[info]: SVT [config]: width / height / fps numerator / fps denominator 		: 640 / 480 / 20 / 1
+Svt[info]: SVT [config]: bit-depth / color format 					: 8 / YUV420
+Svt[info]: SVT [config]: preset / tune / pred struct 					: 8 / PSNR / random access
+Svt[info]: SVT [config]: gop size / mini-gop size / key-frame type 			: 2 / 32 / key frame
+Svt[info]: SVT [config]: BRC mode / rate factor 					: CRF / 30.00 
+Svt[info]: SVT [config]: AQ mode / Variance Boost 					: 2 / 0
+Svt[info]: SVT [config]: sharpness / luminance-based QP bias 				: 0 / 0
+Svt[info]: SVT [config]: QP scale compress strength 					: 0
+Svt[info]: -------------------------------------------
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [version]:	SVT-AV1 Encoder Lib v4.1.0
+Svt[info]: SVT [build]  :	GCC 15.2.0	 64 bit
+Svt[info]: LIB Build date: Jan  1 1970 00:00:00
+Svt[info]: -------------------------------------------
+Svt[info]: Level of Parallelism: 5
+Svt[info]: Number of PPCS 140
+Svt[info]: [asm level on system : up to avx512]
+Svt[info]: [asm level selected : up to avx512]
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [config]: main profile	tier (auto)	level (auto)
+Svt[info]: SVT [config]: width / height / fps numerator / fps denominator 		: 640 / 480 / 20 / 1
+Svt[info]: SVT [config]: bit-depth / color format 					: 8 / YUV420
+Svt[info]: SVT [config]: preset / tune / pred struct 					: 8 / PSNR / random access
+Svt[info]: SVT [config]: gop size / mini-gop size / key-frame type 			: 2 / 32 / key frame
+Svt[info]: SVT [config]: BRC mode / rate factor 					: CRF / 30.00 
+Svt[info]: SVT [config]: AQ mode / Variance Boost 					: 2 / 0
+Svt[info]: SVT [config]: sharpness / luminance-based QP bias 				: 0 / 0
+Svt[info]: SVT [config]: QP scale compress strength 					: 0
+Svt[info]: -------------------------------------------
+
+Map:   0%|          | 0/60 [00:00<?, ? examples/s]
+Map: 100%|██████████| 60/60 [00:00<00:00, 687.60 examples/s]
+
+Creating parquet from Arrow format:   0%|          | 0/1 [00:00<?, ?ba/s]
+Creating parquet from Arrow format: 100%|██████████| 1/1 [00:00<00:00, 975.87ba/s]
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [version]:	SVT-AV1 Encoder Lib v4.1.0
+Svt[info]: SVT [build]  :	GCC 15.2.0	 64 bit
+Svt[info]: LIB Build date: Jan  1 1970 00:00:00
+Svt[info]: -------------------------------------------
+Svt[info]: Level of Parallelism: 5
+Svt[info]: Number of PPCS 140
+Svt[info]: [asm level on system : up to avx512]
+Svt[info]: [asm level selected : up to avx512]
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [config]: main profile	tier (auto)	level (auto)
+Svt[info]: SVT [config]: width / height / fps numerator / fps denominator 		: 640 / 480 / 20 / 1
+Svt[info]: SVT [config]: bit-depth / color format 					: 8 / YUV420
+Svt[info]: SVT [config]: preset / tune / pred struct 					: 8 / PSNR / random access
+Svt[info]: SVT [config]: gop size / mini-gop size / key-frame type 			: 2 / 32 / key frame
+Svt[info]: SVT [config]: BRC mode / rate factor 					: CRF / 30.00 
+Svt[info]: SVT [config]: AQ mode / Variance Boost 					: 2 / 0
+Svt[info]: SVT [config]: sharpness / luminance-based QP bias 				: 0 / 0
+Svt[info]: SVT [config]: QP scale compress strength 					: 0
+Svt[info]: -------------------------------------------
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [version]:	SVT-AV1 Encoder Lib v4.1.0
+Svt[info]: SVT [build]  :	GCC 15.2.0	 64 bit
+Svt[info]: LIB Build date: Jan  1 1970 00:00:00
+Svt[info]: -------------------------------------------
+Svt[info]: Level of Parallelism: 5
+Svt[info]: Number of PPCS 140
+Svt[info]: [asm level on system : up to avx512]
+Svt[info]: [asm level selected : up to avx512]
+Svt[info]: -------------------------------------------
+Svt[info]: SVT [config]: main profile	tier (auto)	level (auto)
+Svt[info]: SVT [config]: width / height / fps numerator / fps denominator 		: 640 / 480 / 20 / 1
+Svt[info]: SVT [config]: bit-depth / color format 					: 8 / YUV420
+Svt[info]: SVT [config]: preset / tune / pred struct 					: 8 / PSNR / random access
+Svt[info]: SVT [config]: gop size / mini-gop size / key-frame type 			: 2 / 32 / key frame
+Svt[info]: SVT [config]: BRC mode / rate factor 					: CRF / 30.00 
+Svt[info]: SVT [config]: AQ mode / Variance Boost 					: 2 / 0
+Svt[info]: SVT [config]: sharpness / luminance-based QP bias 				: 0 / 0
+Svt[info]: SVT [config]: QP scale compress strength 					: 0
+Svt[info]: -------------------------------------------
+采集流程自检通过：181 帧，开始/停止/保存/视频重读/串口清理正常。
+合成测试数据：D:\FYP\SmolVLA-SO101-FYP\运行环境\临时文件\recording_ui_check_udk4f_uz\dataset

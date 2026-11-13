@@ -1,0 +1,298 @@
+{
+  "device": "cpu",
+  "hardware_commands_sent": 0,
+  "source": "D:\\FYP\\SmolVLA-SO101-FYP\\上游框架\\src\\lerobot\\policies\\smolvla\\modeling_smolvla.py",
+  "method": "直接提取并执行现用 prepare_images 和 resize_with_pad，不导入硬件模块。",
+  "samples": [
+    {
+      "name": "train_ep000_front_start",
+      "input_shape": [
+        480,
+        640,
+        3
+      ],
+      "processed_shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "processed_range": [
+        -1.0,
+        1.0
+      ],
+      "red_pixels_before": 1791,
+      "blue_pixels_before": 1804,
+      "red_pixels_after": 1145,
+      "blue_pixels_after": 1162,
+      "red_mean_rgb_before": [
+        190.68620882188722,
+        80.16136236739251,
+        92.85147962032384
+      ],
+      "blue_mean_rgb_before": [
+        90.32538802660754,
+        132.98170731707316,
+        211.14745011086475
+      ],
+      "red_mean_rgb_after": [
+        190.52198791503906,
+        80.20772552490234,
+        92.84255981445312
+      ],
+      "blue_mean_rgb_after": [
+        90.76899719238281,
+        133.13812255859375,
+        210.8728485107422
+      ],
+      "max_channel_difference_after": 0.5960783958435059
+    },
+    {
+      "name": "train_ep016_front_start",
+      "input_shape": [
+        480,
+        640,
+        3
+      ],
+      "processed_shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "processed_range": [
+        -1.0,
+        1.0
+      ],
+      "red_pixels_before": 1674,
+      "blue_pixels_before": 1773,
+      "red_pixels_after": 1072,
+      "blue_pixels_after": 1130,
+      "red_mean_rgb_before": [
+        211.08602150537635,
+        92.94563918757467,
+        110.72759856630825
+      ],
+      "blue_mean_rgb_before": [
+        73.39481105470954,
+        114.99210377890581,
+        197.25606316976877
+      ],
+      "red_mean_rgb_after": [
+        210.7033233642578,
+        93.0739974975586,
+        110.6993637084961
+      ],
+      "blue_mean_rgb_after": [
+        73.52324676513672,
+        115.08125305175781,
+        197.3601837158203
+      ],
+      "max_channel_difference_after": 0.6328431367874146
+    },
+    {
+      "name": "train_ep048_front_start",
+      "input_shape": [
+        480,
+        640,
+        3
+      ],
+      "processed_shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "processed_range": [
+        -1.0,
+        1.0
+      ],
+      "red_pixels_before": 1581,
+      "blue_pixels_before": 2034,
+      "red_pixels_after": 1004,
+      "blue_pixels_after": 1312,
+      "red_mean_rgb_before": [
+        209.22390891840607,
+        101.01518026565465,
+        117.98734977862112
+      ],
+      "blue_mean_rgb_before": [
+        72.7433628318584,
+        115.4031465093412,
+        201.46263520157325
+      ],
+      "red_mean_rgb_after": [
+        209.7507781982422,
+        101.49055480957031,
+        118.54997253417969
+      ],
+      "blue_mean_rgb_after": [
+        73.30046081542969,
+        115.66475677490234,
+        201.0164337158203
+      ],
+      "max_channel_difference_after": 0.6833333373069763
+    },
+    {
+      "name": "train_ep000_wrist_grasp",
+      "input_shape": [
+        480,
+        640,
+        3
+      ],
+      "processed_shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "processed_range": [
+        -1.0,
+        1.0
+      ],
+      "red_pixels_before": 40628,
+      "blue_pixels_before": 1470,
+      "red_pixels_after": 26023,
+      "blue_pixels_after": 944,
+      "red_mean_rgb_before": [
+        166.00972235896427,
+        32.68113123953923,
+        57.432878802796104
+      ],
+      "blue_mean_rgb_before": [
+        80.24897959183673,
+        83.16598639455782,
+        165.45578231292518
+      ],
+      "red_mean_rgb_after": [
+        165.905029296875,
+        32.726470947265625,
+        57.44034194946289
+      ],
+      "blue_mean_rgb_after": [
+        80.34585571289062,
+        83.2630615234375,
+        165.25201416015625
+      ],
+      "max_channel_difference_after": 0.5803921818733215
+    },
+    {
+      "name": "live_wrong_pick_front_start",
+      "input_shape": [
+        480,
+        640,
+        3
+      ],
+      "processed_shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "processed_range": [
+        -1.0,
+        1.0
+      ],
+      "red_pixels_before": 1701,
+      "blue_pixels_before": 1933,
+      "red_pixels_after": 1087,
+      "blue_pixels_after": 1241,
+      "red_mean_rgb_before": [
+        207.6766607877719,
+        94.70723104056438,
+        110.89711934156378
+      ],
+      "blue_mean_rgb_before": [
+        67.22659079151578,
+        109.91412312467666,
+        192.7144335230212
+      ],
+      "red_mean_rgb_after": [
+        207.6983184814453,
+        94.8569564819336,
+        110.9998550415039
+      ],
+      "blue_mean_rgb_after": [
+        67.66639709472656,
+        110.21887969970703,
+        192.76609802246094
+      ],
+      "max_channel_difference_after": 0.6137867569923401
+    },
+    {
+      "name": "live_wrong_pick_wrist",
+      "input_shape": [
+        480,
+        640,
+        3
+      ],
+      "processed_shape": [
+        1,
+        3,
+        512,
+        512
+      ],
+      "processed_range": [
+        -1.0,
+        1.0
+      ],
+      "red_pixels_before": 702,
+      "blue_pixels_before": 51323,
+      "red_pixels_after": 449,
+      "blue_pixels_after": 32873,
+      "red_mean_rgb_before": [
+        134.15811965811966,
+        42.56837606837607,
+        77.53988603988604
+      ],
+      "blue_mean_rgb_before": [
+        66.62040410732031,
+        78.24400366307503,
+        183.35944897998948
+      ],
+      "red_mean_rgb_after": [
+        134.21241760253906,
+        42.645565032958984,
+        77.66098022460938
+      ],
+      "blue_mean_rgb_after": [
+        66.60953521728516,
+        78.23295593261719,
+        183.26231384277344
+      ],
+      "max_channel_difference_after": 0.5756127834320068
+    }
+  ],
+  "note": "实机输入来自JPEG存档，训练输入来自原视频解码；特征差异不代表颜色识别准确率。",
+  "encoder_probe": {
+    "checkpoint": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_历史batch16参数_30k_20261031\\best_val\\model.safetensors",
+    "input": "train_ep016_front_start",
+    "only_color_mask_pixels_changed": 3447,
+    "feature_shape": [
+      1,
+      64,
+      960
+    ],
+    "results": {
+      "original": {
+        "identical_to_original": true,
+        "rms_difference": 0.0,
+        "relative_l2_difference": 0.0,
+        "flat_cosine_similarity": 0.999999463558197
+      },
+      "cube_colors_RB_swapped": {
+        "identical_to_original": false,
+        "rms_difference": 1.0273566246032715,
+        "relative_l2_difference": 0.1976567804813385,
+        "flat_cosine_similarity": 0.9803018569946289
+      },
+      "cube_colors_grayscale": {
+        "identical_to_original": false,
+        "rms_difference": 1.2161802053451538,
+        "relative_l2_difference": 0.23398517072200775,
+        "flat_cosine_similarity": 0.972241997718811
+      }
+    },
+    "interpretation": "仅改变红蓝方块颜色，视觉编码器+连接层输出是否改变；不证明模型语义上识别正确颜色或正确选物。"
+  }
+}

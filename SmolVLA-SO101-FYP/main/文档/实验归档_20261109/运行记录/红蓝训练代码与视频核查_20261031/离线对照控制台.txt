@@ -1,0 +1,24 @@
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+LOADED D:\FYP\SmolVLA-SO101-FYP\模型\纯100段_历史batch16参数_30k_20261031\best_val
+DONE 0 0
+DONE 0 168
+DONE 1 0
+DONE 1 121
+DONE 16 0
+DONE 16 132
+DONE 17 0
+DONE 17 123
+DONE 32 0
+DONE 32 130
+DONE 33 0
+DONE 33 142
+DONE 48 0
+DONE 48 121
+DONE 49 0
+DONE 49 138
+DONE 64 0
+DONE 64 93
+DONE 65 0
+DONE 65 131
+SUMMARY {"predicted_delta_normalized_mae": 0.07240973932891488, "correct_task_normalized_mae": 0.08747547303930446, "swapped_task_normalized_mae": 0.12801818931220837, "same_input_different_task_prediction_count": 40, "correct_task_has_smaller_error_count": 31}

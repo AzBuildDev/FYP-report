@@ -1,0 +1,9 @@
+{
+  "host": "connect.westd.seetacloud.com",
+  "port": 27362,
+  "root": "/root/autodl-tmp/AutoDL_纯80段_指令对比_20261108",
+  "screen": "smolvla80contrast",
+  "time": "2026-11-08T21:32:40.186967",
+  "gpu": "NVIDIA RTX 6000D",
+  "notes": "正式训练已启动；旧50948端口不可用；实际进度见metrics，非永久监控。"
+}

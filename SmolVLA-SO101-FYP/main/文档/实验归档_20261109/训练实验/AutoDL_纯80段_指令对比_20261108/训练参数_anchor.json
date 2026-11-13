@@ -1,0 +1,19 @@
+{
+  "batch_size": 452,
+  "steps": 2124,
+  "warmup": 36,
+  "save_every": 355,
+  "validate_every": 71,
+  "seed": 42,
+  "validation_samples": 10,
+  "sampling_mode": "stage",
+  "output_relative": "输出/anchor_纯80段",
+  "initialization": "official_base_fresh_optimizer",
+  "continuous": false,
+  "instruction_margin": 0.02,
+  "instruction_pairs": 8,
+  "instruction_microbatch": 2,
+  "instruction_min_motion": 0.1,
+  "instruction_weight": 0.1,
+  "instruction_ranking_weight": 0.0
+}

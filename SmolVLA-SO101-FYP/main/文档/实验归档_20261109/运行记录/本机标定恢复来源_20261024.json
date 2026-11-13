@@ -1,0 +1,10 @@
+{
+  "source_report": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\机械臂只读检查_20261024_012436_558934.json",
+  "motor_writes": 0,
+  "follower_matches_documented_calibration": true,
+  "drive_mode_basis": "FeetechMotorsBus.read_calibration uses drive_mode=0",
+  "files": [
+    "D:\\FYP\\SmolVLA-SO101-FYP\\标定备份\\teleoperators\\so101_leader\\my_awesome_leader_arm.json",
+    "D:\\FYP\\SmolVLA-SO101-FYP\\标定备份\\robots\\so101_follower\\my_awesome_follower_arm.json"
+  ]
+}

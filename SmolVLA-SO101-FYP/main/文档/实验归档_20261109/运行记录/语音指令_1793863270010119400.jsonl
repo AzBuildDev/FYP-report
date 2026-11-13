@@ -1,0 +1,8 @@
+{"time": 1793863270.0322073, "status": "loading", "message": "正在准备百炼语音 API；点击录音后才上传音频"}
+{"time": 1793863270.3198416, "status": "ready", "log": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\语音指令_1793863270010119400.jsonl", "backend": "dashscope", "semantic": true}
+{"time": 1793863280.5858045, "status": "processing", "id": "3:1793863280585804600", "message": "正在处理语音，请稍候……"}
+{"time": 1793863280.8985758, "status": "recording", "message": "开始录音，请在5秒内说出指令"}
+{"time": 1793863286.5932992, "status": "rejected", "id": "3:1793863280585804600", "message": "语音 API 返回 HTTP 403：没有模型调用权限"}
+{"time": 1793863289.5778956, "status": "processing", "id": "3:1793863289577895800", "message": "正在处理语音，请稍候……"}
+{"time": 1793863289.578944, "status": "recording", "message": "开始录音，请在5秒内说出指令"}
+{"time": 1793863295.466693, "status": "rejected", "id": "3:1793863289577895800", "message": "语音 API 返回 HTTP 403：没有模型调用权限"}

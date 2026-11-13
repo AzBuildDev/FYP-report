@@ -1,0 +1,1574 @@
+{
+  "source_zip": "D:\\BaiduNetdiskDownload\\SmolVLA_双摄抓红抓蓝_30K之后全部模型_35K至60K_含best和last_20261031.zip",
+  "files": [
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/best_val/checkpoint_summary.json",
+      "sha256": "fb4f06a7f00505d37243d7c7beea25caf98db5e36bd49480ab2c1e2475e49356",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/best_val/config.json",
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/best_val/dataset_stats.json",
+      "sha256": "c1b00ee03718282a5f8eaf1050b4e314df9a0d8698fe8d1d9e3fe75074ef95f1",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/best_val/model.safetensors",
+      "sha256": "5848fc38732d952b4f3383e22abc6c94078437c852ddbac2b38669df7694bf20",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/best_val/training_provenance.json",
+      "sha256": "86dcf26177c7c798a1a5b7e79ba1a54f621179b7af1c15dcf6786bea1360d384",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/best_val/training_state.pt",
+      "sha256": "1b6f9bb2c1e95d26731f25fd2e40fa71cb9fc6ef545c7a232fef455ebcf67fd2",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/LICENSE",
+      "sha256": "b1573f6d552b494f1bac1116d2373daca84ac29f7e7f75ac65a13e41cde029cc",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/MANIFEST.in",
+      "sha256": "ff0d4a554f242fea6b80ffb93990250e556d266514cf7eff1318d720c28d274b",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/README.md",
+      "sha256": "38c9ab25c93133d0dfc158ae9d48b76436cf34f4794e9be0f734532c591a1c07",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/pyproject.toml",
+      "sha256": "8b56dd014a4de242990294d90837d6fa7682762dc91e3155d5f06592fe98605d",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot.egg-info/PKG-INFO",
+      "sha256": "c93ff3ee6b9c45ec2b1e460dd118ed617df5c46a6133befdd1e05e78a8f92f7e",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot.egg-info/SOURCES.txt",
+      "sha256": "1048a5ecd8954f4327c8e6fb0730a045a12a22b45733b278c0833edf657a9a49",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot.egg-info/dependency_links.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot.egg-info/entry_points.txt",
+      "sha256": "ff6677f57e9c60b841d9c66be2ccecef75de614a328343140a006e618e10fbe1",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot.egg-info/requires.txt",
+      "sha256": "a5d6b07226e0abf4aad1b309574061c5f4d8304ceb2dcc258983916c5ad775f0",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot.egg-info/top_level.txt",
+      "sha256": "2ffc2f47edaf6a3e64608861273e1f70aad3d5455a4aacd5bc0aeafd5675d49b",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/__init__.py",
+      "sha256": "354a5d58fd1e5b3eb184d15fe7dd2c844a2f59f87476739c615c18828868c811",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/__version__.py",
+      "sha256": "a1cb76dbda2549b9bad669c647b49d9ccd03c0a8af9477925c95d516d2a7365c",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/calibrate.py",
+      "sha256": "97e0fcf1464c1b0f39131bd926b391d262cce44e6d3dc6c6ef27554ed7785c3c",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/cameras/__init__.py",
+      "sha256": "d0385800c7dfa8f349519bfd63da430a0652c23667c05554ed586d4aef1d1e44",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/cameras/camera.py",
+      "sha256": "4e4d7b50c853a5dec3b7b04051429003a26d2da12ad73ed5b86ed871e0a5fcee",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/cameras/configs.py",
+      "sha256": "4608f1108c745c956b5ce9710d0b4aa314059daabf212de2a7def2bd61ba20f8",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/cameras/opencv/__init__.py",
+      "sha256": "bb6305a27090e5dd40d52be954ee7bdaaaff3aac6caece8be730a13be38f8a12",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/cameras/opencv/camera_opencv.py",
+      "sha256": "dab84ba92cdec41aae18bbaf774afe1ed185317568a7fa6b8d10564461b30e2a",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/cameras/opencv/configuration_opencv.py",
+      "sha256": "adb7c71f09debb9cd954b756d96ea6e6b6b8fe3ae925bf64b7f990330193f166",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/cameras/realsense/__init__.py",
+      "sha256": "14859458b1f6c9e669cac5564cf895bac016f540cc0af02c639955efbaf68c94",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/cameras/realsense/camera_realsense.py",
+      "sha256": "dcdb5e84e6c7cc14bbdea122e04f3844736cf35c266018fe4fe0e1cc91d57d77",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/cameras/realsense/configuration_realsense.py",
+      "sha256": "163719cd6db0a810c66e48b0fdc25401b700e85c4bef144a7a9f04832be21470",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/cameras/utils.py",
+      "sha256": "2ea155f2587daccc91badd329ebd5cde5825df59d595d317db27f6a8c880ed98",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/configs/default.py",
+      "sha256": "42c80e263efc69b780a2ca7e3cd8935fd37c7ff053066c4dba9afb7a85a9bd6f",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/configs/eval.py",
+      "sha256": "a541d07b28a122bc178e837f3d5f4ff19b2f69c1fd661cd29b37625aac07bcf5",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/configs/parser.py",
+      "sha256": "ffc350546dd9f7103be120c4758ad92bc50169b85bbe71a4011d10c06612527c",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/configs/policies.py",
+      "sha256": "957bdc521d564317ab19ba8feee6268fef8c38a5129b481deea52658bb98a70f",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/configs/train.py",
+      "sha256": "59a9c4582b7df95953ed7dab65b6071637bc7072f85692f8690ce7747bc016f0",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/configs/types.py",
+      "sha256": "d474e91ff52fe4d7e333b89088a5aee33b43af2f634e72e2dce97e3a59a4834e",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/constants.py",
+      "sha256": "8bea9843b3ed9e20fa753c87b063b9aa76ef530163fc3bd925e760721b9bf68c",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/datasets/backward_compatibility.py",
+      "sha256": "e9aba57474420e5626b0c16c43bb12718e23a376b8175b05f72c55e6d51fa7e8",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/datasets/card_template.md",
+      "sha256": "ef57ae157de2a53d287656c9850841d882e9f8df2bd20973a975e3009dae71b7",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/datasets/compute_stats.py",
+      "sha256": "82db5d77f291e1f725ee5943f31ed5c36f9babee7fe0f4d0f38b6d892cba653a",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/datasets/factory.py",
+      "sha256": "c70fca3c1380b476c55edd044564a3d0915d22f1f4487feabc1f1b8d4b283389",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/datasets/image_writer.py",
+      "sha256": "2d8a0e73e48476325a5592814f11fd1ccbb66ce3d17eff4acd8ebdbd639c7b07",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/datasets/lerobot_dataset.py",
+      "sha256": "7185c329c2163c73d19be6012c0a20b09a162ab1ae89add1e1e24c4cc7ef09d5",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/datasets/online_buffer.py",
+      "sha256": "e1bc2e6049f87b3d6591ba436e413e1e60d579913cbb91e52f16b4f9bea37425",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/datasets/sampler.py",
+      "sha256": "d86272b912c39f205890bd28b65fa07b01b84cd169e01d7e500ccd981fbcd135",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/datasets/transforms.py",
+      "sha256": "712764b327aedb5531fc3692dc495844497479bf33882ffdbab2191d25fdcf3f",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/datasets/utils.py",
+      "sha256": "dbfc44aa87ccddc073095146ac116578b506f5b4a3261a772f67fa370529ae84",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/datasets/video_utils.py",
+      "sha256": "7f3a4267a0feba36b0468cd5d837eb3e796cf7baa0b7b7f517d432ad588e2f9b",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/envs/__init__.py",
+      "sha256": "cea0fe4f5c161ea89bfd81728ef5f654430020e33231ac813bbfadfe3799485e",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/envs/configs.py",
+      "sha256": "9ada7a1fe8252b332608bf8da3440165a4eb54f7771bc1744c8292630ce95c41",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/envs/factory.py",
+      "sha256": "5503f2de5bde94d0c89ef8320a1976bcf8760720cd242854b9d6a9ab806b9d2b",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/envs/utils.py",
+      "sha256": "1c6b9c398dd5434a4b30542becd16502433d2ffaa0ac3f1862b9c466bc12daaa",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/errors.py",
+      "sha256": "c30b7e2d89ccb995b91ce86ad7877362ca0e51e85c9b22f3dcda6372f5a59a2d",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/find_cameras.py",
+      "sha256": "6e474767cf95c3fe16c0f93f878f66bc3157762bcec057ab49dc5ac8d25ce122",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/find_port.py",
+      "sha256": "a7d38edac1b04b93b0382d0da638c036ab21d76aefdcd1e2bad7bc12e4f02c80",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/model/kinematics.py",
+      "sha256": "f1fc848ad564fc830bf3856fa8054865f63ecd9b09dcf5f2fb4da66cf5b9fd92",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/motors/__init__.py",
+      "sha256": "7d4e38a2fce7fae1bf6ec7e082dd035140c6aae0a373665a7804f48bc4f985b6",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/motors/calibration_gui.py",
+      "sha256": "b09ceabd5ca44aa515f99dc2bbc8ab99ee4512cd621ad63cd94187a88fd75e3b",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/motors/dynamixel/__init__.py",
+      "sha256": "0fe40dfcc0743e0c587fe64ec09a457ee84b7f8492e4228f758e19758fa6105b",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/motors/dynamixel/dynamixel.py",
+      "sha256": "f2c0165e84b8b331dc2459a9b9a3d4cbeb6f2ebe2a41486489e8e8f241483c6e",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/motors/dynamixel/tables.py",
+      "sha256": "b94439b6bfaa763d3db1478afb32faf47fa79b7ba5fe2a743dcced5d4a35fee2",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/motors/feetech/__init__.py",
+      "sha256": "1426623565c66750b898393e9d07807dde24b0e2074ab4f8b6271a2abe9f4a44",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/motors/feetech/feetech.py",
+      "sha256": "67db293a48f6ed16f1684c488bb4574d06e6ae037de2dfa903217987b58e2871",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/motors/feetech/tables.py",
+      "sha256": "78473d2c69b6887bad264ab9c8f4e71b68b8c6fd8c520c21bcb7e1ed75dde58f",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/motors/motors_bus.py",
+      "sha256": "5f4de4fe61ed6bbf7827ea29003cd565125145114db9218e280a72bf3fdc0167",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/optim/__init__.py",
+      "sha256": "6a2eee13f799e4f2e07349be17988212f2ba33ba8c17380d4399d6432d6bcb46",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/optim/factory.py",
+      "sha256": "f1bbcc02ff6ee1228c2d9a22db50bdd6988260954a723f9c4005130a6cc771c5",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/optim/optimizers.py",
+      "sha256": "2e39ab12f2bb942d140bbfeb39802f80c1ba2a243871610e8e7a595689ef41ab",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/optim/schedulers.py",
+      "sha256": "f9bbced200f4b9fd4006afa9e0eb348dc10895927a951742f6991e7c83012495",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/__init__.py",
+      "sha256": "6353e284ff4c81ee53036d7fca55308d1db5b27741620d49b2789c238eee54dd",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/act/README.md",
+      "sha256": "31ac5eaed43f5de5729d6893cf2c848aa63f647dbefb4c3baae7236b45f923d8",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/act/configuration_act.py",
+      "sha256": "3422c80d00ca90dad88ee02a1fc098645e8a284df4948f0146e05a932e5b0d97",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/act/modeling_act.py",
+      "sha256": "0b48eb285b135c1397e64292e51e10af838f108b52906a4f2cb909de9468e2bb",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/diffusion/README.md",
+      "sha256": "6f0590a0619341b01dc72b6d61a90fdaa224c51ede9e9a553a8577903c9fadcd",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/diffusion/configuration_diffusion.py",
+      "sha256": "be3810ee9b3a7b460d3761eab4646fb03f7c58d6cc13e9edfd0667b1d4ffafe1",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/diffusion/modeling_diffusion.py",
+      "sha256": "50533d5c47c202ca28aef0b56f29b7e427454f9cf6b1b765198c44bfbb3d0cd1",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/factory.py",
+      "sha256": "10e3d0b6d05befcfa2f82fc0ce1f96c23a7a45a5aea30a06a6ae93b43942e7a0",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/normalize.py",
+      "sha256": "3e730cda2912e9d1658237c82150f7c06df62371950509e2fd972c54d72de492",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/pi0/configuration_pi0.py",
+      "sha256": "56983c5dceea9877877e07e29fe83d66f9a7e77907861c68b35c81a6959d199b",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/pi0/conversion_scripts/benchmark.py",
+      "sha256": "d16ac659fcdb1f23b990eda350097e8a3f563505b3fe8bf1a71335afbdd81951",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/pi0/conversion_scripts/compare_with_jax.py",
+      "sha256": "b027593da0117919021e90925b5fd4944fb662c2004d9bd58d10c8f83407a602",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/pi0/conversion_scripts/conversion_utils.py",
+      "sha256": "7562f9fb7f66269b599b9d0d5df70959ed3ab842524b06155b4cb5c95902c35c",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/pi0/conversion_scripts/convert_pi0_to_hf_lerobot.py",
+      "sha256": "5613aaede1237beacfbd04116264f70acbf834b22d6430931653a36bfa2f2877",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/pi0/flex_attention.py",
+      "sha256": "e8a3e87e0054a569db23a47cdb7d6dc45c7ad6a8744228eb4c4d835eafde1c31",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/pi0/modeling_pi0.py",
+      "sha256": "1d2797233f4f7c97df52fa2b52b34bfc7b6b9022f545d9cf07f7023efcee2306",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/pi0/paligemma_with_expert.py",
+      "sha256": "d9b0dde6d7946ad81d8b0e47f77a49ab5a3e621060ef6097e1afdaac6397b752",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/pi0fast/configuration_pi0fast.py",
+      "sha256": "dc918ee07b2efe18af6e6054ef191b7288bebf9e77ca2fab8c1cdf42bec5f9c6",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/pi0fast/modeling_pi0fast.py",
+      "sha256": "09e7cd9ee784623989737436a7aab98791af9cec3643f159c8bad799307eee7c",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/pretrained.py",
+      "sha256": "41f991d3e98fdf08c5cdf3b589a73619d36aa9e18e9b358539a237632a4d3366",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/sac/configuration_sac.py",
+      "sha256": "39aba6d41dc0950bc5aca02b3acc172860cef89e233f0c261fafa5154da49dc3",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/sac/modeling_sac.py",
+      "sha256": "aeb9be488a7b8e0d445eacad585d139d756e4c9361e696a97a03d0871e79a866",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/sac/reward_model/configuration_classifier.py",
+      "sha256": "fffd60bd7a6a2f847f1915661571c094cbde11f8a59b96229c341ab3e425f493",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/sac/reward_model/modeling_classifier.py",
+      "sha256": "c79113691df830dab87d6d2008298065c1b7111468b895fb2c84c71eaf3a9425",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/smolvla/README.md",
+      "sha256": "9aa0666e77cd7de3612c06c2f74a226e114921a1bc5bf367ecb36a0c32f37e98",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/smolvla/configuration_smolvla.py",
+      "sha256": "866307a495b5df08b0cb24bdeda86d813781efd9ed77134704eec1e94a6a3cfe",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/smolvla/modeling_smolvla.py",
+      "sha256": "958315d08aa42db84c67c7b3e6792057e298b1887c0e3e7c9150f3c5ca9dfc2d",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/smolvla/smolvlm_with_expert.py",
+      "sha256": "dae41a2223dda62abe1af6017e6ba082e7ad31c98b4aa6d8499935a67c2a9336",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/tdmpc/README.md",
+      "sha256": "036b10e393c121f06080ed67fe68741ff83ea3ee1488c60f3d8d279db0863076",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/tdmpc/configuration_tdmpc.py",
+      "sha256": "3a16019dbceabbf375e749a3d2be2a7f1cee9b1e9f43475c65e24e20b8282104",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/tdmpc/modeling_tdmpc.py",
+      "sha256": "ab6f21f02936a30e44699808eff9dd48a704aec11c6c0c3faa39fbf9da90270f",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/utils.py",
+      "sha256": "47b5bedcc61f0db41b21916a8ddba3024fa74879a2ae2350437b18900a5f8dfb",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/vqbet/README.md",
+      "sha256": "923d0de3dc70661616f6240a8430588b07aa4b3ec2a1e746b03f63e91cc53f32",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/vqbet/configuration_vqbet.py",
+      "sha256": "779864c3c3530cfe4b8dcde7ae6f89421f7aab3cd2bfe857453be893ac022faa",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/vqbet/modeling_vqbet.py",
+      "sha256": "7797bec962c909322937db62c8b4f243615a63ecf0bd1e7b71d06bd60364644d",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/policies/vqbet/vqbet_utils.py",
+      "sha256": "5fe684049c6227c761946d65f9f624c9a9f399de7f99cd749e68fd8eb4f0c967",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/processor/__init__.py",
+      "sha256": "d85960d1face7928117ebbf29ce80c62756039e11385233e8a7dfa440633fd8c",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/processor/device_processor.py",
+      "sha256": "43bfe08e841d62155f021e3e21dc689aec57ca398ad153dd40ec45dae3c813bf",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/processor/normalize_processor.py",
+      "sha256": "dfdde2b23d7aa229a0243d44e948d3facdfe8b4a8b178713c7488d8b539d820a",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/processor/observation_processor.py",
+      "sha256": "c83541ca8e2546c91838bdf5d2d007682c3d01fb344490920e73c81bb3c60d91",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/processor/pipeline.py",
+      "sha256": "ed93012c56a387d4fb79ea4d092bedc936197e09524642a7b85c55e855705dc6",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/processor/rename_processor.py",
+      "sha256": "37231f12bb1341c9528f648d70c87361bebe9ef8e8069fde82ad31f9ba4e5694",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/record.py",
+      "sha256": "9f82cf71245861a26b0cddf1f2e42a77a69257a30cefb5fc94e3a82ff7154562",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/replay.py",
+      "sha256": "c718aad8a75fecfd79eeacce01ae27ea02225dd73b5552d730e540e7e4758d62",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/__init__.py",
+      "sha256": "80ca4b2f1cfedad1e2d2cbf6785a9d72660a77e0ae675b322b26a8c88440bcd0",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/bi_so100_follower/__init__.py",
+      "sha256": "c47a4c623357164f50fbbcc7071e35786400d3a196b9dd6bcfde5bc96820b11e",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/bi_so100_follower/bi_so100_follower.py",
+      "sha256": "b18bbe7581b70b93b5a68d8dd4db273edd1114af4ada7f544e031401fe883d86",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/bi_so100_follower/config_bi_so100_follower.py",
+      "sha256": "684e0a8ee5530f227ccd89373936d27a5523bced4ed8800de7e50971b8a9aa28",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/config.py",
+      "sha256": "c7f545fb694b6336a86d6a1dbfae33c438d528208795f26e8da459f80def8bdf",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/hope_jr/__init__.py",
+      "sha256": "68aab972d9180955801514e98153fd9991650ffcaf9bc02489d306f671360cd4",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/hope_jr/config_hope_jr.py",
+      "sha256": "e55c9a40ed3f65c312661e481138025247534962f7db946de87d575ddb00f9c4",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/hope_jr/hope_jr.mdx",
+      "sha256": "1eb7f29681816d75eb8481837b197ffd3397d3b3defb1c1ee2cb6015d4f233f9",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/hope_jr/hope_jr_arm.py",
+      "sha256": "3165ec0f2dbd3736da14668bbe7a42698419f1272882438ca1e74ce54c78c7be",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/hope_jr/hope_jr_hand.py",
+      "sha256": "2b9bf4e9e19c0b454bf9b1200de12c19ba6c5d0e6cc20e0d70c19bccf1ae956e",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/koch_follower/__init__.py",
+      "sha256": "b12cc0132f3b9e67149cfcfd7f11f1dfefa284e43113ef8c3a3dafa23c5b47ec",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/koch_follower/config_koch_follower.py",
+      "sha256": "d6566aaebb2848dca8d0a117858de78ab049229e624360f4d70517d754c71ff6",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/koch_follower/koch.mdx",
+      "sha256": "4ee1b6cf6f2db0344c31d144f416c35702a7468c5479dd3755de5b091a02c75d",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/koch_follower/koch_follower.py",
+      "sha256": "74d3ced56f1259323db5b0b2fff9d1ed3692d6502a52c2466e218528d96a2a38",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/lekiwi/__init__.py",
+      "sha256": "ec232b40a04e62222759e9a0d0db0fb393bed9e351743312cb0f424d403ae6dc",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/lekiwi/config_lekiwi.py",
+      "sha256": "68b36abdb9e4ab48fe9a11777569420b334ddee9eb9d43de82000a6df6beac0f",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/lekiwi/lekiwi.mdx",
+      "sha256": "a9de676d07b3ccab99a4cde3444469a6d7b2bc623fa03fa55a640012a5849380",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/lekiwi/lekiwi.py",
+      "sha256": "3da3dc934d20b438488b2be3b3d28c2d405f7c614c5fa08542007b85022e0238",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/lekiwi/lekiwi_client.py",
+      "sha256": "bfdde33016267e5be88b6f73da35dbf48934097a7012a3637280f5dfec02efcc",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/lekiwi/lekiwi_host.py",
+      "sha256": "f5aaa01b2c0f9fa05de01d90df7c5c0dd511de2a626df49dd0c425144721d371",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/robot.py",
+      "sha256": "b19208c24a4c0cd2264e241467837b28a39961179be25d82a0fcb91b4dc9492e",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/so100_follower/__init__.py",
+      "sha256": "6ce6ee517435f5a829fe8622fe54a38b1051b4b5a2b965376c23e5c9eb55fb39",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/so100_follower/config_so100_follower.py",
+      "sha256": "5a7dbd2c4795650ee09480a1142863093bf3874c6c60d86fbfd41e3d6d4702c6",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/so100_follower/so100.mdx",
+      "sha256": "18768d3be3d967902de387b0b89313c0e9111c115ea72e9836b3038a1c458f2e",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/so100_follower/so100_follower.py",
+      "sha256": "c3980b05cdc3a500d0eeca634c37da76de4099f0ba7e25cffd3e906c5457a525",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/so100_follower/so100_follower_end_effector.py",
+      "sha256": "f6d071f0f4135aa915de4fc4fdaca7f53da46fb447e6ec05fb38ccf54b29c4e3",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/so101_follower/__init__.py",
+      "sha256": "a880eb96aa63bdcbebca0c216a0d18cf7bd6d197b9a56db8e1ddb18b18429bde",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/so101_follower/config_so101_follower.py",
+      "sha256": "3e630a1d9a1bccb5a8d67b9fe16a1c8045020875bfc30a16579ff95036071dfc",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/so101_follower/so101.mdx",
+      "sha256": "44726e807c0a35dcfc1a6b4da8e2d847f3477da2d06e4f27686e07acaf7ac249",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/so101_follower/so101_follower.py",
+      "sha256": "14b03133c363d8cfd1c04a2646502b266cf6eb132944fce281d96362292c47da",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/stretch3/README.md",
+      "sha256": "ba4e7c1170b60b34417c490b564426c7809ca1bcbc20fa100989ca15310d81b5",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/stretch3/__init__.py",
+      "sha256": "48a2146d2cce6e043326a8032b5d7127102464f16f4153ce827b69b9c0717271",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/stretch3/configuration_stretch3.py",
+      "sha256": "febaafab7eb5171719f4db75a212745c34fa68716209864de4520f064426619e",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/stretch3/robot_stretch3.py",
+      "sha256": "e514440e45cfa25ebd4c7f3b5282332d438ffdf47928bfd3e021e1d4dfb78c3f",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/utils.py",
+      "sha256": "b849218739954b193c2037bb2647ef00f3a2c40f0789abbc39a813bb3e10b95c",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/viperx/README.md",
+      "sha256": "90689f3df087cc0d7353f34f606396506bfc4a94ee54230f1d72b3a35293d29e",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/viperx/__init__.py",
+      "sha256": "943d9a9a693695d01fdcc06a73bf3075001aefb91bc761207d31827af629060c",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/viperx/config_viperx.py",
+      "sha256": "0432a020488f54aeb380559ab0ea0f6b55b62a36f6b97128701a84b9569e77ff",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/robots/viperx/viperx.py",
+      "sha256": "2da5fc7b08210f889b58dc62fd659cdcde32ee5a764e998e72192710f58bbae3",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/display_sys_info.py",
+      "sha256": "1f4abe7bd9fde2671f1e91bbfb126c610ce21462737a9bca121cdf2d62d5e71c",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/eval.py",
+      "sha256": "f68e922c869b29d769d8e7b57b8ad5fc252e80e028bf888f222be65a16f26985",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/find_joint_limits.py",
+      "sha256": "0e08e1eacd0641fa57f383998745b36933d67235ecb46cd432fb6de3c1b98b48",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/rl/actor.py",
+      "sha256": "5545fdaa241a5ecb84bcd89b1577732657e7179a040a6137df3537498b0bc049",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/rl/crop_dataset_roi.py",
+      "sha256": "564c64eb122b5bef7454ff815f8f1efd75077f136b7522076f88ffa510460cee",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/rl/eval_policy.py",
+      "sha256": "c68a63faabd3826a0fdc9339de0308efae9f1741bd9d575b959886fd4bfdcef4",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/rl/gym_manipulator.py",
+      "sha256": "dca2d28665aa4e83f36cd9f0db2ad47849ee5393df56e5f7f94e634510b24827",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/rl/learner.py",
+      "sha256": "2270083d8ce6732c4e43528a40eb3278cab6b064f91e0dc2ef7006052ae7b13f",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/rl/learner_service.py",
+      "sha256": "494b12ac6a6b01a594fbaa0f2271389a7512571de79a51c18a38c006010a288b",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/server/configs.py",
+      "sha256": "0cd2436dac578850b12c550698356ace6d06b8e9c00b7afb27506e2fa647b75a",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/server/constants.py",
+      "sha256": "254cb69cbd559ee1a3e82a075484ccb1d5ee02a1c97fdfcd241337997a595453",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/server/helpers.py",
+      "sha256": "55a9e543387824e53b6e8a898aa6afe492ab3babc8e9a9fb84247b6ad418e236",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/server/policy_server.py",
+      "sha256": "5ccee740c5515f34ae85188fbe108a7813144fa163131baa8fd422c6756196de",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/server/robot_client.py",
+      "sha256": "3846860aed407f7b9d0919a626579cb0185b80d0818acea118d11dc2eba014f0",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/train.py",
+      "sha256": "f34fbd8040eb1734dba2d3c8c5e9cc49077235ed7929aebbd07ac12401320196",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/visualize_dataset.py",
+      "sha256": "c2b4403c1514e0bed499dbd38d9cae2bdc47fabfc97aeeba066cee05d6fd66a7",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/visualize_dataset_html.py",
+      "sha256": "08ac76ff5827cf5bf91ddbe61b706cb9189cdc23344e7a03c3487b1bd747c47d",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/scripts/visualize_image_transforms.py",
+      "sha256": "d017490ca7ed9c54dff11c2e855e18c6dfbd5bfaa3c23ff0297b6088f4d46454",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/setup_motors.py",
+      "sha256": "55c62b631d21d95e6fb8378ee511afcbe8f97df5a48ab750f06b654ca142d6fc",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperate.py",
+      "sha256": "12aa3f1bdfcded094df7ea080e11f2e810127e5d4accbf7a5686f654679f0bc3",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/__init__.py",
+      "sha256": "4c6d284fe179863e3bd26a8000207f19ca190ebcb58baac34dd12c04095f832e",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/bi_so100_leader/__init__.py",
+      "sha256": "87182466be0af1cc1743fa25c5c2560cdbc7d364c561063fe3b9843ac5d526dc",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/bi_so100_leader/bi_so100_leader.py",
+      "sha256": "1932ae1c3f2bd724ce673245623e70244b8dddae0c1650ed6e394692f8501482",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/bi_so100_leader/config_bi_so100_leader.py",
+      "sha256": "45003730ced7813324363a00f9990aadf876e0c325027f42f0ae949f374350fc",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/config.py",
+      "sha256": "1bb6e13bb8bd009003eb1484e9730b7553ae52d8d68f57846127c7a287c7ae15",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/gamepad/__init__.py",
+      "sha256": "780209639f67b409267481980ba0bc5b7a62b477c5d920aebc0fbb717a715720",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/gamepad/configuration_gamepad.py",
+      "sha256": "4f19f329cde59c1a598c6746304cd8a811a785ba6751550d0f58d909707391de",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/gamepad/gamepad_utils.py",
+      "sha256": "78b54e96f3ba499cf5bfd3eb8b45f80ae23ee94d08e36295f8524920897e8cc4",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/gamepad/teleop_gamepad.py",
+      "sha256": "431214f7132f939e19876049c45a122a985d944531e7ecc4edd2f57bc7df28ee",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/homunculus/__init__.py",
+      "sha256": "77552ccc6b174e30a177a5e51f34e87d059f313abfe0363e1d6bcc0da88be2c9",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/homunculus/config_homunculus.py",
+      "sha256": "4213e4f746350f9583a55417d72fce6738edb9f8cc4eb2735d9f6a95927ddd18",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/homunculus/homunculus_arm.py",
+      "sha256": "c6b5d2273c260391cf1e461e2c8f9dd290a95c5651292f731017d4ca65133ba2",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/homunculus/homunculus_glove.py",
+      "sha256": "d260a90751cbac8105abc1a4ef82e822f471f1cbbfabdc106666c53a31558a0d",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/homunculus/joints_translation.py",
+      "sha256": "162e463ab42b7f9285967ab793d20d95ccc37ac593938974c739659769f05826",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/keyboard/__init__.py",
+      "sha256": "91609fde3a720ce551d8276b9a1995069b6fb1a3324e123acaaa850f05e2af80",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/keyboard/configuration_keyboard.py",
+      "sha256": "c4de38f56b77f6c843c1a9e360f818913faede62fb8c79d6232c70834b2b12c1",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/keyboard/teleop_keyboard.py",
+      "sha256": "003d241258b37e6b317adb0ebb88e8cc9d154afe094312059e00f5441f182f69",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/koch_leader/__init__.py",
+      "sha256": "c735d01377a8324243a659e4d287f426c63b1c950f29a1e7e3bac3659e9be3d0",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/koch_leader/config_koch_leader.py",
+      "sha256": "a636b9b8d00f53669d1524dd7cf7dac6a397ebe0816e165eb458488546eaa9b2",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/koch_leader/koch_leader.py",
+      "sha256": "482f54f39b4fc76c9bed88200e4b4586f44e06eb16b74f62408b05b954cd2c2e",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/so100_leader/__init__.py",
+      "sha256": "0a02f149f19727a3f5def50a7b0f2c601f48cdc2fc772e03e2ca05a3586c4207",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/so100_leader/config_so100_leader.py",
+      "sha256": "d1be2d3d39bfe28bae5f05594cc1f91bb77e152fd5a61fd7bffd7144a2e047f4",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/so100_leader/so100_leader.py",
+      "sha256": "2574085db4a843d453149541fa3e197ae83c9e6104b78abfdbc75be997cbcff4",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/so101_leader/__init__.py",
+      "sha256": "b6d2ae03703290b14fba2bbcdec32740adc7d32b826aa52f82d8bee5d57012bb",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/so101_leader/config_so101_leader.py",
+      "sha256": "8f50c4912532800f8c8f1297e65828d17935e56b618dd75fb32d316ef7ef4c17",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/so101_leader/so101_leader.py",
+      "sha256": "adb2a586a522df6c17f691f040ceab1f9d26bcc637bb89cdd624fd20a2831638",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/stretch3_gamepad/__init__.py",
+      "sha256": "a0f1aa0334d87fb979957cf626bb62d5c255d0e8103b6d311186876ba380345d",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/stretch3_gamepad/configuration_stretch3.py",
+      "sha256": "d374aac7a03c633f0bcb12f3b05fa5625e6089c23be169e3c782fe90b9ba88ff",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/stretch3_gamepad/stretch3_gamepad.py",
+      "sha256": "8a8f8af0c03a79310c768a8d8e1e43d16e7c1faa7d44742959f31d0b0d234c19",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/teleoperator.py",
+      "sha256": "e209c51ebcc8ffe453da37e8342b23469c33863b7a97f2d063c178b2b1ea1699",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/utils.py",
+      "sha256": "fec16aa6b492bdcf1bf8853d4169b6c741c66d338404f0d69ee1625905775a4e",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/widowx/__init__.py",
+      "sha256": "3a4a01cf12d0a5db28e7ab0a3256ac9f898019e96c3ec392aa3e628ba3a1a28c",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/widowx/config_widowx.py",
+      "sha256": "d4c5177ac474428b8b2846f4ba57b867c7ce5e4b9172373b188a66572bc6eee6",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/teleoperators/widowx/widowx.py",
+      "sha256": "83bef0083305850ef8e4b07f5f454d6b87613dd95a34654e8fcd0e082dab7426",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/templates/lerobot_modelcard_template.md",
+      "sha256": "6d4f32ea778f752eef28070d66dfba6e4ca3eda938ff045ea5df9e74b9ba4436",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/templates/visualize_dataset_homepage.html",
+      "sha256": "b8cff7ba5e1b421967c77ae71b7b8d2817eb56fd9fa4d0b2fd510f4b7fadef2d",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/templates/visualize_dataset_template.html",
+      "sha256": "41270d4918bb2faa8bf904ffe40bc40a00e9f6af369271069e4fb6000fc912f7",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/transport/services.proto",
+      "sha256": "e36b9ed2e62e29c339e5446121dd867c17e1c5ecc9f1c23421d2683e426b1f6b",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/transport/services_pb2.py",
+      "sha256": "a12405974a79f90e881888771c1810b8f8100632f2790c61d729406307ed4418",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/transport/services_pb2_grpc.py",
+      "sha256": "98a37e17aaf8c6a2cc6573f094b6f78fc82c980fcd8deb2cab974e22b9d9ab90",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/transport/utils.py",
+      "sha256": "7bc390e0c56c8e819dd96bcd41701a7c41adfb5a9a3b33f860e0809952da8b61",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/benchmark.py",
+      "sha256": "a2f934bddd102b41088ffdeb2f1c7c07cb46923e05c3e687da7f6dde66912fab",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/buffer.py",
+      "sha256": "aa82165d3e92a540698a1e7916b9fe1f7ef1629273d27ad9b81cd6b835e136ac",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/control_utils.py",
+      "sha256": "3a020725fa12df1354567051cbc5184af85e545ddf3c3ef9e6093a3b6aee1a29",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/encoding_utils.py",
+      "sha256": "3f14c41258e8440762b59f990cb4799bec810e793d74c4ae4b3b2345ca6bcb35",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/hub.py",
+      "sha256": "c12e523b8f57270712a39817831f04fb4966e29a278f4104a31035ed2ee5b18b",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/import_utils.py",
+      "sha256": "5a8b88f5ac1e9b2693deb91e0c948c28f5d4ee2ab5bc718ae963afcd06dfa100",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/io_utils.py",
+      "sha256": "0b6554e0c498cc8330d739a9a085ed7ddbdf962950aa5891963f159a236d91dd",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/logging_utils.py",
+      "sha256": "b3eb8220e043b34e2cd0047753a67a25857c86c6aed71822da1bbfda818e69c2",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/process.py",
+      "sha256": "57a3981994d1c814049f66be43f9e08c593f02f8791ee7fc2acf1401b1222914",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/queue.py",
+      "sha256": "7b6d1294e761c0c76e8f510b8fbc4747dc97e0d7b741c7ffe4af0b11c449b28c",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/random_utils.py",
+      "sha256": "c504195b186e90c175b9aad6b7ad0311f0941752a29973edf99d468c5ced9309",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/robot_utils.py",
+      "sha256": "057f0a3da33161d177796a11f2c5ec824b61bd0933a03eed5bd2af7b1bfd3ebd",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/train_utils.py",
+      "sha256": "373d7b68d2a1fa678af8ee4d0c4ca945fc626f5563b049bb85d19ed0db15b0c1",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/transition.py",
+      "sha256": "ae33c12b1d35125d782885119838db3a54c19abe3560f1df7b6de33395671183",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/utils.py",
+      "sha256": "b66db8f643881fa78137d98e4d33e6dffff635f14a1ea49afcb9e29325839fd5",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/visualization_utils.py",
+      "sha256": "e1eeb84ef6731f49b79ab497820fe1bd9e2c3e53967e46ef6b8daa180f287acd",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "上游框架/src/lerobot/utils/wandb_utils.py",
+      "sha256": "d088168d6ddb260ed5dd223b8a17d9744df86fc9c5b2cb5bd3d12a345bc907fb",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "使用说明.txt",
+      "sha256": "927e7028bf8731d162bb040ede2d027987266f2d88a7580207ac8222eb517547",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "依赖版本.json",
+      "sha256": "17b404079af21acd07e06a5abaa7c82d305408e9b6b27762a2fa73cfcf9d61f4",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "数据标签和划分/episodes.jsonl",
+      "sha256": "80b3722262c194607934ac0223b6453d255250643685aea1eacc6252a3e65d11",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "数据标签和划分/episodes_stats.jsonl",
+      "sha256": "f42b3f1188458bf8ed3cd2d230145f6942008124158912d3fb6bd07f8f7d3dc3",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "数据标签和划分/info.json",
+      "sha256": "07f440dfc1485d522625d071278c5ad1f9360c5bbd3967309deb02eb52cca05b",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "数据标签和划分/tasks.jsonl",
+      "sha256": "b8d6cb7a7eed4ca95b27ef3064bde0ba1fd4ebbbda895cd6065e16f612d6c70c",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "数据标签和划分/training_split.json",
+      "sha256": "10d3a46222e00f85d3f85ca80702a84f2770cf3be57deaa426cd5d7212329b06",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "文件校验清单.json",
+      "sha256": "e72e71ad1099d3c610c85d105c22a39ae1f0c17e35bc17f23191ece4057b79f2",
+      "crc_and_manifest_verified": false
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/last/checkpoint_summary.json",
+      "sha256": "2e71d676180d674c693c0f88904bb22a13c7ca53fb8faf026eedd012151427ba",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/last/config.json",
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/last/dataset_stats.json",
+      "sha256": "c1b00ee03718282a5f8eaf1050b4e314df9a0d8698fe8d1d9e3fe75074ef95f1",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/last/model.safetensors",
+      "sha256": "cbe64bc3ae3186f153d77a5e54636474eea8ed888c5c90c78d44e02ba72c4247",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/last/training_provenance.json",
+      "sha256": "9130ec899e5083a06535ae4c0c9dfa44d5237b153f3b143661b55cc00a4acb1f",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/last/training_state.pt",
+      "sha256": "55025dd826bf6e56f6821245ff35e3a10618e9a32b510d97b8cca71ca8f03348",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/metrics.jsonl",
+      "sha256": "5d301e14b4c1f843a5845be0146f775d1f603fbc27af28fa27501f01420edd6e",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/run_config.json",
+      "sha256": "5a0bf703f737d3c4a2e8a445a0f3458b107e045687ba7f7f313bee23f6503a6d",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/status.json",
+      "sha256": "9cb9ce55783bcd2b8c440a4052f04dc98cbc79bfe2ec760b62aa585c0943e969",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_035000/checkpoint_summary.json",
+      "sha256": "9d722e7078ba75bca5b0e56bc803f31816c7d176eb67ea67b886eb55cb412ae6",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_035000/config.json",
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_035000/dataset_stats.json",
+      "sha256": "c1b00ee03718282a5f8eaf1050b4e314df9a0d8698fe8d1d9e3fe75074ef95f1",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_035000/model.safetensors",
+      "sha256": "975473e1992bd51e92d0bebccd0c0630ed1587dee25b2301f374e10d3b7dc254",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_035000/training_provenance.json",
+      "sha256": "8a58bf08c13177bde140b51f066ca18b25165e6763fac622fbf241dabd405afe",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_035000/training_state.pt",
+      "sha256": "799e323092bbfc1e716102f685a51e62ecca73577e17f1509d71cf568e1422c2",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_040000/checkpoint_summary.json",
+      "sha256": "d572510d2d0a6c6f77123465d34809ab43850ba34b7d18809747502ace133d71",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_040000/config.json",
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_040000/dataset_stats.json",
+      "sha256": "c1b00ee03718282a5f8eaf1050b4e314df9a0d8698fe8d1d9e3fe75074ef95f1",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_040000/model.safetensors",
+      "sha256": "baef4205a2d72a3fa2f1118fcf90a65c4f1cb889aa76b2a9216a226aa67747a4",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_040000/training_provenance.json",
+      "sha256": "91471474a7d4bc4de82a8a466c24effabe0432a734a5536e4fe14d91995c1efe",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_040000/training_state.pt",
+      "sha256": "86f51c6e6a783623303ba949a21d0af4b19d464b07e522cb5e9f5f6762ae16a3",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_045000/checkpoint_summary.json",
+      "sha256": "ca698f028b23fbb8343f7badc3dc2a025eef245ab2592f92f93ee4ab22c84fe5",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_045000/config.json",
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_045000/dataset_stats.json",
+      "sha256": "c1b00ee03718282a5f8eaf1050b4e314df9a0d8698fe8d1d9e3fe75074ef95f1",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_045000/model.safetensors",
+      "sha256": "7b80acfa12adee0e2bedd444b5630e1c5686e7c3ae9046a755b96f72aa11cca9",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_045000/training_provenance.json",
+      "sha256": "39d8d824b266f4e29cfa7ce27b37e43c312da6c3a76f587332375994b14c57fa",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_045000/training_state.pt",
+      "sha256": "a19979b72854942cbb3c9f7c3481e4ec229ff7fe3652149a22358fd56f5d04f6",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_050000/checkpoint_summary.json",
+      "sha256": "b56f8e4bcd9d9b4a2d7d04dd2ccc85f975d32f9569f1d213001c14746bf30423",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_050000/config.json",
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_050000/dataset_stats.json",
+      "sha256": "c1b00ee03718282a5f8eaf1050b4e314df9a0d8698fe8d1d9e3fe75074ef95f1",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_050000/model.safetensors",
+      "sha256": "396f87d784a8bd5c259810bd81c08ebd3affd76e7595d8dc6425c3fd74f15483",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_050000/training_provenance.json",
+      "sha256": "e9c1e6a74996e1efe7123bd20933a1f8611914066a5c8baf814c715caa4a2b1a",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_050000/training_state.pt",
+      "sha256": "bc3261c4dc20b51748c677d6334126c9b1f9b0800c6e166263ca68ba5a1a715f",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_055000/checkpoint_summary.json",
+      "sha256": "d8d556589c7713a221d9a2fe5ba86f837688b9ec7de8e070af55f6b14dc09060",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_055000/config.json",
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_055000/dataset_stats.json",
+      "sha256": "c1b00ee03718282a5f8eaf1050b4e314df9a0d8698fe8d1d9e3fe75074ef95f1",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_055000/model.safetensors",
+      "sha256": "b42f8e4c78bf153d671269d718822eea7c52458d4dd0403a7ac3cb3b552005e6",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_055000/training_provenance.json",
+      "sha256": "444c9209a79989d3f28b6120d90198eb230894deaa91a729bd4b6c0b4fb71900",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_055000/training_state.pt",
+      "sha256": "b69ba9a5a8178b86cb23ee983de3673ca3565eb920e9c7c49ae0e80ab39875a2",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_060000/checkpoint_summary.json",
+      "sha256": "2e71d676180d674c693c0f88904bb22a13c7ca53fb8faf026eedd012151427ba",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_060000/config.json",
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_060000/dataset_stats.json",
+      "sha256": "c1b00ee03718282a5f8eaf1050b4e314df9a0d8698fe8d1d9e3fe75074ef95f1",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_060000/model.safetensors",
+      "sha256": "cbe64bc3ae3186f153d77a5e54636474eea8ed888c5c90c78d44e02ba72c4247",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_060000/training_provenance.json",
+      "sha256": "9034f5133406a39c9b920e10935310ed891ace56d243cc22ede9ceaa52aa732e",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/纯100段_双摄抓红抓蓝_batch16_60K_20261031/step_060000/training_state.pt",
+      "sha256": "55025dd826bf6e56f6821245ff35e3a10618e9a32b510d97b8cca71ca8f03348",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/视觉语言处理器/added_tokens.json",
+      "sha256": "74135b8664b56088c0006f1c8e848d79a8eba003411f72ebf1dc2ee96227be3a",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/视觉语言处理器/chat_template.json",
+      "sha256": "b585e3598909a5687f9f9d738d35223724dedef256b9b274e1cbfb32b13c74bf",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/视觉语言处理器/config.json",
+      "sha256": "ea6bc1237e96247f6258de3e202e2e62b93d6f386dc47e7b36b5588bf3a15e17",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/视觉语言处理器/generation_config.json",
+      "sha256": "34835060c9f0f74d1acb456cc72ca32746d3843d9eb5f578f9cbffac1d2eb840",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/视觉语言处理器/merges.txt",
+      "sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/视觉语言处理器/preprocessor_config.json",
+      "sha256": "149e315d9410368e5491455bb06e0f763426e9e56cca731c13b24404a29b6374",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/视觉语言处理器/processor_config.json",
+      "sha256": "f3ad45028447b3562b4752be0d5916d6806c1ef589091a469608dcf0faa1737c",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/视觉语言处理器/special_tokens_map.json",
+      "sha256": "2dfea2a426162316ff1567c82bc6d36d9690cd9f90455f075c77daca78b45c60",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/视觉语言处理器/tokenizer.json",
+      "sha256": "5ece781dc8d2b2f3e2f289ca0ae50b17cfc27dd27bfe7971bb8241e0b964331a",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/视觉语言处理器/tokenizer_config.json",
+      "sha256": "dd9ce2ab89a3dd881bd9378f1a79b943a064b9275a7e1706d5b7b47b68977913",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "模型/视觉语言处理器/vocab.json",
+      "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "脚本/环境配置/独立运行修正微调训练.ps1",
+      "sha256": "4409465e2b00e78f9feb9e8b0935f158fcaf6e90644e83833183d514569f3371",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "脚本/程序模块/修正微调训练工具.py",
+      "sha256": "57ae7bad191962c6d45bc327e6c77e8ad3f744b09e00c6c32e14ab148ec94bec",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "脚本/程序模块/准备修正微调数据.py",
+      "sha256": "5323d7c8a24158dfc0718c18583fe4c690163cc19108c331216d7127c2dd4a2c",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "脚本/程序模块/准备纯100段微调.py",
+      "sha256": "721487d52e34b80b94c4c72dd43613a222d409e0c5e4b4714a1fc70f2df7ab7d",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "脚本/程序模块/准备纯100段续训60K.py",
+      "sha256": "5cfcd75a7bce3a6d072b806282706180a709e2e3ab8c6fe51514ef1fac30c1b3",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "脚本/程序模块/分阶段训练模型.py",
+      "sha256": "c2951521f2493faee3af94c7edd4c9d8e075ab0184eacd27a9ba1a3eaa5b9ce2",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "脚本/程序模块/启动修正微调训练.py",
+      "sha256": "2e5e82911e0fcb259cec870871b873f4c629e04e9cdd122f7459100157baf41a",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "脚本/程序模块/微调预训练模型.py",
+      "sha256": "6c33f4e537e01ddd04d739f7734c14d1c6190684399067d7a8fab4d2029307dd",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "脚本/程序模块/打包纯100段30K之后全部模型.py",
+      "sha256": "e611423c871d15e4e4772a3f6d7fffd72875d8e4129e1d7c669f2cf5b1ce8891",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "脚本/程序模块/打包纯100段60K分享模型.py",
+      "sha256": "fed72a44bb40287f1dee082bd133d3f98a8db07dad495cb41b07fa38b94d8e88",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "脚本/程序模块/检查演示数据.py",
+      "sha256": "7b496f7424d777c77a9de7d3ab6618c70f3e327868b50729452c99fa56e93e76",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "脚本/程序模块/管理训练数据来源.py",
+      "sha256": "5e3c4412e3987073677027aa590d08e8471623d88a8061c52f09a973b3cc03dc",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "脚本/程序模块/纯100段延长60K训练.py",
+      "sha256": "423e440e65b0dd94033fc406ad158a21a670c36d52b7fcc19d13938197c665b6",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "脚本/程序模块/纯100段按历史16参数训练.py",
+      "sha256": "d4f990989b537411b894ade4943933fd10377e811ad7a64ce60c141de1b6f240",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "训练结果汇总.json",
+      "sha256": "b6fb51bd42e90652699d241543a6737a175dc3a5fbeba0e76c761799fb015ed8",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "运行记录/纯100段历史16参数_20261031_准备.json",
+      "sha256": "a595d26da0e82f8475cecdc1da9eb3ab1b16a488656507282d0308d3b07d1633",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "运行记录/纯100段延长60K_20261031.json",
+      "sha256": "7de469236ed98446441d448606bd9b1452694eedfa6bb7a991b9516ff33bc1b3",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "运行记录/纯100段微调_20261031_起点.json",
+      "sha256": "17d139d740129d50c97ca07d630a6cea76a629a547c43594b579c57f0c7e96a3",
+      "crc_and_manifest_verified": true
+    },
+    {
+      "path": "配置本机模型路径.py",
+      "sha256": "b36b7d12580589c6b774ac765eda39a128f4c5f5f3c348ef9b79685dec165ae2",
+      "crc_and_manifest_verified": true
+    }
+  ],
+  "startup": {
+    "checkpoint": "best_val",
+    "step": 46000,
+    "target": "BC",
+    "run_id": "20261031_220224_396857",
+    "dataset_fingerprints_match_previous_100": true,
+    "normalization_matches_previous_30K": true,
+    "config_modified": false
+  }
+}

@@ -1,0 +1,394 @@
+{
+  "scope": "categorized_script_entries_and_single_project_console",
+  "created_at": "2026-10-07T20:50:55",
+  "status": "passed",
+  "scripts_before": 89,
+  "top_level_visible_files": [
+    "使用说明.md",
+    "入口清单.json",
+    "项目控制台.bat",
+    "项目控制台.py"
+  ],
+  "category_counts": {
+    "历史工具": 10,
+    "日常操作": 6,
+    "检查工具": 10,
+    "环境配置": 4,
+    "离线实验": 7,
+    "程序模块": 54
+  },
+  "user_facing_entries": 29,
+  "daily_entries": 6,
+  "verification": {
+    "control_tests": 47,
+    "panel_tests": 17,
+    "training_pipeline_tests": 10,
+    "result_record_tests": 14,
+    "console_checks": 4,
+    "windows_batch_launch_with_spaces": true,
+    "offline_model_startup": "passed",
+    "hardware_started_by_reorganization": false
+  },
+  "snapshot_directory": "公共工具/整理记录/脚本入口整理_20261007_203543",
+  "moves": [
+    {
+      "source": "脚本/下载预训练模型.py",
+      "target": "脚本/程序模块/下载预训练模型.py"
+    },
+    {
+      "source": "脚本/低速限行程同步测试.bat",
+      "target": "脚本/历史工具/低速限行程同步测试.bat"
+    },
+    {
+      "source": "脚本/分析执行窗口误差.py",
+      "target": "脚本/程序模块/分析执行窗口误差.py"
+    },
+    {
+      "source": "脚本/双路相机采集检查.py",
+      "target": "脚本/程序模块/双路相机采集检查.py"
+    },
+    {
+      "source": "脚本/只读检查机械臂.py",
+      "target": "脚本/程序模块/只读检查机械臂.py"
+    },
+    {
+      "source": "脚本/同步测试.bat",
+      "target": "脚本/日常操作/同步测试.bat"
+    },
+    {
+      "source": "脚本/夹爪视觉伺服.py",
+      "target": "脚本/程序模块/夹爪视觉伺服.py"
+    },
+    {
+      "source": "脚本/安装本地环境.ps1",
+      "target": "脚本/环境配置/安装本地环境.ps1"
+    },
+    {
+      "source": "脚本/实机入口模拟自检.py",
+      "target": "脚本/程序模块/实机入口模拟自检.py"
+    },
+    {
+      "source": "脚本/实机抓取测试.bat",
+      "target": "脚本/日常操作/实机抓取测试.bat"
+    },
+    {
+      "source": "脚本/实机抓取测试.py",
+      "target": "脚本/程序模块/实机抓取测试.py"
+    },
+    {
+      "source": "脚本/实机测试监视窗口.py",
+      "target": "脚本/程序模块/实机测试监视窗口.py"
+    },
+    {
+      "source": "脚本/实机结果记录.bat",
+      "target": "脚本/日常操作/实机结果记录.bat"
+    },
+    {
+      "source": "脚本/实机结果记录窗口.py",
+      "target": "脚本/程序模块/实机结果记录窗口.py"
+    },
+    {
+      "source": "脚本/实机评测记录自检.bat",
+      "target": "脚本/检查工具/实机评测记录自检.bat"
+    },
+    {
+      "source": "脚本/实机评测记录自检.py",
+      "target": "脚本/程序模块/实机评测记录自检.py"
+    },
+    {
+      "source": "脚本/开启相机测试.bat",
+      "target": "脚本/历史工具/开启相机测试.bat"
+    },
+    {
+      "source": "脚本/异步动作控制.py",
+      "target": "脚本/程序模块/异步动作控制.py"
+    },
+    {
+      "source": "脚本/异步控制自检.py",
+      "target": "脚本/程序模块/异步控制自检.py"
+    },
+    {
+      "source": "脚本/异步模型离线验证.bat",
+      "target": "脚本/离线实验/异步模型离线验证.bat"
+    },
+    {
+      "source": "脚本/异步模型离线验证.py",
+      "target": "脚本/程序模块/异步模型离线验证.py"
+    },
+    {
+      "source": "脚本/录制任务演示.bat",
+      "target": "脚本/日常操作/录制任务演示.bat"
+    },
+    {
+      "source": "脚本/录制任务演示.py",
+      "target": "脚本/程序模块/录制任务演示.py"
+    },
+    {
+      "source": "脚本/微调预训练模型.bat",
+      "target": "脚本/离线实验/微调预训练模型.bat"
+    },
+    {
+      "source": "脚本/微调预训练模型.py",
+      "target": "脚本/程序模块/微调预训练模型.py"
+    },
+    {
+      "source": "脚本/恢复演示视频.py",
+      "target": "脚本/程序模块/恢复演示视频.py"
+    },
+    {
+      "source": "脚本/打开项目终端.bat",
+      "target": "脚本/环境配置/打开项目终端.bat"
+    },
+    {
+      "source": "脚本/执行窗口误差分析.bat",
+      "target": "脚本/离线实验/执行窗口误差分析.bat"
+    },
+    {
+      "source": "脚本/执行窗口误差自检.bat",
+      "target": "脚本/检查工具/执行窗口误差自检.bat"
+    },
+    {
+      "source": "脚本/执行窗口误差自检.py",
+      "target": "脚本/程序模块/执行窗口误差自检.py"
+    },
+    {
+      "source": "脚本/排查相机黑屏.py",
+      "target": "脚本/程序模块/排查相机黑屏.py"
+    },
+    {
+      "source": "脚本/控制流程完整自检.bat",
+      "target": "脚本/检查工具/控制流程完整自检.bat"
+    },
+    {
+      "source": "脚本/控制流程完整自检.py",
+      "target": "脚本/程序模块/控制流程完整自检.py"
+    },
+    {
+      "source": "脚本/控制输入自检.py",
+      "target": "脚本/程序模块/控制输入自检.py"
+    },
+    {
+      "source": "脚本/旧方案视觉对齐.py",
+      "target": "脚本/历史工具/旧方案视觉对齐.py"
+    },
+    {
+      "source": "脚本/旧方案视觉对齐与学习微调.bat",
+      "target": "脚本/历史工具/旧方案视觉对齐与学习微调.bat"
+    },
+    {
+      "source": "脚本/旧方案视觉对齐与手动修正.bat",
+      "target": "脚本/历史工具/旧方案视觉对齐与手动修正.bat"
+    },
+    {
+      "source": "脚本/旧方案视觉标定.bat",
+      "target": "脚本/历史工具/旧方案视觉标定.bat"
+    },
+    {
+      "source": "脚本/旧方案视觉精细对齐.bat",
+      "target": "脚本/历史工具/旧方案视觉精细对齐.bat"
+    },
+    {
+      "source": "脚本/更新项目进展.py",
+      "target": "脚本/程序模块/更新项目进展.py"
+    },
+    {
+      "source": "脚本/机械臂同步测试.py",
+      "target": "脚本/程序模块/机械臂同步测试.py"
+    },
+    {
+      "source": "脚本/查看相机连接路径.ps1",
+      "target": "脚本/检查工具/查看相机连接路径.ps1"
+    },
+    {
+      "source": "脚本/检查与释放电机.py",
+      "target": "脚本/程序模块/检查与释放电机.py"
+    },
+    {
+      "source": "脚本/检查控制输入.py",
+      "target": "脚本/程序模块/检查控制输入.py"
+    },
+    {
+      "source": "脚本/检查本地环境.bat",
+      "target": "脚本/检查工具/检查本地环境.bat"
+    },
+    {
+      "source": "脚本/检查本地环境.py",
+      "target": "脚本/程序模块/检查本地环境.py"
+    },
+    {
+      "source": "脚本/检查演示数据.bat",
+      "target": "脚本/离线实验/检查演示数据.bat"
+    },
+    {
+      "source": "脚本/检查演示数据.py",
+      "target": "脚本/程序模块/检查演示数据.py"
+    },
+    {
+      "source": "脚本/模型启动离线验证.bat",
+      "target": "脚本/离线实验/模型启动离线验证.bat"
+    },
+    {
+      "source": "脚本/模型启动离线验证.py",
+      "target": "脚本/程序模块/模型启动离线验证.py"
+    },
+    {
+      "source": "脚本/模型离线推理测试.py",
+      "target": "脚本/程序模块/模型离线推理测试.py"
+    },
+    {
+      "source": "脚本/模型离线训练验证.py",
+      "target": "脚本/程序模块/模型离线训练验证.py"
+    },
+    {
+      "source": "脚本/模型预热自检.py",
+      "target": "脚本/程序模块/模型预热自检.py"
+    },
+    {
+      "source": "脚本/正常同步测试.bat",
+      "target": "脚本/历史工具/正常同步测试.bat"
+    },
+    {
+      "source": "脚本/汇总实机控制日志.py",
+      "target": "脚本/程序模块/汇总实机控制日志.py"
+    },
+    {
+      "source": "脚本/汇总执行窗口评估.py",
+      "target": "脚本/程序模块/汇总执行窗口评估.py"
+    },
+    {
+      "source": "脚本/汇总留出验证实验.py",
+      "target": "脚本/程序模块/汇总留出验证实验.py"
+    },
+    {
+      "source": "脚本/汇总离线实验对比.py",
+      "target": "脚本/程序模块/汇总离线实验对比.py"
+    },
+    {
+      "source": "脚本/演示采集流程自检.py",
+      "target": "脚本/程序模块/演示采集流程自检.py"
+    },
+    {
+      "source": "脚本/电机故障退出自检.py",
+      "target": "脚本/程序模块/电机故障退出自检.py"
+    },
+    {
+      "source": "脚本/监视窗口自检.py",
+      "target": "脚本/程序模块/监视窗口自检.py"
+    },
+    {
+      "source": "脚本/相机测试.bat",
+      "target": "脚本/日常操作/相机测试.bat"
+    },
+    {
+      "source": "脚本/相机测试窗口.py",
+      "target": "脚本/程序模块/相机测试窗口.py"
+    },
+    {
+      "source": "脚本/离线实验对比.bat",
+      "target": "脚本/离线实验/离线实验对比.bat"
+    },
+    {
+      "source": "脚本/离线实验对比自检.bat",
+      "target": "脚本/检查工具/离线实验对比自检.bat"
+    },
+    {
+      "source": "脚本/离线实验对比自检.py",
+      "target": "脚本/程序模块/离线实验对比自检.py"
+    },
+    {
+      "source": "脚本/离线测试.bat",
+      "target": "脚本/历史工具/离线测试.bat"
+    },
+    {
+      "source": "脚本/离线训练验证.bat",
+      "target": "脚本/历史工具/离线训练验证.bat"
+    },
+    {
+      "source": "脚本/等待测试开始.py",
+      "target": "脚本/程序模块/等待测试开始.py"
+    },
+    {
+      "source": "脚本/管理实机评测记录.py",
+      "target": "脚本/程序模块/管理实机评测记录.py"
+    },
+    {
+      "source": "脚本/管理离线实验对比.py",
+      "target": "脚本/程序模块/管理离线实验对比.py"
+    },
+    {
+      "source": "脚本/管理训练数据来源.py",
+      "target": "脚本/程序模块/管理训练数据来源.py"
+    },
+    {
+      "source": "脚本/管理采集训练任务.py",
+      "target": "脚本/程序模块/管理采集训练任务.py"
+    },
+    {
+      "source": "脚本/训练评估流程自检.bat",
+      "target": "脚本/检查工具/训练评估流程自检.bat"
+    },
+    {
+      "source": "脚本/训练评估流程自检.py",
+      "target": "脚本/程序模块/训练评估流程自检.py"
+    },
+    {
+      "source": "脚本/评估微调模型.bat",
+      "target": "脚本/离线实验/评估微调模型.bat"
+    },
+    {
+      "source": "脚本/评估微调模型.py",
+      "target": "脚本/程序模块/评估微调模型.py"
+    },
+    {
+      "source": "脚本/逐路检查相机.py",
+      "target": "脚本/程序模块/逐路检查相机.py"
+    },
+    {
+      "source": "脚本/配置本地环境.bat",
+      "target": "脚本/环境配置/配置本地环境.bat"
+    },
+    {
+      "source": "脚本/配置硬件端口.bat",
+      "target": "脚本/环境配置/配置硬件端口.bat"
+    },
+    {
+      "source": "脚本/采集训练面板.bat",
+      "target": "脚本/日常操作/采集训练面板.bat"
+    },
+    {
+      "source": "脚本/采集训练面板.py",
+      "target": "脚本/程序模块/采集训练面板.py"
+    },
+    {
+      "source": "脚本/采集训练面板自检.bat",
+      "target": "脚本/检查工具/采集训练面板自检.bat"
+    },
+    {
+      "source": "脚本/采集训练面板自检.py",
+      "target": "脚本/程序模块/采集训练面板自检.py"
+    },
+    {
+      "source": "脚本/预热模型与检查时效.py",
+      "target": "脚本/程序模块/预热模型与检查时效.py"
+    },
+    {
+      "source": "脚本/预训练模型实时推理.bat",
+      "target": "脚本/检查工具/预训练模型实时推理.bat"
+    },
+    {
+      "source": "脚本/预训练模型实时推理.py",
+      "target": "脚本/程序模块/预训练模型实时推理.py"
+    },
+    {
+      "source": "脚本/验证整理后模型.py",
+      "target": "脚本/程序模块/验证整理后模型.py"
+    },
+    {
+      "source": "脚本/验证采集训练面板.py",
+      "target": "脚本/程序模块/验证采集训练面板.py"
+    }
+  ],
+  "models_data_calibration_moved": false,
+  "original_snapshots_preserved": true,
+  "training_data_deleted": false
+}

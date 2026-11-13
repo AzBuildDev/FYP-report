@@ -1,0 +1,52 @@
+{
+  "time": "2026-11-07T19:00:25.260307",
+  "gpu": "RTX 5090 32GB",
+  "config": {
+    "batch_size": 140,
+    "steps": 6858,
+    "warmup": 115,
+    "save_every": 1145,
+    "validate_every": 229,
+    "validation_samples": 10,
+    "seed": 42,
+    "sampling_mode": "stage",
+    "output_relative": "输出/B_纯100段_stage",
+    "initialization": "official_base_fresh_optimizer",
+    "continuous": false,
+    "reference_batch_size": 32,
+    "reference_steps": 30000,
+    "reference_sample_budget": 960000,
+    "budget_mode": "equal_sample_budget",
+    "actual_sample_windows": 960120,
+    "note": "按样本窗口数等比例换算训练/预热/验证/保存间隔；不同batch优化过程不完全等价；不自动提高学习率"
+  },
+  "batch_selection": {
+    "status": "passed",
+    "selected_batch_size": 140,
+    "next_rejected_batch_size": 144,
+    "reserve_mib": 1536,
+    "selection": "4的倍数中、4次真实前向反向及优化器更新后保留1.5GiB余量的最大batch",
+    "benchmark": {
+      "batch_size": 140,
+      "exit_code": 0,
+      "wall_s": 38.269657956436276,
+      "status": "passed",
+      "measured_updates": 4,
+      "mean_step_s": 2.899911363298694,
+      "samples_per_second": 48.277337635846855,
+      "peak_gpu_allocated_mib": 29513.46728515625,
+      "peak_gpu_reserved_mib": 30468.0,
+      "gpu_total_mib": 32110.9375,
+      "model_saved": false,
+      "formal_training_started": false,
+      "headroom_mib": 1642.9375,
+      "safe": true
+    },
+    "formal_training_started": false,
+    "time": "2026-11-07T18:59:31.319624"
+  },
+  "user_authorized_start": true,
+  "source_archive_sha256": "2e800a70cdced0b8c8caa0b66b37b2d99499cc3363226b0ab70df443a3fd5bb0",
+  "local_original_archive_unchanged": true,
+  "initialization": "official_base_fresh_optimizer"
+}

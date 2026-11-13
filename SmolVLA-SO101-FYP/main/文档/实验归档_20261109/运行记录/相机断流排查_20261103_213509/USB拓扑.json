@@ -1,0 +1,136 @@
+[
+  {
+    "Camera": "1080P USB Camera",
+    "Depth": 0,
+    "InstanceId": "USB\\VID_2BDF&PID_0289&MI_00\\7&18E21D43&0&0000",
+    "Description": "1080P USB Camera",
+    "Location": [
+      "PCIROOT(0)#PCI(1400)#USBROOT(0)#USB(6)#USB(2)#USBMI(0)",
+      "PCIROOT(0)#PCI(1400)#USBROOT(0)#USB(6)#USB(2)#USB(2)",
+      "ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS06)#USB(2)#USBMI(0)",
+      "ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS06)#USB(2)#USB(2)"
+    ],
+    "Parent": "USB\\VID_2BDF&PID_0289\\44434000_P030C01_SN0002",
+    "Problem": 0,
+    "DriverVersion": "10.0.26100.9711"
+  },
+  {
+    "Camera": "1080P USB Camera",
+    "Depth": 1,
+    "InstanceId": "USB\\VID_2BDF&PID_0289\\44434000_P030C01_SN0002",
+    "Description": "1080P USB Camera",
+    "Location": [
+      "PCIROOT(0)#PCI(1400)#USBROOT(0)#USB(6)#USB(2)",
+      "ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS06)#USB(2)"
+    ],
+    "Parent": "USB\\VID_0424&PID_2744\\5&129774c1&0&6",
+    "Problem": 0,
+    "DriverVersion": "10.0.26100.9711"
+  },
+  {
+    "Camera": "1080P USB Camera",
+    "Depth": 2,
+    "InstanceId": "USB\\VID_0424&PID_2744\\5&129774c1&0&6",
+    "Description": "USB2744",
+    "Location": [
+      "PCIROOT(0)#PCI(1400)#USBROOT(0)#USB(6)",
+      "ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS06)"
+    ],
+    "Parent": "USB\\ROOT_HUB30\\4&485095d&0&0",
+    "Problem": 0,
+    "DriverVersion": "10.0.26100.9711"
+  },
+  {
+    "Camera": "1080P USB Camera",
+    "Depth": 3,
+    "InstanceId": "USB\\ROOT_HUB30\\4&485095d&0&0",
+    "Description": null,
+    "Location": [
+      "PCIROOT(0)#PCI(1400)#USBROOT(0)",
+      "ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)#ACPI(RHUB)"
+    ],
+    "Parent": "PCI\\VEN_8086&DEV_A2AF&SUBSYS_07381028&REV_00\\3&11583659&0&A0",
+    "Problem": 0,
+    "DriverVersion": "10.0.26100.9711"
+  },
+  {
+    "Camera": "1080P USB Camera",
+    "Depth": 4,
+    "InstanceId": "PCI\\VEN_8086&DEV_A2AF&SUBSYS_07381028&REV_00\\3&11583659&0&A0",
+    "Description": "通用串行总线(USB)控制器",
+    "Location": [
+      "PCIROOT(0)#PCI(1400)",
+      "ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)"
+    ],
+    "Parent": "ACPI\\PNP0A08\\0",
+    "Problem": 0,
+    "DriverVersion": "10.0.26100.9711"
+  },
+  {
+    "Camera": "icspring camera",
+    "Depth": 0,
+    "InstanceId": "USB\\VID_32E6&PID_9005&MI_00\\7&260881B8&0&0000",
+    "Description": "icspring camera",
+    "Location": [
+      "PCIROOT(0)#PCI(1400)#USBROOT(0)#USB(3)#USB(2)#USBMI(0)",
+      "PCIROOT(0)#PCI(1400)#USBROOT(0)#USB(3)#USB(2)#USB(2)",
+      "ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS03)#USB(2)#USBMI(0)",
+      "ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS03)#USB(2)#USB(2)"
+    ],
+    "Parent": "USB\\VID_32E6&PID_9005\\6&132c58c2&0&2",
+    "Problem": 0,
+    "DriverVersion": "10.0.26100.9711"
+  },
+  {
+    "Camera": "icspring camera",
+    "Depth": 1,
+    "InstanceId": "USB\\VID_32E6&PID_9005\\6&132c58c2&0&2",
+    "Description": "icspring camera",
+    "Location": [
+      "PCIROOT(0)#PCI(1400)#USBROOT(0)#USB(3)#USB(2)",
+      "ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS03)#USB(2)"
+    ],
+    "Parent": "USB\\VID_214B&PID_7260\\5&129774c1&0&3",
+    "Problem": 0,
+    "DriverVersion": "10.0.26100.9711"
+  },
+  {
+    "Camera": "icspring camera",
+    "Depth": 2,
+    "InstanceId": "USB\\VID_214B&PID_7260\\5&129774c1&0&3",
+    "Description": "USB2.0 HUB",
+    "Location": [
+      "PCIROOT(0)#PCI(1400)#USBROOT(0)#USB(3)",
+      "ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)#ACPI(RHUB)#ACPI(HS03)"
+    ],
+    "Parent": "USB\\ROOT_HUB30\\4&485095d&0&0",
+    "Problem": 0,
+    "DriverVersion": "10.0.26100.9711"
+  },
+  {
+    "Camera": "icspring camera",
+    "Depth": 3,
+    "InstanceId": "USB\\ROOT_HUB30\\4&485095d&0&0",
+    "Description": null,
+    "Location": [
+      "PCIROOT(0)#PCI(1400)#USBROOT(0)",
+      "ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)#ACPI(RHUB)"
+    ],
+    "Parent": "PCI\\VEN_8086&DEV_A2AF&SUBSYS_07381028&REV_00\\3&11583659&0&A0",
+    "Problem": 0,
+    "DriverVersion": "10.0.26100.9711"
+  },
+  {
+    "Camera": "icspring camera",
+    "Depth": 4,
+    "InstanceId": "PCI\\VEN_8086&DEV_A2AF&SUBSYS_07381028&REV_00\\3&11583659&0&A0",
+    "Description": "通用串行总线(USB)控制器",
+    "Location": [
+      "PCIROOT(0)#PCI(1400)",
+      "ACPI(_SB_)#ACPI(PC00)#ACPI(XHCI)"
+    ],
+    "Parent": "ACPI\\PNP0A08\\0",
+    "Problem": 0,
+    "DriverVersion": "10.0.26100.9711"
+  }
+]

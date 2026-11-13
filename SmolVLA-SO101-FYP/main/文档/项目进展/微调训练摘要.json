@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "steps": 3000,
+  "batch_size": 4,
+  "precision": "bfloat16 autocast",
+  "episodes": [
+    0,
+    1,
+    2
+  ],
+  "total_frames": 1114,
+  "first_50_avg_loss": 0.17991140618920326,
+  "last_50_avg_loss": 0.039897003322839734,
+  "seconds": 1389.5867421999974,
+  "peak_gpu_memory_mib": 2084.3212890625,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "checkpoint_saved": true,
+  "robot_commands_sent": 0,
+  "task_success_evaluated": false,
+  "dataset": "../训练数据采集/机械臂控制项目/任务演示/单相机演示_20261005_205636_902311",
+  "model": "模型/红色方块微调模型"
+}

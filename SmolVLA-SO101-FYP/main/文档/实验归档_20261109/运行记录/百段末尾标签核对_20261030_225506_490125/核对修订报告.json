@@ -1,0 +1,171 @@
+{
+  "dataset_root": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+  "total_episodes": 100,
+  "changes": [
+    {
+      "display_episode": 81,
+      "video_episode_index": 80,
+      "old_target": "RC",
+      "target": "RC",
+      "changed": false,
+      "scene": "single_red_cube"
+    },
+    {
+      "display_episode": 82,
+      "video_episode_index": 81,
+      "old_target": "BC",
+      "target": "RC",
+      "changed": true,
+      "scene": "single_red_cube"
+    },
+    {
+      "display_episode": 83,
+      "video_episode_index": 82,
+      "old_target": "RC",
+      "target": "RC",
+      "changed": false,
+      "scene": "single_red_cube"
+    },
+    {
+      "display_episode": 84,
+      "video_episode_index": 83,
+      "old_target": "BC",
+      "target": "RC",
+      "changed": true,
+      "scene": "single_red_cube"
+    },
+    {
+      "display_episode": 85,
+      "video_episode_index": 84,
+      "old_target": "RC",
+      "target": "RC",
+      "changed": false,
+      "scene": "single_red_cube"
+    },
+    {
+      "display_episode": 86,
+      "video_episode_index": 85,
+      "old_target": "BC",
+      "target": "RC",
+      "changed": true,
+      "scene": "single_red_cube"
+    },
+    {
+      "display_episode": 87,
+      "video_episode_index": 86,
+      "old_target": "RC",
+      "target": "RC",
+      "changed": false,
+      "scene": "single_red_cube"
+    },
+    {
+      "display_episode": 88,
+      "video_episode_index": 87,
+      "old_target": "BC",
+      "target": "RC",
+      "changed": true,
+      "scene": "single_red_cube"
+    },
+    {
+      "display_episode": 89,
+      "video_episode_index": 88,
+      "old_target": "RC",
+      "target": "RC",
+      "changed": false,
+      "scene": "single_red_cube"
+    },
+    {
+      "display_episode": 90,
+      "video_episode_index": 89,
+      "old_target": "BC",
+      "target": "RC",
+      "changed": true,
+      "scene": "single_red_cube"
+    },
+    {
+      "display_episode": 91,
+      "video_episode_index": 90,
+      "old_target": "RC",
+      "target": "BC",
+      "changed": true,
+      "scene": "single_blue_cube"
+    },
+    {
+      "display_episode": 92,
+      "video_episode_index": 91,
+      "old_target": "BC",
+      "target": "BC",
+      "changed": false,
+      "scene": "single_blue_cube"
+    },
+    {
+      "display_episode": 93,
+      "video_episode_index": 92,
+      "old_target": "RC",
+      "target": "BC",
+      "changed": true,
+      "scene": "single_blue_cube"
+    },
+    {
+      "display_episode": 94,
+      "video_episode_index": 93,
+      "old_target": "BC",
+      "target": "BC",
+      "changed": false,
+      "scene": "single_blue_cube"
+    },
+    {
+      "display_episode": 95,
+      "video_episode_index": 94,
+      "old_target": "RC",
+      "target": "BC",
+      "changed": true,
+      "scene": "single_blue_cube"
+    },
+    {
+      "display_episode": 96,
+      "video_episode_index": 95,
+      "old_target": "BC",
+      "target": "BC",
+      "changed": false,
+      "scene": "single_blue_cube"
+    },
+    {
+      "display_episode": 97,
+      "video_episode_index": 96,
+      "old_target": "RC",
+      "target": "BC",
+      "changed": true,
+      "scene": "single_blue_cube"
+    },
+    {
+      "display_episode": 98,
+      "video_episode_index": 97,
+      "old_target": "BC",
+      "target": "BC",
+      "changed": false,
+      "scene": "single_blue_cube"
+    },
+    {
+      "display_episode": 99,
+      "video_episode_index": 98,
+      "old_target": "RC",
+      "target": "BC",
+      "changed": true,
+      "scene": "single_blue_cube"
+    },
+    {
+      "display_episode": 100,
+      "video_episode_index": 99,
+      "old_target": "BC",
+      "target": "BC",
+      "changed": false,
+      "scene": "single_blue_cube"
+    }
+  ],
+  "incorrect_count": 10,
+  "numbering": "视频和meta内部episode_index从0开始；第NNN段动作备份和界面计数从1开始",
+  "basis": "用户确认第81至90条为单红，第91至100条为单蓝；首帧用于场景核对，不判定抓取成功",
+  "applied": false,
+  "robot_commands_sent": 0
+}

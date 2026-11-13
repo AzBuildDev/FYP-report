@@ -1,0 +1,29 @@
+{
+  "scope": "runtime_log_telemetry_pending_human_review",
+  "created_at": "2026-10-07T17:28:33",
+  "source_log": "实机抓取测试_20261007_171418_862949.jsonl",
+  "source_log_sha256": "49e28fb74c6c10261f4dc9a49d5b91d7ae33d6f3148b1c4e5ff79a7327bbc135",
+  "declared_run_kind": "real_hardware",
+  "checkpoint_sha256": "1eb57f1652336c4e84d8da5772dabb51356817a3d6e1b31add084423c4059cb2",
+  "scene": "断电检查后短时复测_物体结果待确认",
+  "mode": "async",
+  "control_settings": {
+    "control_hz": 20,
+    "max_step_delta": 6.0,
+    "range_margin": 8.0,
+    "chunk_execute": 20,
+    "test_seconds": 15
+  },
+  "recorded_commands": 279,
+  "recorded_inferences": 17,
+  "active_control_hz": 19.946903924804623,
+  "missed_ticks": 0,
+  "seconds": 15.8,
+  "stop_reason": "time_limit",
+  "logged_errors": [],
+  "steady_inference_median_s": 0.8434999999999491,
+  "verification_read_only": true,
+  "robot_commands_sent_by_verifier": 0,
+  "task_success_evaluated": false,
+  "notes": "指标来自日志声明和记录，只反映控制程序；任务结果需本人观察后人工标记，不能证明物理跟随或抓取成功。"
+}

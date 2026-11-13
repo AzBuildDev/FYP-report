@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "official_base_sha256": "8f8dc071d5b933e79edd2b73b8d6b5cca482ef0437c099ea3ec13ab978a38fc8",
+  "annotation_sha256": "fbfa4f589b6800df86fcc9b39b930c3a34946661b3935c5d486cc23c5c67ccf1",
+  "original_annotations_unchanged": true,
+  "model_loaded": false,
+  "training_started": false
+}

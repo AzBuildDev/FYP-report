@@ -1,0 +1,2445 @@
+[
+  {
+    "TimeCreated": "2026-11-03T21:30:52.5651837+08:00",
+    "Id": 1010,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-Kernel-PnP",
+    "Message": "由于在总线上报告为缺少，设备 USB\\VID_32E6&PID_9005\\6&132c58c2&0&2 已被意外删除。 \r\n删除的设备计数： 2"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:52.029631+08:00",
+    "Id": 1010,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-Kernel-PnP",
+    "Message": "由于在总线上报告为缺少，设备 USB\\VID_32E6&PID_9005\\6&132c58c2&0&2 已被意外删除。 \r\n删除的设备计数： 2"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:51.4734639+08:00",
+    "Id": 1010,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-Kernel-PnP",
+    "Message": "由于在总线上报告为缺少，设备 USB\\VID_32E6&PID_9005\\6&132c58c2&0&2 已被意外删除。 \r\n删除的设备计数： 2"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.7407568+08:00",
+    "Id": 1010,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-Kernel-PnP",
+    "Message": "由于在总线上报告为缺少，设备 USB\\VID_32E6&PID_9005\\6&132c58c2&0&2 已被意外删除。 \r\n删除的设备计数： 2"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.5293577+08:00",
+    "Id": 1010,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-Kernel-PnP",
+    "Message": "由于在总线上报告为缺少，设备 USB\\VID_32E6&PID_9005\\6&132c58c2&0&2 已被意外删除。 \r\n删除的设备计数： 2"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.3415789+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 4831."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.3410902+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.3399822+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.3399798+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.3399335+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.3399151+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.3393684+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.3393653+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.3359498+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.3358233+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.334279+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 1，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.3175757+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 49359."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.3126278+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_2BDF&PID_0289&MI_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.2862403+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.2709664+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 2151."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.2707481+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.2685937+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.2685891+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.2685015+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.2684661+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 1，MediaType： FrameSize=2748779069920 (640,480),BitRate=4915200,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=4294967297 (1,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.2676643+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.2676357+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.266816+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.2668108+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.2662214+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.2660389+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.2640911+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 2，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.2472427+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 30409."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.2441891+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_32E6&PID_9005&MI_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.2345915+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1791025+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 4100."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1786886+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1774918+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1774742+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1722635+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 1，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1673243+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1673195+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1672326+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1671788+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1666511+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 激活，DurationToCompletionInHns： 140."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1666366+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 激活，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1665739+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1665711+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.163323+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1631881+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1617253+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 1，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1521173+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 31841."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1489261+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_2BDF&PID_0289&MI_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1394658+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.1316446+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0873522+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 6036."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0867419+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0837482+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0837178+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 1，MediaType： FrameSize=2748779069920 (640,480),BitRate=4915200,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=4294967297 (1,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.082717+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0826835+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0775283+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 2，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0773211+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0773164+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0772257+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0771949+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 1，MediaType： FrameSize=2748779069920 (640,480),BitRate=4915200,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=4294967297 (1,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0763936+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0763612+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0753194+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0753126+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0744587+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0742323+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0719269+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 2，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:58.0695589+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 激活，DurationToCompletionInHns： 20079394."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:56.0615605+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 激活，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:56.0526393+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:56.039032+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 11686."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:56.0378593+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_32E6&PID_9005&MI_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:56.0233693+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.9332409+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 3056."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.9329309+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.9322239+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.9322219+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.9321838+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.9321616+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.9317419+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.9317393+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.9293749+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.9292887+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.9281724+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 1，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.9269286+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.926917+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.9203605+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 1，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.9197129+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 激活，DurationToCompletionInHns： 20389."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.9176678+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 激活，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.9116023+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 25794."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.909017+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_2BDF&PID_0289&MI_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.8923003+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.8852487+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.8412296+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 0，StreamType： MASTER，hr： 0xC00D3EA2."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.8411327+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 0，StreamType： MASTER，hr： 0xC00D3EA2."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.8410543+08:00",
+    "Id": 26,
+    "LevelDisplayName": "警告",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer_CameraToast_Post 事件，hr=0xC00D3EA2"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.8410478+08:00",
+    "Id": 26,
+    "LevelDisplayName": "警告",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer_CameraToast_Post 事件，hr=0xC00D3EA2"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.8409448+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 1422."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.8407981+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:55.8405714+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 激活，DurationToCompletionInHns： 51206827."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:52.8873573+08:00",
+    "Id": 62,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsmDeviceWatcher InternalUpdateSensorGroups 停止，AnyFailed: false"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:52.8496713+08:00",
+    "Id": 61,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsmDeviceWatcher InternalUpdateSensorGroups Start"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:52.3767634+08:00",
+    "Id": 62,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsmDeviceWatcher InternalUpdateSensorGroups 停止，AnyFailed: false"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:52.3215175+08:00",
+    "Id": 61,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsmDeviceWatcher InternalUpdateSensorGroups Start"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:51.914915+08:00",
+    "Id": 62,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsmDeviceWatcher InternalUpdateSensorGroups 停止，AnyFailed: false"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:51.8762061+08:00",
+    "Id": 61,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsmDeviceWatcher InternalUpdateSensorGroups Start"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:50.7197872+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 激活，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:50.7133576+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 15231."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:50.711926+08:00",
+    "Id": 62,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsmDeviceWatcher InternalUpdateSensorGroups 停止，AnyFailed: false"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:50.7118286+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_32E6&PID_9005&MI_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:50.7062596+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:50.7019436+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:50.6634239+08:00",
+    "Id": 61,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsmDeviceWatcher InternalUpdateSensorGroups Start"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:47.197977+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 2410."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:47.1977344+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:47.1970353+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:47.1970332+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:47.1969912+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:47.1969744+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:47.1965275+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:47.1965247+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:47.16235+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:47.1622735+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:47.1613943+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 1，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:47.1522407+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 24678."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:47.1497681+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_2BDF&PID_0289&MI_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:47.1353212+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.8380433+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 5150."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.8375247+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.8364835+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.8364813+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.8364315+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.8364129+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.8357827+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.8357783+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.7972459+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.7971822+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.796351+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 1，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.7896516+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 15899."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.7880582+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_2BDF&PID_0289&MI_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.7783446+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.7222389+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 8487."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.7213822+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.7188786+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.718824+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.7158548+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.715853+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.715767+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.7157358+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.6754378+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.6754336+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.6557702+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.6556737+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.654318+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 1，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.6526598+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 1，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.6518269+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 激活，DurationToCompletionInHns： 88878."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.6455512+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 19777."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.643572+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_2BDF&PID_0289&MI_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.6429304+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 激活，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.6328288+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.6300633+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.6031724+08:00",
+    "Id": 62,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsmDeviceWatcher InternalUpdateSensorGroups 停止，AnyFailed: false"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:30:46.6025345+08:00",
+    "Id": 61,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsmDeviceWatcher InternalUpdateSensorGroups Start"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6819662+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 1950."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.68177+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6809506+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6809474+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6808894+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6808643+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6802612+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6802571+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6700109+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6699119+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6687032+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 1，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6609336+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 17045."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6592247+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_2BDF&PID_0289&MI_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6492335+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6209194+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 4633."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6204508+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6191381+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6191365+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.619107+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6190991+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 1，MediaType： FrameSize=2748779069920 (640,480),BitRate=4915200,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=4294967297 (1,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6188152+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6188054+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6184528+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6184512+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6181164+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6180275+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6171768+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 2，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.608232+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 17755."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.6064505+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_32E6&PID_9005&MI_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.5793902+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.0026824+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 5825."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.0020961+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.0002412+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.0002366+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.0001555+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:21.0001249+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9990473+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9990411+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9828325+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9826481+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.98039+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 1，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9724882+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 20236."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9704615+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_2BDF&PID_0289&MI_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9610581+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9437666+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 3667."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9433974+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9409724+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9409681+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9408938+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9408687+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 1，MediaType： FrameSize=2748779069920 (640,480),BitRate=4915200,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=4294967297 (1,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.940146+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9401158+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9392535+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9392481+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9386004+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9383688+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9362524+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 2，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9221831+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 13381."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9208401+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_32E6&PID_9005&MI_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:29:20.9035554+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.3496254+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 5200."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.3491004+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.3481063+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.3481045+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.3480624+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.3480417+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.3471458+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.347138+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.3206539+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.3205736+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.3196652+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 1，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.3136438+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 16551."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.3119839+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_2BDF&PID_0289&MI_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.3015684+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.2769365+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 2972."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.276637+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.2753892+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.2753844+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.2753077+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.2752843+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 1，MediaType： FrameSize=2748779069920 (640,480),BitRate=4915200,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=4294967297 (1,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.2746592+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.2746311+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.2738395+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.2738339+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.2733599+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.2731991+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.2723961+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 2，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.2636747+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 14389."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.2622305+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_32E6&PID_9005&MI_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.2367066+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1880105+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 2094."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1877999+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1871786+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.187177+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1871384+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1871199+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.186718+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1867133+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1740233+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1739594+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1730771+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 1，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1670258+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 16132."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1654092+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_2BDF&PID_0289&MI_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1560831+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1413417+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 1939."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1411466+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1402647+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.140261+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1402195+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1402094+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 1，MediaType： FrameSize=2748779069920 (640,480),BitRate=4915200,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=4294967297 (1,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1399244+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1399144+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1395923+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1395906+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1393844+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.139318+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1385271+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 2，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1327928+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 9677."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1318226+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_32E6&PID_9005&MI_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:35.1222107+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.7431085+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 2265."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.7428802+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.7421549+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.7421532+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.7421131+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.7420945+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.7415849+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.7415812+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.7109877+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.7109222+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.7100957+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 1，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.7037606+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 19313."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.7018248+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_2BDF&PID_0289&MI_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.6922596+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.6760888+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 2158."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.6758709+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.6739987+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.6739973+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.6739616+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.673951+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 1，MediaType： FrameSize=2748779069920 (640,480),BitRate=4915200,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=4294967297 (1,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.6733671+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.6733441+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.6726309+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.6726265+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.672129+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.6719749+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.6702796+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 2，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.6607626+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 17006."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.6590571+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_32E6&PID_9005&MI_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.6307725+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.1020844+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 3220."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.1017592+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.1010074+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.1010057+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.1009646+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.1009436+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.100179+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.1001763+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0789537+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0788833+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0779201+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 1，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0713812+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 18057."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0695718+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_2BDF&PID_0289&MI_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0600507+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_2bdf&pid_0289&mi_00#7&18e21d43&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.035917+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToCompletionInHns： 4415."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0354713+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 4，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： <none>."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0333818+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0333788+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0333203+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0333035+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 1，MediaType： FrameSize=2748779069920 (640,480),BitRate=4915200,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=4294967297 (1,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0327653+08:00",
+    "Id": 3,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0327369+08:00",
+    "Id": 2,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy SetOutputType 开始，PinId： 0，MediaType： FrameSize=2748779069920 (640,480),BitRate=147456000,MajorType={73646976-0000-0010-8000-00AA00389B71},Stride=1280,FrameRate=128849018881 (30,1),PixelAspectRatio=4294967297 (1,1),InterlacedMode=2,Subtype={32595559-0000-0010-8000-00AA00389B71}."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0313631+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0313588+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0290998+08:00",
+    "Id": 5,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 停止，hr=0x0。"
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0289301+08:00",
+    "Id": 4,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy D3dManager 启动，D3dDesc： NVIDIA GeForce RTX 2080 Ti，LUID： 0xC46C，VendorId： 4318，DeviceId： 7687，SubSysId： 924323880."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0276445+08:00",
+    "Id": 7,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化停止，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，流： 2，StreamType： MASTER，hr： 0x0."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:32.0136509+08:00",
+    "Id": 12,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 停止事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToCompletionInHns： 354163."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:31.9782246+08:00",
+    "Id": 11,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer WatchdogTimer 启动事件，TimerScope： FSSource，TimerScopeId： 0，WatchdogOperation： 初始化，DurationToTriggerInHns： 200000000，\r\nSymbolicLink： \\\\?\\USB#VID_32E6&PID_9005&MI_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\GLOBAL."
+  },
+  {
+    "TimeCreated": "2026-11-03T21:27:31.9639143+08:00",
+    "Id": 6,
+    "LevelDisplayName": "信息",
+    "ProviderName": "Microsoft-Windows-MF-FrameServer",
+    "Message": "FrameServer FsProxy 初始化开始，SymbolicLink： \\\\?\\usb#vid_32e6&pid_9005&mi_00#7&260881b8&0&0000#{e5323777-f976-4f5b-9b55-b94699c46e44}\\global，设备： 1，StreamType： MASTER."
+  }
+]

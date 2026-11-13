@@ -1,0 +1,20 @@
+{
+  "host": "connect.westd.seetacloud.com",
+  "port": 27362,
+  "gpu": "NVIDIA RTX 6000D",
+  "batch_size": 384,
+  "total_steps": 2500,
+  "main_sample_windows": 960000,
+  "auxiliary_pairs_per_step": 8,
+  "validation_every": 84,
+  "independent_checkpoint_every": 417,
+  "screen": "smolvla80contrast",
+  "checkpoint_save_test_step": 16,
+  "strict_resume_observed_step": 17,
+  "observed_at_beijing": "2026-11-08T21:31:42+08:00",
+  "training_started": true,
+  "training_completed": false,
+  "robot_success_evaluated": false,
+  "benchmark_samples_per_second": 51.72153373165501,
+  "estimated_finish_beijing": "2026-11-09 03:00–04:00，基于短时吞吐与验证开销的初估"
+}

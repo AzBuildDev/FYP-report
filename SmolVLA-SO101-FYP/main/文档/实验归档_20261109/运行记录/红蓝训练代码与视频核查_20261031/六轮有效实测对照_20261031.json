@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-31",
+  "results_source": "场景和成功情况来自用户；任务、模型及起始状态来自日志；关键帧验证误抓蓝块。",
+  "excluded_run": "实机抓取测试_20261031_164323_830179",
+  "exclusion_reason": "用户明确说明最新轮误操作，排除结果，不删除日志",
+  "runs": [
+    {
+      "run": "实机抓取测试_20261031_163222_885117",
+      "requested_task": "BC",
+      "actual_task": "Pick up the blue cube and place it in the target area.",
+      "layout": "R:P1 B:P4",
+      "target_position": "P4",
+      "user_reported_success": false,
+      "initial_state": [
+        2.6861090660095215,
+        -68.12080383300781,
+        -2.4175825119018555,
+        66.84210205078125,
+        -1.1979166269302368,
+        0.8990318179130554
+      ],
+      "model_identity": {
+        "type": "model_identity",
+        "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_历史batch16参数_30k_20261031\\best_val",
+        "dataset_path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+        "processor_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+        "checkpoint_sha256": "07e2d992135993b1abe8417fbf0cbe78411d8e9d9cb29f2451fd5ffb3a27294d"
+      },
+      "last10_mean_absolute_feedback_prediction_error": [
+        0.5237813949584961,
+        1.3085475444793702,
+        1.8491195678710937,
+        1.6455501556396483,
+        0.2623613357543945,
+        7.989110374450684
+      ]
+    },
+    {
+      "run": "实机抓取测试_20261031_163416_878051",
+      "requested_task": "RC",
+      "actual_task": "Pick up the red cube and place it in the target area.",
+      "layout": "R:P1 B:P4",
+      "target_position": "P1",
+      "user_reported_success": true,
+      "initial_state": [
+        1.3046815395355225,
+        -100.0,
+        -0.02442002482712269,
+        56.842105865478516,
+        0.3645833432674408,
+        0.0
+      ],
+      "model_identity": {
+        "type": "model_identity",
+        "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_历史batch16参数_30k_20261031\\best_val",
+        "dataset_path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+        "processor_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+        "checkpoint_sha256": "07e2d992135993b1abe8417fbf0cbe78411d8e9d9cb29f2451fd5ffb3a27294d"
+      }
+    },
+    {
+      "run": "实机抓取测试_20261031_163707_999483",
+      "requested_task": "RC",
+      "actual_task": "Pick up the red cube and place it in the target area.",
+      "layout": "R:P4 B:P1",
+      "target_position": "P4",
+      "user_reported_success": false,
+      "initial_state": [
+        5.141980171203613,
+        -91.35906219482422,
+        0.21978022158145905,
+        66.49122619628906,
+        -0.1041666641831398,
+        0.8990318179130554
+      ],
+      "model_identity": {
+        "type": "model_identity",
+        "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_历史batch16参数_30k_20261031\\best_val",
+        "dataset_path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+        "processor_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+        "checkpoint_sha256": "07e2d992135993b1abe8417fbf0cbe78411d8e9d9cb29f2451fd5ffb3a27294d"
+      },
+      "last10_mean_absolute_feedback_prediction_error": [
+        0.5312711715698242,
+        1.1847208976745605,
+        1.6058574676513673,
+        1.6245349884033202,
+        0.29988765716552734,
+        5.554936647415161
+      ]
+    },
+    {
+      "run": "实机抓取测试_20261031_164001_748089",
+      "requested_task": "BC",
+      "actual_task": "Pick up the blue cube and place it in the target area.",
+      "layout": "R:P4 B:P1",
+      "target_position": "P1",
+      "user_reported_success": true,
+      "initial_state": [
+        -0.6907137632369995,
+        -99.83221435546875,
+        0.9523809552192688,
+        76.31578826904297,
+        -0.9895833134651184,
+        0.2074688822031021
+      ],
+      "model_identity": {
+        "type": "model_identity",
+        "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_历史batch16参数_30k_20261031\\best_val",
+        "dataset_path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+        "processor_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+        "checkpoint_sha256": "07e2d992135993b1abe8417fbf0cbe78411d8e9d9cb29f2451fd5ffb3a27294d"
+      }
+    },
+    {
+      "run": "实机抓取测试_20261031_164630_224746",
+      "requested_task": "RC",
+      "actual_task": "Pick up the red cube and place it in the target area.",
+      "layout": "R:P2 B:P1",
+      "target_position": "P2",
+      "user_reported_success": false,
+      "wrong_object": "blue_at_P1",
+      "initial_state": [
+        2.3791251182556152,
+        -98.57382202148438,
+        -0.12210012227296829,
+        66.49122619628906,
+        -1.25,
+        1.0373444557189941
+      ],
+      "model_identity": {
+        "type": "model_identity",
+        "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_历史batch16参数_30k_20261031\\best_val",
+        "dataset_path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+        "processor_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+        "checkpoint_sha256": "07e2d992135993b1abe8417fbf0cbe78411d8e9d9cb29f2451fd5ffb3a27294d"
+      }
+    },
+    {
+      "run": "实机抓取测试_20261031_164859_885975",
+      "requested_task": "RC",
+      "actual_task": "Pick up the red cube and place it in the target area.",
+      "layout": "R:P1 B:P2",
+      "target_position": "P1",
+      "user_reported_success": true,
+      "wrong_object": null,
+      "initial_state": [
+        4.067536354064941,
+        -98.74160766601562,
+        -0.02442002482712269,
+        65.08772277832031,
+        -0.1041666641831398,
+        0.7607192397117615
+      ],
+      "model_identity": {
+        "type": "model_identity",
+        "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_历史batch16参数_30k_20261031\\best_val",
+        "dataset_path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+        "processor_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+        "checkpoint_sha256": "07e2d992135993b1abe8417fbf0cbe78411d8e9d9cb29f2451fd5ffb3a27294d"
+      }
+    }
+  ],
+  "conclusion": "六轮有效测试：目标P1三轮成功；目标P4两轮未接近；目标P2一轮错抓P1蓝块。最新两轮起点接近训练分布，因此起点差异不足以解释全部失败。模型呈现P1位置偏好和颜色指令跟随失败；不等于已查明训练层面的根因。"
+}

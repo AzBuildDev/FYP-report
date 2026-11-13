@@ -1,0 +1,64 @@
+{
+  "tasks": {
+    "0": "Pick up the red cube and place it in the target area.",
+    "1": "Pick up the blue cube and place it in the target area."
+  },
+  "mapping_matches": true,
+  "episodes": 200,
+  "episode_counts": {
+    "RC": 100,
+    "BC": 100
+  },
+  "frames": 93252,
+  "journals_checked": 200,
+  "videos_size_checked": 400,
+  "errors": [],
+  "token_ids": {
+    "RC": [
+      31413,
+      614,
+      260,
+      2382,
+      20636,
+      284,
+      1379,
+      357,
+      281,
+      260,
+      2370,
+      1557,
+      30,
+      198
+    ],
+    "BC": [
+      31413,
+      614,
+      260,
+      4461,
+      20636,
+      284,
+      1379,
+      357,
+      281,
+      260,
+      2370,
+      1557,
+      30,
+      198
+    ]
+  },
+  "tokens_differ": true,
+  "tokenizer_max_length": 48,
+  "limitation": "核对标签、动作表和视频路径及大小；未逐段人工判定视频中实际抓取物体颜色。",
+  "server_verification": {
+    "remote_sha256": {
+      "训练数据/meta/tasks.jsonl": "b8d6cb7a7eed4ca95b27ef3064bde0ba1fd4ebbbda895cd6065e16f612d6c70c",
+      "脚本/加速模块/新200段训练.py": "9ef258c7dff29772ba1186b79e715660c9c343cbfebc63b684f62a214fdc3940",
+      "上游框架/src/lerobot/policies/smolvla/modeling_smolvla.py": "958315d08aa42db84c67c7b3e6792057e298b1887c0e3e7c9150f3c5ca9dfc2d",
+      "模型/视觉语言处理器/tokenizer.json": "5ece781dc8d2b2f3e2f289ca0ae50b17cfc27dd27bfe7971bb8241e0b964331a"
+    },
+    "remote_matches_local": true,
+    "training_inference_model_code_matches": true,
+    "training_inference_tokenizer_matches": true
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "experiment": "纯100段阶段采样_20261107",
+  "dataset_root_at_preparation": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+  "dataset_fingerprint": "50515e56d61e72b8c9d1e22d4fcbf1231d29385a005ea72eaeb9b56173e8e876",
+  "annotation_source_sha256": "fbfa4f589b6800df86fcc9b39b930c3a34946661b3935c5d486cc23c5c67ccf1",
+  "marker_storage": "原导出的first_contact字段及原帧号，不重新解释或改写标记",
+  "sampling": "B每批32：标记前RC8/BC8、全段RC8/BC8；A全段RC16/BC16",
+  "actual_pre_marker_fraction": "全段池也可抽到标记前，实际标记前输入比例可高于50%",
+  "action_supervision": "同帧双摄/关节/指令及未来完整50步真实动作，可跨标记；不增加错误指令损失",
+  "initialization": "官方基础模型、新优化器，从0计数；A/B各自独立；未继承旧检查点",
+  "validation": "40红40蓝训练，10红10蓝验证；动作MAE不是选色成功率，后续实机单独评价",
+  "budget": "A/B均候选batch32×30K；复用前次参考，不声称最优或保证改善",
+  "gpu_training_acceptance": "pending; no optimizer updates authorized during preparation",
+  "training_started": false,
+  "server_training": {
+    "gpu": "RTX 5090 32GB",
+    "arm": "B",
+    "config": {
+      "batch_size": 140,
+      "steps": 6858,
+      "warmup": 115,
+      "save_every": 1145,
+      "validate_every": 229,
+      "validation_samples": 10,
+      "seed": 42,
+      "sampling_mode": "stage",
+      "output_relative": "输出/B_纯100段_stage",
+      "initialization": "official_base_fresh_optimizer",
+      "continuous": false,
+      "reference_batch_size": 32,
+      "reference_steps": 30000,
+      "reference_sample_budget": 960000,
+      "budget_mode": "equal_sample_budget",
+      "actual_sample_windows": 960120,
+      "note": "按样本窗口数等比例换算训练/预热/验证/保存间隔；不同batch优化过程不完全等价；不自动提高学习率"
+    },
+    "batch_selection": {
+      "status": "passed",
+      "selected_batch_size": 140,
+      "next_rejected_batch_size": 144,
+      "reserve_mib": 1536,
+      "selection": "4的倍数中、4次真实前向反向及优化器更新后保留1.5GiB余量的最大batch",
+      "benchmark": {
+        "batch_size": 140,
+        "exit_code": 0,
+        "wall_s": 38.269657956436276,
+        "status": "passed",
+        "measured_updates": 4,
+        "mean_step_s": 2.899911363298694,
+        "samples_per_second": 48.277337635846855,
+        "peak_gpu_allocated_mib": 29513.46728515625,
+        "peak_gpu_reserved_mib": 30468.0,
+        "gpu_total_mib": 32110.9375,
+        "model_saved": false,
+        "formal_training_started": false,
+        "headroom_mib": 1642.9375,
+        "safe": true
+      },
+      "formal_training_started": false,
+      "time": "2026-11-07T18:59:31.319624"
+    }
+  }
+}

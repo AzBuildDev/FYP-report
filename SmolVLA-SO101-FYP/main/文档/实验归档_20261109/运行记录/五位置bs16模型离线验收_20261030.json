@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "model": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\双摄五位置_20261019_bs16_30000\\best_val",
+  "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261019_100106_674366",
+  "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+  "training_episodes_verified": 40,
+  "training_stats_verified": true,
+  "strict_load_seconds": 86.2759068000014,
+  "predictions": [
+    {
+      "seconds": 1.2439907999996649,
+      "shape": [
+        50,
+        6
+      ],
+      "finite": true
+    },
+    {
+      "seconds": 0.6494473999991897,
+      "shape": [
+        50,
+        6
+      ],
+      "finite": true
+    }
+  ],
+  "robot_commands_sent": 0,
+  "task_success_evaluated": false,
+  "discoverable_in_window": true
+}

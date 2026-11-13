@@ -1,0 +1,125 @@
+已解压并核对：best_val/checkpoint_summary.json
+已解压并核对：best_val/config.json
+已解压并核对：best_val/dataset_stats.json
+已解压并核对：best_val/model.safetensors
+已解压并核对：best_val/training_provenance.json
+已解压并核对：best_val/training_state.pt
+已解压并核对：last/checkpoint_summary.json
+已解压并核对：last/config.json
+已解压并核对：last/dataset_stats.json
+已解压并核对：last/model.safetensors
+已解压并核对：last/training_provenance.json
+已解压并核对：last/training_state.pt
+已解压并核对：metrics.jsonl
+已解压并核对：run_config.json
+已解压并核对：status.json
+已解压并核对：step_005000/checkpoint_summary.json
+已解压并核对：step_005000/config.json
+已解压并核对：step_005000/dataset_stats.json
+已解压并核对：step_005000/model.safetensors
+已解压并核对：step_005000/training_provenance.json
+已解压并核对：step_005000/training_state.pt
+已解压并核对：step_010000/checkpoint_summary.json
+已解压并核对：step_010000/config.json
+已解压并核对：step_010000/dataset_stats.json
+已解压并核对：step_010000/model.safetensors
+已解压并核对：step_010000/training_provenance.json
+已解压并核对：step_010000/training_state.pt
+已解压并核对：step_015000/checkpoint_summary.json
+已解压并核对：step_015000/config.json
+已解压并核对：step_015000/dataset_stats.json
+已解压并核对：step_015000/model.safetensors
+已解压并核对：step_015000/training_provenance.json
+已解压并核对：step_015000/training_state.pt
+已解压并核对：step_020000/checkpoint_summary.json
+已解压并核对：step_020000/config.json
+已解压并核对：step_020000/dataset_stats.json
+已解压并核对：step_020000/model.safetensors
+已解压并核对：step_020000/training_provenance.json
+已解压并核对：step_020000/training_state.pt
+已解压并核对：step_025000/checkpoint_summary.json
+已解压并核对：step_025000/config.json
+已解压并核对：step_025000/dataset_stats.json
+已解压并核对：step_025000/model.safetensors
+已解压并核对：step_025000/training_provenance.json
+已解压并核对：step_025000/training_state.pt
+已解压并核对：step_030000/checkpoint_summary.json
+已解压并核对：step_030000/config.json
+已解压并核对：step_030000/dataset_stats.json
+已解压并核对：step_030000/model.safetensors
+已解压并核对：step_030000/training_provenance.json
+已解压并核对：step_030000/training_state.pt
+{
+  "source_archive": "D:\\BaiduNetdiskDownload\\纯100段_历史batch16参数_30k_20261031.zip",
+  "destination": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_历史batch16参数_30k_20261031",
+  "file_count": 51,
+  "bytes": 17522898779,
+  "checkpoints": [
+    {
+      "checkpoint": "best_val",
+      "step": 30000,
+      "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+      "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+      "weights_sha256": "07e2d992135993b1abe8417fbf0cbe78411d8e9d9cb29f2451fd5ffb3a27294d",
+      "tensor_count": 506
+    },
+    {
+      "checkpoint": "last",
+      "step": 30000,
+      "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+      "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+      "weights_sha256": "07e2d992135993b1abe8417fbf0cbe78411d8e9d9cb29f2451fd5ffb3a27294d",
+      "tensor_count": 506
+    },
+    {
+      "checkpoint": "step_005000",
+      "step": 5000,
+      "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+      "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+      "weights_sha256": "a763d61758ffdcdc451799f371eb51232bde1bdc0272c522c72ef15bc9d3b822",
+      "tensor_count": 506
+    },
+    {
+      "checkpoint": "step_010000",
+      "step": 10000,
+      "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+      "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+      "weights_sha256": "5868e134892972b8717da745c20698e3f56099cdba0bbc4a56b3e229cf291380",
+      "tensor_count": 506
+    },
+    {
+      "checkpoint": "step_015000",
+      "step": 15000,
+      "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+      "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+      "weights_sha256": "711735f191c45aa0225b5e89caaed52a447596fa8119a077d88f8b81c90e020f",
+      "tensor_count": 506
+    },
+    {
+      "checkpoint": "step_020000",
+      "step": 20000,
+      "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+      "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+      "weights_sha256": "45177407d822c4965ea065bae92057c44f37f754f0fadd8ac493bba2060082e3",
+      "tensor_count": 506
+    },
+    {
+      "checkpoint": "step_025000",
+      "step": 25000,
+      "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+      "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+      "weights_sha256": "838dd08a9960178922c95af88b64d2fd809104ebd6b1d5fd5f73143292961e53",
+      "tensor_count": 506
+    },
+    {
+      "checkpoint": "step_030000",
+      "step": 30000,
+      "dataset": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+      "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+      "weights_sha256": "07e2d992135993b1abe8417fbf0cbe78411d8e9d9cb29f2451fd5ffb3a27294d",
+      "tensor_count": 506
+    }
+  ],
+  "robot_commands_sent": 0,
+  "status": "passed"
+}

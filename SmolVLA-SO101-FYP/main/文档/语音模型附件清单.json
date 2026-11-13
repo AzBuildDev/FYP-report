@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "tag": "speech-redblue-30k-20261029",
+  "sources": [
+    {
+      "directory": "Qwen2.5-1.5B-Instruct",
+      "repository": "Qwen/Qwen2.5-1.5B-Instruct",
+      "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+      "license": "apache-2.0",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct/tree/989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+    },
+    {
+      "directory": "whisper-tiny",
+      "repository": "openai/whisper-tiny",
+      "revision": "169d4a4341b33bc18d8881c4b69c2e104e1cc0af",
+      "license": "apache-2.0",
+      "url": "https://huggingface.co/openai/whisper-tiny/tree/169d4a4341b33bc18d8881c4b69c2e104e1cc0af"
+    }
+  ],
+  "files": [
+    {
+      "path": "Qwen2.5-1.5B-Instruct/config.json",
+      "bytes": 660,
+      "sha256": "98d2ff8cc47488d08a2b0b3acf4eb99ef210779b42bd48605f6b8e36acdbf670",
+      "source_verified": true
+    },
+    {
+      "path": "Qwen2.5-1.5B-Instruct/generation_config.json",
+      "bytes": 242,
+      "sha256": "e558847a8b4402616f1273797b015104dc266fe4b520056fca88823ba8f8ebe6",
+      "source_verified": true
+    },
+    {
+      "path": "Qwen2.5-1.5B-Instruct/LICENSE",
+      "bytes": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "source_verified": true
+    },
+    {
+      "path": "Qwen2.5-1.5B-Instruct/merges.txt",
+      "bytes": 1671839,
+      "sha256": "599bab54075088774b1733fde865d5bd747cbcc7a547c5bc12610e874e26f5e3",
+      "source_verified": true
+    },
+    {
+      "path": "Qwen2.5-1.5B-Instruct/model.safetensors",
+      "bytes": 3087467144,
+      "sha256": "dd924a11b4c220f385b51ffa522daea7c9f3d850e31b162bb5661df483c6d3ee",
+      "source_verified": true
+    },
+    {
+      "path": "Qwen2.5-1.5B-Instruct/README.md",
+      "bytes": 4917,
+      "sha256": "2e1bcd8bd964728a820be709fa0f7b9dd54817a94fd2254c535df70c5e67fada",
+      "source_verified": true
+    },
+    {
+      "path": "Qwen2.5-1.5B-Instruct/tokenizer.json",
+      "bytes": 7031645,
+      "sha256": "c0382117ea329cdf097041132f6d735924b697924d6f6fc3945713e96ce87539",
+      "source_verified": true
+    },
+    {
+      "path": "Qwen2.5-1.5B-Instruct/tokenizer_config.json",
+      "bytes": 7305,
+      "sha256": "5b5d4f65d0acd3b2d56a35b56d374a36cbc1c8fa5cf3b3febbbfabf22f359583",
+      "source_verified": true
+    },
+    {
+      "path": "Qwen2.5-1.5B-Instruct/vocab.json",
+      "bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910",
+      "source_verified": true
+    },
+    {
+      "path": "whisper-tiny/added_tokens.json",
+      "bytes": 34604,
+      "sha256": "9715fd2243b6f06a5858b5e32950d2853f73dd5bc201aafcf76f5082a2d8acd1",
+      "source_verified": true
+    },
+    {
+      "path": "whisper-tiny/config.json",
+      "bytes": 1983,
+      "sha256": "ffdccec4f3211f4c63310f2b7098f309fe70f3952cedc5e4d11e43f5b2379b98",
+      "source_verified": true
+    },
+    {
+      "path": "whisper-tiny/generation_config.json",
+      "bytes": 3747,
+      "sha256": "a5d5325911f16e74001a72fa13d6e208eee51548f994646de1f4b4cc8b35b512",
+      "source_verified": true
+    },
+    {
+      "path": "whisper-tiny/merges.txt",
+      "bytes": 493869,
+      "sha256": "2df2990a395e35e8dfbc7511e08c12d56018d8d04691e0133e5d63b21e154dc6",
+      "source_verified": true
+    },
+    {
+      "path": "whisper-tiny/model.safetensors",
+      "bytes": 151061672,
+      "sha256": "7ebd0e69e78190ffe1438491fa05cc1f5c1aa3a4c4db3bc1723adbb551ea2395",
+      "source_verified": true
+    },
+    {
+      "path": "whisper-tiny/normalizer.json",
+      "bytes": 52666,
+      "sha256": "bf1c507dc8724ca9cf9903640dacfb69dae2f00edee4f21ceba106a7392f26dd",
+      "source_verified": true
+    },
+    {
+      "path": "whisper-tiny/preprocessor_config.json",
+      "bytes": 184990,
+      "sha256": "9b5cd03a36fbb8a627c64d98a5b5b126ead95a77720723944487311f0110b666",
+      "source_verified": true
+    },
+    {
+      "path": "whisper-tiny/README.md",
+      "bytes": 19787,
+      "sha256": "57a3bbbbf1e79369e4d1ced790812a1723b43a256c1b43fc70cc2f3339ae9881",
+      "source_verified": true
+    },
+    {
+      "path": "whisper-tiny/special_tokens_map.json",
+      "bytes": 2194,
+      "sha256": "e67ae3a0aaa99abcd9f187138e12db1f65c16a14761c50ef10eef2c174a7a691",
+      "source_verified": true
+    },
+    {
+      "path": "whisper-tiny/tokenizer.json",
+      "bytes": 2480466,
+      "sha256": "27fc476bfe7f17299480be2273fc0608e4d5a99aba2ab5dec5374b4482d1a566",
+      "source_verified": true
+    },
+    {
+      "path": "whisper-tiny/tokenizer_config.json",
+      "bytes": 282683,
+      "sha256": "2a4c4281cf9f51ac6ccc406fdc711a087afe6530f671fa7b80953edc498275ce",
+      "source_verified": true
+    },
+    {
+      "path": "whisper-tiny/vocab.json",
+      "bytes": 835550,
+      "sha256": "8f680bba319e01a653d2e8a5dbc17a9157179e0576e6ce74ce0c06356c6e24f9",
+      "source_verified": true
+    },
+    {
+      "path": "whisper-tiny/LICENSE-MIT-OpenAI.txt",
+      "bytes": 1063,
+      "sha256": "b5d65a59060e68c4ff940e1eddfa6f94b2d68fdf58ed7f4dd57721c997e35e9d",
+      "added_notice": true
+    },
+    {
+      "path": "whisper-tiny/LICENSE-Apache-2.0.txt",
+      "bytes": 11343,
+      "sha256": "832dd9e00a68dd83b3c3fb9f5588dad7dcf337a0db50f7d9483f310cd292e92e",
+      "added_notice": true
+    },
+    {
+      "path": "whisper-tiny/REDISTRIBUTION.txt",
+      "bytes": 358,
+      "sha256": "f6b268e4f311af43702d23b580590591d3c19091a44be9b0c6e04a4387ea953f",
+      "added_notice": true
+    }
+  ],
+  "archive": {
+    "name": "speech-models-20261029.zip",
+    "bytes": 3254442631,
+    "sha256": "cd57996c8b38433b926e2c578001d6f59b0bb66e1594cd5c48e8cc79a97e2d52",
+    "parts": [
+      {
+        "name": "speech-models-20261029.zip.part01",
+        "bytes": 1073741824,
+        "sha256": "f0ed2dd8cee88968b4dbefe6284cf1d2a824197f93d5510a107cbfdc9c83dec9"
+      },
+      {
+        "name": "speech-models-20261029.zip.part02",
+        "bytes": 1073741824,
+        "sha256": "dcc2c710ea6074590e465b7fc60e6f361587ce0be7b4e82033df22ef0f5067d9"
+      },
+      {
+        "name": "speech-models-20261029.zip.part03",
+        "bytes": 1073741824,
+        "sha256": "9bbd091afa17d83cae51f2d373ee0a0688267ee538d46eaadd3d827f37e81a15"
+      },
+      {
+        "name": "speech-models-20261029.zip.part04",
+        "bytes": 33217159,
+        "sha256": "c86db51cb6e7a2bbcd41123861934dafb6789e3f1b29f1e5614befb33701d39a"
+      }
+    ]
+  },
+  "excluded": [
+    "SmolVLA weights",
+    "training data",
+    "local caches",
+    "credentials",
+    "runtime environments"
+  ]
+}

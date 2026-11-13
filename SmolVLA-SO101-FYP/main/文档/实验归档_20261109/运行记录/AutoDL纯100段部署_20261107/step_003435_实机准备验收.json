@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-07T21:50:46.361046",
+  "model": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_阶段采样_20261107\\step_003435",
+  "step": 3435,
+  "batch_size": 140,
+  "sample_windows": 480900,
+  "equivalent_batch16_steps": 30056.25,
+  "source_episodes_verified": 80,
+  "dataset": "D:\\FYP\\AutoDL_纯100段_阶段采样_20261107\\训练数据",
+  "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+  "dataset_and_video_fingerprints_verified": true,
+  "normalization_verified": true,
+  "offline_report": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\模型启动离线验证_20261107_214922_942851.json",
+  "preselected": true,
+  "available_targets": {
+    "RC": "Pick up the red cube and place it in the target area.",
+    "BC": "Pick up the blue cube and place it in the target area."
+  },
+  "real_cameras_opened": false,
+  "robot_commands_sent": 0,
+  "task_success_evaluated": false,
+  "entry": "D:\\FYP\\SmolVLA-SO101-FYP\\脚本\\日常操作\\启动模型推理.bat"
+}

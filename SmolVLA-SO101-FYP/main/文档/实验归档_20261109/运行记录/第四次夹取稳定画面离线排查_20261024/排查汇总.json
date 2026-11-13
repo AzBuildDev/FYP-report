@@ -1,0 +1,86 @@
+{
+  "run": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\实机抓取测试_20261024_132334_595600.jsonl",
+  "end": {
+    "type": "end",
+    "sent_commands": 2020,
+    "inferences": 202,
+    "seconds": 180.2,
+    "stop_reason": "time_limit",
+    "cleanup_errors": []
+  },
+  "async_end": {
+    "type": "async_end",
+    "sent_commands": 2020,
+    "inferences": 202,
+    "skipped_action_steps": 3646,
+    "missed_ticks": 39,
+    "first_action_time": 1.187999999994645,
+    "last_action_time": 179.73500000000058,
+    "stop_reason": "time_limit",
+    "seconds": 179.96899999999732,
+    "active_control_hz": 11.307946927139257
+  },
+  "inference_mean_s": 0.8596237623765629,
+  "inference_range_s": [
+    0.7030000000013388,
+    1.1090000000040163
+  ],
+  "executed_chunk_index_range": [
+    15,
+    32
+  ],
+  "offline_sample": 95,
+  "offline_predictions": [
+    {
+      "input": "saved_live",
+      "first_predicted_gripper_below_30_indices": [
+        40,
+        40,
+        38
+      ],
+      "mean_gripper_at_indices": {
+        "0": 46.59428787231445,
+        "17": 46.78398005167643,
+        "25": 46.583333333333336,
+        "32": 41.41070048014323,
+        "40": 27.648224512736004,
+        "49": 13.074275970458984
+      }
+    },
+    {
+      "input": "nearest_demo",
+      "first_predicted_gripper_below_30_indices": [
+        26,
+        24,
+        25
+      ],
+      "mean_gripper_at_indices": {
+        "0": 52.00180435180664,
+        "17": 50.35425059000651,
+        "25": 29.894580841064453,
+        "32": 20.961231231689453,
+        "40": 18.48929786682129,
+        "49": 16.737582524617512
+      }
+    },
+    {
+      "input": "same_live_state_demo_images",
+      "first_predicted_gripper_below_30_indices": [
+        27,
+        26,
+        26
+      ],
+      "mean_gripper_at_indices": {
+        "0": 47.27666346232096,
+        "17": 46.80225626627604,
+        "25": 31.58156394958496,
+        "32": 22.25464693705241,
+        "40": 18.590147654215496,
+        "49": 16.22483762105306
+      }
+    }
+  ],
+  "motor_commands_during_offline_diagnosis": 0,
+  "post_stop_readonly_report": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\机械臂只读检查_20261024_132922_068407.json",
+  "conclusion": "实机三分钟未完成夹取；稳定输入预测的闭合动作位于实际执行窗口之后，支持重规划反复推迟闭合的假设。不能由单个离线输入证明唯一根因；需对照原电脑控制参数，并以演示起始姿态复测。"
+}

@@ -1,0 +1,19 @@
+{
+  "status": "completed",
+  "finished_at": "2026-11-08T16:04:17.066626+08:00",
+  "host": "connect.westd.seetacloud.com",
+  "port": 50948,
+  "remote": "/root/autodl-tmp/AutoDL_纯80段双物体_阶段采样_20261108/输出/B_纯80段双物体_stage/step_001065",
+  "local": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯80段双物体_阶段采样_20261108\\step_001065",
+  "step": 1065,
+  "batch_size": 452,
+  "sampled_windows": 481380,
+  "batch16_equivalent_steps": 30086.25,
+  "files": 6,
+  "bytes": 2190343076,
+  "all_sha256_verified": true,
+  "remote_unchanged_during_transfer": true,
+  "robot_started": false,
+  "server_training_modified": false,
+  "model_selection_modified": false
+}

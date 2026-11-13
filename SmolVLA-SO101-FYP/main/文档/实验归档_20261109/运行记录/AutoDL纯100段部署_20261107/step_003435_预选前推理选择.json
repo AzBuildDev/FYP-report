@@ -1,0 +1,5 @@
+{
+  "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\新200段_阶段采样_20261103\\step_007500",
+  "dataset_path": "D:\\FYP\\AutoDL_新200段_阶段采样_20261103\\训练数据",
+  "processor_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器"
+}

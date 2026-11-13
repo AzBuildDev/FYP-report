@@ -1,0 +1,9 @@
+启动请求：{"source": "button", "transcript": null, "target": "RC", "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_阶段采样_20261107\\step_003435"}
+运行日志：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261108_012629_872787.jsonl
+【1/5】正在加载微调模型……
+模型：D:\FYP\SmolVLA-SO101-FYP\模型\纯100段_阶段采样_20261107\step_003435
+演示：D:\FYP\AutoDL_纯100段_阶段采样_20261107\训练数据
+处理器：D:\FYP\SmolVLA-SO101-FYP\模型\视觉语言处理器
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+已停止，未连接从臂。

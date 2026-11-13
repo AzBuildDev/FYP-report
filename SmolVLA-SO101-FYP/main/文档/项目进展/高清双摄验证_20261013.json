@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-15",
+  "status": "passed",
+  "scope": "本地双摄采集、保存和离线读取验证",
+  "configuration": {
+    "record_fps": 20,
+    "desktop": {"resolution": "640x480", "input_fps": 25, "codec": "MJPEG"},
+    "wrist": {"resolution": "640x480", "input_fps": 20, "codec": "YUY2"}
+  },
+  "checks": {
+    "paired_sampling_30_seconds": {"samples": 600, "passed": true},
+    "simulated_arm_recording": {"frames": 62, "passed": true, "robot_commands_sent": 0},
+    "offline_smolvla_inference": {"action_shape": [1, 50, 6], "finite": true, "passed": true},
+    "random_video_reads": {"checks": 12, "pixel_exact_against_sequential_decode": true, "passed": true},
+    "training_plan": {"passed": true, "training_started": false}
+  },
+  "notes": [
+    "当前两路均使用 640x480，并使用同一 20 Hz 保存节拍；普通 USB 相机没有硬件曝光同步。",
+    "测试录制使用模拟机械臂状态，未发送真实机械臂命令，不能作为任务成功率。",
+    "正式演示、模型、原始视频和标定仍保留在本机。"
+  ]
+}
+

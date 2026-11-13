@@ -1,0 +1,20 @@
+{
+  "step": 1,
+  "best_score": 1.0,
+  "validation": {
+    "acceptance_only": true
+  },
+  "run_config": {
+    "annotation_sha256": "87b03225b182350eb009a177ac8fdb246327d76a8c7f58ce5fe2d44927b49662",
+    "batch_size": 1,
+    "seed": 42,
+    "purpose": "temporary_implementation_acceptance_not_formal_training",
+    "instruction_objective": {
+      "weight": 0.1,
+      "margin": 0.02,
+      "pairs": 2,
+      "microbatch": 1
+    }
+  },
+  "metric": "task_balanced_mae"
+}

@@ -1,0 +1,10 @@
+{
+  "checkpoint_path": "/root/autodl-tmp/AutoDL_新200段_4090D_20261102/输出/新200段_batch16_30K/last",
+  "checkpoint_sha256": "59997727b2144b5cd0fadbdfd798f71988c8fa5495639331acda22d277bff3cf",
+  "summary_sha256": "c611637569568848e3f51cae732e67510da18df01f1af1860f5f578a1ecbdc7a",
+  "step": 301,
+  "old_batch_size": 16,
+  "new_batch_size": 32,
+  "total_optimizer_steps": 30000,
+  "reason": "decode threads 1, pool8, CPU prefetch; batch32 red16/blue16; sample exposure approximately doubles"
+}

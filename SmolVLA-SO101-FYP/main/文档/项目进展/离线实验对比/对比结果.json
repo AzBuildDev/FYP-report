@@ -1,0 +1,222 @@
+{
+  "status": "passed",
+  "scope": "descriptive_held_out_action_comparison",
+  "protocol": {
+    "seed": 42,
+    "chunk_size": 50,
+    "windows": [
+      [
+        2,
+        0
+      ],
+      [
+        2,
+        36
+      ],
+      [
+        2,
+        73
+      ],
+      [
+        2,
+        109
+      ],
+      [
+        2,
+        146
+      ],
+      [
+        2,
+        182
+      ],
+      [
+        2,
+        219
+      ],
+      [
+        2,
+        255
+      ],
+      [
+        2,
+        292
+      ]
+    ],
+    "source": {
+      "fps": 20,
+      "joint_names": [
+        "shoulder_pan.pos",
+        "shoulder_lift.pos",
+        "elbow_flex.pos",
+        "wrist_flex.pos",
+        "wrist_roll.pos",
+        "gripper.pos"
+      ],
+      "state_names": [
+        "shoulder_pan.pos",
+        "shoulder_lift.pos",
+        "elbow_flex.pos",
+        "wrist_flex.pos",
+        "wrist_roll.pos",
+        "gripper.pos"
+      ],
+      "episodes": [
+        {
+          "episode": 2,
+          "frames": 342,
+          "action_state_sha256": "e410a205800f1543326c4ebbe5decb895ba94be318062bb22194cad4c5ca599a",
+          "video_sha256": {
+            "observation.images.front": "e6ce21ca8933c81b49d528a7051f22d46b36e11806041aaee52027bfa42db84f"
+          }
+        }
+      ],
+      "total_frames": 342
+    },
+    "units": "body RANGE_M100_100; gripper RANGE_0_100; not degrees",
+    "names": [
+      "shoulder_pan.pos",
+      "shoulder_lift.pos",
+      "elbow_flex.pos",
+      "wrist_flex.pos",
+      "wrist_roll.pos",
+      "gripper.pos"
+    ]
+  },
+  "reference_model": "模型/整段留出实验模型",
+  "reference_checkpoint_sha256": "8b6ef6d869658a1958e960b6c222acdf04a96804904ae27e652417a96fdc09a3",
+  "common_action_std": [
+    21.928993225097656,
+    14.012317657470703,
+    13.268223762512207,
+    7.119888782501221,
+    6.219909191131592,
+    13.34142017364502
+  ],
+  "rows": [
+    {
+      "name": "整段留出实验模型",
+      "kind": "smolvla_model",
+      "samples": 9,
+      "mae_per_joint": [
+        7.093347867329915,
+        6.128417412439982,
+        6.930623690287272,
+        4.805964549382527,
+        5.698279274834527,
+        3.46426162454817
+      ],
+      "raw_joint_mean_mae": 5.6868157364703995,
+      "common_scale_mae": 0.5223298132858589,
+      "common_scale_sample_mae": [
+        0.336892186243084,
+        0.547037334063423,
+        0.45088705510872024,
+        0.5211440877586018,
+        0.7321797677442677,
+        0.46134775034315006,
+        0.8165085291809883,
+        0.5447277108392372,
+        0.2902438982912585
+      ],
+      "first_action_mae_per_joint": [
+        7.951565265655518,
+        3.2197248935699463,
+        4.764804840087891,
+        3.417811870574951,
+        2.8856730461120605,
+        3.9710850715637207
+      ],
+      "model": "模型/整段留出实验模型",
+      "checkpoint_sha256": "8b6ef6d869658a1958e960b6c222acdf04a96804904ae27e652417a96fdc09a3",
+      "source_report": "整段留出实验评估.json",
+      "source_report_sha256": "6371725aa542e092fbac09a25b504a3f242444d29061ae79406edbc590f84835",
+      "evaluation_date": "2026-10-06T12:31:38",
+      "own_scale_mae": 0.5223298072814941,
+      "inference_files_fingerprinted": false,
+      "same_recording_batch": true,
+      "relative_to_hold_position": 0.8809027800204152
+    },
+    {
+      "name": "保持当前位置",
+      "kind": "non_model_baseline",
+      "samples": 9,
+      "mae_per_joint": [
+        11.14579366741909,
+        8.6773619556427,
+        7.43128529018826,
+        5.974981621636285,
+        4.124906462033589,
+        4.905645985073514
+      ],
+      "raw_joint_mean_mae": 7.043329163665574,
+      "common_scale_mae": 0.592948308408964,
+      "common_scale_sample_mae": [
+        0.2732852434831536,
+        0.4286040886360997,
+        0.3158987353124853,
+        0.4078184934720807,
+        0.98110727931701,
+        0.6501134389499074,
+        0.5455165647005814,
+        1.6359781973293004,
+        0.0982127344800575
+      ],
+      "first_action_mae_per_joint": [
+        1.4341966311136882,
+        2.556683381398519,
+        2.1109754774305554,
+        2.0664596557617188,
+        0.2833828528722127,
+        1.3910728030734592
+      ]
+    },
+    {
+      "name": "训练动作均值",
+      "kind": "non_model_baseline",
+      "samples": 9,
+      "mae_per_joint": [
+        23.472573440290162,
+        11.55905234972636,
+        10.843004955715605,
+        7.461459757486979,
+        8.712307267189026,
+        13.11494928571913
+      ],
+      "raw_joint_mean_mae": 12.527224509354545,
+      "common_scale_mae": 1.024039810353182,
+      "common_scale_sample_mae": [
+        0.6927481316277279,
+        0.6817418006067943,
+        0.6431400918290214,
+        0.5608435017368072,
+        1.1998569679088507,
+        1.898140749394032,
+        1.8386000659796977,
+        0.9877093797053192,
+        0.7135776043903898
+      ],
+      "first_action_mae_per_joint": [
+        24.976508286264206,
+        11.739286369747585,
+        12.644312964545357,
+        6.1349639892578125,
+        9.518567111757067,
+        13.708282470703125
+      ]
+    }
+  ],
+  "statistical_significance_evaluated": false,
+  "task_success_evaluated": false,
+  "new_model_inference_executed": false,
+  "new_training_executed": false,
+  "hardware_tested": false,
+  "robot_commands_sent": 0,
+  "limitations": [
+    "窗口可能重叠且来自同一演示，不能把窗口当作独立任务试验。",
+    "当前只复用已保存模型误差，不重新执行模型或真实机械臂。",
+    "旧评估未记录推理配置和统计文件指纹；各模型自己的标准差缩放指标不能直接跨模型比较。",
+    "比较完整预测动作块，不能代表异步控制跳过过期步骤后的实际执行窗口。",
+    "保持当前位置对照只预测动作；既不执行动作，也不证明静止可完成抓取。"
+  ],
+  "created_at": "2026-10-06T23:19:58"
+}

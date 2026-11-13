@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checked_at": "2026-11-07T21:47:47.364518",
+  "model": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_阶段采样_20261107\\step_003435",
+  "step": 3435,
+  "batch_size": 140,
+  "sample_windows": 480900,
+  "equivalent_batch16_steps": 30056.25,
+  "file_count": 6,
+  "bytes": 2190364315,
+  "sha256_verified": true,
+  "normalization_verified": true,
+  "source_manifest": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\AutoDL纯100段部署_20261107\\step_003435_服务器文件清单.json",
+  "training_modified": false,
+  "robot_commands_sent": 0,
+  "offline_startup_pending": false,
+  "readiness_report": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\AutoDL纯100段部署_20261107\\step_003435_实机准备验收.json"
+}

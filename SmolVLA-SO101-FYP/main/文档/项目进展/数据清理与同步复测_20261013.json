@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-13T20:50:42",
+  "status": "passed",
+  "scope": "user_authorized_real_leader_follower_test",
+  "branch": "smolvla-sync-fix-20261013",
+  "duration_s": 15.012756199999785,
+  "commands_sent": 883,
+  "frequency_hz": 58.81664820481216,
+  "follower_torque_enabled": {
+    "shoulder_pan": 1,
+    "shoulder_lift": 1,
+    "elbow_flex": 1,
+    "wrist_flex": 1,
+    "wrist_roll": 1,
+    "gripper": 1
+  },
+  "leader_travel_normalized": {
+    "shoulder_pan.pos": 33.70699652106687,
+    "shoulder_lift.pos": 83.76919883769199,
+    "elbow_flex.pos": 45.763125763125764,
+    "wrist_flex.pos": 44.325767690253684,
+    "wrist_roll.pos": 38.06028833551769,
+    "gripper.pos": 0.1707941929974381
+  },
+  "follower_travel_normalized": {
+    "shoulder_pan.pos": 33.00076745970837,
+    "shoulder_lift.pos": 83.89261744966443,
+    "elbow_flex.pos": 43.36996336996337,
+    "wrist_flex.pos": 42.89473684210523,
+    "wrist_roll.pos": 36.40625,
+    "gripper.pos": 0.7607192254495159
+  },
+  "cleanup_errors": [],
+  "post_check_fault_free": true,
+  "post_check_follower_torque_disabled": true,
+  "gripper_full_open_close_tested": false,
+  "gripper_note": "主臂夹爪输入变化仅约0.17标定单位，本次不能证明完整开合跟随",
+  "active_training_files": 0,
+  "prior_data_cleanup": "recycle_bin_recoverable",
+  "models_and_calibration_preserved": true,
+  "raw_records_uploaded": false,
+  "raw_record_sha256": {
+    "sync_result": "d6ee017f93b03de15af3a516399111613a1f991acfa4f31cf37f5058e3494027",
+    "sync_samples": "477ca99990480b1ea9d074d8720c77ee030033d90988491377f02e102851ee17",
+    "post_check": "6f4330b3cd161a2e73c79ed67f99bc034e24e039bd905812a26635c790846a6f"
+  },
+  "script_sha256": "fa6c9e7e9bb1557eaf5e8258ff0f7fe7843c24d45a97325689b2798bcf716b3c"
+}

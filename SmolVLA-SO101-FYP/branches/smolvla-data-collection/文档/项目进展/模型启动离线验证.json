@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "created_at": "2026-10-07T20:43:08",
+  "scope": "offline_model_startup",
+  "hardware_tested": false,
+  "robot_commands_sent": 0,
+  "task_success_evaluated": false,
+  "model": "模型/红色方块微调模型",
+  "checkpoint_sha256": "1eb57f1652336c4e84d8da5772dabb51356817a3d6e1b31add084423c4059cb2",
+  "config_sha256": "411ddeb959c8455c34a79da953174cd1a5303c452c5b9d648cae8b43a433e26e",
+  "control_hz": 20,
+  "max_step_delta": 6.0,
+  "chunk_execute": 20,
+  "software_sha256": {
+    "预热模型与检查时效.py": "3dd30dc68f845a4598b5af20d60bf305f37c3b87fd1635da9d99dee471c25667",
+    "实机抓取测试.py": "997a5b626943d51a33f04a60dbf97cdb08f45cc0a402bbd05fa276bd25ed9b83",
+    "异步动作控制.py": "72ceb486acf6a0264f70e25e2b913e9abd943579be088db8a2f056c9279300e6",
+    "模型启动离线验证.py": "0a07ef62b892663e9a728a217a4c7c70fcd9a0e19ab4301d086d3f4aa1293dec",
+    "检查与释放电机.py": "fb959a9fb450836e8e661a26c3cf1b2a88d46076a50d981dfd29d220eea50ca9",
+    "实机测试监视窗口.py": "140f219cdf99ecde5c9d8f89bc9501874d8c6c27b27dd9cdbe878a94a0ef1e14"
+  },
+  "notes": "画面来自录制视频，模拟关节即时跟随目标；不验证实时相机、真实扭矩、接触或任务成功。预热预算只检查启动推理，运行时仍检查过期。",
+  "warmup": {
+    "status": "ready",
+    "samples": [
+      {
+        "round": 1,
+        "inference_s": 2.125,
+        "ready_latency_s": 2.125,
+        "cold_start": true
+      },
+      {
+        "round": 2,
+        "inference_s": 0.7649999999998727,
+        "ready_latency_s": 0.7649999999998727,
+        "cold_start": false
+      }
+    ],
+    "horizon_s": 2.5,
+    "reserve_s": 0.25,
+    "ready_budget_s": 2.25,
+    "prediction_reused": false
+  },
+  "simulated_control": {
+    "sent_commands": 64,
+    "inferences": 5,
+    "skipped_action_steps": 75,
+    "missed_ticks": 0,
+    "first_action_time": 0.8279999999999745,
+    "last_action_time": 3.969000000000051,
+    "stop_reason": "time_limit",
+    "seconds": 4.016000000000076,
+    "active_control_hz": 20.05730659025739
+  },
+  "warmup_cancel_response_s": 0.0,
+  "cancel_prediction_reused": false
+}

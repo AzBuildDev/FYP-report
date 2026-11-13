@@ -1,0 +1,32 @@
+{
+  "scope": "runtime_log_telemetry_pending_human_review",
+  "created_at": "2026-10-07T15:52:00",
+  "source_log": "实机抓取测试_20261007_153429_829336.jsonl",
+  "source_log_sha256": "b46a2cd2d974afea15b581311c886429c3f82ae969f51c3044df08190d5d938c",
+  "declared_run_kind": "real_hardware",
+  "checkpoint_sha256": "1eb57f1652336c4e84d8da5772dabb51356817a3d6e1b31add084423c4059cb2",
+  "scene": "用户授权测试_物体位置待确认",
+  "mode": "async",
+  "control_settings": {
+    "control_hz": 20,
+    "max_step_delta": 6.0,
+    "range_margin": 8.0,
+    "chunk_execute": 20,
+    "test_seconds": 60
+  },
+  "recorded_commands": 1074,
+  "recorded_inferences": 54,
+  "active_control_hz": 18.307768431469594,
+  "missed_ticks": 0,
+  "seconds": 60.2,
+  "stop_reason": "time_limit",
+  "logged_errors": [
+    "释放扭矩失败：Failed to write 'Torque_Enable' on id_=6 with '0' after 1 tries. [RxPacketError] Overload error!",
+    "关闭串口失败：Failed to write 'Torque_Enable' on id_=6 with '0' after 6 tries. [RxPacketError] Overload error!"
+  ],
+  "steady_inference_median_s": 1.0470000000000255,
+  "verification_read_only": true,
+  "robot_commands_sent_by_verifier": 0,
+  "task_success_evaluated": false,
+  "notes": "指标来自日志声明和记录，只反映控制程序；任务结果需本人观察后人工标记，不能证明物理跟随或抓取成功。"
+}

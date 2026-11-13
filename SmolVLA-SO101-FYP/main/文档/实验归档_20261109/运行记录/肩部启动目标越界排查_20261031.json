@@ -1,0 +1,18 @@
+{
+  "run": "20261031_175731_698817",
+  "readonly_report": "机械臂只读检查_20261031_180255_836596.json",
+  "all_fault_statuses_zero": true,
+  "all_torques_disabled": true,
+  "shoulder": {
+    "position": 2035,
+    "range_min": 2041,
+    "range_max": 4425,
+    "temperature_c": 38,
+    "voltage_v": 12.4
+  },
+  "startup_sequence": "disable_torque 成功 -> 读取位置 -> sync_write Goal_Position（shoulder=2035，低于下限2041） -> gripper目标读回成功 -> configure 内再次 disable_torque 在ID2返回0x10",
+  "inference": "越界的启动保持目标是主要疑点；断电后同姿态重试可能再次触发；未通过写入或运动实验验证因果，尚未确认0x10的固件官方定义",
+  "production_code_changed": false,
+  "hardware_settings_written": false,
+  "motion_sent": false
+}

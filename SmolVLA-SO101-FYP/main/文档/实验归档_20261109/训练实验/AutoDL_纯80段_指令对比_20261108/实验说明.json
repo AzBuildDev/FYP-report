@@ -1,0 +1,23 @@
+{
+  "experiment": "纯80段_指令对比_20261108",
+  "status": "local_implementation_checks_passed_not_started",
+  "parent": "D:\\FYP\\AutoDL_纯80段双物体_阶段采样_20261108",
+  "method": "experimental_counterfactual_flow_matching_margin_with_positive_anchor",
+  "changed_variable": "auxiliary_objective_enabled; both arms share base sampler/batch/schedule",
+  "note": "contrast相对anchor仅增加排序项；anchor保持相同额外正确窗口和配对前向；baseline关闭辅助项。",
+  "normal_sample_windows": 960048,
+  "additional_counterfactual_pairs": 16992,
+  "batch_status": "继承452作为候选；新目标必须重新实测显存，不声称最快或最优",
+  "marker_usage": "包含标记的接近窗口，只对比标记及之前的前5个关节；完整动作模仿仍保留",
+  "claim": "并非官方SmolVLA训练配方；尚无实机改善证据，不保证解决干扰物依赖",
+  "checkpoint_selection": "best_val仍按动作MAE；指令相容性另报，不能当选色成功率",
+  "resume_precision": "所有配置在加载前将训练参数设为FP32，防止恢复先截成BF16再转回FP32。",
+  "local_acceptance": {
+    "unit_tests": 8,
+    "cpu_data_sampling": "passed",
+    "gpu_backward_and_checkpoint_roundtrip": "passed",
+    "saved_tensors_identical": 506,
+    "cluster_batch_benchmark": "pending",
+    "robot_success": "not_tested"
+  }
+}

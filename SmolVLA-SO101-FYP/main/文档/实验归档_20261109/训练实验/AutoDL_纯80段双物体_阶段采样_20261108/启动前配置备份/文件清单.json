@@ -1,0 +1,2457 @@
+[
+  {
+    "path": "上游框架/LICENSE",
+    "size": 28134,
+    "sha256": "b1573f6d552b494f1bac1116d2373daca84ac29f7e7f75ac65a13e41cde029cc"
+  },
+  {
+    "path": "上游框架/MANIFEST.in",
+    "size": 108,
+    "sha256": "ff0d4a554f242fea6b80ffb93990250e556d266514cf7eff1318d720c28d274b"
+  },
+  {
+    "path": "上游框架/pyproject.toml",
+    "size": 9061,
+    "sha256": "8b56dd014a4de242990294d90837d6fa7682762dc91e3155d5f06592fe98605d"
+  },
+  {
+    "path": "上游框架/README.md",
+    "size": 7391,
+    "sha256": "38c9ab25c93133d0dfc158ae9d48b76436cf34f4794e9be0f734532c591a1c07"
+  },
+  {
+    "path": "上游框架/src/lerobot/__init__.py",
+    "size": 7688,
+    "sha256": "354a5d58fd1e5b3eb184d15fe7dd2c844a2f59f87476739c615c18828868c811"
+  },
+  {
+    "path": "上游框架/src/lerobot/__version__.py",
+    "size": 857,
+    "sha256": "a1cb76dbda2549b9bad669c647b49d9ccd03c0a8af9477925c95d516d2a7365c"
+  },
+  {
+    "path": "上游框架/src/lerobot/calibrate.py",
+    "size": 2439,
+    "sha256": "97e0fcf1464c1b0f39131bd926b391d262cce44e6d3dc6c6ef27554ed7785c3c"
+  },
+  {
+    "path": "上游框架/src/lerobot/cameras/__init__.py",
+    "size": 759,
+    "sha256": "d0385800c7dfa8f349519bfd63da430a0652c23667c05554ed586d4aef1d1e44"
+  },
+  {
+    "path": "上游框架/src/lerobot/cameras/camera.py",
+    "size": 3950,
+    "sha256": "4e4d7b50c853a5dec3b7b04051429003a26d2da12ad73ed5b86ed871e0a5fcee"
+  },
+  {
+    "path": "上游框架/src/lerobot/cameras/configs.py",
+    "size": 1197,
+    "sha256": "4608f1108c745c956b5ce9710d0b4aa314059daabf212de2a7def2bd61ba20f8"
+  },
+  {
+    "path": "上游框架/src/lerobot/cameras/opencv/__init__.py",
+    "size": 721,
+    "sha256": "bb6305a27090e5dd40d52be954ee7bdaaaff3aac6caece8be730a13be38f8a12"
+  },
+  {
+    "path": "上游框架/src/lerobot/cameras/opencv/camera_opencv.py",
+    "size": 19815,
+    "sha256": "dab84ba92cdec41aae18bbaf774afe1ed185317568a7fa6b8d10564461b30e2a"
+  },
+  {
+    "path": "上游框架/src/lerobot/cameras/opencv/configuration_opencv.py",
+    "size": 3102,
+    "sha256": "adb7c71f09debb9cd954b756d96ea6e6b6b8fe3ae925bf64b7f990330193f166"
+  },
+  {
+    "path": "上游框架/src/lerobot/cameras/realsense/__init__.py",
+    "size": 733,
+    "sha256": "14859458b1f6c9e669cac5564cf895bac016f540cc0af02c639955efbaf68c94"
+  },
+  {
+    "path": "上游框架/src/lerobot/cameras/realsense/camera_realsense.py",
+    "size": 22366,
+    "sha256": "dcdb5e84e6c7cc14bbdea122e04f3844736cf35c266018fe4fe0e1cc91d57d77"
+  },
+  {
+    "path": "上游框架/src/lerobot/cameras/realsense/configuration_realsense.py",
+    "size": 3774,
+    "sha256": "163719cd6db0a810c66e48b0fdc25401b700e85c4bef144a7a9f04832be21470"
+  },
+  {
+    "path": "上游框架/src/lerobot/cameras/utils.py",
+    "size": 2128,
+    "sha256": "2ea155f2587daccc91badd329ebd5cde5825df59d595d317db27f6a8c880ed98"
+  },
+  {
+    "path": "上游框架/src/lerobot/configs/default.py",
+    "size": 3119,
+    "sha256": "42c80e263efc69b780a2ca7e3cd8935fd37c7ff053066c4dba9afb7a85a9bd6f"
+  },
+  {
+    "path": "上游框架/src/lerobot/configs/eval.py",
+    "size": 2695,
+    "sha256": "a541d07b28a122bc178e837f3d5f4ff19b2f69c1fd661cd29b37625aac07bcf5"
+  },
+  {
+    "path": "上游框架/src/lerobot/configs/parser.py",
+    "size": 9603,
+    "sha256": "ffc350546dd9f7103be120c4758ad92bc50169b85bbe71a4011d10c06612527c"
+  },
+  {
+    "path": "上游框架/src/lerobot/configs/policies.py",
+    "size": 8245,
+    "sha256": "957bdc521d564317ab19ba8feee6268fef8c38a5129b481deea52658bb98a70f"
+  },
+  {
+    "path": "上游框架/src/lerobot/configs/train.py",
+    "size": 8181,
+    "sha256": "59a9c4582b7df95953ed7dab65b6071637bc7072f85692f8690ce7747bc016f0"
+  },
+  {
+    "path": "上游框架/src/lerobot/configs/types.py",
+    "size": 1286,
+    "sha256": "d474e91ff52fe4d7e333b89088a5aee33b43af2f634e72e2dce97e3a59a4834e"
+  },
+  {
+    "path": "上游框架/src/lerobot/constants.py",
+    "size": 2123,
+    "sha256": "8bea9843b3ed9e20fa753c87b063b9aa76ef530163fc3bd925e760721b9bf68c"
+  },
+  {
+    "path": "上游框架/src/lerobot/datasets/backward_compatibility.py",
+    "size": 3075,
+    "sha256": "e9aba57474420e5626b0c16c43bb12718e23a376b8175b05f72c55e6d51fa7e8"
+  },
+  {
+    "path": "上游框架/src/lerobot/datasets/card_template.md",
+    "size": 824,
+    "sha256": "ef57ae157de2a53d287656c9850841d882e9f8df2bd20973a975e3009dae71b7"
+  },
+  {
+    "path": "上游框架/src/lerobot/datasets/compute_stats.py",
+    "size": 7118,
+    "sha256": "82db5d77f291e1f725ee5943f31ed5c36f9babee7fe0f4d0f38b6d892cba653a"
+  },
+  {
+    "path": "上游框架/src/lerobot/datasets/factory.py",
+    "size": 4708,
+    "sha256": "c70fca3c1380b476c55edd044564a3d0915d22f1f4487feabc1f1b8d4b283389"
+  },
+  {
+    "path": "上游框架/src/lerobot/datasets/image_writer.py",
+    "size": 6462,
+    "sha256": "2d8a0e73e48476325a5592814f11fd1ccbb66ce3d17eff4acd8ebdbd639c7b07"
+  },
+  {
+    "path": "上游框架/src/lerobot/datasets/lerobot_dataset.py",
+    "size": 53244,
+    "sha256": "7185c329c2163c73d19be6012c0a20b09a162ab1ae89add1e1e24c4cc7ef09d5"
+  },
+  {
+    "path": "上游框架/src/lerobot/datasets/online_buffer.py",
+    "size": 18085,
+    "sha256": "e1bc2e6049f87b3d6591ba436e413e1e60d579913cbb91e52f16b4f9bea37425"
+  },
+  {
+    "path": "上游框架/src/lerobot/datasets/sampler.py",
+    "size": 2434,
+    "sha256": "d86272b912c39f205890bd28b65fa07b01b84cd169e01d7e500ccd981fbcd135"
+  },
+  {
+    "path": "上游框架/src/lerobot/datasets/transforms.py",
+    "size": 9940,
+    "sha256": "712764b327aedb5531fc3692dc495844497479bf33882ffdbab2191d25fdcf3f"
+  },
+  {
+    "path": "上游框架/src/lerobot/datasets/utils.py",
+    "size": 31726,
+    "sha256": "dbfc44aa87ccddc073095146ac116578b506f5b4a3261a772f67fa370529ae84"
+  },
+  {
+    "path": "上游框架/src/lerobot/datasets/video_utils.py",
+    "size": 20045,
+    "sha256": "7f3a4267a0feba36b0468cd5d837eb3e796cf7baa0b7b7f517d432ad588e2f9b"
+  },
+  {
+    "path": "上游框架/src/lerobot/envs/__init__.py",
+    "size": 701,
+    "sha256": "cea0fe4f5c161ea89bfd81728ef5f654430020e33231ac813bbfadfe3799485e"
+  },
+  {
+    "path": "上游框架/src/lerobot/envs/configs.py",
+    "size": 9566,
+    "sha256": "9ada7a1fe8252b332608bf8da3440165a4eb54f7771bc1744c8292630ce95c41"
+  },
+  {
+    "path": "上游框架/src/lerobot/envs/factory.py",
+    "size": 2603,
+    "sha256": "5503f2de5bde94d0c89ef8320a1976bcf8760720cd242854b9d6a9ab806b9d2b"
+  },
+  {
+    "path": "上游框架/src/lerobot/envs/utils.py",
+    "size": 5936,
+    "sha256": "1c6b9c398dd5434a4b30542becd16502433d2ffaa0ac3f1862b9c466bc12daaa"
+  },
+  {
+    "path": "上游框架/src/lerobot/errors.py",
+    "size": 1570,
+    "sha256": "c30b7e2d89ccb995b91ce86ad7877362ca0e51e85c9b22f3dcda6372f5a59a2d"
+  },
+  {
+    "path": "上游框架/src/lerobot/find_cameras.py",
+    "size": 11727,
+    "sha256": "6e474767cf95c3fe16c0f93f878f66bc3157762bcec057ab49dc5ac8d25ce122"
+  },
+  {
+    "path": "上游框架/src/lerobot/find_port.py",
+    "size": 2186,
+    "sha256": "a7d38edac1b04b93b0382d0da638c036ab21d76aefdcd1e2bad7bc12e4f02c80"
+  },
+  {
+    "path": "上游框架/src/lerobot/model/kinematics.py",
+    "size": 4926,
+    "sha256": "f1fc848ad564fc830bf3856fa8054865f63ecd9b09dcf5f2fb4da66cf5b9fd92"
+  },
+  {
+    "path": "上游框架/src/lerobot/motors/__init__.py",
+    "size": 75,
+    "sha256": "7d4e38a2fce7fae1bf6ec7e082dd035140c6aae0a373665a7804f48bc4f985b6"
+  },
+  {
+    "path": "上游框架/src/lerobot/motors/calibration_gui.py",
+    "size": 14655,
+    "sha256": "b09ceabd5ca44aa515f99dc2bbc8ab99ee4512cd621ad63cd94187a88fd75e3b"
+  },
+  {
+    "path": "上游框架/src/lerobot/motors/dynamixel/__init__.py",
+    "size": 755,
+    "sha256": "0fe40dfcc0743e0c587fe64ec09a457ee84b7f8492e4228f758e19758fa6105b"
+  },
+  {
+    "path": "上游框架/src/lerobot/motors/dynamixel/dynamixel.py",
+    "size": 11389,
+    "sha256": "f2c0165e84b8b331dc2459a9b9a3d4cbeb6f2ebe2a41486489e8e8f241483c6e"
+  },
+  {
+    "path": "上游框架/src/lerobot/motors/dynamixel/tables.py",
+    "size": 6248,
+    "sha256": "b94439b6bfaa763d3db1478afb32faf47fa79b7ba5fe2a743dcced5d4a35fee2"
+  },
+  {
+    "path": "上游框架/src/lerobot/motors/feetech/__init__.py",
+    "size": 751,
+    "sha256": "1426623565c66750b898393e9d07807dde24b0e2074ab4f8b6271a2abe9f4a44"
+  },
+  {
+    "path": "上游框架/src/lerobot/motors/feetech/feetech.py",
+    "size": 19424,
+    "sha256": "67db293a48f6ed16f1684c488bb4574d06e6ae037de2dfa903217987b58e2871"
+  },
+  {
+    "path": "上游框架/src/lerobot/motors/feetech/tables.py",
+    "size": 7815,
+    "sha256": "78473d2c69b6887bad264ab9c8f4e71b68b8c6fd8c520c21bcb7e1ed75dde58f"
+  },
+  {
+    "path": "上游框架/src/lerobot/motors/motors_bus.py",
+    "size": 48896,
+    "sha256": "5f4de4fe61ed6bbf7827ea29003cd565125145114db9218e280a72bf3fdc0167"
+  },
+  {
+    "path": "上游框架/src/lerobot/optim/__init__.py",
+    "size": 686,
+    "sha256": "6a2eee13f799e4f2e07349be17988212f2ba33ba8c17380d4399d6432d6bcb46"
+  },
+  {
+    "path": "上游框架/src/lerobot/optim/factory.py",
+    "size": 1692,
+    "sha256": "f1bbcc02ff6ee1228c2d9a22db50bdd6988260954a723f9c4005130a6cc771c5"
+  },
+  {
+    "path": "上游框架/src/lerobot/optim/optimizers.py",
+    "size": 8213,
+    "sha256": "2e39ab12f2bb942d140bbfeb39802f80c1ba2a243871610e8e7a595689ef41ab"
+  },
+  {
+    "path": "上游框架/src/lerobot/optim/schedulers.py",
+    "size": 4591,
+    "sha256": "f9bbced200f4b9fd4006afa9e0eb348dc10895927a951742f6991e7c83012495"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/__init__.py",
+    "size": 1036,
+    "sha256": "6353e284ff4c81ee53036d7fca55308d1db5b27741620d49b2789c238eee54dd"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/act/configuration_act.py",
+    "size": 9737,
+    "sha256": "3422c80d00ca90dad88ee02a1fc098645e8a284df4948f0146e05a932e5b0d97"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/act/modeling_act.py",
+    "size": 36803,
+    "sha256": "0b48eb285b135c1397e64292e51e10af838f108b52906a4f2cb909de9468e2bb"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/act/README.md",
+    "size": 44,
+    "sha256": "31ac5eaed43f5de5729d6893cf2c848aa63f647dbefb4c3baae7236b45f923d8"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/diffusion/configuration_diffusion.py",
+    "size": 12623,
+    "sha256": "be3810ee9b3a7b460d3761eab4646fb03f7c58d6cc13e9edfd0667b1d4ffafe1"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/diffusion/modeling_diffusion.py",
+    "size": 34411,
+    "sha256": "50533d5c47c202ca28aef0b56f29b7e427454f9cf6b1b765198c44bfbb3d0cd1"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/diffusion/README.md",
+    "size": 50,
+    "sha256": "6f0590a0619341b01dc72b6d61a90fdaa224c51ede9e9a553a8577903c9fadcd"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/factory.py",
+    "size": 7706,
+    "sha256": "10e3d0b6d05befcfa2f82fc0ce1f96c23a7a45a5aea30a06a6ae93b43942e7a0"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/normalize.py",
+    "size": 19968,
+    "sha256": "3e730cda2912e9d1658237c82150f7c06df62371950509e2fd972c54d72de492"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/pi0/configuration_pi0.py",
+    "size": 5276,
+    "sha256": "56983c5dceea9877877e07e29fe83d66f9a7e77907861c68b35c81a6959d199b"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/pi0/conversion_scripts/benchmark.py",
+    "size": 2570,
+    "sha256": "d16ac659fcdb1f23b990eda350097e8a3f563505b3fe8bf1a71335afbdd81951"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/pi0/conversion_scripts/compare_with_jax.py",
+    "size": 4686,
+    "sha256": "b027593da0117919021e90925b5fd4944fb662c2004d9bd58d10c8f83407a602"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/pi0/conversion_scripts/conversion_utils.py",
+    "size": 2744,
+    "sha256": "7562f9fb7f66269b599b9d0d5df70959ed3ab842524b06155b4cb5c95902c35c"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/pi0/conversion_scripts/convert_pi0_to_hf_lerobot.py",
+    "size": 22226,
+    "sha256": "5613aaede1237beacfbd04116264f70acbf834b22d6430931653a36bfa2f2877"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/pi0/flex_attention.py",
+    "size": 4948,
+    "sha256": "e8a3e87e0054a569db23a47cdb7d6dc45c7ad6a8744228eb4c4d835eafde1c31"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/pi0/modeling_pi0.py",
+    "size": 33805,
+    "sha256": "1d2797233f4f7c97df52fa2b52b34bfc7b6b9022f545d9cf07f7023efcee2306"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/pi0/paligemma_with_expert.py",
+    "size": 17467,
+    "sha256": "d9b0dde6d7946ad81d8b0e47f77a49ab5a3e621060ef6097e1afdaac6397b752"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/pi0fast/configuration_pi0fast.py",
+    "size": 4638,
+    "sha256": "dc918ee07b2efe18af6e6054ef191b7288bebf9e77ca2fab8c1cdf42bec5f9c6"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/pi0fast/modeling_pi0fast.py",
+    "size": 42363,
+    "sha256": "09e7cd9ee784623989737436a7aab98791af9cec3643f159c8bad799307eee7c"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/pretrained.py",
+    "size": 10350,
+    "sha256": "41f991d3e98fdf08c5cdf3b589a73619d36aa9e18e9b358539a237632a4d3366"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/sac/configuration_sac.py",
+    "size": 8850,
+    "sha256": "39aba6d41dc0950bc5aca02b3acc172860cef89e233f0c261fafa5154da49dc3"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/sac/modeling_sac.py",
+    "size": 44997,
+    "sha256": "aeb9be488a7b8e0d445eacad585d139d756e4c9361e696a97a03d0871e79a866"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/sac/reward_model/configuration_classifier.py",
+    "size": 2690,
+    "sha256": "fffd60bd7a6a2f847f1915661571c094cbde11f8a59b96229c341ab3e425f493"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/sac/reward_model/modeling_classifier.py",
+    "size": 12400,
+    "sha256": "c79113691df830dab87d6d2008298065c1b7111468b895fb2c84c71eaf3a9425"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/smolvla/configuration_smolvla.py",
+    "size": 5853,
+    "sha256": "866307a495b5df08b0cb24bdeda86d813781efd9ed77134704eec1e94a6a3cfe"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/smolvla/modeling_smolvla.py",
+    "size": 37805,
+    "sha256": "958315d08aa42db84c67c7b3e6792057e298b1887c0e3e7c9150f3c5ca9dfc2d"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/smolvla/README.md",
+    "size": 48,
+    "sha256": "9aa0666e77cd7de3612c06c2f74a226e114921a1bc5bf367ecb36a0c32f37e98"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/smolvla/smolvlm_with_expert.py",
+    "size": 23522,
+    "sha256": "dae41a2223dda62abe1af6017e6ba082e7ad31c98b4aa6d8499935a67c2a9336"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/tdmpc/configuration_tdmpc.py",
+    "size": 12097,
+    "sha256": "3a16019dbceabbf375e749a3d2be2a7f1cee9b1e9f43475c65e24e20b8282104"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/tdmpc/modeling_tdmpc.py",
+    "size": 39176,
+    "sha256": "ab6f21f02936a30e44699808eff9dd48a704aec11c6c0c3faa39fbf9da90270f"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/tdmpc/README.md",
+    "size": 46,
+    "sha256": "036b10e393c121f06080ed67fe68741ff83ea3ee1488c60f3d8d279db0863076"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/utils.py",
+    "size": 3180,
+    "sha256": "47b5bedcc61f0db41b21916a8ddba3024fa74879a2ae2350437b18900a5f8dfb"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/vqbet/configuration_vqbet.py",
+    "size": 10118,
+    "sha256": "779864c3c3530cfe4b8dcde7ae6f89421f7aab3cd2bfe857453be893ac022faa"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/vqbet/modeling_vqbet.py",
+    "size": 46665,
+    "sha256": "7797bec962c909322937db62c8b4f243615a63ecf0bd1e7b71d06bd60364644d"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/vqbet/README.md",
+    "size": 46,
+    "sha256": "923d0de3dc70661616f6240a8430588b07aa4b3ec2a1e746b03f63e91cc53f32"
+  },
+  {
+    "path": "上游框架/src/lerobot/policies/vqbet/vqbet_utils.py",
+    "size": 55572,
+    "sha256": "5fe684049c6227c761946d65f9f624c9a9f399de7f99cd749e68fd8eb4f0c967"
+  },
+  {
+    "path": "上游框架/src/lerobot/processor/__init__.py",
+    "size": 1636,
+    "sha256": "d85960d1face7928117ebbf29ce80c62756039e11385233e8a7dfa440633fd8c"
+  },
+  {
+    "path": "上游框架/src/lerobot/processor/device_processor.py",
+    "size": 3327,
+    "sha256": "43bfe08e841d62155f021e3e21dc689aec57ca398ad153dd40ec45dae3c813bf"
+  },
+  {
+    "path": "上游框架/src/lerobot/processor/normalize_processor.py",
+    "size": 14295,
+    "sha256": "dfdde2b23d7aa229a0243d44e948d3facdfe8b4a8b178713c7488d8b539d820a"
+  },
+  {
+    "path": "上游框架/src/lerobot/processor/observation_processor.py",
+    "size": 6002,
+    "sha256": "c83541ca8e2546c91838bdf5d2d007682c3d01fb344490920e73c81bb3c60d91"
+  },
+  {
+    "path": "上游框架/src/lerobot/processor/pipeline.py",
+    "size": 50731,
+    "sha256": "ed93012c56a387d4fb79ea4d092bedc936197e09524642a7b85c55e855705dc6"
+  },
+  {
+    "path": "上游框架/src/lerobot/processor/rename_processor.py",
+    "size": 1885,
+    "sha256": "37231f12bb1341c9528f648d70c87361bebe9ef8e8069fde82ad31f9ba4e5694"
+  },
+  {
+    "path": "上游框架/src/lerobot/record.py",
+    "size": 17082,
+    "sha256": "9f82cf71245861a26b0cddf1f2e42a77a69257a30cefb5fc94e3a82ff7154562"
+  },
+  {
+    "path": "上游框架/src/lerobot/replay.py",
+    "size": 3319,
+    "sha256": "c718aad8a75fecfd79eeacce01ae27ea02225dd73b5552d730e540e7e4758d62"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/__init__.py",
+    "size": 102,
+    "sha256": "80ca4b2f1cfedad1e2d2cbf6785a9d72660a77e0ae675b322b26a8c88440bcd0"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/bi_so100_follower/__init__.py",
+    "size": 760,
+    "sha256": "c47a4c623357164f50fbbcc7071e35786400d3a196b9dd6bcfde5bc96820b11e"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/bi_so100_follower/bi_so100_follower.py",
+    "size": 6108,
+    "sha256": "b18bbe7581b70b93b5a68d8dd4db273edd1114af4ada7f544e031401fe883d86"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/bi_so100_follower/config_bi_so100_follower.py",
+    "size": 1365,
+    "sha256": "684e0a8ee5530f227ccd89373936d27a5523bced4ed8800de7e50971b8a9aa28"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/config.py",
+    "size": 1502,
+    "sha256": "c7f545fb694b6336a86d6a1dbfae33c438d528208795f26e8da459f80def8bdf"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/hope_jr/__init__.py",
+    "size": 788,
+    "sha256": "68aab972d9180955801514e98153fd9991650ffcaf9bc02489d306f671360cd4"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/hope_jr/config_hope_jr.py",
+    "size": 1814,
+    "sha256": "e55c9a40ed3f65c312661e481138025247534962f7db946de87d575ddb00f9c4"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/hope_jr/hope_jr.mdx",
+    "size": 35,
+    "sha256": "1eb7f29681816d75eb8481837b197ffd3397d3b3defb1c1ee2cb6015d4f233f9"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/hope_jr/hope_jr_arm.py",
+    "size": 6968,
+    "sha256": "3165ec0f2dbd3736da14668bbe7a42698419f1272882438ca1e74ce54c78c7be"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/hope_jr/hope_jr_hand.py",
+    "size": 7462,
+    "sha256": "2b9bf4e9e19c0b454bf9b1200de12c19ba6c5d0e6cc20e0d70c19bccf1ae956e"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/koch_follower/__init__.py",
+    "size": 746,
+    "sha256": "b12cc0132f3b9e67149cfcfd7f11f1dfefa284e43113ef8c3a3dafa23c5b47ec"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/koch_follower/config_koch_follower.py",
+    "size": 1470,
+    "sha256": "d6566aaebb2848dca8d0a117858de78ab049229e624360f4d70517d754c71ff6"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/koch_follower/koch.mdx",
+    "size": 32,
+    "sha256": "4ee1b6cf6f2db0344c31d144f416c35702a7468c5479dd3755de5b091a02c75d"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/koch_follower/koch_follower.py",
+    "size": 10730,
+    "sha256": "74d3ced56f1259323db5b0b2fff9d1ed3692d6502a52c2466e218528d96a2a38"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/lekiwi/__init__.py",
+    "size": 781,
+    "sha256": "ec232b40a04e62222759e9a0d0db0fb393bed9e351743312cb0f424d403ae6dc"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/lekiwi/config_lekiwi.py",
+    "size": 3229,
+    "sha256": "68b36abdb9e4ab48fe9a11777569420b334ddee9eb9d43de82000a6df6beac0f"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/lekiwi/lekiwi.mdx",
+    "size": 34,
+    "sha256": "a9de676d07b3ccab99a4cde3444469a6d7b2bc623fa03fa55a640012a5849380"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/lekiwi/lekiwi.py",
+    "size": 17224,
+    "sha256": "3da3dc934d20b438488b2be3b3d28c2d405f7c614c5fa08542007b85022e0238"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/lekiwi/lekiwi_client.py",
+    "size": 12767,
+    "sha256": "bfdde33016267e5be88b6f73da35dbf48934097a7012a3637280f5dfec02efcc"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/lekiwi/lekiwi_host.py",
+    "size": 4540,
+    "sha256": "f5aaa01b2c0f9fa05de01d90df7c5c0dd511de2a626df49dd0c425144721d371"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/robot.py",
+    "size": 7176,
+    "sha256": "b19208c24a4c0cd2264e241467837b28a39961179be25d82a0fcb91b4dc9492e"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/so100_follower/__init__.py",
+    "size": 849,
+    "sha256": "6ce6ee517435f5a829fe8622fe54a38b1051b4b5a2b965376c23e5c9eb55fb39"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/so100_follower/config_so100_follower.py",
+    "size": 2551,
+    "sha256": "5a7dbd2c4795650ee09480a1142863093bf3874c6c60d86fbfd41e3d6d4702c6"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/so100_follower/so100.mdx",
+    "size": 33,
+    "sha256": "18768d3be3d967902de387b0b89313c0e9111c115ea72e9836b3038a1c458f2e"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/so100_follower/so100_follower.py",
+    "size": 9694,
+    "sha256": "c3980b05cdc3a500d0eeca634c37da76de4099f0ba7e25cffd3e906c5457a525"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/so100_follower/so100_follower_end_effector.py",
+    "size": 8008,
+    "sha256": "f6d071f0f4135aa915de4fc4fdaca7f53da46fb447e6ec05fb38ccf54b29c4e3"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/so101_follower/__init__.py",
+    "size": 750,
+    "sha256": "a880eb96aa63bdcbebca0c216a0d18cf7bd6d197b9a56db8e1ddb18b18429bde"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/so101_follower/config_so101_follower.py",
+    "size": 2012,
+    "sha256": "3e630a1d9a1bccb5a8d67b9fe16a1c8045020875bfc30a16579ff95036071dfc"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/so101_follower/so101.mdx",
+    "size": 33,
+    "sha256": "44726e807c0a35dcfc1a6b4da8e2d847f3477da2d06e4f27686e07acaf7ac249"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/so101_follower/so101_follower.py",
+    "size": 10043,
+    "sha256": "14b03133c363d8cfd1c04a2646502b266cf6eb132944fce281d96362292c47da"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/stretch3/__init__.py",
+    "size": 751,
+    "sha256": "48a2146d2cce6e043326a8032b5d7127102464f16f4153ce827b69b9c0717271"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/stretch3/configuration_stretch3.py",
+    "size": 2074,
+    "sha256": "febaafab7eb5171719f4db75a212745c34fa68716209864de4520f064426619e"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/stretch3/README.md",
+    "size": 6770,
+    "sha256": "ba4e7c1170b60b34417c490b564426c7809ca1bcbc20fa100989ca15310d81b5"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/stretch3/robot_stretch3.py",
+    "size": 6243,
+    "sha256": "e514440e45cfa25ebd4c7f3b5282332d438ffdf47928bfd3e021e1d4dfb78c3f"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/utils.py",
+    "size": 7067,
+    "sha256": "b849218739954b193c2037bb2647ef00f3a2c40f0789abbc39a813bb3e10b95c"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/viperx/__init__.py",
+    "size": 720,
+    "sha256": "943d9a9a693695d01fdcc06a73bf3075001aefb91bc761207d31827af629060c"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/viperx/config_viperx.py",
+    "size": 2138,
+    "sha256": "0432a020488f54aeb380559ab0ea0f6b55b62a36f6b97128701a84b9569e77ff"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/viperx/README.md",
+    "size": 8802,
+    "sha256": "90689f3df087cc0d7353f34f606396506bfc4a94ee54230f1d72b3a35293d29e"
+  },
+  {
+    "path": "上游框架/src/lerobot/robots/viperx/viperx.py",
+    "size": 9942,
+    "sha256": "2da5fc7b08210f889b58dc62fd659cdcde32ee5a764e998e72192710f58bbae3"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/display_sys_info.py",
+    "size": 2862,
+    "sha256": "1f4abe7bd9fde2671f1e91bbfb126c610ce21462737a9bca121cdf2d62d5e71c"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/eval.py",
+    "size": 20448,
+    "sha256": "f68e922c869b29d769d8e7b57b8ad5fc252e80e028bf888f222be65a16f26985"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/find_joint_limits.py",
+    "size": 3938,
+    "sha256": "0e08e1eacd0641fa57f383998745b36933d67235ecb46cd432fb6de3c1b98b48"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/rl/actor.py",
+    "size": 26221,
+    "sha256": "5545fdaa241a5ecb84bcd89b1577732657e7179a040a6137df3537498b0bc049"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/rl/crop_dataset_roi.py",
+    "size": 11428,
+    "sha256": "564c64eb122b5bef7454ff815f8f1efd75077f136b7522076f88ffa510460cee"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/rl/eval_policy.py",
+    "size": 2417,
+    "sha256": "c68a63faabd3826a0fdc9339de0308efae9f1741bd9d575b959886fd4bfdcef4"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/rl/gym_manipulator.py",
+    "size": 84841,
+    "sha256": "dca2d28665aa4e83f36cd9f0db2ad47849ee5393df56e5f7f94e634510b24827"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/rl/learner.py",
+    "size": 46820,
+    "sha256": "2270083d8ce6732c4e43528a40eb3278cab6b064f91e0dc2ef7006052ae7b13f"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/rl/learner_service.py",
+    "size": 4431,
+    "sha256": "494b12ac6a6b01a594fbaa0f2271389a7512571de79a51c18a38c006010a288b"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/server/configs.py",
+    "size": 20882,
+    "sha256": "0cd2436dac578850b12c550698356ace6d06b8e9c00b7afb27506e2fa647b75a"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/server/constants.py",
+    "size": 1128,
+    "sha256": "254cb69cbd559ee1a3e82a075484ccb1d5ee02a1c97fdfcd241337997a595453"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/server/helpers.py",
+    "size": 10436,
+    "sha256": "55a9e543387824e53b6e8a898aa6afe492ab3babc8e9a9fb84247b6ad418e236"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/server/policy_server.py",
+    "size": 15721,
+    "sha256": "5ccee740c5515f34ae85188fbe108a7813144fa163131baa8fd422c6756196de"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/server/robot_client.py",
+    "size": 49772,
+    "sha256": "3846860aed407f7b9d0919a626579cb0185b80d0818acea118d11dc2eba014f0"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/train.py",
+    "size": 11069,
+    "sha256": "f34fbd8040eb1734dba2d3c8c5e9cc49077235ed7929aebbd07ac12401320196"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/visualize_dataset.py",
+    "size": 10239,
+    "sha256": "c2b4403c1514e0bed499dbd38d9cae2bdc47fabfc97aeeba066cee05d6fd66a7"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/visualize_dataset_html.py",
+    "size": 17620,
+    "sha256": "08ac76ff5827cf5bf91ddbe61b706cb9189cdc23344e7a03c3487b1bd747c47d"
+  },
+  {
+    "path": "上游框架/src/lerobot/scripts/visualize_image_transforms.py",
+    "size": 5097,
+    "sha256": "d017490ca7ed9c54dff11c2e855e18c6dfbd5bfaa3c23ff0297b6088f4d46454"
+  },
+  {
+    "path": "上游框架/src/lerobot/setup_motors.py",
+    "size": 2144,
+    "sha256": "55c62b631d21d95e6fb8378ee511afcbe8f97df5a48ab750f06b654ca142d6fc"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperate.py",
+    "size": 5063,
+    "sha256": "12aa3f1bdfcded094df7ea080e11f2e810127e5d4accbf7a5686f654679f0bc3"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/__init__.py",
+    "size": 781,
+    "sha256": "4c6d284fe179863e3bd26a8000207f19ca190ebcb58baac34dd12c04095f832e"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/bi_so100_leader/__init__.py",
+    "size": 752,
+    "sha256": "87182466be0af1cc1743fa25c5c2560cdbc7d364c561063fe3b9843ac5d526dc"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/bi_so100_leader/bi_so100_leader.py",
+    "size": 4333,
+    "sha256": "1932ae1c3f2bd724ce673245623e70244b8dddae0c1650ed6e394692f8501482"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/bi_so100_leader/config_bi_so100_leader.py",
+    "size": 900,
+    "sha256": "45003730ced7813324363a00f9990aadf876e0c325027f42f0ae949f374350fc"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/config.py",
+    "size": 1094,
+    "sha256": "1bb6e13bb8bd009003eb1484e9730b7553ae52d8d68f57846127c7a287c7ae15"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/gamepad/__init__.py",
+    "size": 751,
+    "sha256": "780209639f67b409267481980ba0bc5b7a62b477c5d920aebc0fbb717a715720"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/gamepad/configuration_gamepad.py",
+    "size": 873,
+    "sha256": "4f19f329cde59c1a598c6746304cd8a811a785ba6751550d0f58d909707391de"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/gamepad/gamepad_utils.py",
+    "size": 18011,
+    "sha256": "78b54e96f3ba499cf5bfd3eb8b45f80ae23ee94d08e36295f8524920897e8cc4"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/gamepad/teleop_gamepad.py",
+    "size": 4205,
+    "sha256": "431214f7132f939e19876049c45a122a985d944531e7ecc4edd2f57bc7df28ee"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/homunculus/__init__.py",
+    "size": 882,
+    "sha256": "77552ccc6b174e30a177a5e51f34e87d059f313abfe0363e1d6bcc0da88be2c9"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/homunculus/config_homunculus.py",
+    "size": 1283,
+    "sha256": "4213e4f746350f9583a55417d72fce6738edb9f8cc4eb2735d9f6a95927ddd18"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/homunculus/homunculus_arm.py",
+    "size": 11998,
+    "sha256": "c6b5d2273c260391cf1e461e2c8f9dd290a95c5651292f731017d4ca65133ba2"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/homunculus/homunculus_glove.py",
+    "size": 13217,
+    "sha256": "d260a90751cbac8105abc1a4ef82e822f471f1cbbfabdc106666c53a31558a0d"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/homunculus/joints_translation.py",
+    "size": 2928,
+    "sha256": "162e463ab42b7f9285967ab793d20d95ccc37ac593938974c739659769f05826"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/keyboard/__init__.py",
+    "size": 958,
+    "sha256": "91609fde3a720ce551d8276b9a1995069b6fb1a3324e123acaaa850f05e2af80"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/keyboard/configuration_keyboard.py",
+    "size": 1117,
+    "sha256": "c4de38f56b77f6c843c1a9e360f818913faede62fb8c79d6232c70834b2b12c1"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/keyboard/teleop_keyboard.py",
+    "size": 7851,
+    "sha256": "003d241258b37e6b317adb0ebb88e8cc9d154afe094312059e00f5441f182f69"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/koch_leader/__init__.py",
+    "size": 738,
+    "sha256": "c735d01377a8324243a659e4d287f426c63b1c950f29a1e7e3bac3659e9be3d0"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/koch_leader/config_koch_leader.py",
+    "size": 1117,
+    "sha256": "a636b9b8d00f53669d1524dd7cf7dac6a397ebe0816e165eb458488546eaa9b2"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/koch_leader/koch_leader.py",
+    "size": 8103,
+    "sha256": "482f54f39b4fc76c9bed88200e4b4586f44e06eb16b74f62408b05b954cd2c2e"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/so100_leader/__init__.py",
+    "size": 742,
+    "sha256": "0a02f149f19727a3f5def50a7b0f2c601f48cdc2fc772e03e2ca05a3586c4207"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/so100_leader/config_so100_leader.py",
+    "size": 895,
+    "sha256": "d1be2d3d39bfe28bae5f05594cc1f91bb77e152fd5a61fd7bffd7144a2e047f4"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/so100_leader/so100_leader.py",
+    "size": 6218,
+    "sha256": "2574085db4a843d453149541fa3e197ae83c9e6104b78abfdbc75be997cbcff4"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/so101_leader/__init__.py",
+    "size": 742,
+    "sha256": "b6d2ae03703290b14fba2bbcdec32740adc7d32b826aa52f82d8bee5d57012bb"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/so101_leader/config_so101_leader.py",
+    "size": 928,
+    "sha256": "8f50c4912532800f8c8f1297e65828d17935e56b618dd75fb32d316ef7ef4c17"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/so101_leader/so101_leader.py",
+    "size": 5952,
+    "sha256": "adb2a586a522df6c17f691f040ceab1f9d26bcc637bb89cdd624fd20a2831638"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/stretch3_gamepad/__init__.py",
+    "size": 757,
+    "sha256": "a0f1aa0334d87fb979957cf626bb62d5c255d0e8103b6d311186876ba380345d"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/stretch3_gamepad/configuration_stretch3.py",
+    "size": 870,
+    "sha256": "d374aac7a03c633f0bcb12f3b05fa5625e6089c23be169e3c782fe90b9ba88ff"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/stretch3_gamepad/stretch3_gamepad.py",
+    "size": 3668,
+    "sha256": "8a8f8af0c03a79310c768a8d8e1e43d16e7c1faa7d44742959f31d0b0d234c19"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/teleoperator.py",
+    "size": 6886,
+    "sha256": "e209c51ebcc8ffe453da37e8342b23469c33863b7a97f2d063c178b2b1ea1699"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/utils.py",
+    "size": 2409,
+    "sha256": "fec16aa6b492bdcf1bf8853d4169b6c741c66d338404f0d69ee1625905775a4e"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/widowx/__init__.py",
+    "size": 720,
+    "sha256": "3a4a01cf12d0a5db28e7ab0a3256ac9f898019e96c3ec392aa3e628ba3a1a28c"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/widowx/config_widowx.py",
+    "size": 880,
+    "sha256": "d4c5177ac474428b8b2846f4ba57b867c7ce5e4b9172373b188a66572bc6eee6"
+  },
+  {
+    "path": "上游框架/src/lerobot/teleoperators/widowx/widowx.py",
+    "size": 6074,
+    "sha256": "83bef0083305850ef8e4b07f5f454d6b87613dd95a34654e8fcd0e082dab7426"
+  },
+  {
+    "path": "上游框架/src/lerobot/templates/lerobot_modelcard_template.md",
+    "size": 4067,
+    "sha256": "6d4f32ea778f752eef28070d66dfba6e4ca3eda938ff045ea5df9e74b9ba4436"
+  },
+  {
+    "path": "上游框架/src/lerobot/templates/visualize_dataset_homepage.html",
+    "size": 3251,
+    "sha256": "b8cff7ba5e1b421967c77ae71b7b8d2817eb56fd9fa4d0b2fd510f4b7fadef2d"
+  },
+  {
+    "path": "上游框架/src/lerobot/templates/visualize_dataset_template.html",
+    "size": 27649,
+    "sha256": "41270d4918bb2faa8bf904ffe40bc40a00e9f6af369271069e4fb6000fc912f7"
+  },
+  {
+    "path": "上游框架/src/lerobot/transport/services.proto",
+    "size": 2805,
+    "sha256": "e36b9ed2e62e29c339e5446121dd867c17e1c5ecc9f1c23421d2683e426b1f6b"
+  },
+  {
+    "path": "上游框架/src/lerobot/transport/services_pb2.py",
+    "size": 3765,
+    "sha256": "a12405974a79f90e881888771c1810b8f8100632f2790c61d729406307ed4418"
+  },
+  {
+    "path": "上游框架/src/lerobot/transport/services_pb2_grpc.py",
+    "size": 18173,
+    "sha256": "98a37e17aaf8c6a2cc6573f094b6f78fc82c980fcd8deb2cab974e22b9d9ab90"
+  },
+  {
+    "path": "上游框架/src/lerobot/transport/utils.py",
+    "size": 6536,
+    "sha256": "7bc390e0c56c8e819dd96bcd41701a7c41adfb5a9a3b33f860e0809952da8b61"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/benchmark.py",
+    "size": 2828,
+    "sha256": "a2f934bddd102b41088ffdeb2f1c7c07cb46923e05c3e687da7f6dde66912fab"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/buffer.py",
+    "size": 35968,
+    "sha256": "aa82165d3e92a540698a1e7916b9fe1f7ef1629273d27ad9b81cd6b835e136ac"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/control_utils.py",
+    "size": 7974,
+    "sha256": "3a020725fa12df1354567051cbc5184af85e545ddf3c3ef9e6093a3b6aee1a29"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/encoding_utils.py",
+    "size": 2339,
+    "sha256": "3f14c41258e8440762b59f990cb4799bec810e793d74c4ae4b3b2345ca6bcb35"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/hub.py",
+    "size": 9235,
+    "sha256": "c12e523b8f57270712a39817831f04fb4966e29a278f4104a31035ed2ee5b18b"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/import_utils.py",
+    "size": 2882,
+    "sha256": "5a8b88f5ac1e9b2693deb91e0c948c28f5d4ee2ab5bc718ae963afcd06dfa100"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/io_utils.py",
+    "size": 4525,
+    "sha256": "0b6554e0c498cc8330d739a9a085ed7ddbdf962950aa5891963f159a236d91dd"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/logging_utils.py",
+    "size": 5393,
+    "sha256": "b3eb8220e043b34e2cd0047753a67a25857c86c6aed71822da1bbfda818e69c2"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/process.py",
+    "size": 3243,
+    "sha256": "57a3981994d1c814049f66be43f9e08c593f02f8791ee7fc2acf1401b1222914"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/queue.py",
+    "size": 1717,
+    "sha256": "7b6d1294e761c0c76e8f510b8fbc4747dc97e0d7b741c7ffe4af0b11c449b28c"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/random_utils.py",
+    "size": 7302,
+    "sha256": "c504195b186e90c175b9aad6b7ad0311f0941752a29973edf99d468c5ced9309"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/robot_utils.py",
+    "size": 1564,
+    "sha256": "057f0a3da33161d177796a11f2c5ec824b61bd0933a03eed5bd2af7b1bfd3ebd"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/train_utils.py",
+    "size": 6330,
+    "sha256": "373d7b68d2a1fa678af8ee4d0c4ca945fc626f5563b049bb85d19ed0db15b0c1"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/transition.py",
+    "size": 3416,
+    "sha256": "ae33c12b1d35125d782885119838db3a54c19abe3560f1df7b6de33395671183"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/utils.py",
+    "size": 11919,
+    "sha256": "b66db8f643881fa78137d98e4d33e6dffff635f14a1ea49afcb9e29325839fd5"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/visualization_utils.py",
+    "size": 1877,
+    "sha256": "e1eeb84ef6731f49b79ab497820fe1bd9e2c3e53967e46ef6b8daa180f287acd"
+  },
+  {
+    "path": "上游框架/src/lerobot/utils/wandb_utils.py",
+    "size": 6817,
+    "sha256": "d088168d6ddb260ed5dd223b8a17d9744df86fc9c5b2cb5bd3d12a345bc907fb"
+  },
+  {
+    "path": "使用说明.md",
+    "size": 282,
+    "sha256": "815539360a09a0458f6766a5a2e9c7f0eac7e4a355eed7ec4f51381f66081d51"
+  },
+  {
+    "path": "准备训练.py",
+    "size": 2087,
+    "sha256": "5e82c1306e3950e613934e563a51617f810014cd5b7abd05f9e8589dbe94c68c"
+  },
+  {
+    "path": "划分.json",
+    "size": 928,
+    "sha256": "c834f9f93fe80747e0f830113f29ad6ac924b2064b925f95502a84701c636cbb"
+  },
+  {
+    "path": "启动训练.py",
+    "size": 2279,
+    "sha256": "ab39038455cc3d2caf30d9bdeaac574fe5d8bf3bdbd792d9d9f6a7cfb3e82f33"
+  },
+  {
+    "path": "子集来源核验.json",
+    "size": 269,
+    "sha256": "86b4adbd45e2d5a12fa02f32b9a551f15996fbcf163d42b80c5ab47b71cb0503"
+  },
+  {
+    "path": "安装依赖.sh",
+    "size": 1216,
+    "sha256": "874704bc841a3b3e6cf8b9aaec55f5cd3e7adbb4c51abf3c136d36e0e2183b99"
+  },
+  {
+    "path": "实验说明.json",
+    "size": 1927,
+    "sha256": "9613cca83d53428afd0c8e786274820c1c954f4e62088e455b19adb114010495"
+  },
+  {
+    "path": "标注/阶段标注_80段.json",
+    "size": 84411,
+    "sha256": "87b03225b182350eb009a177ac8fdb246327d76a8c7f58ce5fe2d44927b49662"
+  },
+  {
+    "path": "模型/基础预训练模型/config.json",
+    "size": 2038,
+    "sha256": "9a05b5f91b3c3292a64fd25b3b62be31ec2ea2c56a8da6bddc73a8318a2bee5e"
+  },
+  {
+    "path": "模型/基础预训练模型/model.safetensors",
+    "size": 906720008,
+    "sha256": "8f8dc071d5b933e79edd2b73b8d6b5cca482ef0437c099ea3ec13ab978a38fc8"
+  },
+  {
+    "path": "模型/基础预训练模型/README.md",
+    "size": 1843,
+    "sha256": "d12076ee23aa276aa72dd1f0e5a9f7bf0d011d68c342307fa58786ffd7ee2ac6"
+  },
+  {
+    "path": "模型/视觉语言处理器/added_tokens.json",
+    "size": 4739,
+    "sha256": "74135b8664b56088c0006f1c8e848d79a8eba003411f72ebf1dc2ee96227be3a"
+  },
+  {
+    "path": "模型/视觉语言处理器/chat_template.json",
+    "size": 430,
+    "sha256": "b585e3598909a5687f9f9d738d35223724dedef256b9b274e1cbfb32b13c74bf"
+  },
+  {
+    "path": "模型/视觉语言处理器/config.json",
+    "size": 3767,
+    "sha256": "ea6bc1237e96247f6258de3e202e2e62b93d6f386dc47e7b36b5588bf3a15e17"
+  },
+  {
+    "path": "模型/视觉语言处理器/generation_config.json",
+    "size": 136,
+    "sha256": "34835060c9f0f74d1acb456cc72ca32746d3843d9eb5f578f9cbffac1d2eb840"
+  },
+  {
+    "path": "模型/视觉语言处理器/merges.txt",
+    "size": 466391,
+    "sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510"
+  },
+  {
+    "path": "模型/视觉语言处理器/preprocessor_config.json",
+    "size": 599,
+    "sha256": "149e315d9410368e5491455bb06e0f763426e9e56cca731c13b24404a29b6374"
+  },
+  {
+    "path": "模型/视觉语言处理器/processor_config.json",
+    "size": 67,
+    "sha256": "f3ad45028447b3562b4752be0d5916d6806c1ef589091a469608dcf0faa1737c"
+  },
+  {
+    "path": "模型/视觉语言处理器/special_tokens_map.json",
+    "size": 868,
+    "sha256": "2dfea2a426162316ff1567c82bc6d36d9690cd9f90455f075c77daca78b45c60"
+  },
+  {
+    "path": "模型/视觉语言处理器/tokenizer.json",
+    "size": 3548256,
+    "sha256": "5ece781dc8d2b2f3e2f289ca0ae50b17cfc27dd27bfe7971bb8241e0b964331a"
+  },
+  {
+    "path": "模型/视觉语言处理器/tokenizer_config.json",
+    "size": 28626,
+    "sha256": "dd9ce2ab89a3dd881bd9378f1a79b943a064b9275a7e1706d5b7b47b68977913"
+  },
+  {
+    "path": "模型/视觉语言处理器/vocab.json",
+    "size": 800662,
+    "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79"
+  },
+  {
+    "path": "脚本/程序模块/微调预训练模型.py",
+    "size": 12977,
+    "sha256": "8175b8d7d1eaffd047b212a48acc2631ab905b4709baaf002568c4d8522842b7"
+  },
+  {
+    "path": "脚本/程序模块/检查演示数据.py",
+    "size": 6627,
+    "sha256": "7bce1166e457fcef0ff8ca2ea439824cfd08cbb5204b500426cb1e23ed406ea3"
+  },
+  {
+    "path": "脚本/程序模块/测试阶段采样.py",
+    "size": 6602,
+    "sha256": "d8fcd0227f0846de295604a311c3c11cb485590be2485e4732a111ce7f8f0f9a"
+  },
+  {
+    "path": "脚本/程序模块/百段阶段训练.py",
+    "size": 25500,
+    "sha256": "c171946e16de7b3fa3f0482061cdcee1d0705fd07a115a3ec4687a74686bc99a"
+  },
+  {
+    "path": "脚本/程序模块/目标选择标注数据.py",
+    "size": 14301,
+    "sha256": "e15d57b2b54a4ec4a60cc5956c69c9d0548870144011c6a80143d88115cc4361"
+  },
+  {
+    "path": "脚本/程序模块/管理训练数据来源.py",
+    "size": 7330,
+    "sha256": "5e3c4412e3987073677027aa590d08e8471623d88a8061c52f09a973b3cc03dc"
+  },
+  {
+    "path": "脚本/程序模块/阶段采样.py",
+    "size": 6684,
+    "sha256": "38e226848874d98b8f85094e8b2a76cb9229d71a03e45512d7581bbfc5018955"
+  },
+  {
+    "path": "训练参数_B.json",
+    "size": 321,
+    "sha256": "b480926d35a3c384881b834114daeb6368b60ceb06b5f6f24d659fa0993ea8ac"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000000.parquet",
+    "size": 32445,
+    "sha256": "a28954eb1f0537f7dbf47c20cdcf28b1501e48432f8f7b5a3dcea5a5df61a440"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000001.parquet",
+    "size": 27117,
+    "sha256": "72ca78a99771d353e87c7783e40b31a1d9ffbdce7581e19a6f0f1c5bb8e67518"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000002.parquet",
+    "size": 28354,
+    "sha256": "591ec165d0a6b859cb79309c02eb3d66c1e45fc7c53ce97639912f04bed67dae"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000003.parquet",
+    "size": 27924,
+    "sha256": "c36cc91e97d3012f56b16fa52faef9bcebe79c995e5cd584b4f5b39dc2e3c8cf"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000004.parquet",
+    "size": 28700,
+    "sha256": "e31c155d1319e36e4b87d2093365cabbf91e9a67308a638ca1d2da26e6a85000"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000005.parquet",
+    "size": 24941,
+    "sha256": "a32ce9aeac5243f303ffaa9392ee0165af39ac811c6bbfd008475459d573e43e"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000006.parquet",
+    "size": 29340,
+    "sha256": "bef546b9fe713ffb0f92cc282a5e801e1ec545efa6200e5ecb875b4804fb6c77"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000007.parquet",
+    "size": 25969,
+    "sha256": "3be9c1f75f4c901034ab177afd25add2e8bbfdd3d1c850186554e59e594b90c4"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000008.parquet",
+    "size": 30157,
+    "sha256": "c6c12f545de7378e8d54d75394c711142d46cc684106b08f15b360aeb9132a44"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000009.parquet",
+    "size": 28245,
+    "sha256": "d59ff9e87e03b916f5464c48061da6739c37bfc84195000d92527daf36cc293b"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000010.parquet",
+    "size": 31092,
+    "sha256": "38e2f3140ebb65b765935ea12d165574dd11baea0bffe39eed7c5585f5b1d024"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000011.parquet",
+    "size": 30126,
+    "sha256": "f34eba66b109f3458c916cfdf4aa685d2959201d9d19cc1137d38addbac26874"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000012.parquet",
+    "size": 31732,
+    "sha256": "31d0f2132db4ea1324c87909fce4b7ac339565626c17c36b7baa090ee2a53637"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000013.parquet",
+    "size": 25393,
+    "sha256": "89ad0cf888ff32851a452c0fec3eb53702f0af417ed3a59d10eea56d24e33fc5"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000014.parquet",
+    "size": 31366,
+    "sha256": "f6a065011141e0f3256e0d6a714e7fccc12822adace85b716cbe014d725ae60d"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000015.parquet",
+    "size": 25116,
+    "sha256": "876c4c73b50349d533b1262d9cef773371e41b55a34e3cc9976f5d40024c9e86"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000016.parquet",
+    "size": 26663,
+    "sha256": "f5209283521d019e2981a62c4d32329f864de1a82101e0840792ed2301f35b65"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000017.parquet",
+    "size": 30078,
+    "sha256": "625c03416714a0944cde5f860c4220380f993385f5a828fe3cfdb560e919f92d"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000018.parquet",
+    "size": 28470,
+    "sha256": "3ea1f4c520ed893380c9f23fdf1d674cd46d4630b31179588ab953f162e08a5c"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000019.parquet",
+    "size": 25167,
+    "sha256": "ddcf01ad669bc83f65ee881d60cd738281e34577a49934a0d1dd83efee1b7862"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000020.parquet",
+    "size": 28323,
+    "sha256": "0a89673fcd90a1e4d09527afbb28d33c9b8598f489f17654c0ba10151996d48b"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000021.parquet",
+    "size": 27382,
+    "sha256": "6f815454273884ba82259d34a862fcf5c1dceaef66c9ff60223d53ea8d628ee4"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000022.parquet",
+    "size": 31115,
+    "sha256": "f4030b336e9f1eb72ab89655bd46d150351794dc7a0c6a3f0a00d4ef84279ed1"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000023.parquet",
+    "size": 25926,
+    "sha256": "6b7bce54f970653c0a23a8dc11927c187ec1e60aad150cedc231650b335f2b24"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000024.parquet",
+    "size": 30017,
+    "sha256": "b57cb2bdf3d2171a211227f5e86413446155c1bf2cb82c5d21f5c3991662a2cf"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000025.parquet",
+    "size": 29259,
+    "sha256": "6c7393fb3607412783ebb1498a8abb8b6316b58f57d33974224db45c37dc563e"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000026.parquet",
+    "size": 25175,
+    "sha256": "1ca3506620667350366f9928501b5891ed5bebb47e4684cdc1e2207d09b9c7e7"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000027.parquet",
+    "size": 26480,
+    "sha256": "8f2efeb7176b431558cf5e3ca925e424b4b8e0a03d64a7637eddbb57b27b0c4c"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000028.parquet",
+    "size": 27676,
+    "sha256": "5f839067868851d359fcbbaa312a081c6acb72b4cce00f30422c5d914c16a636"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000029.parquet",
+    "size": 25753,
+    "sha256": "f632fdce792002ab1658efeb2335cbd7735a929b856a92686ccbfe80fffa6b2b"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000030.parquet",
+    "size": 28947,
+    "sha256": "5a8600c36ea543a52d7dfb78e59fa61f36e36d94d1a04d9b4e5df3d0e57472ee"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000031.parquet",
+    "size": 24217,
+    "sha256": "33fa0c9ad976449d27090f9fb10703d3619cb64ff34e913179af3e5eb80cb8f8"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000032.parquet",
+    "size": 26104,
+    "sha256": "cb623262cb772fde769dfa0bed84188494095c9398d2911dd53447dc32d4cee4"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000033.parquet",
+    "size": 29283,
+    "sha256": "ecef4c77d28b8a3d13ce2b978fdaa0b67636236eebb9d30f371f1e98f26de05a"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000034.parquet",
+    "size": 28864,
+    "sha256": "18832752a4f1233ae5599aac7c6c3f830d701c33ae464e9d97e3ea88b8ad5303"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000035.parquet",
+    "size": 25270,
+    "sha256": "388f01146f6be2efdccd835647b246c35dc0e83720e38d4523866143adbcbf11"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000036.parquet",
+    "size": 24012,
+    "sha256": "bc2062f4ac6ab50bd794ae25ca50ff626d68b61ec492dade57306b561cef32b1"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000037.parquet",
+    "size": 24654,
+    "sha256": "3d62484d6768eb2b7bb811ccf3e5044de0928132472cfb1627ee43cf3f830709"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000038.parquet",
+    "size": 25960,
+    "sha256": "5aea9deaea083603c90211f16d2a26fb7f04c871c70b58e4e9785b5f2483a24f"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000039.parquet",
+    "size": 24225,
+    "sha256": "683892c275aeb06635bd5a906038e2e83681186265e955aa24fea912355f2b92"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000040.parquet",
+    "size": 24705,
+    "sha256": "5245049931d65382f39ac98f972a1c0cc849ac3a05ac3c83f38c7857cbdc3e82"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000041.parquet",
+    "size": 27484,
+    "sha256": "d069be7c96aaf637c80c08adbbb8c94f2160543ec7a816377e5290fe22f039f5"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000042.parquet",
+    "size": 26677,
+    "sha256": "d7f15bdbfe81abf82d3e09da43d3873ae7ade1cf0a3769d31ff1949bf430f445"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000043.parquet",
+    "size": 24337,
+    "sha256": "a851a14cdee3c8947637e388c94a15ee8e3c69938124e0420310c5c0235c146f"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000044.parquet",
+    "size": 28119,
+    "sha256": "a87d5d800b653a6dae0dc7e7adb3f47e8ec77e9353f028eac6b8ba2f887c974f"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000045.parquet",
+    "size": 24969,
+    "sha256": "8ba0b854fdb012a4da9808352f5fce31592b5c39d2ecd989f5d829f8b292eb7e"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000046.parquet",
+    "size": 26685,
+    "sha256": "435bc316cc09b402593fa10aaa850297f832f49b5810f136aafdb61bdb123918"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000047.parquet",
+    "size": 24350,
+    "sha256": "cb38e275d89cc63ea2c9443d6c793fc62c64fab140eb3e4d825b742314e171ce"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000048.parquet",
+    "size": 24629,
+    "sha256": "ef580b1e303ec8c251bf380a7ba3cb6f5708dfc8315a7f27afb5bd8ba86f4c6a"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000049.parquet",
+    "size": 27813,
+    "sha256": "4210b64071c1eb40f379b4aa834f92cc76cf45cb80d7d1fc1dbe2001ea4c4858"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000050.parquet",
+    "size": 23927,
+    "sha256": "ac279856794ae7e2f35183ca7bb240d519a9add17c99a5254d343e1dae9cba92"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000051.parquet",
+    "size": 23984,
+    "sha256": "443c8c1841fb1a330cc20c8dedbf386e1a04d689ff1e58a83425ffb49dfb5a5a"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000052.parquet",
+    "size": 23965,
+    "sha256": "4d839f07db36dcc46d15a77f1c65914fd02ce043dae238a9aa9ac165bd86b3c4"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000053.parquet",
+    "size": 26439,
+    "sha256": "d42c4121a15a5d3c30bec88cf88399aafae64d557fe7b6b8069d5c982b55f0a7"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000054.parquet",
+    "size": 21507,
+    "sha256": "e32b15f93ff7f73dcfda439865e138a03f40aead191a78dafc3cfde682430ff6"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000055.parquet",
+    "size": 23047,
+    "sha256": "3d51ab9487b51d4b1ef3548ba24a84e573b271de4913be41cb3c640673d7eff9"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000056.parquet",
+    "size": 23123,
+    "sha256": "46bdb05b8d08135b80b70b6c92529abd28a57afce4d90070681f17166df59193"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000057.parquet",
+    "size": 26938,
+    "sha256": "773249441c0cb1467d67731f102f2bd80bf6295638739c8cf22649647e3c9d24"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000058.parquet",
+    "size": 23693,
+    "sha256": "90d310f7f880ea7f52c7fc0260a6b03dfd658c181da89d25d8ac2168c397df7b"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000059.parquet",
+    "size": 22868,
+    "sha256": "36e2c9b66daf546f6ffa757d68eb763b5068ea1b27fd8c1350492ca417d465e6"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000060.parquet",
+    "size": 23486,
+    "sha256": "a8d9bbadf6b7b9a7f0a7b4bae135c5f6fdb9d3ddf985b4a429493ad682b4954c"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000061.parquet",
+    "size": 25027,
+    "sha256": "1e19a626a1c91a66df15cc1cbf2e99033aff513a17b949c258cb84391a042d8d"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000062.parquet",
+    "size": 21861,
+    "sha256": "353e90a926eea828ef2c120cff49603219c6b591420dd6e1729c54a682a54b2b"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000063.parquet",
+    "size": 24483,
+    "sha256": "d869e50f66b85632aeb23aec98ce40c14d83a23e94056ad57d90a78b4a790bfa"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000064.parquet",
+    "size": 21682,
+    "sha256": "12703c11eee44be28484c9dbc040f7c8b81491ff4931785ded99fc6d86fef850"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000065.parquet",
+    "size": 27965,
+    "sha256": "3daf8df0ed6c9111dd749363f9621e6a195eca6a5ce738fb7d655c5073b614a7"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000066.parquet",
+    "size": 22231,
+    "sha256": "c90f0745ad8ff0a7da6a96221afd7150add8ff2d07014d97eb6b858b878d9283"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000067.parquet",
+    "size": 26339,
+    "sha256": "f5a81727e3cd0ee362743e9694ffe40d44cfd2098f52defe610a271d651bc3f8"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000068.parquet",
+    "size": 25337,
+    "sha256": "c1cace68861d0315b4e39350cae7b959b304607365d63eb62d8099b1afa892ef"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000069.parquet",
+    "size": 27492,
+    "sha256": "9b8965df202b4a17a5d6197b37ad60ca7e9fa08f7f03b8d74f7ecaa215328ad3"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000070.parquet",
+    "size": 22836,
+    "sha256": "e33e15382806c806471ea2e52f8fc5f1326c0f6ecde1389cc99d79fbf2b6a7e4"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000071.parquet",
+    "size": 23947,
+    "sha256": "fa9258438da404704eb1274c056ca452c657b7fb0f784df25728a73fb4599bd3"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000072.parquet",
+    "size": 22518,
+    "sha256": "16b9e5f3f2a9f5e977b4f361796b12871315b57641740a22a614ccd071eb9251"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000073.parquet",
+    "size": 28368,
+    "sha256": "701521774e3384bd6ffce2f4a0ca86b04f4cacdee5e31011bf68e2bd8dc6099c"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000074.parquet",
+    "size": 24667,
+    "sha256": "d296800c9230a35446e20ad62cd832566e8f55ce789d6874be1a5362a4f0cad1"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000075.parquet",
+    "size": 27621,
+    "sha256": "aa99f591b45064c40d2d53e3c941e50b75bac7557f4d401e7bfad6ce09230048"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000076.parquet",
+    "size": 27037,
+    "sha256": "ea81a01e985b56e24288fca751401bad66438c42a6a3f7bf3ebac6eb68f3ec08"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000077.parquet",
+    "size": 24349,
+    "sha256": "1c48b693c6d27654547ec2ddc9070f020b2e2273d2e0ef5cc498d673278f6d98"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000078.parquet",
+    "size": 22999,
+    "sha256": "7151474257c2840146f58660ecf31f3f620082ee7e8946250e648a350d5b995f"
+  },
+  {
+    "path": "训练数据/data/chunk-000/episode_000079.parquet",
+    "size": 27597,
+    "sha256": "2d4d4c985110db6ecc1090a96fc4bbf023aa81270507b53a6a0f12cce778d574"
+  },
+  {
+    "path": "训练数据/meta/episodes.jsonl",
+    "size": 8510,
+    "sha256": "6aa9d96d3a86a004824a3b4d1d2ab5a69becaef7d8d36a19908ae71f1c4345a6"
+  },
+  {
+    "path": "训练数据/meta/episodes_stats.jsonl",
+    "size": 175621,
+    "sha256": "cfd9b58edeac514d4566d3e8f5aeec04b78d57d3172a5cfd36ffd32c6f62b85b"
+  },
+  {
+    "path": "训练数据/meta/info.json",
+    "size": 2607,
+    "sha256": "f285c488a21f221660ab84f60291ce6a97b03ab1f460eec6d3f8885ef5a9e16d"
+  },
+  {
+    "path": "训练数据/meta/tasks.jsonl",
+    "size": 169,
+    "sha256": "b8d6cb7a7eed4ca95b27ef3064bde0ba1fd4ebbbda895cd6065e16f612d6c70c"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000000.mp4",
+    "size": 3775800,
+    "sha256": "30065b52476b1c6c0004a368c8ea5ba3d0015d3071762e5019f596d3f537e1da"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000001.mp4",
+    "size": 3055709,
+    "sha256": "5bf8146bccf9600b0f826dd6d403746335401ce5ae7c858ccbff0e2955a42339"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000002.mp4",
+    "size": 3274079,
+    "sha256": "b71e1caa9d039f01857e8ccc164bfeb48245501d0dd258324b45162c60b45fdf"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000003.mp4",
+    "size": 3228083,
+    "sha256": "01c7219654c71c4b8f611bf42115c5639692e3050d419e6d4eb561e0e8e1d5b9"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000004.mp4",
+    "size": 3352471,
+    "sha256": "36cb9b157e3952c6222fa668616131202969795e2879bb2fcaf5d205285ef2b2"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000005.mp4",
+    "size": 2902158,
+    "sha256": "346f3961ef2dfc76612d7543b88ad6ecafd901e25407e3ed9409c2f6597d095e"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000006.mp4",
+    "size": 3450267,
+    "sha256": "08ce45750500fc7daa067ed6528b143a716b48d3092c25af32adab11356730d3"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000007.mp4",
+    "size": 3102638,
+    "sha256": "ad419841ecf9b2b674a0d728475925f680f9fc61dbc3a8b18c72ce5bbc9da412"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000008.mp4",
+    "size": 3457243,
+    "sha256": "6003d26001ca929f3fce4a554e494566870c67448067592c1e38ad0823a03dff"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000009.mp4",
+    "size": 3076971,
+    "sha256": "3c3dc847a81e88c689e53132413775febc5f544610aead5558c90bebb34e59c2"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000010.mp4",
+    "size": 3592462,
+    "sha256": "b3f8ac8da198b78ec3fe4536090715c1c24920b43433ce85e24783587a43c0f5"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000011.mp4",
+    "size": 3477365,
+    "sha256": "0a9f3b7d79be8050ecff7343b29bcca0f8f8fd66e12164855ac863810951bdca"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000012.mp4",
+    "size": 3740148,
+    "sha256": "2597882b699550eb004ad7fe9b929546c5dc325422c914bd15fe1d780b8d6ee2"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000013.mp4",
+    "size": 3040563,
+    "sha256": "707dce6393871405e5852b68b075312796d32719f57fded567fa354ea5866ced"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000014.mp4",
+    "size": 3803154,
+    "sha256": "c8314e71b33598629ad02e4ad19914d7fad76882a86bb842c8e08a5a211e9057"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000015.mp4",
+    "size": 3024283,
+    "sha256": "60bd275ec0d9dce5d9583706520069258d346ef2ec11d77c82b68728a7450efc"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000016.mp4",
+    "size": 3024610,
+    "sha256": "a6d709f0526956322b1e5b12a3d4aff2905bdf425041968adb08146935093f31"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000017.mp4",
+    "size": 3363242,
+    "sha256": "9c76b4307e4c8d94b62104b1ee7e8b6195bda3f18b3165b981de6a5a1498a235"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000018.mp4",
+    "size": 3382011,
+    "sha256": "0ed32b10f8e7e271599471275ba7c848c5f7e6b9660e125b2989fdf2a4e8b776"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000019.mp4",
+    "size": 3061137,
+    "sha256": "a3df4ec81d277ffb87f1309dc797b1b5d526b123d107ad2ad9bd8b5415493c7d"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000020.mp4",
+    "size": 3126306,
+    "sha256": "4702e4396eb5ed9ffb7f170f7096e3fb3063618012e1a21820f4f16e70005b2d"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000021.mp4",
+    "size": 3181222,
+    "sha256": "56d57ff15e7dccebd27c6f90cf754474c2a40348b3487700b9999cb089519521"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000022.mp4",
+    "size": 3599278,
+    "sha256": "8c3364abea4f402e797b5e1c438dace3916c1cb0b61f4d0949dd11c46ec5227a"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000023.mp4",
+    "size": 3253681,
+    "sha256": "c77e27780db4cd8c3a76f5d28dbe6b10752e9818e3318bc257a8298a8a06c846"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000024.mp4",
+    "size": 3398569,
+    "sha256": "800942afd83802a02bb52c4841f31df9d11e93e1912c83227d863d33ad1d3d7b"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000025.mp4",
+    "size": 3377658,
+    "sha256": "5e84f6200a37b425d73af77d99aa20e1d5c7b45a5aa6f679099a75d76f1ec87b"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000026.mp4",
+    "size": 2797335,
+    "sha256": "5768dfc3d32151692f07a79f3fdb4bf9f27cd3ce03307279a15b0318884bfea1"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000027.mp4",
+    "size": 3065051,
+    "sha256": "b90b5ce74cb9dfa7b5ec43f535099515d0e4fd119e012705fb0dfee68c41583b"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000028.mp4",
+    "size": 3167566,
+    "sha256": "e1192fe3b4614bc74187459b2c41296371de39b238878fd1a1b865b8061b4900"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000029.mp4",
+    "size": 3020742,
+    "sha256": "33d9ee31370ebd19d051233820cd1e407b95b7b9afb3deb63d029056e1bfd244"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000030.mp4",
+    "size": 3258511,
+    "sha256": "69ae6011e0382fe35652b338dda2df096f45d66396984ee27dbd75c3951b8120"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000031.mp4",
+    "size": 2996437,
+    "sha256": "08aac04465324644cf27a0715ea890e58b9d2564efbd542e47a887529d8fdecf"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000032.mp4",
+    "size": 3076169,
+    "sha256": "d83cdf4eb40e74a899f96cd5973ff194cd9ff219054af0147cd79ddf2c3392bf"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000033.mp4",
+    "size": 3473475,
+    "sha256": "22d0b15a0f6ee2f99c9ce1e1aefaacad666530b362225244bb8daec337674862"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000034.mp4",
+    "size": 3231187,
+    "sha256": "7fdf828dc25dcb73d64bb8fe73fab38a7f1289ccffcf543b7a03a3e7c617a3f5"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000035.mp4",
+    "size": 3026261,
+    "sha256": "40094ce326f087aab4738baadeaa51185de7f8a140ed9d9fc469d34716136782"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000036.mp4",
+    "size": 2800688,
+    "sha256": "df3cf7256f7aed521fb6d0e5df35de1942cbd16a2c683f6b070f30c393554a01"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000037.mp4",
+    "size": 2994100,
+    "sha256": "8c664dc2fb8812cf21825d8bbf5b56792946a2f2fbd9f041a1660186a7834ceb"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000038.mp4",
+    "size": 2946018,
+    "sha256": "f18d3aaade3acc3a72da50272e47850f207428805677839730a8e6a06329a11f"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000039.mp4",
+    "size": 3115850,
+    "sha256": "15420be9b6634ec6bd9e0376b3efa3d03e9bfa13ad917de93c7fdc829608a4e4"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000040.mp4",
+    "size": 3028217,
+    "sha256": "628ca856171517bb2ce4fa4e253dbceac6f50cd70f948c56262ec3f882a4e66b"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000041.mp4",
+    "size": 3088283,
+    "sha256": "d05735a7e797df85f3019de707e74ef526df7d5683b877acc6dd4a679902c47d"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000042.mp4",
+    "size": 3158563,
+    "sha256": "b5671fef7345b3834041fb3777366f853489a2e47818f062cecc88c241a96c79"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000043.mp4",
+    "size": 2842007,
+    "sha256": "822cab9a6cc097f8b8403d92ea46b6f21d1a490d95f658d3b10bf9faa2b7a324"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000044.mp4",
+    "size": 3369843,
+    "sha256": "d6b1c64557fe0c241fadd6990398a959a00c3672c1335543a3101c9de21d18d0"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000045.mp4",
+    "size": 3190746,
+    "sha256": "43021e47688af9188564cc75a38c011167ad0d9578441f95570a25712bfccce9"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000046.mp4",
+    "size": 3247787,
+    "sha256": "3cebe6511d52306a6d5c3f7b2fa8f4cab458a40e1023a9121b89a864135cdd35"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000047.mp4",
+    "size": 3216941,
+    "sha256": "45dd5290f14c74809620e4d91b72b094b01219cf2d41037825c79fb9751a9d1b"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000048.mp4",
+    "size": 2970661,
+    "sha256": "fde8d4392481de373dee823e253a600e21a58d5302f3a69c6e30e4ad855190dc"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000049.mp4",
+    "size": 3271536,
+    "sha256": "fa5e2c6fda2cc8a58bc743686050ea1563ab5d35ab00530d7de8d97c51fc424d"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000050.mp4",
+    "size": 2874869,
+    "sha256": "47fbd313b5a4e86410b87da9b9ce75d1fa7da530d38f761179fbcc5d2dd4e37d"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000051.mp4",
+    "size": 2681193,
+    "sha256": "7ee389d18207ffdf4109a3c1e265377e34ad7f8888c2e603725e61916aeba4f7"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000052.mp4",
+    "size": 2822941,
+    "sha256": "ea983ee0d467428f886d8afd21745fc9f9e38a75e675a69b04ffbbee12f3f3ba"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000053.mp4",
+    "size": 3116755,
+    "sha256": "e0f725ef6ecec72f244a25e6ac9a1c469ff1b9ec412aa337135f6d54abf4fc63"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000054.mp4",
+    "size": 2496387,
+    "sha256": "842c38b4cdbd96250dcfe727214ff504b564cec6714e3d6e96def928acf3897e"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000055.mp4",
+    "size": 2897594,
+    "sha256": "4210d1941ec501edfadfacf1cad6263b40d7a60eb8622e22836038e60038bbcf"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000056.mp4",
+    "size": 2706840,
+    "sha256": "595fc2a85ef54d77b8e56f6cec35f7282702ec9ca9a8e1881c706fe98859bb49"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000057.mp4",
+    "size": 3009343,
+    "sha256": "55c448f4c70d2134201ef4c597a6cb2020e875ab6c07e0720c3dc98394b441c8"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000058.mp4",
+    "size": 2829435,
+    "sha256": "ecbd4bc4599265eb2dff5a71f5e6074acb716ea12727c0eb5d972a4abc721de1"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000059.mp4",
+    "size": 2559879,
+    "sha256": "8f33d97426e5036051520b9c9da8191b045e511aa42a6057debeba735ad9a11b"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000060.mp4",
+    "size": 2938335,
+    "sha256": "c6cd891f430c12c17eb4c4caedc251e199bc2fad153f8d00b5858851d938bc84"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000061.mp4",
+    "size": 3047043,
+    "sha256": "4e19b9b75c90cc3763be2bf3d5f123beba55411ebe35ef7f1ca0b3887f2abb04"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000062.mp4",
+    "size": 2590666,
+    "sha256": "43d4d5668e88d4af22c8e6d4795cdf0979d01437bcba0a7716429c13ec2c3045"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000063.mp4",
+    "size": 3228126,
+    "sha256": "7fd68c80c7ce09b7868840bd738dce5889731b3502207795ae82b9a8f8b4335d"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000064.mp4",
+    "size": 2550094,
+    "sha256": "b294386bb708d2b1764af51df246fae87d38aaad3d061a76d37116275454b96b"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000065.mp4",
+    "size": 3172492,
+    "sha256": "f3956c1c9e3fe2bec57b9f1aa8ef299ba793a64e84eb29771db2894d9949f9c0"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000066.mp4",
+    "size": 2669275,
+    "sha256": "c07180f9b9bf662b2a48594235ab623e9206dc4b87e76e80d8b4e698d143c2ff"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000067.mp4",
+    "size": 2996190,
+    "sha256": "fb508842adf298ccd2f95585f171e97f4d12f79de7c812bd8af04040dfe687f8"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000068.mp4",
+    "size": 3176901,
+    "sha256": "93a4612c0fd88db7b58dd202603c559a266907f08e37d301c93836a33dd1b541"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000069.mp4",
+    "size": 3134519,
+    "sha256": "1a07516a643ebb96caf9bf67925b3cba8282d9b5f6c8b6ca4bb70a54b6a31018"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000070.mp4",
+    "size": 2732916,
+    "sha256": "ec096cccb648d6b40f82cf77522e1a064db61776e1df6b82c0a4d004fc5995bd"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000071.mp4",
+    "size": 2896830,
+    "sha256": "067e156c47dce85882efe273d2723dfcc346ab166e3abc6733d024d0e91634fa"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000072.mp4",
+    "size": 2867408,
+    "sha256": "8e8a5d36eef7d51353aabb1bba96e25ff0d3de8592de9b9391809a991986f892"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000073.mp4",
+    "size": 3249535,
+    "sha256": "c75abf2ecee8e7d04b9f748b75688eb40592c796754ae1c343afa8c46a4416b8"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000074.mp4",
+    "size": 3233965,
+    "sha256": "17cc6848a648f39cc834f3c59fa788609be6e9924f9aa4a751b4c912e18de53b"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000075.mp4",
+    "size": 3113862,
+    "sha256": "7ac784444ab73f9a1b05a4d9f78e1440725f659eb223bf13456c5d2aeec37765"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000076.mp4",
+    "size": 3510080,
+    "sha256": "f0167af522c44c24c4a874f6af61b5104623ee708230f425394b898b293f6934"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000077.mp4",
+    "size": 2838575,
+    "sha256": "be23e2b46389bea807aa6617e01449741f813ba83f086de1cb489b12d458ef57"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000078.mp4",
+    "size": 2955890,
+    "sha256": "44692814e53220fff3b9ad80d371ef0120f46f4828d1b15200d77d3dbdacfb10"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.front/episode_000079.mp4",
+    "size": 3217019,
+    "sha256": "ba96ec35b47c4dc501a0016d319b22e95b9c6662e3aa747951035fce27bdfcb6"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000000.mp4",
+    "size": 3017749,
+    "sha256": "441f17ef4690db8ea279d0c42f3bfa3762ab5c493976b596bc9eaa1cabcd7a39"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000001.mp4",
+    "size": 2655983,
+    "sha256": "c678a0b780e356740a93e3b9903cd77596bcbf8451b77782fdc2fce82629ac52"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000002.mp4",
+    "size": 2627904,
+    "sha256": "03130d37284cf49f835ebcfff1815fd17831f704bf35eb8e1b9066df58f49751"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000003.mp4",
+    "size": 2655935,
+    "sha256": "ef847978502878d5e64a2241c77c2b1b1e28b365bdda8435d59ca9cc372dc550"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000004.mp4",
+    "size": 2603862,
+    "sha256": "83d7896da68a7f0560bc5ca0d8b5d5cebe8a7662e4c4622049a9e5ab8cfad8ef"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000005.mp4",
+    "size": 2328816,
+    "sha256": "5e75d6156a9659d77fc72e999705034e1cae36a5f3ec08286f59ba2bc9bafc5e"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000006.mp4",
+    "size": 2756314,
+    "sha256": "3fcac5d268cd62801e0385f0b746a381dd9c60eb485f1bdac588026adc9fac8e"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000007.mp4",
+    "size": 2514435,
+    "sha256": "fdac22f3c0c7065fa5e3756c4f052e2b5397daecfc76c57d953c6d6c8dc6389f"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000008.mp4",
+    "size": 2854997,
+    "sha256": "6214dc0fc06627762cd20744e603db80a6c3ace329ad985eb73257d274d7c24c"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000009.mp4",
+    "size": 2543530,
+    "sha256": "e8a868d64198aa23a85bfbe77463ca3741ca4a4bc08860904b93868d50de1502"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000010.mp4",
+    "size": 2684506,
+    "sha256": "7da4598984a378c5307994ee9b813e791cffca915a5a077604b9e662fa39d326"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000011.mp4",
+    "size": 2830920,
+    "sha256": "c76b332fe00d12b70b2f04c073fe7e1badaf5b80129d50637cc600e8a50e2334"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000012.mp4",
+    "size": 3280946,
+    "sha256": "e7449addef6655b3749e3e767c175ca207e3299cefe253140c1cd616e00de3e6"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000013.mp4",
+    "size": 2423350,
+    "sha256": "5a1e27655f9cdd0b53e99f72ca9ca5c395789c369b118961709d4cf2ad8d365f"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000014.mp4",
+    "size": 3111221,
+    "sha256": "d9ecd2586217d16cb4322e31b7031f66f3638fce96f458d679b1570980dccbf4"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000015.mp4",
+    "size": 2349823,
+    "sha256": "f4a3c95cd1474ba48ee94b28d35df951ded640c5df7f9afc1e1c4794f5ca0300"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000016.mp4",
+    "size": 2603397,
+    "sha256": "9cb926de836c872695edc8a5ea2c705f3cdd335cde04bf923cf103529be24c51"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000017.mp4",
+    "size": 2597044,
+    "sha256": "e2ff882e05a6e8df7892e88d37a21dd691d4c00fa3466129f6255e027f4ffa6c"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000018.mp4",
+    "size": 2897702,
+    "sha256": "06277be9a50ec9f1f2f0914fcbd57fe6bcce3612dc3d9b55a79042ba5d3e473f"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000019.mp4",
+    "size": 2550246,
+    "sha256": "f334c8ab3fb41529f16dfa6ddc47985155c99cbebae6531b4fe444a04c911251"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000020.mp4",
+    "size": 2780650,
+    "sha256": "9ab1ce587c91105ecb60d21fae9e8343f0be3949e52f0bdf4b18f91e21c50578"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000021.mp4",
+    "size": 2686337,
+    "sha256": "40d297a6b4730bddef48bd5a7da7119e3df21769656738608d0b03066c016770"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000022.mp4",
+    "size": 2865058,
+    "sha256": "a64e383ac4921eaa30334774b0b0cc4aa1a417af7471b75b849303ff0d4a040a"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000023.mp4",
+    "size": 2536527,
+    "sha256": "d43b8f560d8c78c5f2371b6ee58fc58052d0ae232f7cd1c45be2a005b28298a1"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000024.mp4",
+    "size": 2668985,
+    "sha256": "a754b05afcd9adae504783ec189d4d9b98acb4579377ee5bf75962045ead5ae1"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000025.mp4",
+    "size": 2541761,
+    "sha256": "f9e379526a306bad67eb1118a8425957b6b198653e589a0a784c6430216493ad"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000026.mp4",
+    "size": 1955222,
+    "sha256": "b970f5c70d333fc0fd680c3ac4b331d3403aae20604c2cf777e1eb4f1c9ccf5b"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000027.mp4",
+    "size": 2024676,
+    "sha256": "77b241d7e4761a134cdc0f20fb5caeb385a9f65897c35baa5911fe19f086c961"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000028.mp4",
+    "size": 2131314,
+    "sha256": "e26d7942293c26397eac6ea54af355af033b9e4ae0ff4eebfeb0daf8fd02caa3"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000029.mp4",
+    "size": 1948543,
+    "sha256": "659a1b889e0de99d3646ddfafe6375819a01c28803fb4547c27a7dc07cf68d96"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000030.mp4",
+    "size": 2234955,
+    "sha256": "f688f628b2b3ae07e91efb7bb2b411970f306ffeb4817789adc0472c175cb85d"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000031.mp4",
+    "size": 1969863,
+    "sha256": "dba6c12854e3fc2b3137921b38c1f487f261d8569a53b0085d29150fcd424fca"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000032.mp4",
+    "size": 1968406,
+    "sha256": "6f2ff99d4355447b372dfc9e4488410c027d9556eb4223b24ea34f4b4a82946e"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000033.mp4",
+    "size": 2225574,
+    "sha256": "26496ddf20441197ed76e45fd65a92abe6512ac2a29f52eb8374334eb810e24b"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000034.mp4",
+    "size": 2180935,
+    "sha256": "60dfd0a0eed2826b5239547c06dbede0130d86ff5b19f6653c889980a28a164c"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000035.mp4",
+    "size": 2064293,
+    "sha256": "669f63f909e77d3a1b72830768ec6c4b0eb70a1ed88317a88d9728e2f1e1e7cf"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000036.mp4",
+    "size": 1794504,
+    "sha256": "c3c29e2c5de52a91d90ad6c3d71f5cc77d25c33640ce14b6488a60204138c4c9"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000037.mp4",
+    "size": 1835938,
+    "sha256": "649987c0a4ff2924cc5435212235f891961223862363fa0717b183adcd23a7fa"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000038.mp4",
+    "size": 1934671,
+    "sha256": "91d0f7454cd6de36f571dcd591fec42a0ef6eb065355e293cfd9a22fbebe0b5c"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000039.mp4",
+    "size": 2015347,
+    "sha256": "3d800cd4046d801833d3abcdba877a402e6a81dc5ecba00f8c933715863c97c8"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000040.mp4",
+    "size": 1879689,
+    "sha256": "644c281bc9f66d23fea50a88f9639f122a6a34a2df4b816c39075301f2284d13"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000041.mp4",
+    "size": 2027877,
+    "sha256": "3d6b2efafbb4ce053c18f8c6fd77e638b1b1b084d96d2bd29086c2c99130d9f1"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000042.mp4",
+    "size": 2069232,
+    "sha256": "b9e88803436bcea7d67be9556ce4ebe8166115c52c892b8c49ff85d95f2cba4e"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000043.mp4",
+    "size": 1949741,
+    "sha256": "42f2a89f272d93710e64dd4000d83a4c19af4229217d806e9497947c6dd0d2b6"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000044.mp4",
+    "size": 2219310,
+    "sha256": "b4da82560348ed5f1a4eac743a07885ef1dfffeaee9a396fdae170ed3a94d330"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000045.mp4",
+    "size": 2065814,
+    "sha256": "952849711bd69806338a93455f447aa0cb1a37c2b3409b9d08a4d3ca5e36ee87"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000046.mp4",
+    "size": 2053072,
+    "sha256": "c67b5847ed57a4f6bfe97dc630b536c0565bda4be5b2a7197905e3f5e94c3087"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000047.mp4",
+    "size": 2032430,
+    "sha256": "a6fe2aae4c551f29b7c50b956e35491475ddc464275e608484b5265db6b37cd8"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000048.mp4",
+    "size": 1896994,
+    "sha256": "4ba224ae1adbcd0e9c34af6e86ea8225ff283c6c4ef863fad48dc5b20798aefb"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000049.mp4",
+    "size": 2061765,
+    "sha256": "7f5e8f0383ad2e8cc65d3faa93a6e62648b29a378940e4031a8604d48d908221"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000050.mp4",
+    "size": 1831021,
+    "sha256": "0a5b240d8cd81eb37ef585814f3dbea608c9fd480cf53eaf2186fb9824f3a522"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000051.mp4",
+    "size": 1867811,
+    "sha256": "38884377192860eb7b19cd9c15c3e419962c8cca21955a7faea9c89c3aebfcae"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000052.mp4",
+    "size": 1817606,
+    "sha256": "9c00e2b3857e3a35a9334fc225f882ab9db638daa6137419099e68ad236abaec"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000053.mp4",
+    "size": 2130325,
+    "sha256": "feda8607b614621c38b7a9d81c8dc5a3c5337f27a13084746012c52fee5ab8ca"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000054.mp4",
+    "size": 1641741,
+    "sha256": "f496e7c0e89398d2dbdc36972fa58a508b829ccdca87a4f72e644a6dfa0a5a0f"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000055.mp4",
+    "size": 1942800,
+    "sha256": "bf4bc95e39d38ff206c995aa1958a286ec18136a465e53ffb70160720d3118e5"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000056.mp4",
+    "size": 1676694,
+    "sha256": "d468f52ddaac6e3783d9faac180521302cd5c82afbf57894d1ad51253086f8f5"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000057.mp4",
+    "size": 2092091,
+    "sha256": "26120947bc743fe118e127697502f5a6cbe2c204ecfe7c69f58480aa51c426ef"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000058.mp4",
+    "size": 1765924,
+    "sha256": "8e2257d0a4dcf8e91ceebb6187663f1c3eef21816ac062f39e6abc53f1906bae"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000059.mp4",
+    "size": 1821834,
+    "sha256": "c8ee778e3c427d3214c3bafd1ad1a3bf8a464eb9fafd598a9536b5a26c2f5c59"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000060.mp4",
+    "size": 1834960,
+    "sha256": "869073a915009b9256e4517ce229e4b04a73ab505d6c61e421da15317e23b9d1"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000061.mp4",
+    "size": 1990717,
+    "sha256": "0dc3a5890692cb5d5712375a8efd503e9600aa147454aa36094e01a94656a6e0"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000062.mp4",
+    "size": 1678180,
+    "sha256": "cac15fb1df8d55576dd0b32ee9a1a7750149be28b381095adddc2947827041b2"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000063.mp4",
+    "size": 2132973,
+    "sha256": "93f2e20ca974529d49407c97af327e23807241ea7d6bd5c22d15fc6ae5592e9c"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000064.mp4",
+    "size": 1566101,
+    "sha256": "7605c66578891a4e5897f97259fe5940c98234ac1c0933b0e851fb163ab3f94f"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000065.mp4",
+    "size": 1976984,
+    "sha256": "92f7e6e0d4d1f9fcd5cfa8e9de9b5f8d720c20eb1c9051cd8799fc6a51705560"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000066.mp4",
+    "size": 1627450,
+    "sha256": "73256282059c43d233ca8294dc91cfe70f6b3d3e48262544b71154fd6e051c99"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000067.mp4",
+    "size": 2045267,
+    "sha256": "23aeb86ea5a639a064f024832930107366abdea4a2425262b661cd76938e60c4"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000068.mp4",
+    "size": 1929888,
+    "sha256": "a3b720df00e0da02320304612921b75da152108d37c1fd8dffdd6ee904433bee"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000069.mp4",
+    "size": 2114717,
+    "sha256": "272efdad948876a1374ea4cf4d7733bb99ef9c87c0148cd34059924d6d4c52cd"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000070.mp4",
+    "size": 1751471,
+    "sha256": "b464547870b93f9e3b1d9a50a1e12221736b4a83562010d64e35ae39e2e58a40"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000071.mp4",
+    "size": 1897511,
+    "sha256": "3c1174760c59f105db24d379e8224b41088a60e320bb85225ba8fceaaebcbc50"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000072.mp4",
+    "size": 1870268,
+    "sha256": "abd90e164d7caa89c89db0e5f1ce11167d2b2e734bf67b3fadba0bc2dc0872c1"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000073.mp4",
+    "size": 2248832,
+    "sha256": "c4f3365c1244dee7349d6bd4f262fb32e1b086841c5295f8197f5137db945117"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000074.mp4",
+    "size": 2143000,
+    "sha256": "97675715b83d668b582e2fde25b87aaa9e88f7e3062f5e7c0cc65e2611c5ee23"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000075.mp4",
+    "size": 2097014,
+    "sha256": "77dec361a0b777ab1ae679e1349730d692b8005cf673b0d3e052b31adb791466"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000076.mp4",
+    "size": 2117168,
+    "sha256": "d9fce9c8240cf582c69046c58e856079b0ff8a0444f19ff5073fea5e9266fc38"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000077.mp4",
+    "size": 1914591,
+    "sha256": "07ab79e9e5ee9e600cc6ef7cc197fb7d941a360353c255e58eeb89fdc58474f6"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000078.mp4",
+    "size": 1901080,
+    "sha256": "d4815c7f6dee8b369952e4b0bf027a01e24a3d48f628a3bc4133d1371c60ac38"
+  },
+  {
+    "path": "训练数据/videos/chunk-000/observation.images.wrist/episode_000079.mp4",
+    "size": 2121680,
+    "sha256": "970c6152a9c401c1fe2827604f6f8881caee228c19801add96192a561a8dfa4b"
+  }
+]

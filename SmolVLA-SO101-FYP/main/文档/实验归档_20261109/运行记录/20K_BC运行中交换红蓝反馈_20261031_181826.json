@@ -1,0 +1,22 @@
+{
+  "run_id": "20261031_181826_580239",
+  "checkpoint": "step_020000",
+  "task": "BC",
+  "source": "用户反馈；日志已核对BC和20K；尚未逐帧核实交换时刻",
+  "phase_1": {
+    "red": "P1",
+    "blue": "P2",
+    "result": "夹爪在两物体中间张开，往P1红色位置靠近"
+  },
+  "phase_2": {
+    "red": "P2",
+    "blue": "P1",
+    "scene_changed_without_stopping_inference": true,
+    "result": "成功夹取",
+    "placement_and_return": "未单独确认"
+  },
+  "exchange_time_seconds": null,
+  "interpretation": "与P1位置偏向一致；运行中交换使机械臂状态、动作阶段、场景同时变化，不是独立重启的对照，不能据此证明只看位置或正确识别蓝色",
+  "next_comparison": "停止后固定红P2蓝P1，从相同起点独立运行BC与RC，区分按位置抓取与按颜色指令抓取",
+  "hardware_actions_by_diagnostic": false
+}

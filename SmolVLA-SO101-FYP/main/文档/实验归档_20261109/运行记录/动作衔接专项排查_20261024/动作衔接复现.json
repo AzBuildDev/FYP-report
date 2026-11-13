@@ -1,0 +1,612 @@
+{
+  "hardware_connected": false,
+  "camera_opened": false,
+  "motor_commands_sent": 0,
+  "method": "运行实际异步循环，虚拟时钟/工作器；固定已存动作块与理想跟随，仅隔离调度",
+  "limitations": "固定预测忽略新状态、新画面和接触，不能评估真实任务成功率。20/50步仅离线对照，未改实机配置。",
+  "source_log": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\实机抓取测试_20261024_132334_595600.jsonl",
+  "source_offline_report": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\第四次夹取稳定画面离线排查_20261024\\离线结果.json",
+  "scheduler_sha256": "1dad006bd63ff1731e403d5485ecc54ba1af97764475b33e690017c48efe0fae",
+  "real_end": {
+    "type": "end",
+    "sent_commands": 2020,
+    "inferences": 202,
+    "seconds": 180.2,
+    "stop_reason": "time_limit",
+    "cleanup_errors": []
+  },
+  "real_async_end": {
+    "type": "async_end",
+    "sent_commands": 2020,
+    "inferences": 202,
+    "skipped_action_steps": 3646,
+    "missed_ticks": 39,
+    "first_action_time": 1.187999999994645,
+    "last_action_time": 179.73500000000058,
+    "stop_reason": "time_limit",
+    "seconds": 179.96899999999732,
+    "active_control_hz": 11.307946927139257
+  },
+  "real_executed_index_range": [
+    15,
+    32
+  ],
+  "simulations": [
+    {
+      "seed": 42,
+      "first_gripper_below_30_index": 40,
+      "variants": [
+        {
+          "execute_limit": 10,
+          "duration_s": 30.0,
+          "stats": {
+            "sent_commands": 324,
+            "inferences": 33,
+            "skipped_action_steps": 564,
+            "missed_ticks": 0,
+            "first_action_time": 1.149999999998954,
+            "last_action_time": 29.999999999972715,
+            "stop_reason": "time_limit",
+            "seconds": 30.0,
+            "active_control_hz": 11.195840554602903
+          },
+          "selected_index_range": [
+            14,
+            31
+          ],
+          "selected_gripper_range": [
+            41.99485778808594,
+            46.855621337890625
+          ],
+          "sent_gripper_range": [
+            44.81231689453125,
+            46.855621337890625
+          ],
+          "max_sent_step_delta": 0.5,
+          "selected_gripper_below_30": 0,
+          "command_tick_fraction": 0.54,
+          "first_selected_indices": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ]
+        },
+        {
+          "execute_limit": 20,
+          "duration_s": 30.0,
+          "stats": {
+            "sent_commands": 578,
+            "inferences": 33,
+            "skipped_action_steps": 564,
+            "missed_ticks": 0,
+            "first_action_time": 1.149999999998954,
+            "last_action_time": 29.999999999972715,
+            "stop_reason": "time_limit",
+            "seconds": 30.0,
+            "active_control_hz": 20.00000000001819
+          },
+          "selected_index_range": [
+            14,
+            39
+          ],
+          "selected_gripper_range": [
+            30.620426177978516,
+            46.855621337890625
+          ],
+          "sent_gripper_range": [
+            40.81231689453125,
+            46.855621337890625
+          ],
+          "max_sent_step_delta": 0.5,
+          "selected_gripper_below_30": 0,
+          "command_tick_fraction": 0.9633333333333334,
+          "first_selected_indices": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        },
+        {
+          "execute_limit": 50,
+          "duration_s": 30.0,
+          "stats": {
+            "sent_commands": 578,
+            "inferences": 33,
+            "skipped_action_steps": 564,
+            "missed_ticks": 0,
+            "first_action_time": 1.149999999998954,
+            "last_action_time": 29.999999999972715,
+            "stop_reason": "time_limit",
+            "seconds": 30.0,
+            "active_control_hz": 20.00000000001819
+          },
+          "selected_index_range": [
+            14,
+            39
+          ],
+          "selected_gripper_range": [
+            30.620426177978516,
+            46.855621337890625
+          ],
+          "sent_gripper_range": [
+            40.81231689453125,
+            46.855621337890625
+          ],
+          "max_sent_step_delta": 0.5,
+          "selected_gripper_below_30": 0,
+          "command_tick_fraction": 0.9633333333333334,
+          "first_selected_indices": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 43,
+      "first_gripper_below_30_index": 40,
+      "variants": [
+        {
+          "execute_limit": 10,
+          "duration_s": 30.0,
+          "stats": {
+            "sent_commands": 324,
+            "inferences": 33,
+            "skipped_action_steps": 564,
+            "missed_ticks": 0,
+            "first_action_time": 1.149999999998954,
+            "last_action_time": 29.999999999972715,
+            "stop_reason": "time_limit",
+            "seconds": 30.0,
+            "active_control_hz": 11.195840554602903
+          },
+          "selected_index_range": [
+            14,
+            31
+          ],
+          "selected_gripper_range": [
+            45.070472717285156,
+            46.92304229736328
+          ],
+          "sent_gripper_range": [
+            45.46613311767578,
+            46.92304229736328
+          ],
+          "max_sent_step_delta": 0.5,
+          "selected_gripper_below_30": 0,
+          "command_tick_fraction": 0.54,
+          "first_selected_indices": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ]
+        },
+        {
+          "execute_limit": 20,
+          "duration_s": 30.0,
+          "stats": {
+            "sent_commands": 578,
+            "inferences": 33,
+            "skipped_action_steps": 564,
+            "missed_ticks": 0,
+            "first_action_time": 1.149999999998954,
+            "last_action_time": 29.999999999972715,
+            "stop_reason": "time_limit",
+            "seconds": 30.0,
+            "active_control_hz": 20.00000000001819
+          },
+          "selected_index_range": [
+            14,
+            39
+          ],
+          "selected_gripper_range": [
+            30.166091918945312,
+            46.92304229736328
+          ],
+          "sent_gripper_range": [
+            41.46613311767578,
+            46.92304229736328
+          ],
+          "max_sent_step_delta": 0.5,
+          "selected_gripper_below_30": 0,
+          "command_tick_fraction": 0.9633333333333334,
+          "first_selected_indices": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        },
+        {
+          "execute_limit": 50,
+          "duration_s": 30.0,
+          "stats": {
+            "sent_commands": 578,
+            "inferences": 33,
+            "skipped_action_steps": 564,
+            "missed_ticks": 0,
+            "first_action_time": 1.149999999998954,
+            "last_action_time": 29.999999999972715,
+            "stop_reason": "time_limit",
+            "seconds": 30.0,
+            "active_control_hz": 20.00000000001819
+          },
+          "selected_index_range": [
+            14,
+            39
+          ],
+          "selected_gripper_range": [
+            30.166091918945312,
+            46.92304229736328
+          ],
+          "sent_gripper_range": [
+            41.46613311767578,
+            46.92304229736328
+          ],
+          "max_sent_step_delta": 0.5,
+          "selected_gripper_below_30": 0,
+          "command_tick_fraction": 0.9633333333333334,
+          "first_selected_indices": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        }
+      ]
+    },
+    {
+      "seed": 44,
+      "first_gripper_below_30_index": 38,
+      "variants": [
+        {
+          "execute_limit": 10,
+          "duration_s": 30.0,
+          "stats": {
+            "sent_commands": 324,
+            "inferences": 33,
+            "skipped_action_steps": 564,
+            "missed_ticks": 0,
+            "first_action_time": 1.149999999998954,
+            "last_action_time": 29.999999999972715,
+            "stop_reason": "time_limit",
+            "seconds": 30.0,
+            "active_control_hz": 11.195840554602903
+          },
+          "selected_index_range": [
+            14,
+            31
+          ],
+          "selected_gripper_range": [
+            42.641693115234375,
+            47.08891296386719
+          ],
+          "sent_gripper_range": [
+            45.58544158935547,
+            47.08891296386719
+          ],
+          "max_sent_step_delta": 0.5000038146972656,
+          "selected_gripper_below_30": 0,
+          "command_tick_fraction": 0.54,
+          "first_selected_indices": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26
+          ]
+        },
+        {
+          "execute_limit": 20,
+          "duration_s": 30.0,
+          "stats": {
+            "sent_commands": 578,
+            "inferences": 33,
+            "skipped_action_steps": 564,
+            "missed_ticks": 0,
+            "first_action_time": 1.149999999998954,
+            "last_action_time": 29.999999999972715,
+            "stop_reason": "time_limit",
+            "seconds": 30.0,
+            "active_control_hz": 20.00000000001819
+          },
+          "selected_index_range": [
+            14,
+            39
+          ],
+          "selected_gripper_range": [
+            25.90765380859375,
+            47.08891296386719
+          ],
+          "sent_gripper_range": [
+            41.58544158935547,
+            47.08891296386719
+          ],
+          "max_sent_step_delta": 0.5,
+          "selected_gripper_below_30": 2,
+          "command_tick_fraction": 0.9633333333333334,
+          "first_selected_indices": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        },
+        {
+          "execute_limit": 50,
+          "duration_s": 30.0,
+          "stats": {
+            "sent_commands": 578,
+            "inferences": 33,
+            "skipped_action_steps": 564,
+            "missed_ticks": 0,
+            "first_action_time": 1.149999999998954,
+            "last_action_time": 29.999999999972715,
+            "stop_reason": "time_limit",
+            "seconds": 30.0,
+            "active_control_hz": 20.00000000001819
+          },
+          "selected_index_range": [
+            14,
+            39
+          ],
+          "selected_gripper_range": [
+            25.90765380859375,
+            47.08891296386719
+          ],
+          "sent_gripper_range": [
+            41.58544158935547,
+            47.08891296386719
+          ],
+          "max_sent_step_delta": 0.5,
+          "selected_gripper_below_30": 2,
+          "command_tick_fraction": 0.9633333333333334,
+          "first_selected_indices": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28
+          ]
+        }
+      ]
+    }
+  ]
+}

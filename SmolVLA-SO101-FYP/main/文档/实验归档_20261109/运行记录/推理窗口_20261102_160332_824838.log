@@ -1,0 +1,23 @@
+运行日志：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261102_160337_427692.jsonl
+【1/5】正在加载微调模型……
+模型：D:\FYP\SmolVLA-SO101-FYP\模型\新200段_batch32_20261102\step_020000
+演示：D:\FYP\AutoDL_新200段_4090D_20261102\训练数据
+处理器：D:\FYP\SmolVLA-SO101-FYP\模型\视觉语言处理器
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+任务指令：Pick up the blue cube and place it in the target area.
+推理输入存档：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261102_160337_427692
+【2/5】正在计算安全活动范围……
+【3/5】正在连接从臂（只检测，不动）……
+      夹爪原始位置：2105；标定范围：2046～3492。
+      从臂 COM4 在线，当前关节：[2.4000000953674316, -99.5999984741211, 0.6000000238418579, 62.5, -2.5999999046325684, 4.099999904632568]
+      夹爪当前开度：4.08；本次演示允许：0.00～75.83。
+【4/5】正在开启桌面和夹爪相机……
+Traceback (most recent call last):
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 638, in <module>
+    main(args.mode, args.scene, selected, settings=trajectory_trial_settings() if args.trajectory_trial else task_inference_settings(args.seconds) if args.task_inference else None,
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 186, in main
+    run_test(resources, mode, scene.strip(), selection, settings, window_start, preview_directory, task=task)
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 347, in run_test
+    raise RuntimeError("相机没有提供有效画面，已停止。")
+RuntimeError: 相机没有提供有效画面，已停止。

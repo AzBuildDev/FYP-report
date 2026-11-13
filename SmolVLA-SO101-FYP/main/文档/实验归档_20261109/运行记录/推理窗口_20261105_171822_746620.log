@@ -1,0 +1,55 @@
+启动请求：{"source": "voice", "transcript": "夹取红色方块。", "target": "RC", "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\新200段_阶段采样_20261103\\step_007500"}
+运行日志：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261105_171828_005389.jsonl
+【1/5】正在加载微调模型……
+模型：D:\FYP\SmolVLA-SO101-FYP\模型\新200段_阶段采样_20261103\step_007500
+演示：D:\FYP\AutoDL_新200段_阶段采样_20261103\训练数据
+处理器：D:\FYP\SmolVLA-SO101-FYP\模型\视觉语言处理器
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+任务指令：Pick up the red cube and place it in the target area.
+推理输入存档：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261105_171828_005389
+【2/5】正在计算安全活动范围……
+【3/5】正在连接从臂（只检测，不动）……
+      夹爪原始位置：2052；标定范围：2046～3492。
+      从臂 COM4 在线，当前关节：[0.800000011920929, -98.69999694824219, 1.100000023841858, 57.900001525878906, 1.600000023841858, 0.4000000059604645]
+      夹爪当前开度：0.41；本次演示允许：0.00～75.83。
+【4/5】正在开启桌面和夹爪相机……
+      逐路相机日志：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261105_171828_005389\相机日志
+      两路相机画面正常。
+      正在等待推理窗口显示双摄画面……
+      双摄画面已在推理窗口显示。
+      正在预热模型并检查推理时效（不发送动作）……
+【5/5】正在核对启动姿态与最终设备状态……
+============================================================
+控制设置：从当前位置开始，相邻发送指令每步最多变化 0.5 个归一化单位。
+任务推理：在演示活动范围与标定行程内运行。
+身体关节范围包含当前姿态；夹爪起点必须在演示范围内，超出时拒绝启用。
+运行时长：持续运行。运行期间从臂会自行运动，请全程看护。
+已收到窗口的“启动推理”请求，最终检查通过后开始；点击“停止推理”或关闭窗口可停止。
+异步模式每个控制节拍处理停止请求；串行模式需等当前推理结束。
+============================================================
+独立跟随误差上限：[5.610000133514404, 10.0, 6.170000076293945, 5.880000114440918, 3.5899999141693115, 3.0]；持续卡住 0.6 秒即停止。
+夹爪闭合受阻时先限制继续夹紧；疑似接触保持不限时，模型要求张开时释放。
+正在启用从臂扭矩……
+开始闭环控制，持续运行，直到点击停止或发生故障。
+实时状态JSON：{"type": "telemetry", "t": 0.7810000000172295, "observed_state": [0.7674596905708313, -98.65771484375, 1.1477411985397339, 57.894737243652344, 1.5625, 0.4149377644062042], "model_target": [0.9529446959495544, -95.0543212890625, -10.731697082519531, 66.32559967041016, 1.694154143333435, -0.15718460083007812], "target": [0.9529446959495544, -98.15771484375, 0.6477411985397339, 58.394737243652344, 1.694154143333435, 0.0], "chunk_index": 16, "source_age_s": 0.8119999999762513, "sent_target": [0.9529446959495544, -98.15771484375, 0.6477411985397339, 58.394737243652344, 1.694154143333435, 0.0], "gripper_control": {"mode": "position", "contact_position": null, "hold_floor": null, "held_seconds": 0.0, "max_hold_seconds": null, "force_measured": false}, "joint_names": ["shoulder_pan.pos", "shoulder_lift.pos", "elbow_flex.pos", "wrist_flex.pos", "wrist_roll.pos", "gripper.pos"], "limited": [false, true, true, true, false, true], "command_error": [0.18548500537872314, 0.5, -0.5, 0.5, 0.13165414333343506, -0.4149377644062042], "sent_commands": 1, "inferences": 1, "inference_s": 0.75, "limited_joints": 4, "fault_status": {"shoulder_pan": 0, "shoulder_lift": 0, "elbow_flex": 0, "wrist_flex": 0, "wrist_roll": 0, "gripper": 0}, "units": "归一化开度/位置，非角度"}
+实时状态JSON：{"type": "telemetry", "t": 1.3429999999934807, "observed_state": [0.7674596905708313, -94.46308898925781, -1.4407814741134644, 62.71929931640625, 1.5625, 0.34578147530555725], "model_target": [0.9370079040527344, -73.68086242675781, -22.66930389404297, 70.96685791015625, 1.734402060508728, 0.1774005889892578], "target": [0.9370079040527344, -92.65771484375, -4.852258682250977, 63.894737243652344, 1.734402060508728, 0.1774005889892578], "chunk_index": 27, "source_age_s": 1.375, "sent_target": [0.9370079040527344, -92.65771484375, -4.852258682250977, 63.894737243652344, 1.734402060508728, 0.1774005889892578], "gripper_control": {"mode": "position", "contact_position": null, "hold_floor": null, "held_seconds": 0.0, "max_hold_seconds": null, "force_measured": false}, "joint_names": ["shoulder_pan.pos", "shoulder_lift.pos", "elbow_flex.pos", "wrist_flex.pos", "wrist_roll.pos", "gripper.pos"], "limited": [false, true, true, true, false, false], "command_error": [0.16954821348190308, 1.8053741455078125, -3.411477208137512, 1.1754379272460938, 0.17190206050872803, -0.16838088631629944], "sent_commands": 12, "inferences": 1, "inference_s": 0.75, "limited_joints": 3, "fault_status": {"shoulder_pan": 0, "shoulder_lift": 0, "elbow_flex": 0, "wrist_flex": 0, "wrist_roll": 0, "gripper": 0}, "units": "归一化开度/位置，非角度"}
+实时状态JSON：{"type": "telemetry", "t": 1.875, "observed_state": [0.6907137632369995, -92.28187561035156, -6.910866737365723, 66.31578826904297, 1.875, 0.34578147530555725], "model_target": [1.202114224433899, -87.57177734375, -14.977584838867188, 66.99459838867188, 2.0560975074768066, 0.21068191528320312], "target": [1.202114224433899, -91.45684814453125, -10.352258682250977, 66.36389923095703, 2.0560975074768066, 0.21068191528320312], "chunk_index": 23, "source_age_s": 1.1719999999622814, "sent_target": [1.202114224433899, -91.45684814453125, -10.352258682250977, 66.36389923095703, 2.0560975074768066, 0.21068191528320312], "gripper_control": {"mode": "position", "contact_position": null, "hold_floor": null, "held_seconds": 0.0, "max_hold_seconds": null, "force_measured": false}, "joint_names": ["shoulder_pan.pos", "shoulder_lift.pos", "elbow_flex.pos", "wrist_flex.pos", "wrist_roll.pos", "gripper.pos"], "limited": [false, true, true, true, false, false], "command_error": [0.5114004611968994, 0.8250274658203125, -3.441391944885254, 0.0481109619140625, 0.18109750747680664, -0.13509956002235413], "sent_commands": 23, "inferences": 2, "inference_s": 0.7820000000065193, "limited_joints": 3, "fault_status": {"shoulder_pan": 0, "shoulder_lift": 0, "elbow_flex": 0, "wrist_flex": 0, "wrist_roll": 0, "gripper": 0}, "units": "归一化开度/位置，非角度"}
+
+异常停止：相机输入异常，停止控制。夹爪相机（observation.images.wrist）：画面过期 0.515 秒，允许上限 0.500 秒
+已释放扭矩并断开连接。
+共发送 24 次动作、2 次推理。
+模型输入画面：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261105_171828_005389（共 3 组）
+运行日志：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261105_171828_005389.jsonl
+Traceback (most recent call last):
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 667, in <module>
+    main(args.mode, args.scene, selected, settings=trajectory_trial_settings() if args.trajectory_trial else task_inference_settings(args.seconds) if args.task_inference else None,
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 191, in main
+    run_test(resources, mode, scene.strip(), selection, settings, window_start, preview_directory, task=task)
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 555, in run_test
+    run_async_control(predict, read_state, get_frame, send_target,
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\异步动作控制.py", line 144, in run_async_control
+    validate_frame(stamp, image, time.monotonic())
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\检查控制输入.py", line 122, in validate_frame
+    raise error
+RuntimeError: 相机输入异常，停止控制。夹爪相机（observation.images.wrist）：画面过期 0.515 秒，允许上限 0.500 秒

@@ -1,0 +1,194 @@
+{
+  "status": "passed",
+  "scope": "held_out_demonstration_actions",
+  "held_out_validation": true,
+  "overlapping_episodes": [],
+  "same_recording_batch": true,
+  "reason": "整段留出，未发现相同动作/状态或相同视频；仍非实机成功率",
+  "model": "模型\\整段留出实验模型",
+  "checkpoint_sha256": "8b6ef6d869658a1958e960b6c222acdf04a96804904ae27e652417a96fdc09a3",
+  "training": {
+    "steps": 1000,
+    "batch_size": 4,
+    "episodes": [
+      0,
+      1
+    ],
+    "total_frames": 772,
+    "first_50_avg_loss": 0.17852478176355363,
+    "last_50_avg_loss": 0.05830284152179956,
+    "seconds": 413.71174099999985,
+    "peak_gpu_memory_mib": 2084.3212890625
+  },
+  "evaluation": {
+    "created_at": "2026-10-06T12:31:38",
+    "episodes": 1,
+    "frames": 342,
+    "samples": 9,
+    "seed": 42,
+    "joint_names": [
+      "shoulder_pan.pos",
+      "shoulder_lift.pos",
+      "elbow_flex.pos",
+      "wrist_flex.pos",
+      "wrist_roll.pos",
+      "gripper.pos"
+    ],
+    "mae_per_joint": [
+      7.093349456787109,
+      6.128417491912842,
+      6.930624008178711,
+      4.805963516235352,
+      5.698280334472656,
+      3.464263439178467
+    ],
+    "normalized_mae": 0.5223298072814941,
+    "steady_inference_median_s": 0.7613973499999247,
+    "samples_detail": [
+      {
+        "episode": 2,
+        "frame": 0,
+        "inference_s": 1.5078969999999572,
+        "mae_per_joint": [
+          6.405756950378418,
+          8.548076629638672,
+          4.447786331176758,
+          3.3338842391967773,
+          1.0716534852981567,
+          1.913624882698059
+        ],
+        "normalized_mae": 0.33689218759536743
+      },
+      {
+        "episode": 2,
+        "frame": 36,
+        "inference_s": 0.709939100000156,
+        "mae_per_joint": [
+          7.935415267944336,
+          3.5627052783966064,
+          15.107970237731934,
+          8.039071083068848,
+          1.3060225248336792,
+          2.5130810737609863
+        ],
+        "normalized_mae": 0.5470373630523682
+      },
+      {
+        "episode": 2,
+        "frame": 73,
+        "inference_s": 0.7186173999998573,
+        "mae_per_joint": [
+          5.406959056854248,
+          9.060614585876465,
+          7.89946174621582,
+          3.722642183303833,
+          3.370309829711914,
+          2.028714179992676
+        ],
+        "normalized_mae": 0.4508870542049408
+      },
+      {
+        "episode": 2,
+        "frame": 109,
+        "inference_s": 0.7719845000001442,
+        "mae_per_joint": [
+          3.217851161956787,
+          8.9861478805542,
+          10.283012390136719,
+          5.156851768493652,
+          3.7965478897094727,
+          3.057004690170288
+        ],
+        "normalized_mae": 0.5211440324783325
+      },
+      {
+        "episode": 2,
+        "frame": 146,
+        "inference_s": 0.7582892999998876,
+        "mae_per_joint": [
+          13.840256690979004,
+          2.372915744781494,
+          8.718342781066895,
+          6.612250328063965,
+          9.042407035827637,
+          7.3781232833862305
+        ],
+        "normalized_mae": 0.7321797013282776
+      },
+      {
+        "episode": 2,
+        "frame": 182,
+        "inference_s": 0.714988799999901,
+        "mae_per_joint": [
+          5.333291530609131,
+          2.913968563079834,
+          2.371250867843628,
+          2.6482818126678467,
+          9.10815143585205,
+          4.027709484100342
+        ],
+        "normalized_mae": 0.461347758769989
+      },
+      {
+        "episode": 2,
+        "frame": 219,
+        "inference_s": 0.7744717999999011,
+        "mae_per_joint": [
+          15.357166290283203,
+          4.912382125854492,
+          5.530030727386475,
+          6.7311811447143555,
+          13.428720474243164,
+          4.36236572265625
+        ],
+        "normalized_mae": 0.8165084719657898
+      },
+      {
+        "episode": 2,
+        "frame": 255,
+        "inference_s": 0.7645053999999618,
+        "mae_per_joint": [
+          4.917028427124023,
+          12.114516258239746,
+          6.277669906616211,
+          3.0584747791290283,
+          7.218715667724609,
+          1.5515236854553223
+        ],
+        "normalized_mae": 0.5447277426719666
+      },
+      {
+        "episode": 2,
+        "frame": 292,
+        "inference_s": 0.8170895999996901,
+        "mae_per_joint": [
+          1.426405429840088,
+          2.68442964553833,
+          1.7400882244110107,
+          3.9510436058044434,
+          2.9419851303100586,
+          4.346207618713379
+        ],
+        "normalized_mae": 0.290243923664093
+      }
+    ]
+  },
+  "validation_episode_ids": [
+    2
+  ],
+  "checkpoint_training_statistics_verified": true,
+  "pipeline_checks": {
+    "status": "passed",
+    "created_at": "2026-10-06T12:41:18",
+    "tests_run": 10,
+    "failures": 0,
+    "errors": 0,
+    "hardware_tested": false,
+    "robot_commands_sent": 0,
+    "scope": "data_pipeline_software_tests"
+  },
+  "hardware_tested": false,
+  "robot_commands_sent": 0,
+  "task_success_evaluated": false,
+  "notes": "同批次完整段留出，未参与本次训练；不证明独立新场景泛化或实机抓取成功率。"
+}

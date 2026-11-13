@@ -1,0 +1,418 @@
+{
+  "user_reported_trials": [
+    {
+      "experiment": 1,
+      "target": "RC",
+      "red": "P2",
+      "blue": "P1",
+      "result": "夹蓝并完成动作，颜色错误"
+    },
+    {
+      "experiment": 2,
+      "target": "RC",
+      "red": "P1",
+      "blue": "P2",
+      "result": "成功夹红"
+    },
+    {
+      "experiment": 3,
+      "target": "未单独说明",
+      "red": "P3",
+      "blue": "P4",
+      "result": "未夹起物体"
+    },
+    {
+      "experiment": 4,
+      "target": "未单独说明",
+      "red": "P4",
+      "blue": "P3",
+      "result": "未夹起物体"
+    }
+  ],
+  "logs": [
+    {
+      "run_id": "220224_396857",
+      "configuration": {
+        "type": "配置",
+        "task": "Pick up the blue cube and place it in the target area.",
+        "control_hz": 20,
+        "max_step_delta": 0.5,
+        "target_strategy": "trajectory",
+        "mode": "async",
+        "scene": "演示起始位置",
+        "run_kind": "real_hardware",
+        "run_id": "20261031_220224_396857",
+        "start_pose_policy": "current_pose",
+        "range_margin": 3.0,
+        "max_total_travel": null,
+        "control_profile": "task_inference",
+        "start_requested_in_window": true,
+        "chunk_execute": 20,
+        "test_seconds": null
+      },
+      "model_identity": {
+        "type": "model_identity",
+        "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_双摄抓红抓蓝_batch16_60K_20261031\\best_val",
+        "dataset_path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+        "processor_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+        "checkpoint_sha256": "5848fc38732d952b4f3383e22abc6c94078437c852ddbac2b38669df7694bf20"
+      },
+      "start": {
+        "type": "start",
+        "initial_state": [
+          2.072141170501709,
+          -98.9932861328125,
+          -0.17094017565250397,
+          70.0,
+          -1.3020833730697632,
+          0.7607192397117615
+        ],
+        "control_lower": [
+          -77.44358825683594,
+          -100.0,
+          -83.65933990478516,
+          44.28070068359375,
+          -56.54166793823242,
+          0.0
+        ],
+        "control_upper": [
+          45.440521240234375,
+          53.50335693359375,
+          3.317460298538208,
+          100.0,
+          28.72916603088379,
+          71.13578033447266
+        ]
+      },
+      "end": {
+        "type": "end",
+        "sent_commands": 1406,
+        "inferences": 93,
+        "seconds": 71.9,
+        "stop_reason": "user_stop",
+        "cleanup_errors": []
+      },
+      "control_diagnostics": {
+        "type": "control_diagnostics",
+        "action_records": 1406,
+        "limited_fraction": [
+          0.38762446657183497,
+          0.44096728307254623,
+          0.2809388335704125,
+          0.39046941678520625,
+          0.2809388335704125,
+          0.561877667140825
+        ]
+      },
+      "mean_abs_tracking": [
+        0.9396102031849187,
+        1.5982499994220978,
+        1.1590101568910636,
+        0.8275938101886516,
+        0.5931084778313531,
+        0.9932459429181996
+      ],
+      "prediction_outside_bounds_fraction": [
+        0,
+        0,
+        0,
+        0.04480796586059744,
+        0,
+        0
+      ]
+    },
+    {
+      "run_id": "220532_098179",
+      "configuration": {
+        "type": "配置",
+        "task": "Pick up the red cube and place it in the target area.",
+        "control_hz": 20,
+        "max_step_delta": 0.5,
+        "target_strategy": "trajectory",
+        "mode": "async",
+        "scene": "演示起始位置",
+        "run_kind": "real_hardware",
+        "run_id": "20261031_220532_098179",
+        "start_pose_policy": "current_pose",
+        "range_margin": 3.0,
+        "max_total_travel": null,
+        "control_profile": "task_inference",
+        "start_requested_in_window": true,
+        "chunk_execute": 20,
+        "test_seconds": null
+      },
+      "model_identity": {
+        "type": "model_identity",
+        "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_双摄抓红抓蓝_batch16_60K_20261031\\best_val",
+        "dataset_path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+        "processor_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+        "checkpoint_sha256": "5848fc38732d952b4f3383e22abc6c94078437c852ddbac2b38669df7694bf20"
+      },
+      "start": {
+        "type": "start",
+        "initial_state": [
+          1.9186493158340454,
+          -98.32215118408203,
+          -0.2686202824115753,
+          66.22807312011719,
+          -0.2083333283662796,
+          0.7607192397117615
+        ],
+        "control_lower": [
+          -77.44358825683594,
+          -100.0,
+          -83.65933990478516,
+          44.28070068359375,
+          -56.54166793823242,
+          0.0
+        ],
+        "control_upper": [
+          45.440521240234375,
+          53.50335693359375,
+          3.317460298538208,
+          100.0,
+          28.72916603088379,
+          71.13578033447266
+        ]
+      },
+      "end": {
+        "type": "end",
+        "sent_commands": 2047,
+        "inferences": 134,
+        "seconds": 104.2,
+        "stop_reason": "user_stop",
+        "cleanup_errors": []
+      },
+      "control_diagnostics": {
+        "type": "control_diagnostics",
+        "action_records": 2047,
+        "limited_fraction": [
+          0.2696629213483146,
+          0.33854421104054716,
+          0.19540791402051783,
+          0.30532486565705913,
+          0.19296531509526135,
+          0.33512457254518807
+        ]
+      },
+      "mean_abs_tracking": [
+        0.7089691734133433,
+        1.1527020841851487,
+        0.6850816492440791,
+        0.8082788632331852,
+        0.4622790142256834,
+        0.8354150127887027
+      ],
+      "prediction_outside_bounds_fraction": [
+        0,
+        0,
+        0,
+        0.04592085979482169,
+        0,
+        0
+      ]
+    },
+    {
+      "run_id": "220845_512660",
+      "configuration": {
+        "type": "配置",
+        "task": "Pick up the blue cube and place it in the target area.",
+        "control_hz": 20,
+        "max_step_delta": 0.5,
+        "target_strategy": "trajectory",
+        "mode": "async",
+        "scene": "演示起始位置",
+        "run_kind": "real_hardware",
+        "run_id": "20261031_220845_512660",
+        "start_pose_policy": "current_pose",
+        "range_margin": 3.0,
+        "max_total_travel": null,
+        "control_profile": "task_inference",
+        "start_requested_in_window": true,
+        "chunk_execute": 20,
+        "test_seconds": null
+      },
+      "model_identity": {
+        "type": "model_identity",
+        "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_双摄抓红抓蓝_batch16_60K_20261031\\best_val",
+        "dataset_path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+        "processor_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+        "checkpoint_sha256": "5848fc38732d952b4f3383e22abc6c94078437c852ddbac2b38669df7694bf20"
+      },
+      "start": {
+        "type": "start",
+        "initial_state": [
+          2.8396010398864746,
+          -99.07717895507812,
+          0.17094017565250397,
+          64.5614013671875,
+          -0.2083333283662796,
+          0.7607192397117615
+        ],
+        "control_lower": [
+          -77.44358825683594,
+          -100.0,
+          -83.65933990478516,
+          44.28070068359375,
+          -56.54166793823242,
+          0.0
+        ],
+        "control_upper": [
+          45.440521240234375,
+          53.50335693359375,
+          3.317460298538208,
+          100.0,
+          28.72916603088379,
+          71.13578033447266
+        ]
+      },
+      "end": {
+        "type": "end",
+        "sent_commands": 5009,
+        "inferences": 328,
+        "seconds": 254.1,
+        "stop_reason": "user_stop",
+        "cleanup_errors": []
+      },
+      "control_diagnostics": {
+        "type": "control_diagnostics",
+        "action_records": 5009,
+        "limited_fraction": [
+          0.07646236773807147,
+          0.13296067079257337,
+          0.06987422639249351,
+          0.10001996406468357,
+          0.04891195847474546,
+          0.6907566380515073
+        ]
+      },
+      "mean_abs_tracking": [
+        0.4423858651794295,
+        2.0485884947339725,
+        1.4223370280906626,
+        0.46211262019624444,
+        0.2554226717083343,
+        1.115123747541748
+      ],
+      "prediction_outside_bounds_fraction": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.001597125174685566
+      ]
+    },
+    {
+      "run_id": "221428_855430",
+      "configuration": {
+        "type": "配置",
+        "task": "Pick up the blue cube and place it in the target area.",
+        "control_hz": 20,
+        "max_step_delta": 0.5,
+        "target_strategy": "trajectory",
+        "mode": "async",
+        "scene": "演示起始位置",
+        "run_kind": "real_hardware",
+        "run_id": "20261031_221428_855430",
+        "start_pose_policy": "current_pose",
+        "range_margin": 3.0,
+        "max_total_travel": null,
+        "control_profile": "task_inference",
+        "start_requested_in_window": true,
+        "chunk_execute": 20,
+        "test_seconds": null
+      },
+      "model_identity": {
+        "type": "model_identity",
+        "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_双摄抓红抓蓝_batch16_60K_20261031\\best_val",
+        "dataset_path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+        "processor_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+        "checkpoint_sha256": "5848fc38732d952b4f3383e22abc6c94078437c852ddbac2b38669df7694bf20"
+      },
+      "start": {
+        "type": "start",
+        "initial_state": [
+          0.9976975917816162,
+          -88.75839233398438,
+          1.3919414281845093,
+          69.91227722167969,
+          -1.1979166269302368,
+          0.0
+        ],
+        "control_lower": [
+          -77.44358825683594,
+          -100.0,
+          -83.65933990478516,
+          44.28070068359375,
+          -56.54166793823242,
+          0.0
+        ],
+        "control_upper": [
+          45.440521240234375,
+          53.50335693359375,
+          4.391941547393799,
+          100.0,
+          28.72916603088379,
+          71.13578033447266
+        ]
+      },
+      "end": {
+        "type": "end",
+        "sent_commands": 1869,
+        "inferences": 124,
+        "seconds": 94.8,
+        "stop_reason": "user_stop",
+        "cleanup_errors": []
+      },
+      "control_diagnostics": {
+        "type": "control_diagnostics",
+        "action_records": 1869,
+        "limited_fraction": [
+          0.10486891385767791,
+          0.2209737827715356,
+          0.12787586944890317,
+          0.18940609951845908,
+          0.08132691278758694,
+          0.6976993044408775
+        ]
+      },
+      "mean_abs_tracking": [
+        0.5166404279812955,
+        1.5566657765655354,
+        1.4591268313886203,
+        0.552095371366759,
+        0.32600255131147454,
+        1.1068265757709344
+      ],
+      "prediction_outside_bounds_fraction": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "pairing_status": "用户确认口述就是这四轮，且各轮中未换位；任务标签及前两轮摆放与日志/存档仍有差异，保留双方记录，不强行消除矛盾",
+  "visual_observations": [
+    "220224第30张front显示蓝色方块被提起；日志BC",
+    "220532第20张front显示蓝色方块被提起，第30张蓝块在目标框；日志RC，明确颜色不符",
+    "前两轮第一张front的红蓝位置排列相同，不能按口述直接认定它们是交换位置的配对",
+    "220845、221428抽查画面末端接近方块旁空处，未见选取帧中物体被提起；完整结果以用户反馈为准"
+  ],
+  "evidence_limits": [
+    "全部日志同一46K best_val，不代表last60K已测试",
+    "后两轮模型身体关节目标均未越活动范围，限幅主要不是范围裁切；速度与跟随限制仍在作用",
+    "后一轮初始shoulder_lift约-88.76，前几轮约-99，起始姿态不一致",
+    "空间偏向和语言选择失败是不同现象；不能据此证明完全忽略图像或语言",
+    "尚无充分证据将问题归因于全局位置频率偏置，原80条计划目标位置是平衡的"
+  ],
+  "hardware_actions_sent": false,
+  "user_clarification_20261101": {
+    "same_four_logged_runs": true,
+    "objects_swapped_within_run": false,
+    "source": "用户明确确认：没有换位，描述的是这四轮"
+  }
+}

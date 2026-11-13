@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "created_at": "2026-10-06T13:33:25",
+  "scope": "local_data_and_model_plan_integration",
+  "model_inference_executed": false,
+  "new_training_executed": false,
+  "robot_commands_sent": 0,
+  "hardware_tested": false,
+  "task_success_evaluated": false,
+  "dataset": "../训练数据采集/机械臂控制项目/任务演示/单相机演示_20261005_205636_902311",
+  "model": "模型/整段留出实验模型",
+  "checks": [
+    {
+      "kind": "train_plan",
+      "episodes": [
+        0,
+        1
+      ],
+      "expected": "succeeded",
+      "actual": "succeeded"
+    },
+    {
+      "kind": "eval_plan",
+      "episodes": [
+        2
+      ],
+      "expected": "succeeded",
+      "actual": "succeeded"
+    },
+    {
+      "kind": "eval_plan",
+      "episodes": [
+        0
+      ],
+      "expected": "failed",
+      "actual": "failed",
+      "overlap_rejected": true
+    }
+  ]
+}

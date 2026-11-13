@@ -1,0 +1,2 @@
+{"time": 1793863050.444123, "status": "loading", "message": "正在准备百炼语音 API；点击录音后才上传音频"}
+{"time": 1793863050.7219703, "status": "ready", "log": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\语音指令_1793863050432957800.jsonl", "backend": "dashscope", "semantic": true}

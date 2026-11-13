@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-07-20T18:35:31",
+  "target_class": "red_cube",
+  "source_dir": "F:\\FYP\\Project\\so101_mac_bringup\\vision\\outputs\\gripper_mask_shape_demos\\gripper_mask_shape_demo_20260720_183248",
+  "source_filter": "dist_px <= 8 and 18000 <= mask_area_px <= 26000",
+  "source_rows": 57,
+  "mask_area_px": 22329.0,
+  "mask_sqrt_area_px": 149.428913,
+  "mask_bbox_w_px": 142.0,
+  "mask_bbox_h_px": 166.0,
+  "mask_bbox_aspect": 0.855422,
+  "mask_extent": 0.937979,
+  "mask_solidity": 0.98844,
+  "mask_circularity": 0.804209,
+  "mask_rect_aspect": 1.198582,
+  "mask_angle_deg": -90.0,
+  "mask_major_axis_px": 166.0,
+  "mask_minor_axis_px": 140.0,
+  "mask_axis_ratio": 1.198582
+}

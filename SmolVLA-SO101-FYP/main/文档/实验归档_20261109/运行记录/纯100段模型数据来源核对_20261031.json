@@ -1,0 +1,7 @@
+{
+  "dataset_root": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+  "episodes": 100,
+  "matched_episodes": 100,
+  "mismatch_episodes": [],
+  "scope": "动作、状态、时间、任务和两路视频内容指纹"
+}

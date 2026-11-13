@@ -1,0 +1,11 @@
+{
+  "status": "completed",
+  "episodes_total": 200,
+  "episodes_confirmed": 200,
+  "annotation": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\目标选择时间标注\\首次接触_68150bfbbc95.json",
+  "export": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\目标选择时间标注\\首次接触_68150bfbbc95_训练导出.json",
+  "dataset_fingerprint": "68150bfbbc95b097db1942ee19da21e8dcbd882f15a983061300970bb8fff9e2",
+  "videos_modified": false,
+  "training_started": false,
+  "robot_commands_sent": 0
+}

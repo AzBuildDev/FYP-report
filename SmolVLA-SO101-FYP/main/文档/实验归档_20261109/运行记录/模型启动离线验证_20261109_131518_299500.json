@@ -1,0 +1,63 @@
+{
+  "status": "passed",
+  "created_at": "2026-11-09T13:15:13",
+  "scope": "offline_model_startup",
+  "hardware_tested": false,
+  "robot_commands_sent": 0,
+  "task_success_evaluated": false,
+  "model": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯80段_指令对比_20261108\\step_001715",
+  "dataset": "D:\\FYP\\AutoDL_纯80段_指令对比_20261108\\训练数据",
+  "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\视觉语言处理器",
+  "checkpoint_sha256": "731444a455c456bd524da373b070e1238b4ba9f95e1ac0122db807309ec0c0bc",
+  "config_sha256": "06d0a0db1cacc2dc5a2e7abde1ea66e08694cb3f568ba8fceb1c1ebaebdd8121",
+  "control_hz": 20,
+  "max_step_delta": 1.0,
+  "chunk_execute": 20,
+  "control_profile": "task_inference",
+  "software_sha256": {
+    "预热模型与检查时效.py": "f91794d049909c46bfe1429930158f85a581dc839d091d657e1d85308b2c41d4",
+    "实机抓取测试.py": "61b5610aa58ee6ec5d57ee939a91790d7b083e809460a223bff19ca51e2635d5",
+    "异步动作控制.py": "efcde972fdff4a29a74e0de17c7934f5913b75b7a878a9c325829d04ab251fab",
+    "模型启动离线验证.py": "c7805efc14c8f9cd1cec22015cc814810029a4eedc43bc829bec9959b3369182",
+    "检查与释放电机.py": "2b5ba5aa21d502e2ff5fc067ebd1f971c044092a72e9aa3f954fdd86b7e20d30",
+    "实机测试监视窗口.py": "df956956e6c2bc4de41d705bffce0c2f1d5c4de93102e7845b0adac397bcdb81",
+    "选择推理模型.py": "745cd2182f05c66c089bd31b3ad9c8fe475c096c390ac803cf0c9632e40d76c5",
+    "推理运行设置.py": "3652ce44c655feaf5878b56ef51004e2ef607a017c5a59e9f566f7cfec8c38cf"
+  },
+  "notes": "画面来自录制视频，模拟关节即时跟随目标；不验证实时相机、真实扭矩、接触或任务成功。预热预算只检查启动推理，运行时仍检查过期。",
+  "model_loaded": true,
+  "warmup": {
+    "status": "ready",
+    "samples": [
+      {
+        "round": 1,
+        "inference_s": 1.297000000020489,
+        "ready_latency_s": 1.297000000020489,
+        "cold_start": true
+      },
+      {
+        "round": 2,
+        "inference_s": 0.6400000000139698,
+        "ready_latency_s": 0.6400000000139698,
+        "cold_start": false
+      }
+    ],
+    "horizon_s": 2.5,
+    "reserve_s": 0.25,
+    "ready_budget_s": 2.25,
+    "prediction_reused": false
+  },
+  "simulated_control": {
+    "sent_commands": 67,
+    "inferences": 6,
+    "skipped_action_steps": 72,
+    "missed_ticks": 0,
+    "first_action_time": 0.6570000000065193,
+    "last_action_time": 3.969000000040978,
+    "stop_reason": "time_limit",
+    "seconds": 4.0,
+    "active_control_hz": 19.927536231676726
+  },
+  "warmup_cancel_response_s": 0.030999999959021807,
+  "cancel_prediction_reused": false
+}

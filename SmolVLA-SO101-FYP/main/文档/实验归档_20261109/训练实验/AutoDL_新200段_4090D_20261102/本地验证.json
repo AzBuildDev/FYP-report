@@ -1,0 +1,12 @@
+{
+  "dataset_episodes": 200,
+  "train_episodes": 160,
+  "validation_episodes": 40,
+  "base_cpu_load": true,
+  "dual_camera_cpu_forward_loss": 0.148199200630188,
+  "normalization_saved_verified": true,
+  "checkpoint_model_reload": true,
+  "actual_optimizer_update_tested": false,
+  "autodl_linux_4090d_tested": false,
+  "real_robot_commands": 0
+}

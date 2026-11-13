@@ -1,0 +1,113 @@
+{
+  "status": "passed",
+  "dataset_root": "D:\\FYP\\SmolVLA-SO101-FYP\\运行环境\\临时文件\\recording_ui_check_udk4f_uz\\dataset",
+  "fps": 20,
+  "total_episodes": 3,
+  "total_frames": 181,
+  "tasks": [
+    {
+      "task_index": 0,
+      "task": "Pick up the red cube and place it in the target area."
+    },
+    {
+      "task_index": 1,
+      "task": "Pick up the blue cube and place it in the target area."
+    }
+  ],
+  "video_keys": [
+    "observation.images.front",
+    "observation.images.wrist"
+  ],
+  "episodes": [
+    {
+      "episode": 0,
+      "frames": 60,
+      "duration_s": 3.0,
+      "video_frames": {
+        "observation.images.front": 60,
+        "observation.images.wrist": 60
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        12.299999237060547,
+        12.299999237060547,
+        12.299999237060547,
+        12.299999237060547,
+        12.299999237060547,
+        12.299999237060547
+      ]
+    },
+    {
+      "episode": 1,
+      "frames": 61,
+      "duration_s": 3.05,
+      "video_frames": {
+        "observation.images.front": 61,
+        "observation.images.wrist": 61
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        11.799999237060547,
+        11.799999237060547,
+        11.799999237060547,
+        11.799999237060547,
+        11.799999237060547,
+        11.799999237060547
+      ]
+    },
+    {
+      "episode": 2,
+      "frames": 60,
+      "duration_s": 3.0,
+      "video_frames": {
+        "observation.images.front": 60,
+        "observation.images.wrist": 60
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        12.699999809265137,
+        12.699999809265137,
+        12.699999809265137,
+        12.699999809265137,
+        12.699999809265137,
+        12.699999809265137
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "task_success_manually_verified": false,
+  "robot_commands_sent": 0,
+  "scope": "simulated_cameras_and_arms",
+  "camera_specs": {
+    "front": {
+      "feature": "observation.images.front",
+      "index": 1,
+      "fourcc": "MJPG",
+      "input_fps": 25,
+      "width": 640,
+      "height": 480,
+      "device": "1080P USB Camera",
+      "label": "桌面相机"
+    },
+    "wrist": {
+      "feature": "observation.images.wrist",
+      "index": 2,
+      "fourcc": "YUY2",
+      "input_fps": 20,
+      "width": 640,
+      "height": 480,
+      "device": "icspring camera",
+      "label": "夹爪相机"
+    }
+  }
+}

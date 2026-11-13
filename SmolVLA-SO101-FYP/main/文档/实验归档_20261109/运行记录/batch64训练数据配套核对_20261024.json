@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "episodes": 50,
+  "training_episodes": 40,
+  "training_fingerprints_match": true,
+  "normalization_matches": true,
+  "hardware_started": false
+}

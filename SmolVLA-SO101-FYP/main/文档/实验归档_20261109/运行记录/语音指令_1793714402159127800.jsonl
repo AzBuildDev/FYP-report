@@ -1,0 +1,38 @@
+{"time": 1793714405.3338618, "status": "loading", "message": "正在CPU加载Whisper和Qwen，不占用动作推理显存"}
+{"time": 1793714414.399209, "status": "ready", "log": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\语音指令_1793714402159127800.jsonl"}
+{"time": 1793714419.7037709, "status": "processing", "id": "6:1793714419703770800"}
+{"time": 1793714420.052527, "status": "recording", "message": "开始录音，请在5秒内说出指令"}
+{"time": 1793714425.38446, "status": "rejected", "id": "6:1793714419703770800", "message": "silence_or_too_quiet"}
+{"time": 1793714426.9072287, "status": "processing", "id": "6:1793714426907228700"}
+{"time": 1793714426.9072287, "status": "recording", "message": "开始录音，请在5秒内说出指令"}
+{"time": 1793714432.1863265, "status": "rejected", "id": "6:1793714426907228700", "message": "silence_or_too_quiet"}
+{"time": 1793714473.6600263, "status": "processing", "id": "6:1793714473658519700"}
+{"time": 1793714473.6600263, "status": "recording", "message": "开始录音，请在5秒内说出指令"}
+{"time": 1793714489.4294598, "status": "rejected", "message": "指令不明确或不受支持，请说抓红方块或抓蓝方块", "transcript": "夹去的安色方块", "raw_model_output": "{\"status\":\"clarify\",\"task_id\":null}", "metrics": {"asr_latency_s": 0.490084500022931, "audio_s": 5.0, "language": "zh", "device": "cpu", "audio_path": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\语音录音_1793714478755565300.wav", "latency_s": 10.120016400003806, "peak_allocated_mib": 0}, "id": "6:1793714473658519700"}
+{"time": 1793714501.5707417, "status": "processing", "id": "6:1793714501570741700"}
+{"time": 1793714501.573006, "status": "recording", "message": "开始录音，请在5秒内说出指令"}
+{"time": 1793714517.1595435, "status": "rejected", "message": "指令不明确或不受支持，请说抓红方块或抓蓝方块", "transcript": "假蓝色放快", "raw_model_output": "{\"status\":\"clarify\",\"task_id\":null}", "metrics": {"asr_latency_s": 0.3485755000147037, "audio_s": 5.0, "language": "zh", "device": "cpu", "audio_path": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\语音录音_1793714506654217700.wav", "latency_s": 10.12244050001027, "peak_allocated_mib": 0}, "id": "6:1793714501570741700"}
+{"time": 1793714525.6528754, "status": "processing", "id": "6:1793714525652371300"}
+{"time": 1793714525.6528754, "status": "recording", "message": "开始录音，请在5秒内说出指令"}
+{"time": 1793714542.1149147, "status": "rejected", "message": "指令不明确或不受支持，请说抓红方块或抓蓝方块", "transcript": "藍色方塊", "raw_model_output": "{\"status\":\"parsed\",\"task_id\":\"blue_cube_to_zone_A\"}", "metrics": {"asr_latency_s": 0.3613387999939732, "audio_s": 5.0, "language": "zh", "device": "cpu", "audio_path": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\语音录音_1793714530737747700.wav", "latency_s": 10.96976559999166, "peak_allocated_mib": 0}, "id": "6:1793714525652371300"}
+{"time": 1793714550.7430866, "status": "processing", "id": "6:1793714550743086500"}
+{"time": 1793714550.7430866, "status": "recording", "message": "开始录音，请在5秒内说出指令"}
+{"time": 1793714565.9001076, "status": "rejected", "message": "指令不明确或不受支持，请说抓红方块或抓蓝方块", "transcript": "蠻酥", "raw_model_output": "{\"status\":\"unsupported\",\"task_id\":null}", "metrics": {"asr_latency_s": 0.36890020000282675, "audio_s": 5.0, "language": "zh", "device": "cpu", "audio_path": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\语音录音_1793714555823023200.wav", "latency_s": 9.673418899998069, "peak_allocated_mib": 0}, "id": "6:1793714550743086500"}
+{"time": 1793714572.9732177, "status": "processing", "id": "6:1793714572973217800"}
+{"time": 1793714572.9732177, "status": "recording", "message": "开始录音，请在5秒内说出指令"}
+{"time": 1793714588.5181055, "status": "rejected", "message": "指令不明确或不受支持，请说抓红方块或抓蓝方块", "transcript": "藍色", "raw_model_output": "{\"status\":\"clarify\",\"task_id\":null}", "metrics": {"asr_latency_s": 0.3348953000095207, "audio_s": 5.0, "language": "zh", "device": "cpu", "audio_path": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\语音录音_1793714578060604600.wav", "latency_s": 10.079358199989656, "peak_allocated_mib": 0}, "id": "6:1793714572973217800"}
+{"time": 1793714593.2458496, "status": "processing", "id": "6:1793714593245849600"}
+{"time": 1793714593.2458496, "status": "recording", "message": "开始录音，请在5秒内说出指令"}
+{"time": 1793714609.8119116, "status": "target", "target": "BC", "transcript": "抓蓝色的方塊", "raw_model_output": "{\"status\":\"parsed\",\"task_id\":\"blue_cube_to_zone_A\"}", "metrics": {"asr_latency_s": 0.3824707000167109, "audio_s": 5.0, "language": "zh", "device": "cpu", "audio_path": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\语音录音_1793714598322939700.wav", "latency_s": 11.080212500004563, "peak_allocated_mib": 0}, "id": "6:1793714593245849600"}
+{"time": 1793715322.5750046, "status": "processing", "id": "8:1793715322575004800"}
+{"time": 1793715322.5760145, "status": "recording", "message": "开始录音，请在5秒内说出指令"}
+{"time": 1793715327.6698482, "status": "rejected", "id": "8:1793715322575004800", "message": "silence_or_too_quiet"}
+{"time": 1793715330.4390976, "status": "processing", "id": "8:1793715330439097700"}
+{"time": 1793715330.4390976, "status": "recording", "message": "开始录音，请在5秒内说出指令"}
+{"time": 1793715335.5223231, "status": "rejected", "id": "8:1793715330439097700", "message": "silence_or_too_quiet"}
+{"time": 1793715338.1746278, "status": "processing", "id": "8:1793715338174627900"}
+{"time": 1793715338.1761303, "status": "recording", "message": "开始录音，请在5秒内说出指令"}
+{"time": 1793715354.1010756, "status": "rejected", "message": "指令不明确或不受支持，请说抓红方块或抓蓝方块", "transcript": "招紅色方塊", "raw_model_output": "{\"status\":\"clarify\",\"task_id\":null}", "metrics": {"asr_latency_s": 0.3841111999936402, "audio_s": 5.0, "language": "zh", "device": "cpu", "audio_path": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\语音录音_1793715343259537200.wav", "latency_s": 10.409864799992647, "peak_allocated_mib": 0}, "id": "8:1793715338174627900"}
+{"time": 1793715360.5257676, "status": "processing", "id": "8:1793715360525767700"}
+{"time": 1793715360.5272863, "status": "recording", "message": "开始录音，请在5秒内说出指令"}
+{"time": 1793715376.2941046, "status": "rejected", "message": "指令不明确或不受支持，请说抓红方块或抓蓝方块", "transcript": "抓紅方塊", "raw_model_output": "{\"status\":\"clarify\",\"task_id\":null}", "metrics": {"asr_latency_s": 0.4241069999989122, "audio_s": 5.0, "language": "zh", "device": "cpu", "audio_path": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\语音录音_1793715365617034200.wav", "latency_s": 10.201275100000203, "peak_allocated_mib": 0}, "id": "8:1793715360525767700"}

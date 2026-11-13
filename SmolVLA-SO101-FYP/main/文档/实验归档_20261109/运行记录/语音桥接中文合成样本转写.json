@@ -1,0 +1,51 @@
+{
+  "synthetic_audio": true,
+  "hardware_connected": false,
+  "rows": [
+    {
+      "name": "中文红方块",
+      "transcript": "拿起紅色的方塊放到目標區域",
+      "metrics": {
+        "asr_latency_s": 0.5336253000132274,
+        "audio_s": 4.17,
+        "language": "zh",
+        "device": "cpu"
+      },
+      "grounding": {
+        "status": "parsed",
+        "task_id": "red_cube_to_zone_A",
+        "reason": "grounded"
+      }
+    },
+    {
+      "name": "中文蓝积木",
+      "transcript": "把藍色機母放到目標區域",
+      "metrics": {
+        "asr_latency_s": 0.4471790000097826,
+        "audio_s": 3.29,
+        "language": "zh",
+        "device": "cpu"
+      },
+      "grounding": {
+        "status": "clarify",
+        "task_id": null,
+        "reason": "missing_object"
+      }
+    },
+    {
+      "name": "中文停止",
+      "transcript": "停止",
+      "metrics": {
+        "asr_latency_s": 0.2587832999997772,
+        "audio_s": 1.43,
+        "language": "zh",
+        "device": "cpu"
+      },
+      "grounding": {
+        "status": "clarify",
+        "task_id": null,
+        "reason": "missing_or_multiple_positive_colors"
+      }
+    }
+  ]
+}

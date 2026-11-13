@@ -1,0 +1,2127 @@
+{
+  "status": "passed",
+  "dataset_root": "D:\\FYP\\AutoDL_纯100段_阶段采样_20261107\\训练数据",
+  "fps": 20,
+  "total_episodes": 100,
+  "total_frames": 47487,
+  "tasks": [
+    {
+      "task_index": 0,
+      "task": "Pick up the red cube and place it in the target area."
+    },
+    {
+      "task_index": 1,
+      "task": "Pick up the blue cube and place it in the target area."
+    }
+  ],
+  "video_keys": [
+    "observation.images.front",
+    "observation.images.wrist"
+  ],
+  "episodes": [
+    {
+      "episode": 0,
+      "frames": 596,
+      "duration_s": 29.8,
+      "video_frames": {
+        "observation.images.front": 596,
+        "observation.images.wrist": 596
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        114.42823791503906,
+        136.40939331054688,
+        66.86202239990234,
+        47.1929817199707,
+        73.75,
+        59.336097717285156
+      ]
+    },
+    {
+      "episode": 1,
+      "frames": 498,
+      "duration_s": 24.9,
+      "video_frames": {
+        "observation.images.front": 498,
+        "observation.images.wrist": 498
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        83.80659484863281,
+        135.65435791015625,
+        65.44566345214844,
+        37.80701446533203,
+        55.260414123535156,
+        55.325035095214844
+      ]
+    },
+    {
+      "episode": 2,
+      "frames": 503,
+      "duration_s": 25.15,
+      "video_frames": {
+        "observation.images.front": 503,
+        "observation.images.wrist": 503
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        112.3561019897461,
+        137.66778564453125,
+        67.78999328613281,
+        40.438594818115234,
+        77.96875,
+        48.893497467041016
+      ]
+    },
+    {
+      "episode": 3,
+      "frames": 517,
+      "duration_s": 25.85,
+      "video_frames": {
+        "observation.images.front": 517,
+        "observation.images.wrist": 517
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        74.36685180664062,
+        141.27516174316406,
+        72.13675689697266,
+        40.61403274536133,
+        53.85416793823242,
+        56.016597747802734
+      ]
+    },
+    {
+      "episode": 4,
+      "frames": 516,
+      "duration_s": 25.8,
+      "video_frames": {
+        "observation.images.front": 516,
+        "observation.images.wrist": 516
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        111.89562225341797,
+        134.56375122070312,
+        64.46886444091797,
+        36.666664123535156,
+        73.4375,
+        58.7828483581543
+      ]
+    },
+    {
+      "episode": 5,
+      "frames": 451,
+      "duration_s": 22.55,
+      "video_frames": {
+        "observation.images.front": 451,
+        "observation.images.wrist": 451
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        56.86876678466797,
+        137.33221435546875,
+        68.86447143554688,
+        36.9298210144043,
+        38.02083206176758,
+        68.60304260253906
+      ]
+    },
+    {
+      "episode": 6,
+      "frames": 533,
+      "duration_s": 26.65,
+      "video_frames": {
+        "observation.images.front": 533,
+        "observation.images.wrist": 533
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        105.67919921875,
+        137.75167846679688,
+        67.83882904052734,
+        45.438594818115234,
+        72.60416412353516,
+        51.659751892089844
+      ]
+    },
+    {
+      "episode": 7,
+      "frames": 486,
+      "duration_s": 24.3,
+      "video_frames": {
+        "observation.images.front": 486,
+        "observation.images.wrist": 486
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        40.21488952636719,
+        149.24496459960938,
+        78.87667846679688,
+        39.21052551269531,
+        25.41666603088379,
+        64.45366668701172
+      ]
+    },
+    {
+      "episode": 8,
+      "frames": 541,
+      "duration_s": 27.05,
+      "video_frames": {
+        "observation.images.front": 541,
+        "observation.images.wrist": 541
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        105.52571105957031,
+        138.08724975585938,
+        69.1086654663086,
+        42.28070068359375,
+        68.90625,
+        50.69156265258789
+      ]
+    },
+    {
+      "episode": 9,
+      "frames": 501,
+      "duration_s": 25.05,
+      "video_frames": {
+        "observation.images.front": 501,
+        "observation.images.wrist": 501
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        84.42056274414062,
+        134.64764404296875,
+        74.62759399414062,
+        51.31578826904297,
+        56.97916793823242,
+        51.313968658447266
+      ]
+    },
+    {
+      "episode": 10,
+      "frames": 546,
+      "duration_s": 27.3,
+      "video_frames": {
+        "observation.images.front": 546,
+        "observation.images.wrist": 546
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        109.823486328125,
+        135.57046508789062,
+        66.17826080322266,
+        46.666664123535156,
+        73.4375,
+        47.23374938964844
+      ]
+    },
+    {
+      "episode": 11,
+      "frames": 556,
+      "duration_s": 27.8,
+      "video_frames": {
+        "observation.images.front": 556,
+        "observation.images.wrist": 556
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        76.51573181152344,
+        140.26846313476562,
+        76.14163208007812,
+        37.89473342895508,
+        55.0,
+        53.25034713745117
+      ]
+    },
+    {
+      "episode": 12,
+      "frames": 588,
+      "duration_s": 29.4,
+      "video_frames": {
+        "observation.images.front": 588,
+        "observation.images.wrist": 588
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        104.37452697753906,
+        135.98992919921875,
+        72.96703338623047,
+        44.21052551269531,
+        70.52083587646484,
+        49.10096740722656
+      ]
+    },
+    {
+      "episode": 13,
+      "frames": 479,
+      "duration_s": 23.95,
+      "video_frames": {
+        "observation.images.front": 479,
+        "observation.images.wrist": 479
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        56.10130310058594,
+        137.75167846679688,
+        68.13186645507812,
+        36.57894515991211,
+        38.333335876464844,
+        50.27662658691406
+      ]
+    },
+    {
+      "episode": 14,
+      "frames": 600,
+      "duration_s": 30.0,
+      "video_frames": {
+        "observation.images.front": 600,
+        "observation.images.wrist": 600
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        112.2026138305664,
+        137.91946411132812,
+        68.5714340209961,
+        39.122806549072266,
+        74.53125,
+        48.27109146118164
+      ]
+    },
+    {
+      "episode": 15,
+      "frames": 470,
+      "duration_s": 23.5,
+      "video_frames": {
+        "observation.images.front": 470,
+        "observation.images.wrist": 470
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        37.145050048828125,
+        139.8489990234375,
+        70.23198699951172,
+        48.33333206176758,
+        26.45833396911621,
+        53.181190490722656
+      ]
+    },
+    {
+      "episode": 16,
+      "frames": 491,
+      "duration_s": 24.55,
+      "video_frames": {
+        "observation.images.front": 491,
+        "observation.images.wrist": 491
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        85.64849853515625,
+        136.57717895507812,
+        67.78999328613281,
+        37.63157653808594,
+        55.0,
+        49.446746826171875
+      ]
+    },
+    {
+      "episode": 17,
+      "frames": 534,
+      "duration_s": 26.7,
+      "video_frames": {
+        "observation.images.front": 534,
+        "observation.images.wrist": 534
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        110.13046264648438,
+        135.31878662109375,
+        63.63858413696289,
+        43.50876998901367,
+        74.79166412353516,
+        52.28215789794922
+      ]
+    },
+    {
+      "episode": 18,
+      "frames": 551,
+      "duration_s": 27.55,
+      "video_frames": {
+        "observation.images.front": 551,
+        "observation.images.wrist": 551
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        83.80660247802734,
+        136.4932861328125,
+        76.63003540039062,
+        42.01754379272461,
+        59.791664123535156,
+        47.71784210205078
+      ]
+    },
+    {
+      "episode": 19,
+      "frames": 492,
+      "duration_s": 24.6,
+      "video_frames": {
+        "observation.images.front": 492,
+        "observation.images.wrist": 492
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        69.14811706542969,
+        138.92617797851562,
+        69.10867309570312,
+        32.105262756347656,
+        45.364585876464844,
+        44.39834213256836
+      ]
+    },
+    {
+      "episode": 20,
+      "frames": 507,
+      "duration_s": 25.35,
+      "video_frames": {
+        "observation.images.front": 507,
+        "observation.images.wrist": 507
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        82.7321548461914,
+        136.15771484375,
+        73.06471252441406,
+        38.33333206176758,
+        58.489585876464844,
+        45.64315414428711
+      ]
+    },
+    {
+      "episode": 21,
+      "frames": 512,
+      "duration_s": 25.6,
+      "video_frames": {
+        "observation.images.front": 512,
+        "observation.images.wrist": 512
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        51.112815856933594,
+        132.4664306640625,
+        64.81074523925781,
+        39.03508377075195,
+        37.5,
+        43.56846618652344
+      ]
+    },
+    {
+      "episode": 22,
+      "frames": 574,
+      "duration_s": 28.7,
+      "video_frames": {
+        "observation.images.front": 574,
+        "observation.images.wrist": 574
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        78.28089141845703,
+        131.8791961669922,
+        62.124542236328125,
+        42.80701446533203,
+        52.03125,
+        59.75103759765625
+      ]
+    },
+    {
+      "episode": 23,
+      "frames": 491,
+      "duration_s": 24.55,
+      "video_frames": {
+        "observation.images.front": 491,
+        "observation.images.wrist": 491
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        38.91020965576172,
+        143.7919464111328,
+        74.38339233398438,
+        45.08771514892578,
+        28.07291603088379,
+        55.463348388671875
+      ]
+    },
+    {
+      "episode": 24,
+      "frames": 535,
+      "duration_s": 26.75,
+      "video_frames": {
+        "observation.images.front": 535,
+        "observation.images.wrist": 535
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        79.35533142089844,
+        144.63087463378906,
+        75.5067138671875,
+        41.57894515991211,
+        52.8125,
+        59.75103759765625
+      ]
+    },
+    {
+      "episode": 25,
+      "frames": 507,
+      "duration_s": 25.35,
+      "video_frames": {
+        "observation.images.front": 507,
+        "observation.images.wrist": 507
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        110.74443817138672,
+        142.61744689941406,
+        71.8925552368164,
+        42.63157653808594,
+        76.66667175292969,
+        69.36376190185547
+      ]
+    },
+    {
+      "episode": 26,
+      "frames": 435,
+      "duration_s": 21.75,
+      "video_frames": {
+        "observation.images.front": 435,
+        "observation.images.wrist": 435
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        75.28779602050781,
+        138.42282104492188,
+        76.77655792236328,
+        37.89473342895508,
+        52.39583206176758,
+        50.55324935913086
+      ]
+    },
+    {
+      "episode": 27,
+      "frames": 475,
+      "duration_s": 23.75,
+      "video_frames": {
+        "observation.images.front": 475,
+        "observation.images.wrist": 475
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        73.82962036132812,
+        142.3657684326172,
+        73.16239166259766,
+        47.89473342895508,
+        48.59375,
+        59.820194244384766
+      ]
+    },
+    {
+      "episode": 28,
+      "frames": 496,
+      "duration_s": 24.8,
+      "video_frames": {
+        "observation.images.front": 496,
+        "observation.images.wrist": 496
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        80.12279510498047,
+        135.31878662109375,
+        66.76434326171875,
+        39.21052551269531,
+        53.489585876464844,
+        52.6279411315918
+      ]
+    },
+    {
+      "episode": 29,
+      "frames": 457,
+      "duration_s": 22.85,
+      "video_frames": {
+        "observation.images.front": 457,
+        "observation.images.wrist": 457
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        53.491939544677734,
+        141.27516174316406,
+        74.48107147216797,
+        44.91227722167969,
+        36.822914123535156,
+        67.63485717773438
+      ]
+    },
+    {
+      "episode": 30,
+      "frames": 508,
+      "duration_s": 25.4,
+      "video_frames": {
+        "observation.images.front": 508,
+        "observation.images.wrist": 508
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        86.72294616699219,
+        142.4496612548828,
+        77.11843872070312,
+        39.21052551269531,
+        57.8125,
+        58.091285705566406
+      ]
+    },
+    {
+      "episode": 31,
+      "frames": 450,
+      "duration_s": 22.5,
+      "video_frames": {
+        "observation.images.front": 450,
+        "observation.images.wrist": 450
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        34.61243438720703,
+        136.74496459960938,
+        67.78998565673828,
+        43.684207916259766,
+        25.833332061767578,
+        47.23374938964844
+      ]
+    },
+    {
+      "episode": 32,
+      "frames": 475,
+      "duration_s": 23.75,
+      "video_frames": {
+        "observation.images.front": 475,
+        "observation.images.wrist": 475
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        74.29010009765625,
+        137.66778564453125,
+        74.87179565429688,
+        46.666664123535156,
+        50.416664123535156,
+        49.72337341308594
+      ]
+    },
+    {
+      "episode": 33,
+      "frames": 516,
+      "duration_s": 25.8,
+      "video_frames": {
+        "observation.images.front": 516,
+        "observation.images.wrist": 516
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        107.29086303710938,
+        136.91275024414062,
+        67.69230651855469,
+        41.9298210144043,
+        71.09375,
+        50.41493606567383
+      ]
+    },
+    {
+      "episode": 34,
+      "frames": 500,
+      "duration_s": 25.0,
+      "video_frames": {
+        "observation.images.front": 500,
+        "observation.images.wrist": 500
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        73.44589233398438,
+        142.7013397216797,
+        75.75091552734375,
+        37.3684196472168,
+        50.78125,
+        52.76625061035156
+      ]
+    },
+    {
+      "episode": 35,
+      "frames": 472,
+      "duration_s": 23.6,
+      "video_frames": {
+        "observation.images.front": 472,
+        "observation.images.wrist": 472
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        75.90176391601562,
+        141.1073760986328,
+        70.57386779785156,
+        41.31578826904297,
+        55.0,
+        54.70262908935547
+      ]
+    },
+    {
+      "episode": 36,
+      "frames": 431,
+      "duration_s": 21.55,
+      "video_frames": {
+        "observation.images.front": 431,
+        "observation.images.wrist": 431
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        70.75978088378906,
+        137.1644287109375,
+        68.13186645507812,
+        45.61403274536133,
+        47.708335876464844,
+        57.745506286621094
+      ]
+    },
+    {
+      "episode": 37,
+      "frames": 444,
+      "duration_s": 22.2,
+      "video_frames": {
+        "observation.images.front": 444,
+        "observation.images.wrist": 444
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        51.036067962646484,
+        132.2147674560547,
+        65.5921859741211,
+        40.61403274536133,
+        35.05208206176758,
+        55.463348388671875
+      ]
+    },
+    {
+      "episode": 38,
+      "frames": 455,
+      "duration_s": 22.75,
+      "video_frames": {
+        "observation.images.front": 455,
+        "observation.images.wrist": 455
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        70.91327667236328,
+        143.62416076660156,
+        74.62759399414062,
+        38.50876998901367,
+        46.770835876464844,
+        65.0760726928711
+      ]
+    },
+    {
+      "episode": 39,
+      "frames": 462,
+      "duration_s": 23.1,
+      "video_frames": {
+        "observation.images.front": 462,
+        "observation.images.wrist": 462
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        35.53338623046875,
+        140.10067749023438,
+        69.35286712646484,
+        36.403507232666016,
+        24.010417938232422,
+        53.042877197265625
+      ]
+    },
+    {
+      "episode": 40,
+      "frames": 457,
+      "duration_s": 22.85,
+      "video_frames": {
+        "observation.images.front": 457,
+        "observation.images.wrist": 457
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        67.30621337890625,
+        141.52684020996094,
+        75.55555725097656,
+        36.31578826904297,
+        46.197914123535156,
+        53.596126556396484
+      ]
+    },
+    {
+      "episode": 41,
+      "frames": 461,
+      "duration_s": 23.05,
+      "video_frames": {
+        "observation.images.front": 461,
+        "observation.images.wrist": 461
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        108.44205474853516,
+        142.0301971435547,
+        76.82539367675781,
+        45.701751708984375,
+        71.66666412353516,
+        61.756568908691406
+      ]
+    },
+    {
+      "episode": 42,
+      "frames": 485,
+      "duration_s": 24.25,
+      "video_frames": {
+        "observation.images.front": 485,
+        "observation.images.wrist": 485
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        70.99002075195312,
+        138.59060668945312,
+        76.43467712402344,
+        39.91227722167969,
+        49.583335876464844,
+        59.9585075378418
+      ]
+    },
+    {
+      "episode": 43,
+      "frames": 442,
+      "duration_s": 22.1,
+      "video_frames": {
+        "observation.images.front": 442,
+        "observation.images.wrist": 442
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        73.44589233398438,
+        135.65435791015625,
+        71.84371185302734,
+        45.26315689086914,
+        50.05208206176758,
+        50.13831329345703
+      ]
+    },
+    {
+      "episode": 44,
+      "frames": 518,
+      "duration_s": 25.9,
+      "video_frames": {
+        "observation.images.front": 518,
+        "observation.images.wrist": 518
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        71.29700469970703,
+        144.7986602783203,
+        79.02320098876953,
+        44.64912414550781,
+        48.645835876464844,
+        48.27109146118164
+      ]
+    },
+    {
+      "episode": 45,
+      "frames": 474,
+      "duration_s": 23.7,
+      "video_frames": {
+        "observation.images.front": 474,
+        "observation.images.wrist": 474
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        48.273216247558594,
+        133.72482299804688,
+        72.67398834228516,
+        44.21052551269531,
+        32.239585876464844,
+        52.14384460449219
+      ]
+    },
+    {
+      "episode": 46,
+      "frames": 502,
+      "duration_s": 25.1,
+      "video_frames": {
+        "observation.images.front": 502,
+        "observation.images.wrist": 502
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        72.83192443847656,
+        142.53355407714844,
+        74.62759399414062,
+        38.684207916259766,
+        47.552085876464844,
+        56.98478698730469
+      ]
+    },
+    {
+      "episode": 47,
+      "frames": 482,
+      "duration_s": 24.1,
+      "video_frames": {
+        "observation.images.front": 482,
+        "observation.images.wrist": 482
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        36.07060623168945,
+        141.6946258544922,
+        76.14163208007812,
+        47.017539978027344,
+        24.166667938232422,
+        48.61687469482422
+      ]
+    },
+    {
+      "episode": 48,
+      "frames": 450,
+      "duration_s": 22.5,
+      "video_frames": {
+        "observation.images.front": 450,
+        "observation.images.wrist": 450
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        55.71757507324219,
+        138.92617797851562,
+        70.96459197998047,
+        42.80701446533203,
+        36.19791793823242,
+        50.13831329345703
+      ]
+    },
+    {
+      "episode": 49,
+      "frames": 482,
+      "duration_s": 24.1,
+      "video_frames": {
+        "observation.images.front": 482,
+        "observation.images.wrist": 482
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        107.29086303710938,
+        134.98321533203125,
+        65.39682006835938,
+        39.91227722167969,
+        74.01041412353516,
+        50.13831329345703
+      ]
+    },
+    {
+      "episode": 50,
+      "frames": 433,
+      "duration_s": 21.65,
+      "video_frames": {
+        "observation.images.front": 433,
+        "observation.images.wrist": 433
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        54.41289520263672,
+        136.4932861328125,
+        66.66666412353516,
+        38.859649658203125,
+        38.48958206176758,
+        50.55324935913086
+      ]
+    },
+    {
+      "episode": 51,
+      "frames": 416,
+      "duration_s": 20.8,
+      "video_frames": {
+        "observation.images.front": 416,
+        "observation.images.wrist": 416
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        79.12509155273438,
+        136.91275024414062,
+        75.018310546875,
+        37.017539978027344,
+        53.4375,
+        50.96818923950195
+      ]
+    },
+    {
+      "episode": 52,
+      "frames": 425,
+      "duration_s": 21.25,
+      "video_frames": {
+        "observation.images.front": 425,
+        "observation.images.wrist": 425
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        47.65924835205078,
+        135.06710815429688,
+        69.05982971191406,
+        37.543861389160156,
+        33.333335876464844,
+        52.83540725708008
+      ]
+    },
+    {
+      "episode": 53,
+      "frames": 479,
+      "duration_s": 23.95,
+      "video_frames": {
+        "observation.images.front": 479,
+        "observation.images.wrist": 479
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        68.53414916992188,
+        140.7718048095703,
+        75.65323638916016,
+        36.57894515991211,
+        46.875,
+        56.77731704711914
+      ]
+    },
+    {
+      "episode": 54,
+      "frames": 378,
+      "duration_s": 18.9,
+      "video_frames": {
+        "observation.images.front": 378,
+        "observation.images.wrist": 378
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        50.575592041015625,
+        137.5,
+        75.94627380371094,
+        37.456138610839844,
+        31.822917938232422,
+        54.080223083496094
+      ]
+    },
+    {
+      "episode": 55,
+      "frames": 437,
+      "duration_s": 21.85,
+      "video_frames": {
+        "observation.images.front": 437,
+        "observation.images.wrist": 437
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        37.68227005004883,
+        142.7013397216797,
+        73.94383239746094,
+        37.456138610839844,
+        24.6875,
+        52.42047119140625
+      ]
+    },
+    {
+      "episode": 56,
+      "frames": 407,
+      "duration_s": 20.35,
+      "video_frames": {
+        "observation.images.front": 407,
+        "observation.images.wrist": 407
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        49.65464401245117,
+        141.7785186767578,
+        75.45787048339844,
+        48.2456169128418,
+        34.27083206176758,
+        41.493778228759766
+      ]
+    },
+    {
+      "episode": 57,
+      "frames": 456,
+      "duration_s": 22.8,
+      "video_frames": {
+        "observation.images.front": 456,
+        "observation.images.wrist": 456
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        109.36300659179688,
+        140.26846313476562,
+        75.45787048339844,
+        42.982452392578125,
+        75.57291412353516,
+        51.86722183227539
+      ]
+    },
+    {
+      "episode": 58,
+      "frames": 425,
+      "duration_s": 21.25,
+      "video_frames": {
+        "observation.images.front": 425,
+        "observation.images.wrist": 425
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        52.264007568359375,
+        137.58389282226562,
+        70.86691284179688,
+        30.96491241455078,
+        38.4375,
+        51.659751892089844
+      ]
+    },
+    {
+      "episode": 59,
+      "frames": 402,
+      "duration_s": 20.1,
+      "video_frames": {
+        "observation.images.front": 402,
+        "observation.images.wrist": 402
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        76.51573181152344,
+        136.66107177734375,
+        71.990234375,
+        38.85964584350586,
+        52.65625,
+        61.68741226196289
+      ]
+    },
+    {
+      "episode": 60,
+      "frames": 440,
+      "duration_s": 22.0,
+      "video_frames": {
+        "observation.images.front": 440,
+        "observation.images.wrist": 440
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        53.87567138671875,
+        142.4496612548828,
+        73.45543670654297,
+        30.52631378173828,
+        42.083335876464844,
+        50.760719299316406
+      ]
+    },
+    {
+      "episode": 61,
+      "frames": 468,
+      "duration_s": 23.4,
+      "video_frames": {
+        "observation.images.front": 468,
+        "observation.images.wrist": 468
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        65.92478942871094,
+        139.76510620117188,
+        73.01587677001953,
+        35.35087585449219,
+        46.458335876464844,
+        56.846473693847656
+      ]
+    },
+    {
+      "episode": 62,
+      "frames": 394,
+      "duration_s": 19.7,
+      "video_frames": {
+        "observation.images.front": 394,
+        "observation.images.wrist": 394
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        47.735992431640625,
+        138.92617797851562,
+        70.13430786132812,
+        31.75438690185547,
+        34.73958206176758,
+        49.30843734741211
+      ]
+    },
+    {
+      "episode": 63,
+      "frames": 485,
+      "duration_s": 24.25,
+      "video_frames": {
+        "observation.images.front": 485,
+        "observation.images.wrist": 485
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        42.67076110839844,
+        135.31878662109375,
+        65.68986511230469,
+        36.31578826904297,
+        24.79166603088379,
+        60.30428695678711
+      ]
+    },
+    {
+      "episode": 64,
+      "frames": 384,
+      "duration_s": 19.2,
+      "video_frames": {
+        "observation.images.front": 384,
+        "observation.images.wrist": 384
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        41.5963134765625,
+        139.513427734375,
+        69.8901138305664,
+        36.22807312011719,
+        23.90625,
+        46.265560150146484
+      ]
+    },
+    {
+      "episode": 65,
+      "frames": 474,
+      "duration_s": 23.7,
+      "video_frames": {
+        "observation.images.front": 474,
+        "observation.images.wrist": 474
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        110.5909423828125,
+        137.1644287109375,
+        74.0903549194336,
+        38.50876998901367,
+        73.59375,
+        52.005531311035156
+      ]
+    },
+    {
+      "episode": 66,
+      "frames": 403,
+      "duration_s": 20.15,
+      "video_frames": {
+        "observation.images.front": 403,
+        "observation.images.wrist": 403
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        37.22179412841797,
+        139.59732055664062,
+        74.77411651611328,
+        33.15789794921875,
+        25.88541603088379,
+        58.02212905883789
+      ]
+    },
+    {
+      "episode": 67,
+      "frames": 475,
+      "duration_s": 23.75,
+      "video_frames": {
+        "observation.images.front": 475,
+        "observation.images.wrist": 475
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        82.7321548461914,
+        141.6946258544922,
+        72.62515258789062,
+        41.05262756347656,
+        56.979164123535156,
+        50.13831329345703
+      ]
+    },
+    {
+      "episode": 68,
+      "frames": 477,
+      "duration_s": 23.85,
+      "video_frames": {
+        "observation.images.front": 477,
+        "observation.images.wrist": 477
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        35.610130310058594,
+        136.91275024414062,
+        71.4041519165039,
+        37.8070182800293,
+        21.40625,
+        56.91563034057617
+      ]
+    },
+    {
+      "episode": 69,
+      "frames": 486,
+      "duration_s": 24.3,
+      "video_frames": {
+        "observation.images.front": 486,
+        "observation.images.wrist": 486
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        71.834228515625,
+        135.90603637695312,
+        73.4065933227539,
+        30.52631378173828,
+        51.25,
+        51.59059524536133
+      ]
+    },
+    {
+      "episode": 70,
+      "frames": 412,
+      "duration_s": 20.6,
+      "video_frames": {
+        "observation.images.front": 412,
+        "observation.images.wrist": 412
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        36.91481399536133,
+        142.4496612548828,
+        72.42979431152344,
+        35.78947067260742,
+        22.76041603088379,
+        51.10649871826172
+      ]
+    },
+    {
+      "episode": 71,
+      "frames": 441,
+      "duration_s": 22.05,
+      "video_frames": {
+        "observation.images.front": 441,
+        "observation.images.wrist": 441
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        54.336143493652344,
+        135.31878662109375,
+        68.76678466796875,
+        44.21052551269531,
+        37.083335876464844,
+        54.49515914916992
+      ]
+    },
+    {
+      "episode": 72,
+      "frames": 435,
+      "duration_s": 21.75,
+      "video_frames": {
+        "observation.images.front": 435,
+        "observation.images.wrist": 435
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        34.61243438720703,
+        144.1275177001953,
+        74.87179565429688,
+        39.03508377075195,
+        20.208332061767578,
+        49.10096740722656
+      ]
+    },
+    {
+      "episode": 73,
+      "frames": 494,
+      "duration_s": 24.7,
+      "video_frames": {
+        "observation.images.front": 494,
+        "observation.images.wrist": 494
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        109.28627014160156,
+        137.33221435546875,
+        74.62759399414062,
+        47.017539978027344,
+        74.47917175292969,
+        51.24481201171875
+      ]
+    },
+    {
+      "episode": 74,
+      "frames": 491,
+      "duration_s": 24.55,
+      "video_frames": {
+        "observation.images.front": 491,
+        "observation.images.wrist": 491
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        33.69147872924805,
+        143.4563751220703,
+        78.24176025390625,
+        47.28070068359375,
+        24.11458396911621,
+        47.994468688964844
+      ]
+    },
+    {
+      "episode": 75,
+      "frames": 491,
+      "duration_s": 24.55,
+      "video_frames": {
+        "observation.images.front": 491,
+        "observation.images.wrist": 491
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        89.8695297241211,
+        145.1342315673828,
+        76.82539367675781,
+        37.017539978027344,
+        61.30208206176758,
+        59.75103759765625
+      ]
+    },
+    {
+      "episode": 76,
+      "frames": 532,
+      "duration_s": 26.6,
+      "video_frames": {
+        "observation.images.front": 532,
+        "observation.images.wrist": 532
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        38.98695373535156,
+        141.3590545654297,
+        70.62271118164062,
+        39.03508377075195,
+        23.958332061767578,
+        56.016597747802734
+      ]
+    },
+    {
+      "episode": 77,
+      "frames": 441,
+      "duration_s": 22.05,
+      "video_frames": {
+        "observation.images.front": 441,
+        "observation.images.wrist": 441
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        72.75518035888672,
+        149.6644287109375,
+        77.80220031738281,
+        39.03508377075195,
+        46.666664123535156,
+        54.01106643676758
+      ]
+    },
+    {
+      "episode": 78,
+      "frames": 446,
+      "duration_s": 22.3,
+      "video_frames": {
+        "observation.images.front": 446,
+        "observation.images.wrist": 446
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        36.684574127197266,
+        138.84228515625,
+        69.1086654663086,
+        36.31578826904297,
+        20.9375,
+        49.72337341308594
+      ]
+    },
+    {
+      "episode": 79,
+      "frames": 504,
+      "duration_s": 25.2,
+      "video_frames": {
+        "observation.images.front": 504,
+        "observation.images.wrist": 504
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        58.096702575683594,
+        139.01007080078125,
+        68.03418731689453,
+        37.017539978027344,
+        40.46875,
+        45.78146743774414
+      ]
+    },
+    {
+      "episode": 80,
+      "frames": 511,
+      "duration_s": 25.55,
+      "video_frames": {
+        "observation.images.front": 511,
+        "observation.images.wrist": 511
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        110.2839584350586,
+        147.06375122070312,
+        77.21611785888672,
+        40.964908599853516,
+        72.70832824707031,
+        57.261409759521484
+      ]
+    },
+    {
+      "episode": 81,
+      "frames": 458,
+      "duration_s": 22.9,
+      "video_frames": {
+        "observation.images.front": 458,
+        "observation.images.wrist": 458
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        110.20721435546875,
+        138.92617797851562,
+        70.76923370361328,
+        35.35087585449219,
+        72.03125,
+        51.867218017578125
+      ]
+    },
+    {
+      "episode": 82,
+      "frames": 449,
+      "duration_s": 22.45,
+      "video_frames": {
+        "observation.images.front": 449,
+        "observation.images.wrist": 449
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        79.8925552368164,
+        129.8657684326172,
+        71.5995101928711,
+        39.385963439941406,
+        53.072914123535156,
+        52.07468795776367
+      ]
+    },
+    {
+      "episode": 83,
+      "frames": 457,
+      "duration_s": 22.85,
+      "video_frames": {
+        "observation.images.front": 457,
+        "observation.images.wrist": 457
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        89.25556182861328,
+        133.55703735351562,
+        69.79242706298828,
+        44.21052551269531,
+        62.135414123535156,
+        51.4522819519043
+      ]
+    },
+    {
+      "episode": 84,
+      "frames": 493,
+      "duration_s": 24.65,
+      "video_frames": {
+        "observation.images.front": 493,
+        "observation.images.wrist": 493
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        75.82501983642578,
+        135.8221435546875,
+        73.65079498291016,
+        51.14035415649414,
+        52.708335876464844,
+        55.18672180175781
+      ]
+    },
+    {
+      "episode": 85,
+      "frames": 488,
+      "duration_s": 24.4,
+      "video_frames": {
+        "observation.images.front": 488,
+        "observation.images.wrist": 488
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        73.36914825439453,
+        137.75167846679688,
+        80.53723907470703,
+        46.052635192871094,
+        49.42708206176758,
+        55.25587844848633
+      ]
+    },
+    {
+      "episode": 86,
+      "frames": 444,
+      "duration_s": 22.2,
+      "video_frames": {
+        "observation.images.front": 444,
+        "observation.images.wrist": 444
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        56.71527099609375,
+        132.2147674560547,
+        63.29670333862305,
+        42.80701446533203,
+        36.614585876464844,
+        50.760719299316406
+      ]
+    },
+    {
+      "episode": 87,
+      "frames": 408,
+      "duration_s": 20.4,
+      "video_frames": {
+        "observation.images.front": 408,
+        "observation.images.wrist": 408
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        56.408287048339844,
+        145.05032348632812,
+        77.6068344116211,
+        49.824562072753906,
+        36.614585876464844,
+        61.13416290283203
+      ]
+    },
+    {
+      "episode": 88,
+      "frames": 448,
+      "duration_s": 22.4,
+      "video_frames": {
+        "observation.images.front": 448,
+        "observation.images.wrist": 448
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        36.14735412597656,
+        138.42282104492188,
+        68.76678466796875,
+        48.596492767333984,
+        24.42708396911621,
+        52.83540725708008
+      ]
+    },
+    {
+      "episode": 89,
+      "frames": 447,
+      "duration_s": 22.35,
+      "video_frames": {
+        "observation.images.front": 447,
+        "observation.images.wrist": 447
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        35.149654388427734,
+        144.3791961669922,
+        77.55799865722656,
+        43.50876998901367,
+        20.98958396911621,
+        53.596126556396484
+      ]
+    },
+    {
+      "episode": 90,
+      "frames": 424,
+      "duration_s": 21.2,
+      "video_frames": {
+        "observation.images.front": 424,
+        "observation.images.wrist": 424
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        111.74213409423828,
+        138.5067138671875,
+        68.76678466796875,
+        36.66666793823242,
+        73.48957824707031,
+        52.97372055053711
+      ]
+    },
+    {
+      "episode": 91,
+      "frames": 484,
+      "duration_s": 24.2,
+      "video_frames": {
+        "observation.images.front": 484,
+        "observation.images.wrist": 484
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        111.43515014648438,
+        139.42953491210938,
+        73.6019515991211,
+        34.5614013671875,
+        75.88542175292969,
+        60.30428695678711
+      ]
+    },
+    {
+      "episode": 92,
+      "frames": 446,
+      "duration_s": 22.3,
+      "video_frames": {
+        "observation.images.front": 446,
+        "observation.images.wrist": 446
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        80.81350708007812,
+        131.2080535888672,
+        62.41758346557617,
+        39.21052551269531,
+        54.21875,
+        48.893497467041016
+      ]
+    },
+    {
+      "episode": 93,
+      "frames": 496,
+      "duration_s": 24.8,
+      "video_frames": {
+        "observation.images.front": 496,
+        "observation.images.wrist": 496
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        79.50882720947266,
+        136.828857421875,
+        67.44810485839844,
+        43.24561309814453,
+        53.28125,
+        54.08021926879883
+      ]
+    },
+    {
+      "episode": 94,
+      "frames": 438,
+      "duration_s": 21.9,
+      "video_frames": {
+        "observation.images.front": 438,
+        "observation.images.wrist": 438
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        68.15042114257812,
+        144.4630889892578,
+        75.75091552734375,
+        32.71929931640625,
+        45.052085876464844,
+        55.25587844848633
+      ]
+    },
+    {
+      "episode": 95,
+      "frames": 421,
+      "duration_s": 21.05,
+      "video_frames": {
+        "observation.images.front": 421,
+        "observation.images.wrist": 421
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        65.92478942871094,
+        136.4932861328125,
+        72.03907775878906,
+        33.59648895263672,
+        47.29166793823242,
+        51.72890853881836
+      ]
+    },
+    {
+      "episode": 96,
+      "frames": 406,
+      "duration_s": 20.3,
+      "video_frames": {
+        "observation.images.front": 406,
+        "observation.images.wrist": 406
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        47.198768615722656,
+        142.86912536621094,
+        71.990234375,
+        33.59648895263672,
+        31.25,
+        51.72890853881836
+      ]
+    },
+    {
+      "episode": 97,
+      "frames": 504,
+      "duration_s": 25.2,
+      "video_frames": {
+        "observation.images.front": 504,
+        "observation.images.wrist": 504
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        46.35456848144531,
+        134.98321533203125,
+        70.91575622558594,
+        36.842105865478516,
+        31.40625,
+        51.93637466430664
+      ]
+    },
+    {
+      "episode": 98,
+      "frames": 509,
+      "duration_s": 25.45,
+      "video_frames": {
+        "observation.images.front": 509,
+        "observation.images.wrist": 509
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        38.066001892089844,
+        144.79864501953125,
+        75.79975891113281,
+        40.0,
+        25.57291603088379,
+        51.72890853881836
+      ]
+    },
+    {
+      "episode": 99,
+      "frames": 421,
+      "duration_s": 21.05,
+      "video_frames": {
+        "observation.images.front": 421,
+        "observation.images.wrist": 421
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        36.30084228515625,
+        129.78187561035156,
+        60.903541564941406,
+        40.0,
+        22.60416603088379,
+        51.0373420715332
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "task_success_manually_verified": false,
+  "robot_commands_sent": 0
+}

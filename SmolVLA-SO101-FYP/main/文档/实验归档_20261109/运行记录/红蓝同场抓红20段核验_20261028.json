@@ -1,0 +1,705 @@
+{
+  "status": "passed",
+  "dataset_root": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261028_155400_064069",
+  "fps": 20,
+  "total_episodes": 20,
+  "total_frames": 7121,
+  "tasks": [
+    {
+      "task_index": 0,
+      "task": "Pick up the red cube and place it in the target area."
+    }
+  ],
+  "video_keys": [
+    "observation.images.front",
+    "observation.images.wrist"
+  ],
+  "episodes": [
+    {
+      "episode": 0,
+      "frames": 429,
+      "duration_s": 21.45,
+      "video_frames": {
+        "observation.images.front": 429,
+        "observation.images.wrist": 429
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        121.87260437011719,
+        114.68120574951172,
+        52.25885009765625,
+        37.456138610839844,
+        86.71875,
+        30.428770065307617
+      ]
+    },
+    {
+      "episode": 1,
+      "frames": 354,
+      "duration_s": 17.7,
+      "video_frames": {
+        "observation.images.front": 354,
+        "observation.images.wrist": 354
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        123.63775634765625,
+        119.54698181152344,
+        53.479854583740234,
+        32.71929931640625,
+        86.45833587646484,
+        32.78008270263672
+      ]
+    },
+    {
+      "episode": 2,
+      "frames": 449,
+      "duration_s": 22.45,
+      "video_frames": {
+        "observation.images.front": 449,
+        "observation.images.wrist": 449
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        123.40752410888672,
+        118.95973205566406,
+        52.4542121887207,
+        29.298240661621094,
+        86.77082824707031,
+        36.652835845947266
+      ]
+    },
+    {
+      "episode": 3,
+      "frames": 441,
+      "duration_s": 22.05,
+      "video_frames": {
+        "observation.images.front": 441,
+        "observation.images.wrist": 441
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        124.021484375,
+        133.30535888671875,
+        64.85958862304688,
+        26.052635192871094,
+        83.80208587646484,
+        33.540802001953125
+      ]
+    },
+    {
+      "episode": 4,
+      "frames": 389,
+      "duration_s": 19.45,
+      "video_frames": {
+        "observation.images.front": 389,
+        "observation.images.wrist": 389
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        103.30007934570312,
+        137.66778564453125,
+        76.04395294189453,
+        24.473678588867188,
+        23.75,
+        32.01936340332031
+      ]
+    },
+    {
+      "episode": 5,
+      "frames": 359,
+      "duration_s": 17.95,
+      "video_frames": {
+        "observation.images.front": 359,
+        "observation.images.wrist": 359
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        104.37452697753906,
+        127.93624114990234,
+        60.17094039916992,
+        25.614036560058594,
+        72.96875,
+        28.492393493652344
+      ]
+    },
+    {
+      "episode": 6,
+      "frames": 327,
+      "duration_s": 16.35,
+      "video_frames": {
+        "observation.images.front": 327,
+        "observation.images.wrist": 327
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        99.30928802490234,
+        117.28187561035156,
+        58.119659423828125,
+        32.63158416748047,
+        67.60416412353516,
+        30.013830184936523
+      ]
+    },
+    {
+      "episode": 7,
+      "frames": 341,
+      "duration_s": 17.05,
+      "video_frames": {
+        "observation.images.front": 341,
+        "observation.images.wrist": 341
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        101.22793579101562,
+        125.92282104492188,
+        81.31868743896484,
+        31.929824829101562,
+        72.44792175292969,
+        43.22268295288086
+      ]
+    },
+    {
+      "episode": 8,
+      "frames": 394,
+      "duration_s": 19.7,
+      "video_frames": {
+        "observation.images.front": 394,
+        "observation.images.wrist": 394
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        77.59017944335938,
+        128.2718048095703,
+        60.366302490234375,
+        40.701751708984375,
+        49.47916793823242,
+        33.95574188232422
+      ]
+    },
+    {
+      "episode": 9,
+      "frames": 343,
+      "duration_s": 17.15,
+      "video_frames": {
+        "observation.images.front": 343,
+        "observation.images.wrist": 343
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        75.74827575683594,
+        121.81208038330078,
+        72.33210754394531,
+        32.36841583251953,
+        49.6875,
+        28.215768814086914
+      ]
+    },
+    {
+      "episode": 10,
+      "frames": 378,
+      "duration_s": 18.9,
+      "video_frames": {
+        "observation.images.front": 378,
+        "observation.images.wrist": 378
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        79.20184326171875,
+        135.23489379882812,
+        78.92552185058594,
+        41.31578826904297,
+        54.010414123535156,
+        35.75380325317383
+      ]
+    },
+    {
+      "episode": 11,
+      "frames": 337,
+      "duration_s": 16.85,
+      "video_frames": {
+        "observation.images.front": 337,
+        "observation.images.wrist": 337
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        80.35302734375,
+        131.5436248779297,
+        79.023193359375,
+        33.15789031982422,
+        58.90625,
+        43.01521682739258
+      ]
+    },
+    {
+      "episode": 12,
+      "frames": 332,
+      "duration_s": 16.6,
+      "video_frames": {
+        "observation.images.front": 332,
+        "observation.images.wrist": 332
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        58.710670471191406,
+        125.83892822265625,
+        75.9951171875,
+        37.1929817199707,
+        35.833335876464844,
+        32.7109260559082
+      ]
+    },
+    {
+      "episode": 13,
+      "frames": 315,
+      "duration_s": 15.75,
+      "video_frames": {
+        "observation.images.front": 315,
+        "observation.images.wrist": 315
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        56.638526916503906,
+        116.69463348388672,
+        64.95726013183594,
+        41.57894515991211,
+        39.114585876464844,
+        33.8865852355957
+      ]
+    },
+    {
+      "episode": 14,
+      "frames": 320,
+      "duration_s": 16.0,
+      "video_frames": {
+        "observation.images.front": 320,
+        "observation.images.wrist": 320
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        57.63622283935547,
+        120.72147369384766,
+        54.017093658447266,
+        45.52631378173828,
+        45.88541793823242,
+        29.668048858642578
+      ]
+    },
+    {
+      "episode": 15,
+      "frames": 347,
+      "duration_s": 17.35,
+      "video_frames": {
+        "observation.images.front": 347,
+        "observation.images.wrist": 347
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        57.0989990234375,
+        125.83892822265625,
+        60.21977996826172,
+        38.157894134521484,
+        39.84375,
+        39.488243103027344
+      ]
+    },
+    {
+      "episode": 16,
+      "frames": 312,
+      "duration_s": 15.6,
+      "video_frames": {
+        "observation.images.front": 312,
+        "observation.images.wrist": 312
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        34.765926361083984,
+        120.30200958251953,
+        63.492061614990234,
+        40.87718963623047,
+        24.479167938232422,
+        36.58367919921875
+      ]
+    },
+    {
+      "episode": 17,
+      "frames": 297,
+      "duration_s": 14.85,
+      "video_frames": {
+        "observation.images.front": 297,
+        "observation.images.wrist": 297
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        32.00307083129883,
+        121.47650909423828,
+        75.50672149658203,
+        43.947364807128906,
+        21.302082061767578,
+        34.578147888183594
+      ]
+    },
+    {
+      "episode": 18,
+      "frames": 381,
+      "duration_s": 19.05,
+      "video_frames": {
+        "observation.images.front": 381,
+        "observation.images.wrist": 381
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        33.15426254272461,
+        120.13422393798828,
+        78.14408111572266,
+        33.859649658203125,
+        23.54166603088379,
+        35.40802001953125
+      ]
+    },
+    {
+      "episode": 19,
+      "frames": 276,
+      "duration_s": 13.8,
+      "video_frames": {
+        "observation.images.front": 276,
+        "observation.images.wrist": 276
+      },
+      "black_frames": {
+        "observation.images.front": 0,
+        "observation.images.wrist": 0
+      },
+      "state_range": [
+        33.154258728027344,
+        120.38590240478516,
+        69.98779296875,
+        41.403507232666016,
+        21.197917938232422,
+        30.3596134185791
+      ]
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "task_success_manually_verified": false,
+  "robot_commands_sent": 0,
+  "scene_annotations": [
+    {
+      "episode_id": 0,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 1,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 2,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 3,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 4,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 5,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 6,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 7,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 8,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 9,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 10,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 11,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 12,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 13,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 14,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 15,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 16,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 17,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 18,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    },
+    {
+      "episode_id": 19,
+      "scene_type": "red_blue_cubes",
+      "present_objects": [
+        "RC",
+        "BC"
+      ],
+      "target_object_id": "RC",
+      "destination": "target_area",
+      "task_text": "Pick up the red cube and place it in the target area.",
+      "annotation_source": "user_confirmation",
+      "annotated_at": "2026-10-28T16:19:34.708537+08:00"
+    }
+  ]
+}

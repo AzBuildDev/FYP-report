@@ -1,0 +1,27 @@
+﻿{
+    "checked_at":  "2026-10-24T01:31:39.2222115+08:00",
+    "status":  "local_runtime_and_one_bounded_hardware_trial_completed",
+    "source_package":  "D:\\BaiduNetdiskDownload\\SmolVLA_五位置50段_bs64_30k_20261020\\SmolVLA_五位置50段_bs64_30k_20261020",
+    "model":  "模型/五位置稳定训练_20261019/batch64/best_val",
+    "training_step":  25000,
+    "batch_size":  64,
+    "checkpoint_sha256":  "8c322ed143593dcef600be987c90c0f8a1fdce01aa68969421e449f20cff3492",
+    "dataset":  "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261019_100106_674366",
+    "training_fingerprints":  "40/40 matched, including videos, actions, states and normalization",
+    "calibration":  "recovered from live read-only snapshots; follower matches documented original calibration; motor calibration not changed",
+    "offline_startup":  "passed",
+    "hardware_trial":  {
+                           "inferences":  32,
+                           "stop_reason":  "time_limit",
+                           "commands":  320,
+                           "grasp_success_confirmed":  false,
+                           "agent_visual_observation":  "Arm approached red block; a complete lift and placement was not observed.",
+                           "cleanup_errors":  [
+
+                                              ],
+                           "seconds":  30.1
+                       },
+    "post_trial_follower_torque_disabled_and_fault_free":  true,
+    "log":  "实机抓取测试_20261024_012733_139918.jsonl",
+    "post_trial_report":  "机械臂只读检查_20261024_013022_028187.json"
+}

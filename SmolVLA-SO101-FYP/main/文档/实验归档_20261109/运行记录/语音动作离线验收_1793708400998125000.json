@@ -1,0 +1,60 @@
+{
+  "scope": "real_models_replayed_images_simulated_motor",
+  "audio_source": "运行记录\\语音桥接合成蓝方块测试.wav",
+  "hardware_connected": false,
+  "robot_commands_sent": 0,
+  "task_success_evaluated": false,
+  "speech": {
+    "status": "target",
+    "target": "BC",
+    "transcript": "Pick up the blue cube and place it in the target area.",
+    "raw_model_output": "{\"status\":\"parsed\",\"task_id\":\"blue_cube_to_zone_A\"}",
+    "metrics": {
+      "asr_latency_s": 0.6420789000112563,
+      "audio_s": 4.28,
+      "language": "en",
+      "device": "cpu",
+      "audio_path": "运行记录\\语音桥接合成蓝方块测试.wav",
+      "latency_s": 11.047239800012903,
+      "peak_allocated_mib": 0
+    }
+  },
+  "speech_seconds": 11.75,
+  "model": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\新200段_阶段采样_20261103\\step_007500",
+  "task": "BC",
+  "control": {
+    "sent_commands": 50,
+    "inferences": 5,
+    "skipped_action_steps": 53,
+    "missed_ticks": 0,
+    "first_action_time": 0.5160000000032596,
+    "last_action_time": 2.9690000000118744,
+    "stop_reason": "time_limit",
+    "seconds": 3.0,
+    "active_control_hz": 19.9755401548422
+  },
+  "simulated_commands": 50,
+  "first_simulated_target": [
+    -0.4255564212799072,
+    -53.513423919677734,
+    -8.606226921081543,
+    64.39473724365234,
+    2.3541667461395264,
+    0.8356132507324219
+  ],
+  "switch_events": [
+    {
+      "type": "task_switch",
+      "current": "BC",
+      "pending": null,
+      "generation": 1,
+      "message": "已切换，等待新目标推理",
+      "request": {
+        "id": 1,
+        "source": "offline_voice",
+        "transcript": "Pick up the blue cube and place it in the target area."
+      }
+    }
+  ],
+  "status": "passed"
+}

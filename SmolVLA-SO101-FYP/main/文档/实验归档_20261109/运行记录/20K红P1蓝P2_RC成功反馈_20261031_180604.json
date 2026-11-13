@@ -1,0 +1,18 @@
+{
+  "run_id": "20261031_180604_636984",
+  "checkpoint": "step_020000",
+  "checkpoint_sha256": "45177407d822c4965ea065bae92057c44f37f754f0fadd8ac493bba2060082e3",
+  "layout": {
+    "red": "P1",
+    "blue": "P2"
+  },
+  "task": "RC",
+  "user_result": "成功",
+  "result_source": "用户反馈；截图与日志核对模型20K及RC指令",
+  "placement_and_return_details": "未单独确认",
+  "duration_seconds": 101.3,
+  "stop_reason": "user_stop",
+  "cleanup_errors": [],
+  "interpretation": "证明本次20K在红P1蓝P2且RC条件下可以成功；不能证明BC正确选蓝P2，也不足以比较20K与30K总体成功率",
+  "screenshot": "C:\\Users\\so101\\AppData\\Local\\Temp\\codex-clipboard-3d435111-8015-4fd7-8d48-5fb3b96e61e0.png"
+}

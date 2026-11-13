@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "scope": "synthetic_base_model_inference",
+  "action_shape": [
+    1,
+    50,
+    6
+  ],
+  "finite": true,
+  "inference_seconds": 1.0948045999975875,
+  "peak_gpu_memory_mib": 1212.04052734375,
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "robot_commands_sent": 0,
+  "camera_opened": false,
+  "task_success_evaluated": false
+}

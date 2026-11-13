@@ -1,0 +1,12 @@
+{
+  "status": "ready_for_independent_training_experiment",
+  "experiment": "D:\\FYP\\AutoDL_纯80段_指令对比_20261108",
+  "source_changed": true,
+  "cpu_checks_passed": true,
+  "gpu_checks_passed": true,
+  "training_started": false,
+  "cluster_modified": false,
+  "console_entry": "项目总控制台 → 离线实验 → 检查八十段指令对比实验",
+  "method": "experimental_instruction_margin_not_official_recipe",
+  "remaining": "新损失的集群batch实测、正式训练与实机效果验证"
+}

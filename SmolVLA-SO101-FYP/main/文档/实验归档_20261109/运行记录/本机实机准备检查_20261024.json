@@ -1,0 +1,26 @@
+﻿{
+    "checked_at":  "2026-10-24T01:07:29.4886168+08:00",
+    "project_path":  "D:\\FYP\\SmolVLA-SO101-FYP",
+    "branch":  "main",
+    "software_self_test":  "passed, 5 checks, 26 entries",
+    "pip_check":  "passed",
+    "leader_port":  "COM3",
+    "follower_port":  "COM4",
+    "robot_read_only_check":  "both arms fault-free; follower torque disabled; positions within hardware calibration registers",
+    "robot_report":  "机械臂只读检查_20261024_010410_217531.json",
+    "camera_passed":  true,
+    "camera_report":  "本机双摄复测_20261024.json",
+    "control_console_opened":  true,
+    "inference_window_opened":  true,
+    "discover_task_models_count":  0,
+    "grasp_started":  false,
+    "motor_commands_sent":  0,
+    "missing":  [
+                    "模型/双摄五位置_20261019_bs16_30000/best_val",
+                    "双相机演示_20261019_100106_674366",
+                    "标定备份/robots/so101_follower/my_awesome_follower_arm.json",
+                    "标定备份/teleoperators/so101_leader/my_awesome_leader_arm.json"
+                ],
+    "release_access":  "Private Release requires browser/account authentication; SSH Deploy Key only permits Git access",
+    "notes":  "The documented historical 3000-step Release did not complete grasping; no substitution made."
+}

@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "created_at": "2026-10-07T23:32:55",
+  "scope": "collection_workflow_software_only",
+  "robot_commands_sent": 0,
+  "real_demonstrations_collected": 0,
+  "checks": {
+    "archive_unit_tests": 10,
+    "panel_tests": 19,
+    "training_provenance_tests": 10,
+    "console_checks": 4,
+    "integration_checks": [
+      "fault_before_enable_blocks_goals",
+      "failed_take_retained",
+      "retry_unique_id",
+      "actual_video_roundtrip",
+      "action_state_parquet_match",
+      "injected_save_failure_preserved",
+      "sealed_batch_blocks_retry",
+      "all_ports_closed",
+      "pythonw_streams_writable"
+    ],
+    "python_sources_parsed": 59,
+    "batch_targets_and_core_document_links": "passed"
+  },
+  "existing_real_data": {
+    "episodes": 3,
+    "frames": 1114,
+    "new_data_collected_this_run": 0
+  },
+  "planned_collection": {
+    "pilot": 3,
+    "training": 30,
+    "held_out": 10,
+    "task": "红色方块抓取并放到固定目标区"
+  },
+  "branch": "smolvla-data-collection",
+  "raw_data_uploaded": false,
+  "hardware_tested": false,
+  "software_sha256": {
+    "脚本/数据采集/录制任务演示.py": "24bf0db22e50ff3d15582e92f991364c8958f89b2304f49bc3c459c1f27c0dd3",
+    "脚本/数据采集/恢复演示视频.py": "40a05fa70ab915951f9311e8e23b18280329d768374e9c4b681760039874098b",
+    "脚本/数据采集/检查采集批次.py": "53b5eb265926ecd2658cf1d4b833e19bc874f1890e27e844ccd474633dbeb96f",
+    "脚本/数据采集/演示采集流程自检.py": "18091c5be5ff28d265a0feeb4508666fe9c2ebb92037b992bd34819ca2e55cab",
+    "脚本/数据采集/管理采集尝试.py": "e50de04366ba278098c76eb321eedacfaaed1c01f0c757f669ce14ce8c1a33c3",
+    "脚本/数据采集/采集数据保护自检.py": "a3a5d88de266daf84ed5c892f5e16ac3de7b61a734f92328c3a4d6a4b8979c50",
+    "脚本/程序模块/管理采集训练任务.py": "5485af80f1d438c5b0f14a90a06f8f32eeae2cccca0372882ea05eb4947bcaf1",
+    "脚本/程序模块/管理训练数据来源.py": "1a76a6a83f1f257a041a5f448c01daff7e25b72977aa388fe2a3084130e89729",
+    "脚本/程序模块/微调预训练模型.py": "dd95509df38a327ba158cccbce1b6c15bdd00ed71eaf35817e1151d5bb9f471d"
+  }
+}

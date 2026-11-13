@@ -1,0 +1,74 @@
+启动请求：{"source": "button", "transcript": null, "target": "BC", "model_path": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\纯100段_阶段采样_20261107\\step_003435"}
+运行日志：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261108_135909_287755.jsonl
+【1/5】正在加载微调模型……
+模型：D:\FYP\SmolVLA-SO101-FYP\模型\纯100段_阶段采样_20261107\step_003435
+演示：D:\FYP\AutoDL_纯100段_阶段采样_20261107\训练数据
+处理器：D:\FYP\SmolVLA-SO101-FYP\模型\视觉语言处理器
+Reducing the number of VLM layers to 16 ...
+Loading weights from local directory
+任务指令：Pick up the blue cube and place it in the target area.
+推理输入存档：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261108_135909_287755
+【2/5】正在计算安全活动范围……
+【3/5】正在连接从臂（只检测，不动）……
+      夹爪原始位置：2068；标定范围：2046～3492。
+      从臂 COM4 在线，当前关节：[1.5, -100.0, 0.10000000149011612, 63.599998474121094, -1.0, 1.5]
+      夹爪当前开度：1.52；本次演示允许：0.00～71.14。
+【4/5】正在开启桌面和夹爪相机……
+      逐路相机日志：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261108_135909_287755\相机日志
+      两路相机画面正常。
+      正在等待推理窗口显示双摄画面……
+      双摄画面已在推理窗口显示。
+      正在预热模型并检查推理时效（不发送动作）……
+【5/5】正在核对启动姿态与最终设备状态……
+============================================================
+控制设置：从当前位置开始，相邻发送指令每步最多变化 0.5 个归一化单位。
+任务推理：在演示活动范围与标定行程内运行。
+身体关节范围包含当前姿态；夹爪起点必须在演示范围内，超出时拒绝启用。
+运行时长：持续运行。运行期间从臂会自行运动，请全程看护。
+已收到窗口的“启动推理”请求，最终检查通过后开始；点击“停止推理”或关闭窗口可停止。
+异步模式每个控制节拍处理停止请求；串行模式需等当前推理结束。
+============================================================
+独立跟随误差上限：[5.309999942779541, 10.0, 6.039999961853027, 5.449999809265137, 3.2899999618530273, 3.0]；持续卡住 0.6 秒即停止。
+夹爪闭合受阻时先限制继续夹紧；疑似接触保持不限时，模型要求张开时释放。
+正在启用从臂扭矩……
+开始闭环控制，持续运行，直到点击停止或发生故障。
+实时状态JSON：{"type": "telemetry", "t": 0.7959999999729916, "observed_state": [1.458173394203186, -100.0, 0.12210012227296829, 63.596492767333984, -0.9895833134651184, 1.521438479423523], "model_target": [1.2897546291351318, -78.21792602539062, -16.945411682128906, 71.55557250976562, -1.4645006656646729, 1.3651161193847656], "target": [1.2897546291351318, -99.5, -0.3778998851776123, 64.09649658203125, -1.4645006656646729, 1.3651161193847656], "chunk_index": 15, "source_age_s": 0.7970000000204891, "sent_target": [1.2897546291351318, -99.5, -0.3778998851776123, 64.09649658203125, -1.4645006656646729, 1.3651161193847656], "gripper_control": {"mode": "position", "contact_position": null, "hold_floor": null, "held_seconds": 0.0, "max_hold_seconds": null, "force_measured": false}, "joint_names": ["shoulder_pan.pos", "shoulder_lift.pos", "elbow_flex.pos", "wrist_flex.pos", "wrist_roll.pos", "gripper.pos"], "limited": [false, true, true, true, false, false], "command_error": [-0.1684187650680542, 0.5, -0.5000000074505806, 0.5000038146972656, -0.47491735219955444, -0.15632236003875732], "sent_commands": 1, "inferences": 1, "inference_s": 0.75, "limited_joints": 3, "fault_status": {"shoulder_pan": 0, "shoulder_lift": 0, "elbow_flex": 0, "wrist_flex": 0, "wrist_roll": 0, "gripper": 0}, "units": "归一化开度/位置，非角度"}
+实时状态JSON：{"type": "telemetry", "t": 1.312000000034459, "observed_state": [0.7674596905708313, -96.39261627197266, -2.661782741546631, 68.24561309814453, -0.4166666567325592, 1.383125901222229], "model_target": [1.7935998439788818, -43.36493682861328, -38.06983947753906, 88.9673080444336, 0.21067214012145996, 0.9755229949951172], "target": [1.7935998439788818, -94.0, -5.877900123596191, 69.59649658203125, 0.21067214012145996, 0.9755229949951172], "chunk_index": 27, "source_age_s": 1.3440000000409782, "sent_target": [1.7935998439788818, -94.0, -5.877900123596191, 69.59649658203125, 0.21067214012145996, 0.9755229949951172], "gripper_control": {"mode": "position", "contact_position": null, "hold_floor": null, "held_seconds": 0.0, "max_hold_seconds": null, "force_measured": false}, "joint_names": ["shoulder_pan.pos", "shoulder_lift.pos", "elbow_flex.pos", "wrist_flex.pos", "wrist_roll.pos", "gripper.pos"], "limited": [false, true, true, true, false, false], "command_error": [1.0261401534080505, 2.3926162719726562, -3.2161173820495605, 1.3508834838867188, 0.6273387968540192, -0.4076029062271118], "sent_commands": 12, "inferences": 1, "inference_s": 0.75, "limited_joints": 3, "fault_status": {"shoulder_pan": 0, "shoulder_lift": 0, "elbow_flex": 0, "wrist_flex": 0, "wrist_roll": 0, "gripper": 0}, "units": "归一化开度/位置，非角度"}
+
+异常停止：ClearCommError failed (PermissionError(13, '拒绝访问。', None, 5))
+资源清理异常：shoulder_pan 停扭矩写入未确认：Failed to write 'Torque_Enable' on id_=1 with '0' after 2 tries. [TxRxResult] Port is in use!；shoulder_pan 停扭矩读回未确认：Failed to read 'Torque_Enable' on id_=1 after 1 tries. [TxRxResult] Port is in use!；shoulder_lift 停扭矩写入未确认：Failed to write 'Torque_Enable' on id_=2 with '0' after 2 tries. [TxRxResult] Port is in use!；shoulder_lift 停扭矩读回未确认：Failed to read 'Torque_Enable' on id_=2 after 1 tries. [TxRxResult] Port is in use!；elbow_flex 停扭矩写入未确认：Failed to write 'Torque_Enable' on id_=3 with '0' after 2 tries. [TxRxResult] Port is in use!；elbow_flex 停扭矩读回未确认：Failed to read 'Torque_Enable' on id_=3 after 1 tries. [TxRxResult] Port is in use!；wrist_flex 停扭矩写入未确认：Failed to write 'Torque_Enable' on id_=4 with '0' after 2 tries. [TxRxResult] Port is in use!；wrist_flex 停扭矩读回未确认：Failed to read 'Torque_Enable' on id_=4 after 1 tries. [TxRxResult] Port is in use!；wrist_roll 停扭矩写入未确认：Failed to write 'Torque_Enable' on id_=5 with '0' after 2 tries. [TxRxResult] Port is in use!；wrist_roll 停扭矩读回未确认：Failed to read 'Torque_Enable' on id_=5 after 1 tries. [TxRxResult] Port is in use!；gripper 停扭矩写入未确认：Failed to write 'Torque_Enable' on id_=6 with '0' after 2 tries. [TxRxResult] Port is in use!；gripper 停扭矩读回未确认：Failed to read 'Torque_Enable' on id_=6 after 1 tries. [TxRxResult] Port is in use!
+共发送 12 次动作、1 次推理。
+模型输入画面：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261108_135909_287755（共 3 组）
+运行日志：D:\FYP\SmolVLA-SO101-FYP\运行记录\实机抓取测试_20261108_135909_287755.jsonl
+Traceback (most recent call last):
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 667, in <module>
+    main(args.mode, args.scene, selected, settings=trajectory_trial_settings() if args.trajectory_trial else task_inference_settings(args.seconds) if args.task_inference else None,
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 191, in main
+    run_test(resources, mode, scene.strip(), selection, settings, window_start, preview_directory, task=task)
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 555, in run_test
+    run_async_control(predict, read_state, get_frame, send_target,
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\异步动作控制.py", line 103, in run_async_control
+    current = np.asarray(read_state(), dtype=np.float32)
+  File "D:\FYP\SmolVLA-SO101-FYP\脚本\程序模块\实机抓取测试.py", line 522, in read_state
+    observation = follower.get_observation()
+  File "D:\FYP\SmolVLA-SO101-FYP\上游框架\src\lerobot\robots\so101_follower\so101_follower.py", line 180, in get_observation
+    obs_dict = self.bus.sync_read("Present_Position")
+  File "D:\FYP\SmolVLA-SO101-FYP\上游框架\src\lerobot\motors\motors_bus.py", line 1094, in sync_read
+    ids_values, _ = self._sync_read(
+  File "D:\FYP\SmolVLA-SO101-FYP\上游框架\src\lerobot\motors\motors_bus.py", line 1117, in _sync_read
+    comm = self.sync_reader.txRxPacket()
+  File "D:\FYP\SmolVLA-SO101-FYP\运行环境\虚拟环境\lib\site-packages\scservo_sdk\group_sync_read.py", line 77, in txRxPacket
+    result = self.txPacket()
+  File "D:\FYP\SmolVLA-SO101-FYP\运行环境\虚拟环境\lib\site-packages\scservo_sdk\group_sync_read.py", line 55, in txPacket
+    return self.ph.syncReadTx(self.port, self.start_address, self.data_length, self.param,
+  File "D:\FYP\SmolVLA-SO101-FYP\运行环境\虚拟环境\lib\site-packages\scservo_sdk\protocol_packet_handler.py", line 443, in syncReadTx
+    result = self.txPacket(port, txpacket)
+  File "D:\FYP\SmolVLA-SO101-FYP\运行环境\虚拟环境\lib\site-packages\scservo_sdk\protocol_packet_handler.py", line 95, in txPacket
+    port.clearPort()
+  File "D:\FYP\SmolVLA-SO101-FYP\运行环境\虚拟环境\lib\site-packages\scservo_sdk\port_handler.py", line 32, in clearPort
+    self.ser.flush()
+  File "D:\FYP\SmolVLA-SO101-FYP\运行环境\虚拟环境\lib\site-packages\serial\serialwin32.py", line 345, in flush
+    while self.out_waiting:
+  File "D:\FYP\SmolVLA-SO101-FYP\运行环境\虚拟环境\lib\site-packages\serial\serialwin32.py", line 447, in out_waiting
+    raise SerialException("ClearCommError failed ({!r})".format(ctypes.WinError()))
+serial.serialutil.SerialException: ClearCommError failed (PermissionError(13, '拒绝访问。', None, 5))

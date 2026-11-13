@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "gpu": "NVIDIA GeForce RTX 2080 Ti",
+  "dtype": "torch.bfloat16",
+  "imitation_loss": 0.001927740522660315,
+  "instruction_metrics": {
+    "correct_flow_error": 0.011803335743024945,
+    "wrong_flow_error": 0.010016383603215218,
+    "bounded_gap": -0.0017196850385516882,
+    "correct_instruction_lower_error_fraction": 0.5,
+    "margin_satisfied_fraction": 0.0,
+    "ranking_loss": 0.021719684824347496,
+    "positive_anchor_loss": 0.011803335743024945,
+    "effective_weight": 0.1,
+    "pair_count": 2,
+    "selection_success_measured": false
+  },
+  "gradient_norm": 0.6371445059776306,
+  "parameter_changed_max": 1.0000541806221008e-05,
+  "peak_allocated_mib": 2939.8828125,
+  "red_blue_tokens_different": true,
+  "checkpoint_roundtrip_max_metric_difference": 0.0,
+  "resumed_update_passed": true,
+  "all_saved_tensors_identical": true,
+  "tensors_checked": 506,
+  "original_weights_unchanged": true,
+  "temporary_checkpoint": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\指令对比训练改动_20261108\\GPU临时保存恢复_193554",
+  "formal_training_started": false,
+  "robot_commands": 0,
+  "grasp_success_tested": false,
+  "limit": "本地小批验收；集群BF16大批显存和正式入口16步保存恢复仍需另验"
+}

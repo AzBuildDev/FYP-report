@@ -1,0 +1,99 @@
+{
+  "model": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\红蓝120段交接_20261029\\模型\\红蓝混合120段_20261028_均衡选色_bs64_30000\\best_val",
+  "processor": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\红蓝120段交接_20261029\\模型\\视觉语言处理器",
+  "loaded_s": 84.08099399999992,
+  "torch": "2.7.1+cu126",
+  "device": "NVIDIA GeForce RTX 2080 Ti",
+  "hardware_tested": false,
+  "robot_commands_sent": 0,
+  "task_success_evaluated": false,
+  "predictions": [
+    {
+      "episode": 50,
+      "target": "RC",
+      "task": "Pick up the red cube and place it in the target area.",
+      "seconds": 1.016278400000374,
+      "shape": [
+        50,
+        6
+      ],
+      "first_action": [
+        5.947315692901611,
+        -96.3385009765625,
+        -0.4974479675292969,
+        65.60231018066406,
+        -1.6531062126159668,
+        0.10194587707519531
+      ],
+      "max_abs_action": 97.64970397949219
+    },
+    {
+      "episode": 50,
+      "target": "BC",
+      "task": "Pick up the blue cube and place it in the target area.",
+      "seconds": 0.6081697999998141,
+      "shape": [
+        50,
+        6
+      ],
+      "first_action": [
+        5.703013896942139,
+        -96.35054016113281,
+        -0.3801536560058594,
+        66.27178955078125,
+        -1.9388887882232666,
+        0.029145240783691406
+      ],
+      "max_abs_action": 99.13943481445312
+    },
+    {
+      "episode": 70,
+      "target": "RC",
+      "task": "Pick up the red cube and place it in the target area.",
+      "seconds": 0.5864230999995925,
+      "shape": [
+        50,
+        6
+      ],
+      "first_action": [
+        0.7940511703491211,
+        -96.38996124267578,
+        -3.176715850830078,
+        74.95519256591797,
+        -5.294979095458984,
+        3.866915702819824
+      ],
+      "max_abs_action": 97.14634704589844
+    },
+    {
+      "episode": 70,
+      "target": "BC",
+      "task": "Pick up the blue cube and place it in the target area.",
+      "seconds": 0.496615600000041,
+      "shape": [
+        50,
+        6
+      ],
+      "first_action": [
+        0.9725747108459473,
+        -96.7634506225586,
+        -2.5818252563476562,
+        74.84986877441406,
+        -5.465705394744873,
+        4.031706809997559
+      ],
+      "max_abs_action": 98.9013442993164
+    }
+  ],
+  "same_scene_task_difference": [
+    {
+      "episode": 50,
+      "max_abs_delta": 15.289024353027344
+    },
+    {
+      "episode": 70,
+      "max_abs_delta": 29.669544219970703
+    }
+  ],
+  "status": "passed"
+}

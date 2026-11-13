@@ -1,0 +1,60 @@
+{
+  "scope": "real_models_replayed_images_simulated_motor",
+  "audio_source": "运行记录\\语音桥接合成中文蓝完整指令测试.wav",
+  "hardware_connected": false,
+  "robot_commands_sent": 0,
+  "task_success_evaluated": false,
+  "speech": {
+    "status": "target",
+    "target": "BC",
+    "transcript": "拿起藍色的方塊放到目標區域",
+    "raw_model_output": "{\"status\":\"parsed\",\"task_id\":\"blue_cube_to_zone_A\"}",
+    "metrics": {
+      "asr_latency_s": 0.5918565000174567,
+      "audio_s": 4.125,
+      "language": "zh",
+      "device": "cpu",
+      "audio_path": "运行记录\\语音桥接合成中文蓝完整指令测试.wav",
+      "latency_s": 11.084031499980483,
+      "peak_allocated_mib": 0
+    }
+  },
+  "speech_seconds": 11.75,
+  "model": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\新200段_阶段采样_20261103\\step_007500",
+  "task": "BC",
+  "control": {
+    "sent_commands": 48,
+    "inferences": 4,
+    "skipped_action_steps": 50,
+    "missed_ticks": 0,
+    "first_action_time": 0.6099999999860302,
+    "last_action_time": 2.9690000000118744,
+    "stop_reason": "time_limit",
+    "seconds": 3.0160000000032596,
+    "active_control_hz": 19.923696481341707
+  },
+  "simulated_commands": 48,
+  "first_simulated_target": [
+    -0.4255564212799072,
+    -53.513423919677734,
+    -8.606226921081543,
+    64.39473724365234,
+    2.3541667461395264,
+    -0.09778404235839844
+  ],
+  "switch_events": [
+    {
+      "type": "task_switch",
+      "current": "BC",
+      "pending": null,
+      "generation": 1,
+      "message": "已切换，等待新目标推理",
+      "request": {
+        "id": 1,
+        "source": "offline_voice",
+        "transcript": "拿起藍色的方塊放到目標區域"
+      }
+    }
+  ],
+  "status": "passed"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "zip_path": "D:\\FYP\\AutoDL_新200段_阶段采样_20261103.zip",
+  "verified_files": 852,
+  "archive_bytes": 1798933000,
+  "all_file_sha256_match": true,
+  "zip_contents_bound_to_current_config": true,
+  "robot_commands_sent": 0
+}

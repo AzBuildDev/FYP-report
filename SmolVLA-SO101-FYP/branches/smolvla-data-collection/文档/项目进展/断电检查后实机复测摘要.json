@@ -1,0 +1,42 @@
+{
+  "scope": "user_authorized_short_hardware_retry_with_read_only_checks",
+  "created_at": "2026-10-07T17:32:30",
+  "control_source_commit": "a56d8bee3e3603588a1c6a9b4ef7a1c615237902",
+  "operator_power_cycle_confirmed": true,
+  "operator_confirmation": "已断电检查，夹爪无卡住，已重新上电",
+  "source_log": "实机抓取测试_20261007_171418_862949.jsonl",
+  "source_log_sha256": "49e28fb74c6c10261f4dc9a49d5b91d7ae33d6f3148b1c4e5ff79a7327bbc135",
+  "checkpoint_sha256": "1eb57f1652336c4e84d8da5772dabb51356817a3d6e1b31add084423c4059cb2",
+  "requested_seconds": 15,
+  "program_exit_code": 0,
+  "recorded_commands": 279,
+  "recorded_inferences": 17,
+  "active_control_hz": 19.946903924804623,
+  "stop_reason": "time_limit",
+  "cleanup_errors": [],
+  "precheck": {
+    "source_report": "机械臂只读检查_20261007_171256_066236.json",
+    "source_report_sha256": "81413d76d8d9a270d831834424e07be456417d93fb923d33dacc7af732a744d8",
+    "both_arms_fault_free": true,
+    "motors_checked": 12,
+    "follower_torque_disabled": true,
+    "follower_motors_checked": 6,
+    "robot_commands_sent": 0
+  },
+  "postcheck": {
+    "source_report": "机械臂只读检查_20261007_172325_923711.json",
+    "source_report_sha256": "bbd200248c1d55e1f08c073b15402faca08782329ca4e41c859964b9b1a19bcc",
+    "both_arms_fault_free": true,
+    "motors_checked": 12,
+    "follower_torque_disabled": true,
+    "follower_motors_checked": 6,
+    "robot_commands_sent": 0
+  },
+  "task_success_evaluated": true,
+  "task_outcome": "user_confirmed_pick_and_place_success",
+  "task_outcome_source": "实机复测人工结果.json",
+  "success_rate_evaluated": false,
+  "long_duration_overload_cause_resolved": false,
+  "original_overload_summary": "实机过载控制日志摘要.json",
+  "raw_data_published": false
+}

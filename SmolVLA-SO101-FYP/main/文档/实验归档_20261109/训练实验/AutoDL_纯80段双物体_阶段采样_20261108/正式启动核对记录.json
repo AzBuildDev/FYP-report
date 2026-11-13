@@ -1,0 +1,176 @@
+{
+  "checked_at": "2026-11-08T14:24:02.578655",
+  "host": "connect.westd.seetacloud.com",
+  "port": 50948,
+  "root": "/root/autodl-tmp/AutoDL_纯80段双物体_阶段采样_20261108",
+  "files": [
+    {
+      "path": "训练参数_B.json",
+      "size": 305,
+      "sha256": "7220b31ff8015ff2d70be1b391bc4c1371b87e0872914efb4129f2e44c521b75"
+    },
+    {
+      "path": "实验说明.json",
+      "size": 10006,
+      "sha256": "2d4a14e56a731738e0284000bbb522cc12de3529eace81c8510121ddf5560738"
+    },
+    {
+      "path": "文件清单.json",
+      "size": 90193,
+      "sha256": "4b7c8d7425e71b72bd31afdf6fe0c513f4ee582b9b0c911436c005c555a24d14"
+    },
+    {
+      "path": "配置调整前_batch140.json",
+      "size": 308,
+      "sha256": "0cd5687030d515e2922f3afa07495b8130a9ba3c5386dcce41dfab98b8f00427"
+    },
+    {
+      "path": "正式训练调度.py",
+      "size": 2228,
+      "sha256": "5609d43350432a039f043294cd1db9f73252e3278632703375e4e9e783b881de"
+    },
+    {
+      "path": "显存实测/批次搜索结果.json",
+      "size": 7489,
+      "sha256": "94ddef4f6a466fe89c7114a4332b16961253b4601aa85ebf15c523feca2b5a67"
+    },
+    {
+      "path": "日志/GPU保存验收.json",
+      "size": 202,
+      "sha256": "149c12b0054481c581c8ebc1bfc8aa8bae269228e9d1b6eb011684f26d1b47d0"
+    },
+    {
+      "path": "日志/正式训练调度状态.json",
+      "size": 120,
+      "sha256": "d1e083a81b8c5ada17476f1440f341008906072f235c35c2e8d4d02cd22c2a67"
+    }
+  ],
+  "saved_step": 16,
+  "last_start": {
+    "event": "start",
+    "step": 16,
+    "train_episodes": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      13,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      27,
+      30,
+      31,
+      32,
+      33,
+      34,
+      36,
+      37,
+      38,
+      39,
+      41,
+      42,
+      44,
+      45,
+      46,
+      48,
+      49,
+      50,
+      51,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      71,
+      72,
+      74,
+      76,
+      77,
+      78,
+      79
+    ],
+    "validation_episodes": [
+      0,
+      11,
+      14,
+      15,
+      26,
+      28,
+      29,
+      35,
+      40,
+      43,
+      47,
+      52,
+      60,
+      70,
+      73,
+      75
+    ],
+    "gpu": "NVIDIA RTX PRO 6000 Blackwell Server Edition",
+    "trainable_parameters": 99880992,
+    "time": "2026-11-08T14:19:07"
+  },
+  "latest_train": {
+    "event": "train",
+    "step": 50,
+    "loss_avg50": 0.0421521647778504,
+    "lr": 9.999066590284896e-05,
+    "grad_norm": 0.30171099305152893,
+    "elapsed_s": 170.54683423042297,
+    "sampling": {
+      "draw_counts": {
+        "pre_marker_0": 113,
+        "pre_marker_1": 113,
+        "full_trajectory_1": 113,
+        "full_trajectory_0": 113
+      },
+      "actual_inputs_before_marker": 312,
+      "windows_crossing_marker": 82
+    },
+    "batch_size": 452,
+    "data_wait_s_avg50": 0.08145959905403502,
+    "eta_s": 10403.356888055801,
+    "peak_gpu_allocated_mib": 90080.4267578125,
+    "time": "2026-11-08T14:21:57"
+  },
+  "config": {
+    "batch_size": 452,
+    "steps": 2124,
+    "warmup": 36,
+    "save_every": 355,
+    "validate_every": 71,
+    "seed": 42,
+    "validation_samples": 10,
+    "sampling_mode": "stage",
+    "output_relative": "输出/B_纯80段双物体_stage",
+    "initialization": "official_base_fresh_optimizer",
+    "continuous": false
+  }
+}

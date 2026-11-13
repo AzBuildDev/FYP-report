@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "model_steps": 3000,
+  "model_sha256": "33f4f305339fcfdfcda13ea1f9b9677bbe7e6db649fb110883dd727279831d14",
+  "training_code_commit": "36004951b381666ff33880d85a733724523c9220",
+  "files": [
+    {
+      "path": "模型/config.json",
+      "bytes": 2289,
+      "sha256": "489bcfd0b1c148d3b0dfeeaca4b1b840fdb40ea165d8c6255c6607af57113947"
+    },
+    {
+      "path": "模型/dataset_stats.json",
+      "bytes": 782,
+      "sha256": "a9e1d6852bdfd20949b1df2ac7ce7575a4593de88eedfe327e814089d51636ac"
+    },
+    {
+      "path": "模型/model.safetensors",
+      "bytes": 1197790016,
+      "sha256": "33f4f305339fcfdfcda13ea1f9b9677bbe7e6db649fb110883dd727279831d14"
+    },
+    {
+      "path": "模型/training_provenance.json",
+      "bytes": 19989,
+      "sha256": "d1e271cab2b040c759e83d927b97348e36a5708842a17538a16a12fa6eafb235"
+    },
+    {
+      "path": "视觉语言处理器/added_tokens.json",
+      "bytes": 4739,
+      "sha256": "74135b8664b56088c0006f1c8e848d79a8eba003411f72ebf1dc2ee96227be3a"
+    },
+    {
+      "path": "视觉语言处理器/chat_template.json",
+      "bytes": 430,
+      "sha256": "b585e3598909a5687f9f9d738d35223724dedef256b9b274e1cbfb32b13c74bf"
+    },
+    {
+      "path": "视觉语言处理器/config.json",
+      "bytes": 3767,
+      "sha256": "ea6bc1237e96247f6258de3e202e2e62b93d6f386dc47e7b36b5588bf3a15e17"
+    },
+    {
+      "path": "视觉语言处理器/generation_config.json",
+      "bytes": 136,
+      "sha256": "34835060c9f0f74d1acb456cc72ca32746d3843d9eb5f578f9cbffac1d2eb840"
+    },
+    {
+      "path": "视觉语言处理器/merges.txt",
+      "bytes": 466391,
+      "sha256": "0b54e8aa4e53d5383e2e4bc635a56b43f9647f7b13832d5d9ecd8f82dac4f510"
+    },
+    {
+      "path": "视觉语言处理器/preprocessor_config.json",
+      "bytes": 599,
+      "sha256": "149e315d9410368e5491455bb06e0f763426e9e56cca731c13b24404a29b6374"
+    },
+    {
+      "path": "视觉语言处理器/processor_config.json",
+      "bytes": 67,
+      "sha256": "f3ad45028447b3562b4752be0d5916d6806c1ef589091a469608dcf0faa1737c"
+    },
+    {
+      "path": "视觉语言处理器/special_tokens_map.json",
+      "bytes": 868,
+      "sha256": "2dfea2a426162316ff1567c82bc6d36d9690cd9f90455f075c77daca78b45c60"
+    },
+    {
+      "path": "视觉语言处理器/tokenizer.json",
+      "bytes": 3548256,
+      "sha256": "5ece781dc8d2b2f3e2f289ca0ae50b17cfc27dd27bfe7971bb8241e0b964331a"
+    },
+    {
+      "path": "视觉语言处理器/tokenizer_config.json",
+      "bytes": 28626,
+      "sha256": "dd9ce2ab89a3dd881bd9378f1a79b943a064b9275a7e1706d5b7b47b68977913"
+    },
+    {
+      "path": "视觉语言处理器/vocab.json",
+      "bytes": 800662,
+      "sha256": "82b84012e3add4d01d12ba14442026e49b8cbbaead1f79ecf3d919784f82dc79"
+    },
+    {
+      "path": "实验记录/3000步训练.json",
+      "bytes": 20913,
+      "sha256": "d80db67d9fb026e4dd7f34e9c688922f1eba7282210909ce041b320e335c0d55"
+    },
+    {
+      "path": "实验记录/10000步训练.json",
+      "bytes": 20946,
+      "sha256": "65f7645d08cc590f2aa497bdc078c6b57b94ecdd9f493c7289529d8bdec18229"
+    },
+    {
+      "path": "实验记录/3000步评估.json",
+      "bytes": 13431,
+      "sha256": "5b1f9836187e1b60df7e7bd92fe65561484f673801b81e9b47c2224adfd10262"
+    },
+    {
+      "path": "实验记录/10000步评估.json",
+      "bytes": 13467,
+      "sha256": "3c99b42ab540537dc53df2f77ec5e02b1409d8415b9617c88ee594c774a6701c"
+    },
+    {
+      "path": "实验记录/选型结果.md",
+      "bytes": 627,
+      "sha256": "a1e7a311194f476599650dcd299d58abd32bc75f36873cd2e8d5b2c1cb330310"
+    },
+    {
+      "path": "实验记录/依赖版本.txt",
+      "bytes": 2079,
+      "sha256": "2b43c97739d51e3ad03ad643ecdfed878b93330003345d7fc4ccf960b82c3a9b"
+    },
+    {
+      "path": "实验记录/基础模型版本.json",
+      "bytes": 292,
+      "sha256": "916868c12956fdb71209c4a398da4f7db802760e8df085f64f058313c6792e25"
+    },
+    {
+      "path": "实验记录/训练配置.json",
+      "bytes": 1185,
+      "sha256": "d5005ba91baef62a4aa28f23b61f225cb1a3f32ace7121e3d71ab77eed5ddda7"
+    },
+    {
+      "path": "实验记录/3000步评估_动作预测缓存.npz",
+      "bytes": 27973,
+      "sha256": "b1afe4aff42b742c45c81a5514e729aaf6d5119692dd388f94112b5b391c574c"
+    },
+    {
+      "path": "实验记录/10000步评估_动作预测缓存.npz",
+      "bytes": 27929,
+      "sha256": "a671a62927fb2c3b510fd8841a559b4d49e63c215cd163b0ecadde39a9695631"
+    },
+    {
+      "path": "实验记录/训练10000步.log",
+      "bytes": 46621,
+      "sha256": "4366a1fb23fe6fb698432ba66345bf128e56eb19aac449a056e99d60435cb147"
+    },
+    {
+      "path": "实验记录/评估3000步.log",
+      "bytes": 2026,
+      "sha256": "a4c122343d2c705def6c4a98c497b6a50d4ca0d79677c33e64a16edbddde451f"
+    },
+    {
+      "path": "实验记录/评估10000步.log",
+      "bytes": 2027,
+      "sha256": "63b13414c5f65369229253051b2c62548cf4ae978540dbfc608dd22182bf8553"
+    },
+    {
+      "path": "实验记录/训练3000步.log",
+      "bytes": 29339,
+      "sha256": "2246a5cb04f2d6b98e73201e4ae172a6032470c48e78fbc64dfbcf0873ffd776"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "asr": {
+    "model": "qwen3-asr-flash",
+    "http_status": 403,
+    "provider_code": "AccessDenied.Unpurchased",
+    "source": "live_request_synthetic_audio"
+  },
+  "semantic": {
+    "stage": "semantic",
+    "model": "qwen-plus",
+    "http_status": 403,
+    "provider_code": "AccessDenied.Unpurchased",
+    "source": "live_request",
+    "date": "2026-11-05"
+  },
+  "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+  "hardware_commands": 0,
+  "key_included": false,
+  "superseded_by": "百炼专属地址验收_20261105.json",
+  "diagnosis_correction": "旧通用地址返回403不能用于判定本账号未开通；API Key页面的业务空间专属地址已实测ASR和语义均成功。"
+}

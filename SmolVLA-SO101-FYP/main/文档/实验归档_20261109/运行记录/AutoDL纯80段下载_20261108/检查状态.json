@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-11-08T16:01:31.374393+08:00",
+  "ready": true,
+  "latest_train": {
+    "event": "train",
+    "step": 1050,
+    "loss_avg50": 0.009450872000306844,
+    "lr": 5.348742917003635e-05,
+    "grad_norm": 0.20282530784606934,
+    "elapsed_s": 5996.03331515938,
+    "sampling": {
+      "draw_counts": {
+        "pre_marker_1": 113,
+        "pre_marker_0": 113,
+        "full_trajectory_0": 113,
+        "full_trajectory_1": 113
+      },
+      "actual_inputs_before_marker": 311,
+      "windows_crossing_marker": 99
+    },
+    "batch_size": 452,
+    "data_wait_s_avg50": 7.832646369934082e-06,
+    "eta_s": 6227.988182283534,
+    "peak_gpu_allocated_mib": 90080.4267578125,
+    "time": "2026-11-08T15:59:03"
+  },
+  "latest_saved": {
+    "event": "checkpoint_saved",
+    "step": 1065,
+    "time": "2026-11-08T16:01:15"
+  }
+}

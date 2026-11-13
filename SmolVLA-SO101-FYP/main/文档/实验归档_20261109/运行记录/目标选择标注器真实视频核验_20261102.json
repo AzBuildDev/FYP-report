@@ -1,0 +1,56 @@
+{
+  "status": "passed",
+  "episodes": 200,
+  "fps": 20.0,
+  "dataset_fingerprint": "68150bfbbc95b097db1942ee19da21e8dcbd882f15a983061300970bb8fff9e2",
+  "decode_checks": [
+    {
+      "episode": 0,
+      "frame": 443,
+      "cameras": 2
+    },
+    {
+      "episode": 0,
+      "frame": 0,
+      "cameras": 2
+    },
+    {
+      "episode": 0,
+      "frame": 222,
+      "cameras": 2
+    },
+    {
+      "episode": 99,
+      "frame": 511,
+      "cameras": 2
+    },
+    {
+      "episode": 99,
+      "frame": 0,
+      "cameras": 2
+    },
+    {
+      "episode": 99,
+      "frame": 256,
+      "cameras": 2
+    },
+    {
+      "episode": 199,
+      "frame": 397,
+      "cameras": 2
+    },
+    {
+      "episode": 199,
+      "frame": 0,
+      "cameras": 2
+    },
+    {
+      "episode": 199,
+      "frame": 199,
+      "cameras": 2
+    }
+  ],
+  "elapsed_s": 1.9295599999895785,
+  "training_started": false,
+  "robot_commands_sent": 0
+}

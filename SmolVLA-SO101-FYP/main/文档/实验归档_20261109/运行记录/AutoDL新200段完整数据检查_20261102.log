@@ -1,0 +1,18 @@
+清单校验通过：844个文件
+Maximum supported image dimension is 65500 pixels
+Traceback (most recent call last):
+  File "D:\FYP\AutoDL_新200段_4090D_20261102\准备训练.py", line 33, in <module>
+    main()
+  File "D:\FYP\AutoDL_新200段_4090D_20261102\准备训练.py", line 27, in main
+    report, _, _ = inspect_dataset(ROOT/'训练数据', ROOT/'数据检查.json')
+  File "D:\FYP\AutoDL_新200段_4090D_20261102\脚本\程序模块\检查演示数据.py", line 86, in inspect_dataset
+    draw = ImageDraw.Draw(sheet)
+  File "D:\FYP\SmolVLA-SO101-FYP\运行环境\虚拟环境\lib\site-packages\PIL\Image.py", line 2713, in save
+    save_handler(self, fp, filename)
+  File "D:\FYP\SmolVLA-SO101-FYP\运行环境\虚拟环境\lib\site-packages\PIL\JpegImagePlugin.py", line 847, in _save
+    ImageFile._save(
+  File "D:\FYP\SmolVLA-SO101-FYP\运行环境\虚拟环境\lib\site-packages\PIL\ImageFile.py", line 665, in _save
+    _encode_tile(im, fp, tile, bufsize, fh)
+  File "D:\FYP\SmolVLA-SO101-FYP\运行环境\虚拟环境\lib\site-packages\PIL\ImageFile.py", line 702, in _encode_tile
+    raise _get_oserror(errcode, encoder=True) from exc
+OSError: broken data stream when writing image file

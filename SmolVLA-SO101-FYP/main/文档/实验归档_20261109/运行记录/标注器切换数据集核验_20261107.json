@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "selected_path": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830\\videos\\chunk-000\\observation.images.front",
+  "resolved_root": "D:\\FYP\\训练数据采集\\机械臂控制项目\\任务演示\\双相机演示_20261030_200119_173830",
+  "episodes": 100,
+  "tasks": {
+    "RC": 50,
+    "BC": 50
+  },
+  "fingerprint": "50515e56d61e72b8c9d1e22d4fcbf1231d29385a005ea72eaeb9b56173e8e876",
+  "dual_camera_frames_checked": 18,
+  "previous_200_annotations_unchanged": true,
+  "new_training_started": false,
+  "robot_commands_sent": 0
+}

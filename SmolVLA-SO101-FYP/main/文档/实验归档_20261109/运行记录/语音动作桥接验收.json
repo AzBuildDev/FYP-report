@@ -1,0 +1,34 @@
+{
+  "time": "2026-11-03T20:22:10.079521",
+  "github": "https://github.com/HDTHDT/SmolVLA-SO101-FYP",
+  "source_revision": "60d34f0856c71e135c4c537c397a20fc11dd997d",
+  "unit_tests_passed": 88,
+  "latest_changed_components_tests_passed": 26,
+  "verified_model_files": 21,
+  "reports": [
+    {
+      "path": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\语音动作离线验收_1793708400998125000.json",
+      "status": "passed",
+      "task": "BC",
+      "language": "en",
+      "simulated_commands": 50,
+      "robot_commands_sent": 0,
+      "llm_seconds": 11.047239800012903
+    },
+    {
+      "path": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\语音动作离线验收_1793708483585518900.json",
+      "status": "passed",
+      "task": "BC",
+      "language": "zh",
+      "simulated_commands": 48,
+      "robot_commands_sent": 0,
+      "llm_seconds": 11.084031499980483
+    }
+  ],
+  "red_speech_log": "D:\\FYP\\SmolVLA-SO101-FYP\\运行记录\\语音指令_1793708466833447100.jsonl",
+  "audio_source": "synthetic_SAPI",
+  "live_microphone_recorded": false,
+  "real_robot_tested": false,
+  "speech_device": "cpu",
+  "placement_confirmation": "manual_button"
+}

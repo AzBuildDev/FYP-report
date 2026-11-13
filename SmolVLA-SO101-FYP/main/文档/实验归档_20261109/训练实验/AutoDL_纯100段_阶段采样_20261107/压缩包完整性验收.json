@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "archive": "D:\\FYP\\AutoDL_纯100段_阶段采样_20261107.zip",
+  "bytes": 1257366299,
+  "sha256": "2e800a70cdced0b8c8caa0b66b37b2d99499cc3363226b0ab70df443a3fd5bb0",
+  "files": 562,
+  "crc_verified": true,
+  "dataset_episodes": 100,
+  "previous_200_dataset_included": false,
+  "training_started": false,
+  "robot_commands_sent": 0
+}

@@ -1,0 +1,17 @@
+{"event": "benchmark_start", "batch": 384, "time": "2026-11-08T14:09:27.361842"}
+{"event": "benchmark_result", "status": "passed", "batch_size": 384, "measured_updates": 4, "mean_step_s": 5.174344606697559, "samples_per_second": 74.21229724494165, "peak_gpu_allocated_mib": 76879.4287109375, "peak_gpu_reserved_mib": 80406.0, "gpu_total_mib": 97250.0625, "model_saved": false, "formal_training_started": false, "batch": 384, "headroom_mib": 16844.0625, "safe": true}
+{"event": "benchmark_start", "batch": 512, "time": "2026-11-08T14:10:12.170058"}
+{"event": "benchmark_result", "batch": 512, "exit_code": 1, "safe": false, "oom": true}
+{"event": "benchmark_start", "batch": 448, "time": "2026-11-08T14:10:40.725600"}
+{"event": "benchmark_result", "status": "passed", "batch_size": 448, "measured_updates": 4, "mean_step_s": 5.973659810920556, "samples_per_second": 74.99590103557672, "peak_gpu_allocated_mib": 89299.64501953125, "peak_gpu_reserved_mib": 93796.0, "gpu_total_mib": 97250.0625, "model_saved": false, "formal_training_started": false, "batch": 448, "headroom_mib": 3454.0625, "safe": true}
+{"event": "benchmark_start", "batch": 480, "time": "2026-11-08T14:11:27.229215"}
+{"event": "benchmark_result", "batch": 480, "exit_code": 1, "safe": false, "oom": true}
+{"event": "benchmark_start", "batch": 464, "time": "2026-11-08T14:11:55.231257"}
+{"event": "benchmark_result", "status": "passed", "batch_size": 464, "measured_updates": 4, "mean_step_s": 6.577107722560565, "samples_per_second": 70.54772699075666, "peak_gpu_allocated_mib": 92412.91796875, "peak_gpu_reserved_mib": 95358.0, "gpu_total_mib": 97250.0625, "model_saved": false, "formal_training_started": false, "batch": 464, "headroom_mib": 1892.0625, "safe": false}
+{"event": "benchmark_start", "batch": 456, "time": "2026-11-08T14:12:44.228760"}
+{"event": "benchmark_result", "status": "passed", "batch_size": 456, "measured_updates": 4, "mean_step_s": 6.111003427455823, "samples_per_second": 74.61949668548054, "peak_gpu_allocated_mib": 90847.9814453125, "peak_gpu_reserved_mib": 95384.0, "gpu_total_mib": 97250.0625, "model_saved": false, "formal_training_started": false, "batch": 456, "headroom_mib": 1866.0625, "safe": false}
+{"event": "benchmark_start", "batch": 452, "time": "2026-11-08T14:13:31.743752"}
+{"event": "benchmark_result", "status": "passed", "batch_size": 452, "measured_updates": 4, "mean_step_s": 6.2061281477411585, "samples_per_second": 72.83123861445146, "peak_gpu_allocated_mib": 90063.701171875, "peak_gpu_reserved_mib": 94910.0, "gpu_total_mib": 97250.0625, "model_saved": false, "formal_training_started": false, "batch": 452, "headroom_mib": 2340.0625, "safe": true}
+{"event": "benchmark_start", "batch": 224, "time": "2026-11-08T14:14:19.555921"}
+{"event": "benchmark_result", "status": "passed", "batch_size": 224, "measured_updates": 4, "mean_step_s": 2.984504196792841, "samples_per_second": 75.05434244009817, "peak_gpu_allocated_mib": 45847.3486328125, "peak_gpu_reserved_mib": 47626.0, "gpu_total_mib": 97250.0625, "model_saved": false, "formal_training_started": false, "batch": 224, "headroom_mib": 49624.0625, "safe": true}
+BATCH_SEARCH_COMPLETE {"state": "completed", "updated_at": "2026-11-08T14:14:54.350424", "reserve_mib": 2048, "maximum_safe_batch": 452, "first_unsafe_batch": 456, "selected_batch": 452, "selected_samples_per_second": 72.83123861445146, "selection_reason": "最大可用batch；只有较小批次实测吞吐高出10%以上才选择更快批次", "formal_training_started": false}

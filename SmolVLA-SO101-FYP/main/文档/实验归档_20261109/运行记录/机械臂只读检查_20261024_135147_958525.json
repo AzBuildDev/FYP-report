@@ -1,0 +1,1224 @@
+[
+  {
+    "port": "COM3",
+    "serial": "5C82108314",
+    "role_from_prior_usb_mapping": "leader",
+    "motors": [
+      {
+        "id": 1,
+        "model": 777,
+        "ping_status": 0,
+        "error": 0,
+        "position": 2116,
+        "read_statuses": {
+          "position": 0,
+          "torque_enabled": 0,
+          "homing_offset_raw": 0,
+          "range_min": 0,
+          "range_max": 0,
+          "fault_status": 0,
+          "temperature": 0,
+          "voltage_raw": 0,
+          "load_raw": 0,
+          "operating_mode": 0,
+          "goal_position_raw": 0,
+          "phase": 0
+        },
+        "torque_enabled": 0,
+        "homing_offset_raw": 210,
+        "range_min": 744,
+        "range_max": 3331,
+        "fault_status": 0,
+        "temperature": 44,
+        "voltage_raw": 124,
+        "load_raw": 0,
+        "operating_mode": 0,
+        "goal_position_raw": 0,
+        "phase": 12,
+        "position_signed": 2116,
+        "position_within_calibration": true,
+        "goal_position_signed": 0
+      },
+      {
+        "id": 2,
+        "model": 777,
+        "ping_status": 0,
+        "error": 0,
+        "position": 2053,
+        "read_statuses": {
+          "position": 0,
+          "torque_enabled": 0,
+          "homing_offset_raw": 0,
+          "range_min": 0,
+          "range_max": 0,
+          "fault_status": 0,
+          "temperature": 0,
+          "voltage_raw": 0,
+          "load_raw": 0,
+          "operating_mode": 0,
+          "goal_position_raw": 0,
+          "phase": 0
+        },
+        "torque_enabled": 0,
+        "homing_offset_raw": 65,
+        "range_min": 2043,
+        "range_max": 4452,
+        "fault_status": 0,
+        "temperature": 45,
+        "voltage_raw": 123,
+        "load_raw": 0,
+        "operating_mode": 0,
+        "goal_position_raw": 0,
+        "phase": 12,
+        "position_signed": 2053,
+        "position_within_calibration": true,
+        "goal_position_signed": 0
+      },
+      {
+        "id": 3,
+        "model": 777,
+        "ping_status": 0,
+        "error": 0,
+        "position": 2052,
+        "read_statuses": {
+          "position": 0,
+          "torque_enabled": 0,
+          "homing_offset_raw": 0,
+          "range_min": 0,
+          "range_max": 0,
+          "fault_status": 0,
+          "temperature": 0,
+          "voltage_raw": 0,
+          "load_raw": 0,
+          "operating_mode": 0,
+          "goal_position_raw": 0,
+          "phase": 0
+        },
+        "torque_enabled": 0,
+        "homing_offset_raw": 246,
+        "range_min": 0,
+        "range_max": 4095,
+        "fault_status": 0,
+        "temperature": 43,
+        "voltage_raw": 122,
+        "load_raw": 0,
+        "operating_mode": 0,
+        "goal_position_raw": 0,
+        "phase": 12,
+        "position_signed": 2052,
+        "position_within_calibration": true,
+        "goal_position_signed": 0
+      },
+      {
+        "id": 4,
+        "model": 777,
+        "ping_status": 0,
+        "error": 0,
+        "position": 1857,
+        "read_statuses": {
+          "position": 0,
+          "torque_enabled": 0,
+          "homing_offset_raw": 0,
+          "range_min": 0,
+          "range_max": 0,
+          "fault_status": 0,
+          "temperature": 0,
+          "voltage_raw": 0,
+          "load_raw": 0,
+          "operating_mode": 0,
+          "goal_position_raw": 0,
+          "phase": 0
+        },
+        "torque_enabled": 0,
+        "homing_offset_raw": 2067,
+        "range_min": 36,
+        "range_max": 2283,
+        "fault_status": 0,
+        "temperature": 47,
+        "voltage_raw": 124,
+        "load_raw": 0,
+        "operating_mode": 0,
+        "goal_position_raw": 0,
+        "phase": 12,
+        "position_signed": 1857,
+        "position_within_calibration": true,
+        "goal_position_signed": 0
+      },
+      {
+        "id": 5,
+        "model": 777,
+        "ping_status": 0,
+        "error": 0,
+        "position": 2071,
+        "read_statuses": {
+          "position": 0,
+          "torque_enabled": 0,
+          "homing_offset_raw": 0,
+          "range_min": 0,
+          "range_max": 0,
+          "fault_status": 0,
+          "temperature": 0,
+          "voltage_raw": 0,
+          "load_raw": 0,
+          "operating_mode": 0,
+          "goal_position_raw": 0,
+          "phase": 0
+        },
+        "torque_enabled": 0,
+        "homing_offset_raw": 1118,
+        "range_min": 159,
+        "range_max": 3974,
+        "fault_status": 0,
+        "temperature": 46,
+        "voltage_raw": 123,
+        "load_raw": 0,
+        "operating_mode": 0,
+        "goal_position_raw": 0,
+        "phase": 12,
+        "position_signed": 2071,
+        "position_within_calibration": true,
+        "goal_position_signed": 0
+      },
+      {
+        "id": 6,
+        "model": 777,
+        "ping_status": 0,
+        "error": 0,
+        "position": 2049,
+        "read_statuses": {
+          "position": 0,
+          "torque_enabled": 0,
+          "homing_offset_raw": 0,
+          "range_min": 0,
+          "range_max": 0,
+          "fault_status": 0,
+          "temperature": 0,
+          "voltage_raw": 0,
+          "load_raw": 0,
+          "operating_mode": 0,
+          "goal_position_raw": 0,
+          "phase": 0
+        },
+        "torque_enabled": 0,
+        "homing_offset_raw": 3023,
+        "range_min": 2047,
+        "range_max": 3218,
+        "fault_status": 0,
+        "temperature": 47,
+        "voltage_raw": 123,
+        "load_raw": 0,
+        "operating_mode": 0,
+        "goal_position_raw": 0,
+        "phase": 12,
+        "position_signed": 2049,
+        "position_within_calibration": true,
+        "goal_position_signed": 0,
+        "full_parameters": {
+          "Firmware_Major_Version": {
+            "address": 0,
+            "length": 1,
+            "value": 3,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Firmware_Minor_Version": {
+            "address": 1,
+            "length": 1,
+            "value": 11,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Model_Number": {
+            "address": 3,
+            "length": 2,
+            "value": 777,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "ID": {
+            "address": 5,
+            "length": 1,
+            "value": 6,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Baud_Rate": {
+            "address": 6,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Return_Delay_Time": {
+            "address": 7,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Response_Status_Level": {
+            "address": 8,
+            "length": 1,
+            "value": 1,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Min_Position_Limit": {
+            "address": 9,
+            "length": 2,
+            "value": 2047,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Max_Position_Limit": {
+            "address": 11,
+            "length": 2,
+            "value": 3218,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Max_Temperature_Limit": {
+            "address": 13,
+            "length": 1,
+            "value": 70,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Max_Voltage_Limit": {
+            "address": 14,
+            "length": 1,
+            "value": 140,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Min_Voltage_Limit": {
+            "address": 15,
+            "length": 1,
+            "value": 45,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Max_Torque_Limit": {
+            "address": 16,
+            "length": 2,
+            "value": 500,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Phase": {
+            "address": 18,
+            "length": 1,
+            "value": 12,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Unloading_Condition": {
+            "address": 19,
+            "length": 1,
+            "value": 44,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "LED_Alarm_Condition": {
+            "address": 20,
+            "length": 1,
+            "value": 47,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "P_Coefficient": {
+            "address": 21,
+            "length": 1,
+            "value": 16,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "D_Coefficient": {
+            "address": 22,
+            "length": 1,
+            "value": 32,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "I_Coefficient": {
+            "address": 23,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Minimum_Startup_Force": {
+            "address": 24,
+            "length": 2,
+            "value": 16,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "CW_Dead_Zone": {
+            "address": 26,
+            "length": 1,
+            "value": 1,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "CCW_Dead_Zone": {
+            "address": 27,
+            "length": 1,
+            "value": 1,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Protection_Current": {
+            "address": 28,
+            "length": 2,
+            "value": 250,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Angular_Resolution": {
+            "address": 30,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Homing_Offset": {
+            "address": 31,
+            "length": 2,
+            "value": 3023,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Operating_Mode": {
+            "address": 33,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Protective_Torque": {
+            "address": 34,
+            "length": 1,
+            "value": 20,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Protection_Time": {
+            "address": 35,
+            "length": 1,
+            "value": 200,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Overload_Torque": {
+            "address": 36,
+            "length": 1,
+            "value": 25,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Velocity_closed_loop_P_proportional_coefficient": {
+            "address": 37,
+            "length": 1,
+            "value": 10,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Over_Current_Protection_Time": {
+            "address": 38,
+            "length": 1,
+            "value": 200,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Velocity_closed_loop_I_integral_coefficient": {
+            "address": 39,
+            "length": 1,
+            "value": 200,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Torque_Enable": {
+            "address": 40,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Acceleration": {
+            "address": 41,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Goal_Position": {
+            "address": 42,
+            "length": 2,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Goal_Time": {
+            "address": 44,
+            "length": 2,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Goal_Velocity": {
+            "address": 46,
+            "length": 2,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Torque_Limit": {
+            "address": 48,
+            "length": 2,
+            "value": 500,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Lock": {
+            "address": 55,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Present_Position": {
+            "address": 56,
+            "length": 2,
+            "value": 2049,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Present_Velocity": {
+            "address": 58,
+            "length": 2,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Present_Load": {
+            "address": 60,
+            "length": 2,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Present_Voltage": {
+            "address": 62,
+            "length": 1,
+            "value": 123,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Present_Temperature": {
+            "address": 63,
+            "length": 1,
+            "value": 47,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Status": {
+            "address": 65,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Moving": {
+            "address": 66,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Present_Current": {
+            "address": 69,
+            "length": 2,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Goal_Position_2": {
+            "address": 71,
+            "length": 2,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Moving_Velocity": {
+            "address": 80,
+            "length": 1,
+            "value": 1,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Moving_Velocity_Threshold": {
+            "address": 80,
+            "length": 1,
+            "value": 1,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "DTs": {
+            "address": 81,
+            "length": 1,
+            "value": 20,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Velocity_Unit_factor": {
+            "address": 82,
+            "length": 1,
+            "value": 50,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Hts": {
+            "address": 83,
+            "length": 1,
+            "value": 1,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Maximum_Velocity_Limit": {
+            "address": 84,
+            "length": 1,
+            "value": 65,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Maximum_Acceleration": {
+            "address": 85,
+            "length": 1,
+            "value": 254,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Acceleration_Multiplier ": {
+            "address": 86,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          }
+        }
+      }
+    ]
+  },
+  {
+    "port": "COM4",
+    "serial": "5C82108242",
+    "role_from_prior_usb_mapping": "follower",
+    "motors": [
+      {
+        "id": 1,
+        "model": 777,
+        "ping_status": 0,
+        "error": 0,
+        "position": 1557,
+        "read_statuses": {
+          "position": 0,
+          "torque_enabled": 0,
+          "homing_offset_raw": 0,
+          "range_min": 0,
+          "range_max": 0,
+          "fault_status": 0,
+          "temperature": 0,
+          "voltage_raw": 0,
+          "load_raw": 0,
+          "operating_mode": 0,
+          "goal_position_raw": 0,
+          "phase": 0
+        },
+        "torque_enabled": 0,
+        "homing_offset_raw": 2221,
+        "range_min": 708,
+        "range_max": 3314,
+        "fault_status": 0,
+        "temperature": 44,
+        "voltage_raw": 124,
+        "load_raw": 65,
+        "operating_mode": 0,
+        "goal_position_raw": 1566,
+        "phase": 12,
+        "position_signed": 1557,
+        "position_within_calibration": true,
+        "goal_position_signed": 1566
+      },
+      {
+        "id": 2,
+        "model": 777,
+        "ping_status": 0,
+        "error": 0,
+        "position": 3249,
+        "read_statuses": {
+          "position": 0,
+          "torque_enabled": 0,
+          "homing_offset_raw": 0,
+          "range_min": 0,
+          "range_max": 0,
+          "fault_status": 0,
+          "temperature": 0,
+          "voltage_raw": 0,
+          "load_raw": 0,
+          "operating_mode": 0,
+          "goal_position_raw": 0,
+          "phase": 0
+        },
+        "torque_enabled": 0,
+        "homing_offset_raw": 2065,
+        "range_min": 2041,
+        "range_max": 4425,
+        "fault_status": 0,
+        "temperature": 44,
+        "voltage_raw": 124,
+        "load_raw": 1114,
+        "operating_mode": 0,
+        "goal_position_raw": 3228,
+        "phase": 12,
+        "position_signed": 3249,
+        "position_within_calibration": true,
+        "goal_position_signed": 3228
+      },
+      {
+        "id": 3,
+        "model": 777,
+        "ping_status": 0,
+        "error": 0,
+        "position": 1334,
+        "read_statuses": {
+          "position": 0,
+          "torque_enabled": 0,
+          "homing_offset_raw": 0,
+          "range_min": 0,
+          "range_max": 0,
+          "fault_status": 0,
+          "temperature": 0,
+          "voltage_raw": 0,
+          "load_raw": 0,
+          "operating_mode": 0,
+          "goal_position_raw": 0,
+          "phase": 0
+        },
+        "torque_enabled": 0,
+        "homing_offset_raw": 112,
+        "range_min": 0,
+        "range_max": 4095,
+        "fault_status": 0,
+        "temperature": 44,
+        "voltage_raw": 124,
+        "load_raw": 1110,
+        "operating_mode": 0,
+        "goal_position_raw": 1314,
+        "phase": 12,
+        "position_signed": 1334,
+        "position_within_calibration": true,
+        "goal_position_signed": 1314
+      },
+      {
+        "id": 4,
+        "model": 777,
+        "ping_status": 0,
+        "error": 0,
+        "position": 1963,
+        "read_statuses": {
+          "position": 0,
+          "torque_enabled": 0,
+          "homing_offset_raw": 0,
+          "range_min": 0,
+          "range_max": 0,
+          "fault_status": 0,
+          "temperature": 0,
+          "voltage_raw": 0,
+          "load_raw": 0,
+          "operating_mode": 0,
+          "goal_position_raw": 0,
+          "phase": 0
+        },
+        "torque_enabled": 0,
+        "homing_offset_raw": 2128,
+        "range_min": 39,
+        "range_max": 2319,
+        "fault_status": 0,
+        "temperature": 46,
+        "voltage_raw": 123,
+        "load_raw": 1072,
+        "operating_mode": 0,
+        "goal_position_raw": 1956,
+        "phase": 12,
+        "position_signed": 1963,
+        "position_within_calibration": true,
+        "goal_position_signed": 1956
+      },
+      {
+        "id": 5,
+        "model": 777,
+        "ping_status": 0,
+        "error": 0,
+        "position": 1525,
+        "read_statuses": {
+          "position": 0,
+          "torque_enabled": 0,
+          "homing_offset_raw": 0,
+          "range_min": 0,
+          "range_max": 0,
+          "fault_status": 0,
+          "temperature": 0,
+          "voltage_raw": 0,
+          "load_raw": 0,
+          "operating_mode": 0,
+          "goal_position_raw": 0,
+          "phase": 0
+        },
+        "torque_enabled": 0,
+        "homing_offset_raw": 2126,
+        "range_min": 131,
+        "range_max": 3971,
+        "fault_status": 0,
+        "temperature": 46,
+        "voltage_raw": 123,
+        "load_raw": 79,
+        "operating_mode": 0,
+        "goal_position_raw": 1539,
+        "phase": 12,
+        "position_signed": 1525,
+        "position_within_calibration": true,
+        "goal_position_signed": 1539
+      },
+      {
+        "id": 6,
+        "model": 777,
+        "ping_status": 0,
+        "error": 0,
+        "position": 2618,
+        "read_statuses": {
+          "position": 0,
+          "torque_enabled": 0,
+          "homing_offset_raw": 0,
+          "range_min": 0,
+          "range_max": 0,
+          "fault_status": 0,
+          "temperature": 0,
+          "voltage_raw": 0,
+          "load_raw": 0,
+          "operating_mode": 0,
+          "goal_position_raw": 0,
+          "phase": 0
+        },
+        "torque_enabled": 0,
+        "homing_offset_raw": 1925,
+        "range_min": 2046,
+        "range_max": 3492,
+        "fault_status": 0,
+        "temperature": 46,
+        "voltage_raw": 125,
+        "load_raw": 86,
+        "operating_mode": 0,
+        "goal_position_raw": 2637,
+        "phase": 12,
+        "position_signed": 2618,
+        "position_within_calibration": true,
+        "goal_position_signed": 2637,
+        "full_parameters": {
+          "Firmware_Major_Version": {
+            "address": 0,
+            "length": 1,
+            "value": 3,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Firmware_Minor_Version": {
+            "address": 1,
+            "length": 1,
+            "value": 11,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Model_Number": {
+            "address": 3,
+            "length": 2,
+            "value": 777,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "ID": {
+            "address": 5,
+            "length": 1,
+            "value": 6,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Baud_Rate": {
+            "address": 6,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Return_Delay_Time": {
+            "address": 7,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Response_Status_Level": {
+            "address": 8,
+            "length": 1,
+            "value": 1,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Min_Position_Limit": {
+            "address": 9,
+            "length": 2,
+            "value": 2046,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Max_Position_Limit": {
+            "address": 11,
+            "length": 2,
+            "value": 3492,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Max_Temperature_Limit": {
+            "address": 13,
+            "length": 1,
+            "value": 70,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Max_Voltage_Limit": {
+            "address": 14,
+            "length": 1,
+            "value": 140,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Min_Voltage_Limit": {
+            "address": 15,
+            "length": 1,
+            "value": 45,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Max_Torque_Limit": {
+            "address": 16,
+            "length": 2,
+            "value": 500,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Phase": {
+            "address": 18,
+            "length": 1,
+            "value": 12,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Unloading_Condition": {
+            "address": 19,
+            "length": 1,
+            "value": 44,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "LED_Alarm_Condition": {
+            "address": 20,
+            "length": 1,
+            "value": 47,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "P_Coefficient": {
+            "address": 21,
+            "length": 1,
+            "value": 16,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "D_Coefficient": {
+            "address": 22,
+            "length": 1,
+            "value": 32,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "I_Coefficient": {
+            "address": 23,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Minimum_Startup_Force": {
+            "address": 24,
+            "length": 2,
+            "value": 16,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "CW_Dead_Zone": {
+            "address": 26,
+            "length": 1,
+            "value": 1,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "CCW_Dead_Zone": {
+            "address": 27,
+            "length": 1,
+            "value": 1,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Protection_Current": {
+            "address": 28,
+            "length": 2,
+            "value": 250,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Angular_Resolution": {
+            "address": 30,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Homing_Offset": {
+            "address": 31,
+            "length": 2,
+            "value": 1925,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Operating_Mode": {
+            "address": 33,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Protective_Torque": {
+            "address": 34,
+            "length": 1,
+            "value": 20,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Protection_Time": {
+            "address": 35,
+            "length": 1,
+            "value": 200,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Overload_Torque": {
+            "address": 36,
+            "length": 1,
+            "value": 25,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Velocity_closed_loop_P_proportional_coefficient": {
+            "address": 37,
+            "length": 1,
+            "value": 10,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Over_Current_Protection_Time": {
+            "address": 38,
+            "length": 1,
+            "value": 200,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Velocity_closed_loop_I_integral_coefficient": {
+            "address": 39,
+            "length": 1,
+            "value": 200,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Torque_Enable": {
+            "address": 40,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Acceleration": {
+            "address": 41,
+            "length": 1,
+            "value": 254,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Goal_Position": {
+            "address": 42,
+            "length": 2,
+            "value": 2637,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Goal_Time": {
+            "address": 44,
+            "length": 2,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Goal_Velocity": {
+            "address": 46,
+            "length": 2,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Torque_Limit": {
+            "address": 48,
+            "length": 2,
+            "value": 500,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Lock": {
+            "address": 55,
+            "length": 1,
+            "value": 1,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Present_Position": {
+            "address": 56,
+            "length": 2,
+            "value": 2618,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Present_Velocity": {
+            "address": 58,
+            "length": 2,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Present_Load": {
+            "address": 60,
+            "length": 2,
+            "value": 86,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Present_Voltage": {
+            "address": 62,
+            "length": 1,
+            "value": 125,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Present_Temperature": {
+            "address": 63,
+            "length": 1,
+            "value": 46,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Status": {
+            "address": 65,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Moving": {
+            "address": 66,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Present_Current": {
+            "address": 69,
+            "length": 2,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Goal_Position_2": {
+            "address": 71,
+            "length": 2,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Moving_Velocity": {
+            "address": 80,
+            "length": 1,
+            "value": 1,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Moving_Velocity_Threshold": {
+            "address": 80,
+            "length": 1,
+            "value": 1,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "DTs": {
+            "address": 81,
+            "length": 1,
+            "value": 20,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Velocity_Unit_factor": {
+            "address": 82,
+            "length": 1,
+            "value": 50,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Hts": {
+            "address": 83,
+            "length": 1,
+            "value": 1,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Maximum_Velocity_Limit": {
+            "address": 84,
+            "length": 1,
+            "value": 65,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Maximum_Acceleration": {
+            "address": 85,
+            "length": 1,
+            "value": 254,
+            "communication_status": 0,
+            "device_error": 0
+          },
+          "Acceleration_Multiplier ": {
+            "address": 86,
+            "length": 1,
+            "value": 0,
+            "communication_status": 0,
+            "device_error": 0
+          }
+        }
+      }
+    ]
+  }
+]

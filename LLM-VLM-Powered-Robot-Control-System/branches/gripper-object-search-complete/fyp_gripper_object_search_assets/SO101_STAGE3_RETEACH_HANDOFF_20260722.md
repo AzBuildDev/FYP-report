@@ -1,0 +1,522 @@
+# SO101 双相机粗定位与夹爪相机微调 Handoff
+
+更新时间：2026-07-23  
+项目目录：`F:\FYP\Project\so101_mac_bringup`
+
+## 当前结论
+
+当前最有效的路线是：
+
+```text
+顶部相机 YOLO 粗定位
+-> pose_model / replay / full_pose 到达目标附近
+-> 夹爪相机检测目标中心与 recorded_robust ref 的误差
+-> learned full_pose 微调
+-> 如果微调 DONE，则自动更新紧凑参数模型
+-> 微调成功后的姿态差会反哺粗定位 compact bias
+```
+
+现在已经不再推荐把每一次成功都保存成新的空间坐标点。最新实现改成只更新参数：
+
+```text
+gripper_error_uv -> 五关节补偿量
+```
+
+也就是说，系统会保存一个紧凑的 `gripper_learned_param_model`，而不是无限追加新的 `points`。每次成功更新都使用运行平均：
+
+```text
+new_param = (old_param * n + measured_param) / (n + 1)
+```
+
+并保留最近 3 个旧参数版本，后续可以做撤回。
+
+2026-07-23 晚上测试反馈：当前版本效果非常好，自动微调可以稳定把目标拉近 ref，适合作为“成功版”备份和后续新窗口继续开发的基线。
+
+2026-07-23 暂停前最新状态：视觉对齐基线已经比较完美；在此基础上新增了“对齐后主臂同步、锁住主臂、释放后进入局部 ACT 抓取录制”的第一版入口。注意：这部分最新代码还没有经过真实硬件完整测试，只做过编译、回归测试和无硬件 LeRobotDataset 写入测试。下一次继续时，应先验证控制和录制链路，不要先重构已经稳定的对齐逻辑。
+
+## 暂停前新增但未实机测试的 ACT handoff 功能
+
+当前设计目标：
+
+```text
+A 自动对齐从臂
+-> N 从臂自动张开夹爪，并把主臂同步到从臂当前姿态
+-> 主臂保持 torque 锁住，避免到位后软下去
+-> G 释放主臂锁，开始主从手动控制
+-> D 开始局部 ACT episode 录制
+-> 人操作主臂完成局部抓取
+-> D 停止并保存 episode
+```
+
+已经写入 `vision\scripts\yolo_guided_align.py` 的内容：
+
+- `N`：从臂到位后，自动打开从臂夹爪，默认 `gripper.pos=60.0`；随后把主臂的五个主体关节同步到从臂姿态。
+- 主臂同步默认不包含夹爪：`--leader-sync-include-gripper` 默认为关闭。原因是主臂握把夹爪可能不适合/不需要被程序控制，当前先保护主体姿态同步。
+- `N` 同步完成后，默认保持主臂 torque：`--leader-sync-hold-torque` 默认为开启。
+- `G`：释放主臂 torque hold，并进入主从手动 teleop。
+- `D`：开始/停止局部 ACT 录制。开始录制时如果尚未打开手动 teleop，会自动打开；停止录制时保存一个 LeRobot episode。
+
+新增录制数据集默认路径：
+
+```text
+F:\FYP\Project\so101_mac_bringup\datasets\so101_local_grasp_act_handoff_test
+```
+
+录制格式与现有 ACT 双相机数据集保持一致：
+
+```text
+action: 6 维关节
+observation.state: 6 维关节
+observation.images.overhead: 480x640 RGB
+observation.images.front: 480x640 RGB
+fps: 20
+```
+
+重要限制：
+
+- 当前 ACT 录制入口复用 `yolo_guided_align.py` 进程里已经打开的机械臂和双相机；不要另开 `lerobot-record` 抢 COM11/COM12 或摄像头。
+- 当前从 OpenCV 相机帧写入数据集前会从 BGR 转 RGB。
+- 当前只做了软件层验证，尚未确认真实硬件上 `D` 开始/停止录制时的控制体验、保存耗时和视频编码是否满足采集节奏。
+- 如果下一次测试发现主臂夹爪无法同步或没有必要同步，继续保持默认“不同步主臂夹爪”；ACT 只负责局部抓取动作本身。
+
+## 重要备份点
+
+在切换到“只更新参数、不再追加坐标点”之前，已经备份当前代码和数据：
+
+```text
+F:\FYP\Project\so101_mac_bringup\backups\auto_param_learning_20260723_184302
+```
+
+这个备份点代表：
+
+- `comp_reverse_actual` 已经加入。
+- 微调能在若干失败尝试后通过实际位移反向拉回。
+- `V` 仍可用于保存人工确认的 verified 点。
+- 尚未切换到 compact parameter-only 学习。
+
+如果后续参数学习效果不好，可以回到这个备份版本。
+
+当前效果较好的版本也已经备份：
+
+```text
+F:\FYP\Project\so101_mac_bringup\backups\good_autonomous_coarse_feedback_20260723_194248
+```
+
+这个备份点代表：
+
+- `comp_reverse_actual` 保留。
+- `gripper_learned_param_model` compact 参数学习已启用。
+- `coarse_pose_bias_model` 已启用，微调成功会反哺粗定位。
+- `V` 人工确认保存点已禁用，自动 `DONE` 即更新参数。
+- `run_yolo_guided_align_learned_tune.bat` 是当前推荐启动脚本。
+
+如果后续新实验把效果改坏，优先回到这个备份版本。
+
+## 当前启动方式
+
+在 Anaconda Prompt 中：
+
+```bat
+conda activate lerobot
+F:
+cd F:\FYP\Project\so101_mac_bringup
+run_yolo_guided_align_learned_tune.bat
+```
+
+当前关键参数在：
+
+```text
+F:\FYP\Project\so101_mac_bringup\run_yolo_guided_align_learned_tune.bat
+```
+
+关键行为：
+
+```bat
+--gripper-servo-mode=learned
+--gripper-learned-control-space=full_pose
+--gripper-learned-use-param-model
+--gripper-learned-auto-update-params
+--gripper-learned-param-history=3
+--gripper-learned-param-only
+--gripper-center-tolerance-px=20
+--gripper-learned-near-done-px=20
+--coarse-bias-enable
+--coarse-bias-auto-update
+--coarse-bias-history=3
+--coarse-bias-max-joint-deg=4.0
+--coarse-bias-min-improve-px=1.0
+```
+
+## 当前按键含义
+
+- `A`：运行一次自动对齐。
+- `B`：自动失败或不满意时，记录微调前/错误状态，进入手动修正。
+- `C`：手动修正后更新紧凑参数模型；当前 `param-only` 模式下不再追加坐标点。
+- `D`：开始/停止局部 ACT 抓取录制。第一次按下开始录制，第二次按下停止并保存 episode；当前尚未实机测试。
+- `G`：释放 `N` 之后保持的主臂 torque hold，并从该姿态进入主从手动 teleop。
+- `N`：从臂自动张开夹爪，然后把主臂主体五关节同步到从臂当前姿态，并默认锁住主臂等待 `G`。
+- `V`：已禁用；自动 `DONE` 会更新参数，不再需要人工确认保存点。
+- `P`：直接复刻保存点的关节姿态，用于测试 replay 和位移补偿。
+- `M`：手动接管，不记录 before。
+- `U` / Backspace：撤销最后一个旧式 calibration/correction point；对新 compact 参数撤回还需要后续单独实现。
+- `R`：重开相机。
+- `Q`：停止当前动作或退出。
+
+## 当前数据结构
+
+主配置文件：
+
+```text
+F:\FYP\Project\so101_mac_bringup\vision\config\overhead_to_safeplane_homography.json
+```
+
+重要字段：
+
+- `points`：历史粗定位/人工点，当前不再自动追加。
+- `gripper_correction_samples`：旧 B/C correction 样本，当前作为初始参数来源。
+- `gripper_learned_param_model`：当前 compact 微调参数模型。
+- `coarse_pose_bias_model`：微调成功后反哺粗定位的 compact 偏置模型。
+- `pose_model` / `homography`：粗定位模型。
+- `safe_pose`：安全姿态。
+
+## 已尝试路线与结论
+
+### 1. 单独 pan/lift IBVS
+
+目标：
+
+```text
+用 shoulder_pan / shoulder_lift 作为二维控制轴，让夹爪相机目标中心靠近 ref。
+```
+
+失败现象：
+
+- `shoulder_pan` 命令会带动 lift/elbow 等关节。
+- `shoulder_lift` 有明显死区和回差。
+- 命令方向、实际编码器变化、图像变化不稳定。
+
+结论：
+
+SO101 上不能把 `shoulder_pan / shoulder_lift` 当成稳定独立的二维执行器。微调输入必须变成完整五关节动作或实际执行后的补偿动作。
+
+### 2. 强制回到 baseline 再探测 Jacobian
+
+目标：
+
+```text
+每次 probe 后回到同一个 baseline，再估计局部图像 Jacobian。
+```
+
+失败现象：
+
+- 编码器看似接近同一个关节姿态，但夹爪相机画面没有回到同一个像素位置。
+- replay 保存点时，第三视角看差不多，但 ref 点下误差仍可达 20 到 35 px。
+
+结论：
+
+对该机械臂而言，“回到同一编码器姿态”不等价于“回到同一视觉姿态”。不能依赖 encoder-only rollback 作为视觉状态恢复。
+
+### 3. P 直接复刻保存点
+
+目标：
+
+```text
+按 P 只发送保存的完整关节姿态，不受视觉算法影响，测试机械臂能否复刻点。
+```
+
+观察：
+
+- 原始 replay 经常无法回到保存点。
+- 加入 outer correction 后，P 明显更稳定。
+- 关键日志中常见 `shoulder_lift` 需要额外命令补偿。
+
+结论：
+
+机械臂本身存在执行误差和回差；微调算法必须考虑“命令位移”和“实际位移”不同。
+
+### 4. mask area / mask shape / height guard
+
+目标：
+
+```text
+通过 mask 面积、形状和高度约束防止微调推物体或误判。
+```
+
+失败现象：
+
+- 判断逻辑变复杂后，系统常在还可修正时提前 STOP。
+- height recover 和 clearance 会改变夹爪相机投影，导致 dist 变化不一定代表抓取高度下更准。
+
+结论：
+
+这些 guard 可以作为安全检查，但不适合作为主对齐逻辑。当前 learned_tune 版本关闭了 clearance：
+
+```bat
+--no-gripper-learned-clearance
+```
+
+### 5. learned full_pose correction samples
+
+目标：
+
+```text
+B 记录微调前/错误姿态，C 记录人工正确姿态，学习完整五关节补偿。
+```
+
+改进：
+
+- 比 pan/lift 方案明显更合理。
+- 能表达 elbow/wrist 的实际参与。
+
+问题：
+
+- 如果继续保存所有点和所有样本，数据会越来越大。
+- 局部样本方向不匹配时，微调会抖动或走错方向。
+
+结论：
+
+full_pose 是正确控制空间，但数据形式需要从“无限保存点”改成“紧凑参数更新”。
+
+### 6. comp_reverse_actual
+
+目标：
+
+```text
+如果一步移动后 dist 变远，不按命令反向，而按实际全关节位移反向。
+```
+
+关键行为：
+
+```text
+VISUAL_DECISION=farther
+testing compensation-aware reverse from comp_reverse_actual
+```
+
+结果：
+
+- 明显改善“明明接近了，下一步又反向挪开”的问题。
+- 多次日志显示即使前面尝试走远，最终也能被实际位移反向拉回。
+
+结论：
+
+这是当前版本最重要的成功改动之一。它承认 SO101 的真实执行和命令不一致，并把实际位移纳入控制。
+
+### 7. compact parameter-only learning
+
+目标：
+
+```text
+不再保存新坐标点，只更新参数。
+```
+
+当前实现：
+
+```text
+gripper_error_uv -> full_pose_delta
+```
+
+每次 `DONE` 自动更新：
+
+```text
+gripper_learned_param_model.sample_count += 1
+gain = running_average(old_gain, measured_gain)
+history 保留 3 版
+```
+
+当前 `C` 的行为也改为参数更新，不再追加新坐标点。
+
+优点：
+
+- 数据不会无限膨胀。
+- 方便论文描述为在线增量学习。
+- 可以把历史点视为初始 bootstrap 数据。
+
+风险：
+
+- 如果某次自动 DONE 实际并不可靠，会污染参数。
+- 需要后续实现参数撤回功能。
+- 参数只记录平均趋势，不记录完整空间分布；如果桌面局部差异特别大，仍可能需要局部模型。
+
+## 当前尚未解决的问题
+
+### 微调反哺粗定位已经实现
+
+之前的问题是 Stage 3 微调成功只会更新：
+
+```text
+gripper_learned_param_model
+```
+
+但 Stage 2 粗定位仍然主要使用：
+
+```text
+pose_model / homography / replay point
+```
+
+因此会出现：
+
+```text
+微调能成功
+但下一次粗定位仍然偏一点
+还需要 Stage 3 再补
+```
+
+代码里旧的 `append_auto_gripper_refine_point()` 可以把成功微调后的点追加回粗定位模型，但当前已关闭：
+
+```bat
+--no-auto-learn-overhead-after-gripper
+```
+
+而且这会回到“不断保存坐标点”的路线，不符合当前策略。
+
+当前已经改成：
+
+```text
+coarse_pose_before_stage3 -> final_pose_after_stage3
+学习 compact coarse_pose_bias_model
+```
+
+也就是只保存粗定位偏置参数，而不是追加新的空间点。该 bias 只在没有 replay point 的 model-based full_pose 粗定位上应用；已经保存的 replay 点仍然优先按保存点执行，避免污染人工保存点。
+
+成功日志里应该能看到：
+
+```text
+coarse_bias n=... applied(full_pose_model) ...
+coarse_bias updated n=...->... source=...
+```
+
+### 仍需要观察的问题
+
+- 如果某次自动 DONE 其实是误判，compact 参数可能被轻微污染。
+- 目前保留了 3 版 history，但还没有按键式撤回 compact 参数。
+- 如果不同桌面扇区的机械臂误差差异很大，单一全局 coarse bias 可能不够，后续可升级为少量扇区参数。
+
+## 建议论文写法
+
+可以把实验路线概括为：
+
+1. 尝试标准局部 IBVS，但单关节控制轴在 SO101 上不可重复。
+2. 尝试 replay 和 baseline restore，发现编码器姿态一致不代表视觉姿态一致。
+3. 引入 full-pose correction sample，将控制输入从单关节扩展到五关节补偿。
+4. 引入 actual-motion-aware reverse，用实际执行位移而不是命令位移判断反向。
+5. 最终将离散空间点学习改为 compact online parameter update，避免数据无限增长。
+6. 进一步让 Stage 3 成功结果反哺 Stage 2 粗定位，但仍采用 compact bias，而不是重新追加空间点。
+
+## 项目清理结果
+
+2026-07-23 已按“保留论文典型失败路线，清理工作区运行产物”的原则执行清理。
+
+### 体积巡检结果
+
+2026-07-23 快速检查的主要目录体积：
+
+```text
+lerobot                 ~17224 MB  依赖/源码环境，暂不动
+datasets                 ~1576 MB  训练/采集数据，暂不动
+.git                      ~662 MB  Git 历史，暂不动
+vision                    ~441 MB  当前视觉代码、模型、输出，谨慎清理 outputs
+dataset_safety_backups     ~70 MB  数据安全备份，确认后可归档
+.cache                     ~60 MB  可清理缓存
+video_keyframes            ~13 MB  可归档或删除
+logs                        ~5 MB  可归档或删除
+inference_traces             ~2 MB  可归档或删除
+backups                      ~3 MB  必须保留
+```
+
+清理前已建立论文证据包：
+
+```text
+F:\FYP\Project\so101_mac_bringup\backups\paper_evidence_alignment_20260723
+```
+
+这个证据包保留：
+
+- 关键 handoff / 路线分析文档。
+- 早期 micro tune、manual correction、motion understanding、servo demo 启动脚本。
+- `manual_corrections.csv/jsonl`。
+- 代表性的 gripper motion / mask shape / servo demo 输出。
+
+### 已删除的运行产物
+
+这些目录已经从工作区删除，后续脚本会在需要时重新生成：
+
+- `.cache`
+- `.tmp`
+- `logs`
+- `inference_traces`
+- 根目录 `outputs`
+- `video_keyframes`
+- `vision\outputs`
+
+### 必须保留
+
+- `vision\scripts\yolo_guided_align.py`
+- `run_yolo_guided_align_learned_tune.bat`
+- `vision\config\overhead_to_safeplane_homography.json`
+- `vision\config\gripper_mask_shape_profile.json`
+- `vision\tests\test_yolo_guided_align_regression.py`
+- `SO101_STAGE3_RETEACH_HANDOFF_20260722.md`
+- `backups\auto_param_learning_20260723_184302`
+- `backups\good_autonomous_coarse_feedback_20260723_194248`
+- `backups\paper_evidence_alignment_20260723`
+
+### 建议保留作论文失败路线
+
+- `run_yolo_guided_align_micro_tune.bat`：早期微调版本。
+- `run_yolo_guided_align_correct.bat`：人工修正/旧 correction 路线。
+- `run_record_gripper_motion_understanding.bat`：动作理解/样本路线。
+- `run_record_gripper_servo_demo.bat`：servo demo 路线。
+- `MECH_ARM_ALIGNMENT_NOTES_FOR_5_6_SOL.md`：外部建议和路线对比。
+- 旧 handoff/README：可用于论文时间线和失败路线复盘。
+
+### 后续仍可考虑清理
+
+- `dataset_safety_backups`：确认不再需要后可以归档。
+- 不再用于 ACT 或视觉对齐的旧 bat：建议先看内容再删，因为其中一些可作为论文路线证据。
+- 旧 README：可以合并到论文材料后再归档。
+
+## 新窗口续接摘要
+
+新窗口可以直接告诉 Codex：
+
+```text
+请阅读 F:\FYP\Project\so101_mac_bringup\SO101_STAGE3_RETEACH_HANDOFF_20260722.md。
+当前成功基线备份是 backups\good_autonomous_coarse_feedback_20260723_194248。
+论文失败路线证据包是 backups\paper_evidence_alignment_20260723。
+当前推荐启动脚本是 run_yolo_guided_align_learned_tune.bat。
+当前视觉对齐已经比较完美；最新代码新增了 N/G/D 的主臂同步和局部 ACT 录制入口，但我还没有实机测试。
+下一步先测试控制和录制是否正常：A 对齐，N 打开从臂夹爪并同步/锁住主臂，G 释放并进入主从控制，D 开始/停止 ACT 录制。
+不要重写已经成功的微调主逻辑；先验证现有新增入口。
+```
+
+## 最近验证
+
+最近运行：
+
+```bat
+F:\Anaconda\envs\lerobot\python.exe -m py_compile vision\scripts\yolo_guided_align.py vision\tests\test_yolo_guided_align_regression.py
+F:\Anaconda\envs\lerobot\python.exe -m unittest vision.tests.test_gripper_visual_servo vision.tests.test_yolo_guided_align_regression
+cmd /c run_yolo_guided_align_learned_tune.bat --help
+```
+
+结果：
+
+```text
+30 tests OK, 1 skipped
+启动参数检查通过
+```
+
+2026-07-23 暂停前针对最新 N/G/D 代码额外运行：
+
+```bat
+F:\Anaconda\envs\lerobot\python.exe -m py_compile vision\scripts\yolo_guided_align.py
+F:\Anaconda\envs\lerobot\python.exe -m unittest vision.tests.test_yolo_guided_align_regression
+```
+
+结果：
+
+```text
+24 tests OK, 2 skipped
+无硬件 LeRobotDataset 写入测试通过：假图像/假关节可以 add_frame 并 save_episode
+真实 SO101 硬件上的 D 键控制和录制尚未测试
+```

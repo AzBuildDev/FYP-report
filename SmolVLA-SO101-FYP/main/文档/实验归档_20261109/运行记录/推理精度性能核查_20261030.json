@@ -1,0 +1,54 @@
+{
+  "model": "D:\\FYP\\SmolVLA-SO101-FYP\\模型\\红蓝120段交接_20261029\\模型\\红蓝混合120段_20261028_均衡选色_bs64_30000\\best_val",
+  "device": "NVIDIA GeForce RTX 2080 Ti",
+  "cpu_threads": 6,
+  "parameter_dtype_counts": {
+    "torch.float32": 231,
+    "torch.bfloat16": 275
+  },
+  "num_steps": 10,
+  "chunk_size": 50,
+  "robot_commands_sent": 0,
+  "runs": {
+    "current": [
+      {
+        "seconds": 1.0895125999995798,
+        "max_action_difference_from_current": 0.0
+      },
+      {
+        "seconds": 0.5350851999992301,
+        "max_action_difference_from_current": 0.0
+      },
+      {
+        "seconds": 0.5476026000014826,
+        "max_action_difference_from_current": 0.0
+      },
+      {
+        "seconds": 0.5464351999999053,
+        "max_action_difference_from_current": 0.0
+      }
+    ],
+    "fp16_autocast": [
+      {
+        "seconds": 0.6243619000015315,
+        "max_action_difference_from_current": 0.408477783203125
+      },
+      {
+        "seconds": 0.5165900000010879,
+        "max_action_difference_from_current": 0.408477783203125
+      },
+      {
+        "seconds": 0.5470215000004828,
+        "max_action_difference_from_current": 0.408477783203125
+      },
+      {
+        "seconds": 0.5844311999990168,
+        "max_action_difference_from_current": 0.408477783203125
+      }
+    ]
+  },
+  "warm_mean_seconds": {
+    "current": 0.543041000000206,
+    "fp16_autocast": 0.5493475666668625
+  }
+}

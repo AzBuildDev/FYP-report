@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-10-31T17:48:50.1358891+08:00",
+  "user_report": "20K，红P1蓝P2，目标BC，夹爪停在两个物体之间，未抓准蓝色；不能据此认定偏向P1",
+  "executed_run": "实机抓取测试_20261031_174101_812230.jsonl",
+  "checkpoint": "step_020000",
+  "checkpoint_sha256": "45177407d822c4965ea065bae92057c44f37f754f0fadd8ac493bba2060082e3",
+  "task": "BC",
+  "duration_seconds": 48.1,
+  "sent_commands": 936,
+  "result_source": "用户反馈；尚未独立确认抓取结果",
+  "exact_layout": "红P1，蓝P2",
+  "excluded_model_performance_runs": [
+    "实机抓取测试_20261031_174336_944415.jsonl",
+    "实机抓取测试_20261031_174548_878324.jsonl"
+  ],
+  "exclusion_reason": "两轮均在配置阶段因 shoulder_lift ID2 device_error=16 (0x10) 退出，未执行动作；不能计为模型抓取失败",
+  "next_step": "先查清舵机报错；保留30K作基线；更多训练是否改善尚未证实"
+}

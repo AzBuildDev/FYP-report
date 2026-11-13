@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "step": 16,
+  "batch_size": 140,
+  "validation_predictions": 400,
+  "checkpoint": "/root/autodl-tmp/AutoDL_纯100段_阶段采样_20261107/输出/B_纯100段_stage/last",
+  "resume_observation_pending": false,
+  "resumed_from_step": 16,
+  "observed_step": 100,
+  "observed_updates_after_resume": 84,
+  "resume_verified": true,
+  "errors_detected": false
+}

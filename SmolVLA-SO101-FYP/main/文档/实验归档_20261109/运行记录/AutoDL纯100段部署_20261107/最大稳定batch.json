@@ -1,0 +1,25 @@
+{
+  "status": "passed",
+  "selected_batch_size": 140,
+  "next_rejected_batch_size": 144,
+  "reserve_mib": 1536,
+  "selection": "4的倍数中、4次真实前向反向及优化器更新后保留1.5GiB余量的最大batch",
+  "benchmark": {
+    "batch_size": 140,
+    "exit_code": 0,
+    "wall_s": 38.269657956436276,
+    "status": "passed",
+    "measured_updates": 4,
+    "mean_step_s": 2.899911363298694,
+    "samples_per_second": 48.277337635846855,
+    "peak_gpu_allocated_mib": 29513.46728515625,
+    "peak_gpu_reserved_mib": 30468.0,
+    "gpu_total_mib": 32110.9375,
+    "model_saved": false,
+    "formal_training_started": false,
+    "headroom_mib": 1642.9375,
+    "safe": true
+  },
+  "formal_training_started": false,
+  "time": "2026-11-07T18:59:31.319624"
+}

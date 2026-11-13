@@ -1,0 +1,16 @@
+{
+  "status": "prepared_on_cluster",
+  "root": "/root/autodl-tmp/AutoDL_纯80段双物体_阶段采样_20261108",
+  "files_verified": 491,
+  "gpu_probe": {
+    "code": 0,
+    "stdout": "{\"cuda_available\": false, \"device_count\": 0}\n",
+    "stderr": ""
+  },
+  "training_started": false,
+  "paid_instance_modified": false,
+  "train_episodes": 64,
+  "validation_episodes": 16,
+  "scene": "only dual-object episodes 0..79",
+  "next_command": "cd /root/autodl-tmp/AutoDL_纯80段双物体_阶段采样_20261108 && .venv/bin/python 启动训练.py --arm B --run"
+}

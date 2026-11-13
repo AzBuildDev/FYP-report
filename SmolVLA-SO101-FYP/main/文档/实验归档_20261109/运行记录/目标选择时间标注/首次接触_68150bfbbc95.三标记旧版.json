@@ -1,0 +1,1818 @@
+{
+  "schema_version": 1,
+  "kind": "target_selection_time_annotations",
+  "created_at": "2026-11-02T19:24:42+08:00",
+  "dataset_root": "D:\\FYP\\AutoDL_新200段_4090D_20261102\\训练数据",
+  "dataset_fingerprint": "68150bfbbc95b097db1942ee19da21e8dcbd882f15a983061300970bb8fff9e2",
+  "fps": 20.0,
+  "episode_index_base": 0,
+  "frame_index_base": 0,
+  "interval_endpoints": "inclusive",
+  "episodes": {
+    "0": {
+      "episode_index": 0,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 444,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "1": {
+      "episode_index": 1,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 420,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "2": {
+      "episode_index": 2,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 422,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "3": {
+      "episode_index": 3,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 422,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "4": {
+      "episode_index": 4,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 428,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "5": {
+      "episode_index": 5,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 453,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "6": {
+      "episode_index": 6,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 451,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "7": {
+      "episode_index": 7,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 429,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "8": {
+      "episode_index": 8,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 406,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "9": {
+      "episode_index": 9,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 485,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "10": {
+      "episode_index": 10,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 440,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "11": {
+      "episode_index": 11,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 432,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "12": {
+      "episode_index": 12,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 413,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "13": {
+      "episode_index": 13,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 396,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "14": {
+      "episode_index": 14,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 461,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "15": {
+      "episode_index": 15,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 431,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "16": {
+      "episode_index": 16,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 476,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "17": {
+      "episode_index": 17,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 447,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "18": {
+      "episode_index": 18,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 480,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "19": {
+      "episode_index": 19,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 498,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "20": {
+      "episode_index": 20,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 465,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "21": {
+      "episode_index": 21,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 422,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "22": {
+      "episode_index": 22,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 476,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "23": {
+      "episode_index": 23,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 444,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "24": {
+      "episode_index": 24,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 465,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "25": {
+      "episode_index": 25,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 463,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "26": {
+      "episode_index": 26,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 408,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "27": {
+      "episode_index": 27,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 447,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "28": {
+      "episode_index": 28,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 476,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "29": {
+      "episode_index": 29,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 455,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "30": {
+      "episode_index": 30,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 404,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "31": {
+      "episode_index": 31,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 445,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "32": {
+      "episode_index": 32,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 469,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "33": {
+      "episode_index": 33,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 481,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "34": {
+      "episode_index": 34,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 479,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "35": {
+      "episode_index": 35,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 468,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "36": {
+      "episode_index": 36,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 446,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "37": {
+      "episode_index": 37,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 426,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "38": {
+      "episode_index": 38,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 483,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "39": {
+      "episode_index": 39,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 494,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "40": {
+      "episode_index": 40,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 515,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "41": {
+      "episode_index": 41,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 451,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "42": {
+      "episode_index": 42,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 474,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "43": {
+      "episode_index": 43,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 532,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "44": {
+      "episode_index": 44,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 439,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "45": {
+      "episode_index": 45,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 488,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "46": {
+      "episode_index": 46,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 393,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "47": {
+      "episode_index": 47,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 575,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "48": {
+      "episode_index": 48,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 521,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "49": {
+      "episode_index": 49,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 457,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "50": {
+      "episode_index": 50,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 456,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "51": {
+      "episode_index": 51,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 476,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "52": {
+      "episode_index": 52,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 458,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "53": {
+      "episode_index": 53,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 510,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "54": {
+      "episode_index": 54,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 537,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "55": {
+      "episode_index": 55,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 483,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "56": {
+      "episode_index": 56,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 463,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "57": {
+      "episode_index": 57,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 504,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "58": {
+      "episode_index": 58,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 581,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "59": {
+      "episode_index": 59,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 449,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "60": {
+      "episode_index": 60,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 529,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "61": {
+      "episode_index": 61,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 516,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "62": {
+      "episode_index": 62,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 484,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "63": {
+      "episode_index": 63,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 505,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "64": {
+      "episode_index": 64,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 495,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "65": {
+      "episode_index": 65,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 533,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "66": {
+      "episode_index": 66,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 487,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "67": {
+      "episode_index": 67,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 498,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "68": {
+      "episode_index": 68,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 508,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "69": {
+      "episode_index": 69,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 516,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "70": {
+      "episode_index": 70,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 457,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "71": {
+      "episode_index": 71,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 466,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "72": {
+      "episode_index": 72,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 473,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "73": {
+      "episode_index": 73,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 507,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "74": {
+      "episode_index": 74,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 534,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "75": {
+      "episode_index": 75,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 480,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "76": {
+      "episode_index": 76,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 539,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "77": {
+      "episode_index": 77,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 592,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "78": {
+      "episode_index": 78,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 516,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "79": {
+      "episode_index": 79,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 524,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "80": {
+      "episode_index": 80,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 561,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "81": {
+      "episode_index": 81,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 600,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "82": {
+      "episode_index": 82,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 544,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "83": {
+      "episode_index": 83,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 523,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "84": {
+      "episode_index": 84,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 471,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "85": {
+      "episode_index": 85,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 496,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "86": {
+      "episode_index": 86,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 518,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "87": {
+      "episode_index": 87,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 511,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "88": {
+      "episode_index": 88,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 497,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "89": {
+      "episode_index": 89,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 483,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "90": {
+      "episode_index": 90,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 533,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "91": {
+      "episode_index": 91,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 571,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "92": {
+      "episode_index": 92,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 589,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "93": {
+      "episode_index": 93,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 527,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "94": {
+      "episode_index": 94,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 564,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "95": {
+      "episode_index": 95,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 600,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "96": {
+      "episode_index": 96,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 450,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "97": {
+      "episode_index": 97,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 521,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "98": {
+      "episode_index": 98,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 500,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "99": {
+      "episode_index": 99,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 512,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "100": {
+      "episode_index": 100,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 471,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "101": {
+      "episode_index": 101,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 468,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "102": {
+      "episode_index": 102,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 536,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "103": {
+      "episode_index": 103,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 464,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "104": {
+      "episode_index": 104,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 516,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "105": {
+      "episode_index": 105,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 493,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "106": {
+      "episode_index": 106,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 485,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "107": {
+      "episode_index": 107,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 481,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "108": {
+      "episode_index": 108,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 458,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "109": {
+      "episode_index": 109,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 468,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "110": {
+      "episode_index": 110,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 505,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "111": {
+      "episode_index": 111,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 546,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "112": {
+      "episode_index": 112,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 512,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "113": {
+      "episode_index": 113,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 587,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "114": {
+      "episode_index": 114,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 451,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "115": {
+      "episode_index": 115,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 476,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "116": {
+      "episode_index": 116,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 471,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "117": {
+      "episode_index": 117,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 517,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "118": {
+      "episode_index": 118,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 491,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "119": {
+      "episode_index": 119,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 499,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "120": {
+      "episode_index": 120,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 531,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "121": {
+      "episode_index": 121,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 445,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "122": {
+      "episode_index": 122,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 456,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "123": {
+      "episode_index": 123,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 454,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "124": {
+      "episode_index": 124,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 425,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "125": {
+      "episode_index": 125,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 434,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "126": {
+      "episode_index": 126,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 397,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "127": {
+      "episode_index": 127,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 380,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "128": {
+      "episode_index": 128,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 460,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "129": {
+      "episode_index": 129,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 437,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "130": {
+      "episode_index": 130,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 466,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "131": {
+      "episode_index": 131,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 449,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "132": {
+      "episode_index": 132,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 517,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "133": {
+      "episode_index": 133,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 415,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "134": {
+      "episode_index": 134,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 431,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "135": {
+      "episode_index": 135,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 455,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "136": {
+      "episode_index": 136,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 448,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "137": {
+      "episode_index": 137,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 436,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "138": {
+      "episode_index": 138,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 362,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "139": {
+      "episode_index": 139,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 423,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "140": {
+      "episode_index": 140,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 371,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "141": {
+      "episode_index": 141,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 479,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "142": {
+      "episode_index": 142,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 584,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "143": {
+      "episode_index": 143,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 418,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "144": {
+      "episode_index": 144,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 456,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "145": {
+      "episode_index": 145,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 430,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "146": {
+      "episode_index": 146,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 452,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "147": {
+      "episode_index": 147,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 382,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "148": {
+      "episode_index": 148,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 440,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "149": {
+      "episode_index": 149,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 436,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "150": {
+      "episode_index": 150,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 401,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "151": {
+      "episode_index": 151,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 461,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "152": {
+      "episode_index": 152,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 536,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "153": {
+      "episode_index": 153,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 462,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "154": {
+      "episode_index": 154,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 491,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "155": {
+      "episode_index": 155,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 446,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "156": {
+      "episode_index": 156,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 439,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "157": {
+      "episode_index": 157,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 494,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "158": {
+      "episode_index": 158,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 395,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "159": {
+      "episode_index": 159,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 505,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "160": {
+      "episode_index": 160,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 445,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "161": {
+      "episode_index": 161,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 430,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "162": {
+      "episode_index": 162,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 422,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "163": {
+      "episode_index": 163,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 439,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "164": {
+      "episode_index": 164,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 385,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "165": {
+      "episode_index": 165,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 392,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "166": {
+      "episode_index": 166,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 458,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "167": {
+      "episode_index": 167,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 531,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "168": {
+      "episode_index": 168,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 494,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "169": {
+      "episode_index": 169,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 386,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "170": {
+      "episode_index": 170,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 425,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "171": {
+      "episode_index": 171,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 442,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "172": {
+      "episode_index": 172,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 433,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "173": {
+      "episode_index": 173,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 381,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "174": {
+      "episode_index": 174,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 386,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "175": {
+      "episode_index": 175,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 460,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "176": {
+      "episode_index": 176,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 466,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "177": {
+      "episode_index": 177,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 454,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "178": {
+      "episode_index": 178,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 428,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "179": {
+      "episode_index": 179,
+      "task": "Pick up the red cube and place it in the target area.",
+      "target": "RC",
+      "length": 446,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "180": {
+      "episode_index": 180,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 436,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "181": {
+      "episode_index": 181,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 393,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "182": {
+      "episode_index": 182,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 418,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "183": {
+      "episode_index": 183,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 397,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "184": {
+      "episode_index": 184,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 428,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "185": {
+      "episode_index": 185,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 427,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "186": {
+      "episode_index": 186,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 409,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "187": {
+      "episode_index": 187,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 399,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "188": {
+      "episode_index": 188,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 385,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "189": {
+      "episode_index": 189,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 449,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "190": {
+      "episode_index": 190,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 410,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "191": {
+      "episode_index": 191,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 393,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "192": {
+      "episode_index": 192,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 414,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "193": {
+      "episode_index": 193,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 396,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "194": {
+      "episode_index": 194,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 458,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "195": {
+      "episode_index": 195,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 397,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "196": {
+      "episode_index": 196,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 414,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "197": {
+      "episode_index": 197,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 475,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "198": {
+      "episode_index": 198,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 417,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    },
+    "199": {
+      "episode_index": 199,
+      "task": "Pick up the blue cube and place it in the target area.",
+      "target": "BC",
+      "length": 398,
+      "markers": {},
+      "status": "draft",
+      "scene_confirmed": false
+    }
+  },
+  "cursor": {
+    "episode": 0,
+    "frame": 0
+  },
+  "updated_at": "2026-11-02T20:14:08+08:00"
+}
